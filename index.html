@@ -297,60 +297,7 @@ ruby rt { font-size: 0.6em; }
   flex: 1; 
   transition: all 0.3s ease;
 }
-/* ... baris terakhir kodingan asli kamu ... */
-.content {
-  flex: 1; 
-  transition: all 0.3s ease;
-}
 
-@media (max-height: 550px) and (orientation: landscape) {
-  #hasil {
-    justify-content: flex-start !important; 
-    padding: 10px 0;
-    overflow-y: auto !important; 
-    display: block !important;
-  }
-
-  #hasil .card-home {
-    margin: 5px auto !important;
-    padding: 15px !important;
-    transform: scale(0.85); /* Mengecilkan sedikit agar muat di layar miring */
-    max-width: 95% !important;
-  }
-
-  #hasil h1 { font-size: 22px !important; margin: 5px 0 !important; }
-  
-  /* Skor 0/250 */
-  #hasil div[style*="font-size: 50px"] { 
-    font-size: 28px !important; 
-    margin: 0 !important;
-  }
-
-  /* Tulisan FAILED / PASSED */
-  #hasil h2[style*="font-size: 35px"] { 
-    font-size: 20px !important; 
-    margin: 5px 0 !important; 
-  }
-
-  /* Statistik Benar/Salah dibuat menyamping */
-  #hasil div[style*="background: #f8f9fa"] {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-around;
-    padding: 8px !important;
-    margin-bottom: 5px !important;
-    font-size: 14px;
-  }
-}
-
-  /* Tombol Beranda & Review */
-  #hasil .btn {
-    width: 46% !important;
-    display: inline-flex !important;
-    margin: 4px !important;
-    height: 35px !important;
-    font-size: 12px !important;
-  }
 </style>
 
 </head>

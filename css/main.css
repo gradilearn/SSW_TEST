@@ -38,8 +38,9 @@ body {
 
 /* Gaya Header Dashboard */
 .dash-header {
-    background: linear-gradient(135deg, var(--primary-color), #007bff);
+    .dash-header {background: linear-gradient(135deg, #28a745, #20c997);
     color: #ffffff;
+}
     padding: 25px 20px;
     border-radius: 12px;
     text-align: center;

@@ -2,8 +2,8 @@
 
 /* Reset Dasar & Variabel Warna */
 :root {
-    --primary-color: #005bac;
-    --primary-hover: #004482;
+    --primary-color: #28a745;     
+    --primary-hover: #218838;
     --success-color: #28a745;
     --danger-color: #dc3545;
     --warning-color: #ffc107;
@@ -38,9 +38,8 @@ body {
 
 /* Gaya Header Dashboard */
 .dash-header {
-    .dash-header {background: linear-gradient(135deg, #28a745, #20c997);
+    background: linear-gradient(135deg, var(--primary-color), #20c997);
     color: #ffffff;
-}
     padding: 25px 20px;
     border-radius: 12px;
     text-align: center;

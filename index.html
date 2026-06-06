@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard CBT SSW PM</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="dash-header">
+            <h1>CBT SSW Pengolahan Makanan</h1>
+            <p>Simulasi Ujian Specified Skilled Worker (Tokutei Ginou)</p>
+        </header>
+
+        <section class="stats-section">
+            <div class="stat-card">
+                <h3>Total Exams</h3>
+                <p id="stat-total">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Average</h3>
+                <p id="stat-rata">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Passing Rate</h3>
+                <p id="stat-lulus">0%</p>
+            </div>
+        </section>
+
+        <section class="action-section">
+            <button id="btn-mulai" class="btn btn-primary btn-block">
+                Start Simulation (40 Questions • 70 Minutes)
+            </button>
+        </section>
+
+        <section class="history-section">
+            <h2>History</h2>
+            <div class="table-responsive">
+                <table id="tabel-riwayat">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Score</th>
+                            <th>Correct/Wrong</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="list-riwayat">
+                        <tr>
+                            <td colspan="5" style="text-align: center; color: #888;">Belum ada riwayat ujian.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/data.js"></script>
+    <script>
+        // Logika Khusus Halaman Dashboard (index.html)
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Tampilkan Statistik Global dari Local Storage
+            const stats = getStatistikGlobal();
+            document.getElementById('stat-total').innerText = stats.totalUjian;
+            document.getElementById('stat-rata').innerText = stats.rataRataNilai;
+            document.getElementById('stat-lulus').innerText = stats.persentaseKelulusan + '%';
+
+            // 2. Tampilkan Riwayat Ujian
+            const riwayat = getRiwayatUjian();
+            const containerRiwayat = document.getElementById('list-riwayat');
+
+            if (riwayat.length > 0) {
+                containerRiwayat.innerHTML = ''; // Kosongkan placeholder
+                riwayat.forEach(item => {
+                    const row = document.createElement('tr');
+                    
+                    // Beri warna teks status (LULUS hijau, TIDAK LULUS merah)
+                    const statusClass = item.status === 'LULUS' ? 'text-success' : 'text-danger';
+
+                    row.innerHTML = `
+                        <td>${item.tanggal}</td>
+                        <td><strong>${item.skor}</strong></td>
+                        <td><span class="text-success">${item.benar}B</span> / <span class="text-danger">${item.salah}S</span></td>
+                        <td><span class="${statusClass}">${item.status}</span></td>
+                        <td><button class="btn btn-sm" onclick="lihatReview('${item.id}')">Review</button></td>
+                    `;
+                    containerRiwayat.appendChild(row);
+                });
+            }
+
+            // 3. Event Listener Tombol Mulai Ujian
+            // 3. Event Listener Tombol Mulai Ujian
+const btnMulai = document.getElementById('btn-mulai');
+const modalStart = document.getElementById('modalStart');
+const btnConfirmStart = document.getElementById('btn-confirm-start');
+const btnCancelStart = document.getElementById('btn-cancel-start');
+
+// Membuka modal saat tombol utama diklik
+btnMulai.addEventListener('click', () => {
+    modalStart.style.display = 'flex';
+});
+
+// Menutup modal jika dibatalkan
+btnCancelStart.addEventListener('click', () => {
+    modalStart.style.display = 'none';
+});
+
+// Proses Start Now (Ini menggantikan logika lama yang ada di tombol btn-mulai)
+btnConfirmStart.addEventListener('click', async () => {
+    btnConfirmStart.innerText = 'Memuat...';
+    btnConfirmStart.disabled = true;
+
+    const sukses = await buatSimulasiUjian();
+    
+    if (sukses) {
+        window.location.href = 'exam.html';
+    } else {
+        alert('Gagal memuat bank soal.');
+        btnConfirmStart.innerText = 'Start Now';
+        btnConfirmStart.disabled = false;
+    }
+});
+        });
+
+        // Fungsi navigasi ke halaman review jawaban salah
+        function lihatReview(examId) {
+            localStorage.setItem('ssw_review_target_id', examId);
+            window.location.href = 'review.html';
+        }
+    </script>
+    <div id="modalStart" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Fighting Dhepp💗</h2>
+            
+            <div class="modal-actions">
+                <button id="btn-confirm-start" class="btn btn-primary">Start Now</button>
+                <button id="btn-cancel-start" class="btn btn-secondary">Batal</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

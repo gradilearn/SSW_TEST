@@ -1,0 +1,1557 @@
+{
+"keamanan_pangan_haccp": [
+  {
+  "id": "HACCP-001",
+  "question": "<ruby>消費者<rt>しょうひしゃ</rt></ruby>に<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>するために、<ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>の<ruby>基本的<rt>きほんてき</rt></ruby>な<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>命<rt>いのち</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ること。",
+  "B": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>を<ruby>良<rt>よ</rt></ruby>くすること。",
+  "C": "<ruby>製造<rt>せいぞう</rt></ruby>コストを<ruby>下<rt>さ</rt></ruby>げること。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>の<ruby>目的<rt>もくてき</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>の<ruby>命<rt>いのち</rt></ruby>と<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることです。"
+  },
+  {
+  "id": "HACCP-002",
+  "question": "<ruby>食品工場<rt>しょくひんこうじょう</rt></ruby>では<ruby>食品衛生管理<rt>しょくひんえいせいかんり</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>っています。その<ruby>主<rt>おも</rt></ruby>な<ruby>目的<rt>もくてき</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>を<ruby>良<rt>よ</rt></ruby>くすること。",
+  "B": "<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>が<ruby>病気<rt>びょうき</rt></ruby>やけがをしないようにすること。",
+  "C": "<ruby>製造時間<rt>せいぞうじかん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>くすること。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>食品衛生管理<rt>しょくひんえいせいかんり</rt></ruby>は<ruby>消費者<rt>しょうひしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>るために<ruby>行<rt>おこな</rt></ruby>われます。"
+  },
+  {
+  "id": "HACCP-003",
+  "question": "<ruby>安全<rt>あんぜん</rt></ruby>ではない<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>して<ruby>販売<rt>はんばい</rt></ruby>してしまった<ruby>場合<rt>ばあい</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby>にどのような<ruby>影響<rt>えいきょう</rt></ruby>がありますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>社会<rt>しゃかい</rt></ruby>からの<ruby>信用<rt>しんよう</rt></ruby>を<ruby>失<rt>うしな</rt></ruby>う。",
+    "B": "<ruby>消費者<rt>しょうひしゃ</rt></ruby>から<ruby>高<rt>たか</rt></ruby>く<ruby>評価<rt>ひょうか</rt></ruby>される。",
+    "C": "<ruby>利益<rt>りえき</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>安全<rt>あんぜん</rt></ruby>でない<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>信用<rt>しんよう</rt></ruby>を<ruby>大<rt>おお</rt></ruby>きく<ruby>損<rt>そこ</rt></ruby>ないます。"
+},
+{
+  "id": "HACCP-004",
+  "question": "<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>とHACCPの<ruby>関係<rt>かんけい</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>は<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>外<rt>そと</rt></ruby>だけを<ruby>対象<rt>たいしょう</rt></ruby>とする。",
+    "B": "<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>を<ruby>土台<rt>どだい</rt></ruby>として、HACCPではCCPを<ruby>管理<rt>かんり</rt></ruby>する。",
+    "C": "<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>とHACCPは<ruby>全<rt>まった</rt></ruby>く<ruby>同<rt>おな</rt></ruby>じ<ruby>意味<rt>いみ</rt></ruby>である。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>を<ruby>基礎<rt>きそ</rt></ruby>としてHACCPを<ruby>運用<rt>うんよう</rt></ruby>します。"
+},
+{
+  "id": "HACCP-005",
+  "question": "HACCPの<ruby>説明<rt>せつめい</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>生産利益<rt>せいさんりえき</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>である。",
+    "B": "<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>と<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>による<ruby>衛生管理<rt>えいせいかんり</rt></ruby>である。",
+    "C": "<ruby>流通工程<rt>りゅうつうこうてい</rt></ruby>だけを<ruby>管理<rt>かんり</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>である。"
+  },
+  "correct_answer": "B",
+  "explanation": "HACCPは<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>と<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>による<ruby>管理手法<rt>かんりしゅほう</rt></ruby>です。"
+},
+{
+  "id": "HACCP-006",
+  "question": "HACCPでいう「<ruby>危害要因<rt>きがいよういん</rt></ruby>」とは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>が<ruby>病気<rt>びょうき</rt></ruby>やけがをする<ruby>原因<rt>げんいん</rt></ruby>。",
+    "B": "<ruby>味<rt>あじ</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなる<ruby>原因<rt>げんいん</rt></ruby>。",
+    "C": "<ruby>食品価格<rt>しょくひんかかく</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くなる<ruby>原因<rt>げんいん</rt></ruby>。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>危害要因<rt>きがいよういん</rt></ruby>とは<ruby>健康被害<rt>けんこうひがい</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>原因<rt>げんいん</rt></ruby>です。"
+},
+{
+  "id": "HACCP-007",
+  "question": "<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>うとき、<ruby>危害要因<rt>きがいよういん</rt></ruby>はどのように<ruby>分類<rt>ぶんるい</rt></ruby>されますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>固体<rt>こたい</rt></ruby>・<ruby>液体<rt>えきたい</rt></ruby>・<ruby>気体<rt>きたい</rt></ruby>",
+    "B": "<ruby>生物的危害<rt>せいぶつてききがい</rt></ruby>・<ruby>化学的危害<rt>かがくてききがい</rt></ruby>・<ruby>物理的危害<rt>ぶつりてききがい</rt></ruby>",
+    "C": "<ruby>内部要因<rt>ないぶよういん</rt></ruby>・<ruby>外部要因<rt>がいぶよういん</rt></ruby>・<ruby>社会的要因<rt>しゃかいてきよういん</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>危害要因<rt>きがいよういん</rt></ruby>は<ruby>生物的<rt>せいぶつてき</rt></ruby>、<ruby>化学的<rt>かがくてき</rt></ruby>、<ruby>物理的<rt>ぶつりてき</rt></ruby>に<ruby>分類<rt>ぶんるい</rt></ruby>されます。"
+},
+{
+  "id": "HACCP-008",
+  "question": "<ruby>次<rt>つぎ</rt></ruby>のうち、<ruby>化学的危害<rt>かがくてききがい</rt></ruby>に<ruby>該当<rt>がいとう</rt></ruby>するものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>木片<rt>もくへん</rt></ruby>",
+    "B": "アレルゲン、ヒスタミン、<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>の<ruby>残留<rt>ざんりゅう</rt></ruby>",
+    "C": "O-157"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>化学的危害<rt>かがくてききがい</rt></ruby>にはアレルゲンやヒスタミンなどが<ruby>含<rt>ふく</rt></ruby>まれます。"
+},
+{
+  "id": "HACCP-009",
+  "question": "<ruby>日本<rt>にほん</rt></ruby>で<ruby>表示<rt>ひょうじ</rt></ruby>が<ruby>義務付<rt>ぎむづ</rt></ruby>けられているアレルゲンの<ruby>数<rt>かず</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "7<ruby>品目<rt>ひんもく</rt></ruby>",
+    "B": "9<ruby>品目<rt>ひんもく</rt></ruby>",
+    "C": "20<ruby>品目<rt>ひんもく</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>のあるアレルゲンは9<ruby>品目</rt></ruby>です。"
+},
+{
+  "id": "HACCP-010",
+  "question": "<ruby>次<rt>つぎ</rt></ruby>のうち、<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>のあるアレルゲンに<ruby>含<rt>ふく</rt></ruby>まれるものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "えび、かに、<ruby>小麦<rt>こむぎ</rt></ruby>、カシューナッツ",
+    "B": "りんご、バナナ、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>",
+    "C": "さば、いか"
+  },
+  "correct_answer": "A",
+  "explanation": "えび、かに、<ruby>小麦<rt>こむぎ</rt></ruby>、カシューナッツは<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>の<ruby>対象<rt>たいしょう</rt></ruby>です。"
+},
+{
+  "id": "HACCP-011",
+  "question": "<ruby>表示<rt>ひょうじ</rt></ruby>が<ruby>推奨<rt>すいしょう</rt></ruby>されているアレルゲンの<ruby>数<rt>かず</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "9<ruby>品目<rt>ひんもく</rt></ruby>",
+    "B": "15<ruby>品目<rt>ひんもく</rt></ruby>",
+    "C": "20<ruby>品目<rt>ひんもく</rt></ruby>"
+  },
+  "correct_answer": "C",
+  "explanation": "<ruby>表示<rt>ひょうじ</rt></ruby>が<ruby>推奨<rt>すいしょう</rt></ruby>されているアレルゲンは20<ruby>品目</rt></ruby>です。"
+},
+{
+  "id": "HACCP-012",
+  "question": "アレルギー<ruby>症状<rt>しょうじょう</rt></ruby>が<ruby>重症化<rt>じゅうしょうか</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>に<ruby>見<rt>み</rt></ruby>られる<ruby>症状<rt>しょうじょう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>呼吸困難<rt>こきゅうこんなん</rt></ruby>や<ruby>唇<rt>くちびる</rt></ruby>の<ruby>腫<rt>は</rt></ruby>れが<ruby>起<rt>お</rt></ruby>こる。",
+    "B": "<ruby>身長<rt>しんちょう</rt></ruby>が<ruby>急<rt>きゅう</rt></ruby>に<ruby>伸<rt>の</rt></ruby>びる。",
+    "C": "<ruby>集中力<rt>しゅうちゅうりょく</rt></ruby>が<ruby>高<rt>たか</rt></ruby>まる。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>重症<rt>じゅうしょう</rt></ruby>のアレルギー<ruby>反応<rt>はんのう</rt></ruby>では<ruby>呼吸困難<rt>こきゅうこんなん</rt></ruby>などが<ruby>起<rt>お</rt></ruby>こることがあります。"
+},
+{
+  "id": "HACCP-013",
+  "question": "アレルゲンによる<ruby>交差汚染<rt>こうさおせん</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どのような<ruby>管理<rt>かんり</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>同<rt>おな</rt></ruby>じ<ruby>布<rt>ぬの</rt></ruby>で<ruby>全<rt>すべ</rt></ruby>ての<ruby>設備<rt>せつび</rt></ruby>を<ruby>拭<rt>ふ</rt></ruby>く。",
+    "B": "<ruby>器具<rt>きぐ</rt></ruby>を<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>洗浄<rt>せんじょう</rt></ruby>するか、<ruby>専用化<rt>せんようか</rt></ruby>する。",
+    "C": "<ruby>水<rt>みず</rt></ruby>だけで<ruby>軽<rt>かる</rt></ruby>くすすぐ。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>交差汚染<rt>こうさおせん</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためには<ruby>器具<rt>きぐ</rt></ruby>の<ruby>洗浄<rt>せんじょう</rt></ruby>や<ruby>専用化<rt>せんようか</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>です。"
+},
+{
+  "id": "HACCP-014",
+  "question": "ヒスタミンによる<ruby>危害<rt>きがい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために<ruby>注意<rt>ちゅうい</rt></ruby>するべき<ruby>魚<rt>さかな</rt></ruby>の<ruby>管理方法<rt>かんりほうほう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>赤身魚<rt>あかみざかな</rt></ruby>は<ruby>漁獲後<rt>ぎょかくご</rt></ruby>すぐに<ruby>冷却<rt>れいきゃく</rt></ruby>する。",
+    "B": "<ruby>常温<rt>じょうおん</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する。",
+    "C": "<ruby>長期間<rt>ちょうきかん</rt></ruby><ruby>塩漬<rt>しおづ</rt></ruby>けする。"
+  },
+  "correct_answer": "A",
+  "explanation": "ヒスタミンの<ruby>生成<rt>せいせい</rt></ruby>を<ruby>抑<rt>おさ</rt></ruby>えるため、<ruby>漁獲後<rt>ぎょかくご</rt></ruby>すぐに<ruby>冷却<rt>れいきゃく</rt></ruby>することが<ruby>重要</rt></ruby>です。"
+},
+{
+  "id": "HACCP-015",
+  "question": "ヒスタミン<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>原因<rt>げんいん</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>古<rt>ふる</rt></ruby>い<ruby>米<rt>こめ</rt></ruby>に<ruby>発生<rt>はっせい</rt></ruby>した<ruby>細菌<rt>さいきん</rt></ruby>",
+    "B": "<ruby>魚<rt>さかな</rt></ruby>を<ruby>長時間<rt>ちょうじかん</rt></ruby><ruby>常温<rt>じょうおん</rt></ruby>で<ruby>放置<rt>ほうち</rt></ruby>すること",
+    "C": "<ruby>とれたばかりの<ruby>魚<rt>さかな</rt></ruby>を<ruby>食<rt>た</rt></ruby>べること"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>魚<rt>さかな</rt></ruby>を<ruby>長時間<rt>ちょうじかん</rt></ruby><ruby>常温<rt>じょうおん</rt></ruby>で<ruby>放置<rt>ほうち</rt></ruby>するとヒスタミンが<ruby>増加<rt>ぞうか</rt></ruby>します。"
+},
+{
+  "id": "HACCP-016",
+  "question": "アレルギー<ruby>反応<rt>はんのう</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>何<rt>なん</rt></ruby>といいますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "トキシン",
+    "B": "アレルゲン",
+    "C": "<ruby>微生物<rt>びせいぶつ</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "アレルギー<ruby>反応<rt>はんのう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>物質<rt>ぶっしつ</rt></ruby>をアレルゲンといいます。"
+},
+{
+  "id": "HACCP-017",
+  "question": "アレルギー<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>交差汚染<rt>こうさおせん</rt></ruby>が<ruby>危険<rt>きけん</rt></ruby>な<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "わずかな<ruby>量<rt>りょう</rt></ruby>でもアナフィラキシーを<ruby>起<rt>お</rt></ruby>こすことがある。",
+    "B": "<ruby>食品<rt>しょくひん</rt></ruby>が<ruby>硬<rt>かた</rt></ruby>くなる。",
+    "C": "<ruby>色<rt>いろ</rt></ruby>が<ruby>薄<rt>うす</rt></ruby>くなる。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>微量<rt>びりょう</rt></ruby>のアレルゲンでも<ruby>重篤<rt>じゅうとく</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こすことがあります。"
+},
+{
+  "id": "HACCP-018",
+  "question": "2026<ruby>年<rt>ねん</rt></ruby>4<ruby>月時点<rt>がつじてん</rt></ruby>で<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>アレルゲンに<ruby>含<rt>ふく</rt></ruby>まれるものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>落花生<rt>らっかせい</rt></ruby>",
+    "B": "カシューナッツとくるみ",
+    "C": "<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "2026<ruby>年<rt>ねん</rt></ruby>4<ruby>月時点<rt>がつじてん</rt></ruby>ではカシューナッツとくるみが<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>の<ruby>対象<rt>たいしょう</rt></ruby>です。"
+},
+{
+  "id": "HACCP-019",
+  "question": "<ruby>推奨表示品目<rt>すいしょうひょうじひんもく</rt></ruby>に<ruby>追加<rt>ついか</rt></ruby>された<ruby>食品<rt>しょくひん</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "キウイフルーツ",
+    "B": "ピスタチオ",
+    "C": "<ruby>大豆<rt>だいず</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "ピスタチオは<ruby>推奨表示品目<rt>すいしょうひょうじひんもく</rt></ruby>に<ruby>追加<rt>ついか</rt></ruby>されました。"
+},
+{
+  "id": "HACCP-020",
+  "question": "<ruby>生物的危害<rt>せいぶつてききがい</rt></ruby>の<ruby>例<rt>れい</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>農薬<rt>のうやく</rt></ruby>",
+    "B": "<ruby>細菌<rt>さいきん</rt></ruby>、ウイルス、<ruby>寄生虫<rt>きせいちゅう</rt></ruby>",
+    "C": "<ruby>木片<rt>もくへん</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>生物的危害<rt>せいぶつてききがい</rt></ruby>には<ruby>細菌<rt>さいきん</rt></ruby>、ウイルス、<ruby>寄生虫<rt>きせいちゅう</rt></ruby>などがあります。"
+},
+{
+  "id": "HACCP-021",
+  "question": "<ruby>微生物<rt>びせいぶつ</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しい<ruby>説明<rt>せつめい</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>肉眼<rt>にくがん</rt></ruby>で<ruby>見<rt>み</rt></ruby>える<ruby>大<rt>おお</rt></ruby>きな<ruby>生物<rt>せいぶつ</rt></ruby>である。",
+  "B": "<ruby>顕微鏡<rt>けんびきょう</rt></ruby>で<ruby>観察<rt>かんさつ</rt></ruby>するほど<ruby>小<rt>ちい</rt></ruby>さい<ruby>生物<rt>せいぶつ</rt></ruby>である。",
+  "C": "<ruby>工場<rt>こうじょう</rt></ruby>にいる<ruby>害虫<rt>がいちゅう</rt></ruby>である。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>肉眼<rt>にくがん</rt></ruby>では<ruby>見<rt>み</rt></ruby>えない<ruby>小<rt>ちい</rt></ruby>さな<ruby>生物<rt>せいぶつ</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-022",
+  "question": "<ruby>鶏肉<rt>けいにく</rt></ruby>を<ruby>主<rt>おも</rt></ruby>な<ruby>原因食品<rt>げんいんしょくひん</rt></ruby>とし、<ruby>下痢<rt>げり</rt></ruby>や<ruby>発熱<rt>はつねつ</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>細菌<rt>さいきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>カンピロバクター属菌<rt>かんぴろばくたーぞくきん</rt></ruby>",
+  "B": "<ruby>腸炎ビブリオ<rt>ちょうえんびぶりお</rt></ruby>",
+  "C": "ノロウイルス"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>カンピロバクター属菌<rt>かんぴろばくたーぞくきん</rt></ruby>は<ruby>鶏肉<rt>けいにく</rt></ruby>を<ruby>原因<rt>げんいん</rt></ruby>とすることが多い<ruby>細菌<rt>さいきん</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-023",
+  "question": "<ruby>サルモネラ属菌<rt>さるもねらぞくきん</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>鶏卵<rt>けいらん</rt></ruby>や<ruby>生<rt>なま</rt></ruby>の<ruby>鶏肉<rt>けいにく</rt></ruby>",
+  "B": "<ruby>冷凍魚<rt>れいとうぎょ</rt></ruby>",
+  "C": "<ruby>加熱済<rt>かねつず</rt></ruby>み<ruby>乾燥野菜<rt>かんそうやさい</rt></ruby>"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>サルモネラ属菌<rt>さるもねらぞくきん</rt></ruby>は<ruby>鶏卵<rt>けいらん</rt></ruby>や<ruby>鶏肉<rt>けいにく</rt></ruby>に<ruby>多<rt>おお</rt></ruby>く<ruby>存在<rt>そんざい</rt></ruby>します。"
+  },
+  {
+  "id": "HACCP-024",
+  "question": "<ruby>海水中<rt>かいすいちゅう</rt></ruby>に<ruby>生息<rt>せいそく</rt></ruby>し、<ruby>魚介類<rt>ぎょかいるい</rt></ruby>を<ruby>原因<rt>げんいん</rt></ruby>とする<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>細菌<rt>さいきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "O-157",
+  "B": "<ruby>腸炎ビブリオ<rt>ちょうえんびぶりお</rt></ruby>",
+  "C": "<ruby>黄色<rt>おうしょく</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>腸炎ビブリオ<rt>ちょうえんびぶりお</rt></ruby>は<ruby>海水中<rt>かいすいちゅう</rt></ruby>に<ruby>生息<rt>せいそく</rt></ruby>する<ruby>細菌<rt>さいきん</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-025",
+  "question": "<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>O-157の<ruby>特徴<rt>とくちょう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>強<rt>つよ</rt></ruby>い<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>産生<rt>さんせい</rt></ruby>し、<ruby>血便<rt>けつべん</rt></ruby>を<ruby>伴<rt>ともな</rt></ruby>うことがある。",
+  "B": "100℃<ruby>以上<rt>いじょう</rt></ruby>でしか<ruby>増殖<rt>ぞうしょく</rt></ruby>しない。",
+  "C": "<ruby>加熱<rt>かねつ</rt></ruby>しても<ruby>死滅<rt>しめつ</rt></ruby>しない。"
+  },
+  "correct_answer": "A",
+  "explanation": "O-157は<ruby>強<rt>つよ</rt></ruby>い<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>産生<rt>さんせい</rt></ruby>する<ruby>危険<rt>きけん</rt></ruby>な<ruby>細菌<rt>さいきん</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-026",
+  "question": "<ruby>黄色<rt>おうしょく</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>で<ruby>注意<rt>ちゅうい</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>菌<rt>きん</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きく<ruby>目<rt>め</rt></ruby>で<ruby>見<rt>み</rt></ruby>えるから。",
+  "B": "<ruby>産生<rt>さんせい</rt></ruby>するエンテロトキシンが<ruby>耐熱性<rt>たいねつせい</rt></ruby>を<ruby>持<rt>も</rt></ruby>つから。",
+  "C": "<ruby>空気中<rt>くうきちゅう</rt></ruby>を<ruby>飛<rt>と</rt></ruby>んで<ruby>感染<rt>かんせん</rt></ruby>するから。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>黄色<rt>おうしょく</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby>の<ruby>毒素<rt>どくそ</rt></ruby>は<ruby>耐熱性<rt>たいねつせい</rt></ruby>があり<ruby>危険<rt>きけん</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-027",
+  "question": "<ruby>芽胞<rt>がほう</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しい<ruby>説明<rt>せつめい</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>熱<rt>ねつ</rt></ruby>や<ruby>乾燥<rt>かんそう</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>保護構造<rt>ほごこうぞう</rt></ruby>である。",
+  "B": "<ruby>移動<rt>いどう</rt></ruby>するための<ruby>器官<rt>きかん</rt></ruby>である。",
+  "C": "<ruby>栄養<rt>えいよう</rt></ruby>を<ruby>吸収<rt>きゅうしゅう</rt></ruby>する<ruby>器官<rt>きかん</rt></ruby>である。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>芽胞<rt>がほう</rt></ruby>は<ruby>厳<rt>きび</rt></ruby>しい<ruby>環境<rt>かんきょう</rt></ruby>に<ruby>耐<rt>た</rt></ruby>える<ruby>構造<rt>こうぞう</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-028",
+  "question": "<ruby>芽胞形成菌<rt>がほうけいせいきん</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しい<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>セレウス菌<rt>せれうすきん</rt></ruby>とウェルシュ菌",
+  "B": "<ruby>サルモネラ属菌<rt>さるもねらぞくきん</rt></ruby>とカンピロバクター属菌",
+  "C": "ノロウイルスとアニサキス"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>芽胞形成菌<rt>がほうけいせいきん</rt></ruby>にはセレウス菌やウェルシュ菌が<ruby>含<rt>ふく</rt></ruby>まれます。"
+  },
+  {
+  "id": "HACCP-029",
+  "question": "<ruby>ボツリヌス菌<rt>ぼつりぬすきん</rt></ruby>が<ruby>産生<rt>さんせい</rt></ruby>する<ruby>毒素<rt>どくそ</rt></ruby>による<ruby>危害<rt>きがい</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>軽<rt>かる</rt></ruby>いかゆみ",
+  "B": "<ruby>呼吸麻痺<rt>こきゅうまひ</rt></ruby>による<ruby>死亡<rt>しぼう</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby>",
+  "C": "<ruby>皮膚<rt>ひふ</rt></ruby>の<ruby>黄変<rt>おうへん</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>ボツリヌス菌<rt>ぼつりぬすきん</rt></ruby>の<ruby>毒素<rt>どくそ</rt></ruby>は<ruby>神経<rt>しんけい</rt></ruby>を<ruby>麻痺<rt>まひ</rt></ruby>させます。"
+  },
+  {
+  "id": "HACCP-030",
+  "question": "<ruby>食品工場<rt>しょくひんこうじょう</rt></ruby>におけるウイルス性<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>原因<rt>げんいん</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "ノロウイルス",
+  "B": "インフルエンザウイルス",
+  "C": "コロナウイルス"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>食品工場<rt>しょくひんこうじょう</rt></ruby>で<ruby>最<rt>もっと</rt></ruby>も<ruby>多<rt>おお</rt></ruby>いウイルス性<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>はノロウイルスです。"
+  },
+  {
+  "id": "HACCP-031",
+  "question": "<ruby>ノロウイルス</ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>存在場所<rt>そんざいばしょ</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>牛肉<rt>ぎゅうにく</rt></ruby>",
+  "B": "<ruby>二枚貝<rt>にまいがい</rt></ruby>や<ruby>人<rt>ひと</rt></ruby>の<ruby>消化管<rt>しょうかかん</rt></ruby>",
+  "C": "<ruby>卵<rt>たまご</rt></ruby>の<ruby>殻<rt>から</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>ノロウイルス</ruby>は<ruby>二枚貝<rt>にまいがい</rt></ruby>や<ruby>人<rt>ひと</rt></ruby>の<ruby>消化管<rt>しょうかかん</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>します。"
+  },
+  {
+  "id": "HACCP-032",
+  "question": "<ruby>ノロウイルス</ruby>対策としてアルコール<ruby>消毒<rt>しょうどく</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>非常<rt>ひじょう</rt></ruby>に<ruby>効果<rt>こうか</rt></ruby>がある。",
+  "B": "<ruby>十分<rt>じゅうぶん</rt></ruby>な<ruby>効果<rt>こうか</rt></ruby>は<ruby>期待<rt>きたい</rt></ruby>できない。",
+  "C": "<ruby>洗剤<rt>せんざい</rt></ruby>と<ruby>混<rt>ま</rt></ruby>ぜると<ruby>効果<rt>こうか</rt></ruby>が出る。"
+  },
+  "correct_answer": "B",
+  "explanation": "ノロウイルスにはアルコール<ruby>消毒<rt>しょうどく</rt></ruby>の<ruby>効果<rt>こうか</rt></ruby>は<ruby>限定的<rt>げんていてき</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-033",
+  "question": "<ruby>アニサキス</ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>海洋細菌<rt>かいようさいきん</rt></ruby>である。",
+  "B": "<ruby>魚<rt>さかな</rt></ruby>やイカに<ruby>寄生<rt>きせい</rt></ruby>する<ruby>寄生虫<rt>きせいちゅう</rt></ruby>である。",
+  "C": "<ruby>水<rt>みず</rt></ruby>を<ruby>介<rt>かい</rt></ruby>して<ruby>感染<rt>かんせん</rt></ruby>するウイルスである。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>アニサキス</ruby>は<ruby>魚介類<rt>ぎょかいるい</rt></ruby>に<ruby>寄生<rt>きせい</rt></ruby>する<ruby>寄生虫<rt>きせいちゅう</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-034",
+  "question": "<ruby>アニサキス</ruby>が<ruby>寄生<rt>きせい</rt></ruby>していることが<ruby>多<rt>おお</rt></ruby>い<ruby>魚介類<rt>ぎょかいるい</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "さば、さけ、いか",
+  "B": "こい、ふな",
+  "C": "なまず"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>アニサキス</ruby>はさばやさけなどの<ruby>魚介類<rt>ぎょかいるい</rt></ruby>に<ruby>多<rt>おお</rt></ruby>く<ruby>見<rt>み</rt></ruby>られます。"
+  },
+  {
+  "id": "HACCP-035",
+  "question": "<ruby>生<rt>い</rt></ruby>きたアニサキスを<ruby>食<rt>た</rt></ruby>べた<ruby>場合<rt>ばあい</rt></ruby>に<ruby>起<rt>お</rt></ruby>こりやすい<ruby>症状<rt>しょうじょう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>激<rt>はげ</rt></ruby>しいくしゃみ",
+  "B": "<ruby>激<rt>はげ</rt></ruby>しい<ruby>腹痛<rt>ふくつう</rt></ruby>",
+  "C": "<ruby>顔面<rt>がんめん</rt></ruby>の<ruby>発疹<rt>ほっしん</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>アニサキス</ruby>は<ruby>激<rt>はげ</rt></ruby>しい<ruby>腹痛<rt>ふくつう</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こします。"
+  },
+  {
+  "id": "HACCP-036",
+  "question": "<ruby>セレウス菌<rt>せれうすきん</rt></ruby>の<ruby>特徴<rt>とくちょう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>芽胞<rt>がほう</rt></ruby>を<ruby>形成<rt>けいせい</rt></ruby>し、<ruby>米飯類<rt>べいはんるい</rt></ruby>などで<ruby>増殖<rt>ぞうしょく</rt></ruby>することがある。",
+  "B": "0℃<ruby>以下<rt>いか</rt></ruby>でのみ<ruby>増殖<rt>ぞうしょく</rt></ruby>する。",
+  "C": "50℃で<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>死滅<rt>しめつ</rt></ruby>する。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>セレウス菌<rt>せれうすきん</rt></ruby>は<ruby>芽胞形成菌<rt>がほうけいせいきん</rt></ruby>であり<ruby>食品<rt>しょくひん</rt></ruby>中で<ruby>増殖<rt>ぞうしょく</rt></ruby>することがあります。"
+  },
+  {
+  "id": "HACCP-037",
+  "question": "<ruby>手指<rt>しゅし</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>が<ruby>不十分<rt>ふじゅうぶん</rt></ruby>な<ruby>場合<rt>ばあい</rt></ruby>、おにぎりなどを<ruby>汚染<rt>おせん</rt></ruby>する<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>細菌<rt>さいきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>サルモネラ属菌<rt>さるもねらぞくきん</rt></ruby>",
+  "B": "<ruby>黄色<rt>おうしょく</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby>",
+  "C": "<ruby>腸炎ビブリオ<rt>ちょうえんびぶりお</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>黄色<rt>おうしょく</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby>は<ruby>手指<rt>しゅし</rt></ruby>から<ruby>食品<rt>しょくひん</rt></ruby>へ<ruby>汚染<rt>おせん</rt></ruby>しやすい<ruby>細菌<rt>さいきん</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-038",
+  "question": "<ruby>芽胞形成菌<rt>がほうけいせいきん</rt></ruby>の<ruby>日本語名称<rt>にほんごめいしょう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>微生物<rt>びせいぶつ</rt></ruby>",
+  "B": "<ruby>芽胞菌<rt>がほうきん</rt></ruby>",
+  "C": "<ruby>交差汚染<rt>こうさおせん</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>芽胞形成菌<rt>がほうけいせいきん</rt></ruby>は<ruby>芽胞菌<rt>がほうきん</rt></ruby>とも<ruby>呼<rt>よ</rt></ruby>ばれます。"
+  },
+  {
+  "id": "HACCP-039",
+  "question": "<ruby>汚染<rt>おせん</rt></ruby>された<ruby>生<rt>なま</rt></ruby>の<ruby>貝類<rt>かいるい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたことによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因菌<rt>げんいんきん</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>カンピロバクター属菌<rt>かんぴろばくたーぞくきん</rt></ruby>",
+  "B": "<ruby>腸炎ビブリオ<rt>ちょうえんびぶりお</rt></ruby>",
+  "C": "O-157"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>生貝類<rt>なまかいるい</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>代表的<rt>だいひょうてき</rt></ruby>な<ruby>原因菌<rt>げんいんきん</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-040",
+  "question": "<ruby>黄色<rt>おうしょく</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>全身<rt>ぜんしん</rt></ruby>のかゆみ",
+  "B": "<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、<ruby>嘔吐<rt>おうと</rt></ruby>、<ruby>腹痛<rt>ふくつう</rt></ruby>",
+  "C": "<ruby>呼吸困難<rt>こきゅうこんなん</rt></ruby>"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>黄色<rt>おうしょく</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby>は<ruby>毒素型<rt>どくそがた</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>起<rt>お</rt></ruby>こします。"
+  },
+  {
+  "id": "HACCP-041",
+  "question": "<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>工程<rt>こうてい</rt></ruby>では、Clostridium perfringensやBacillus cereusなどの<ruby>芽胞形成菌<rt>がほうけいせいきん</rt></ruby>を<ruby>確実<rt>かくじつ</rt></ruby>に<ruby>死滅<rt>しめつ</rt></ruby>させる<ruby>必要<rt>ひつよう</rt></ruby>があります。<ruby>芽胞形成菌<rt>がほうけいせいきん</rt></ruby>を<ruby>死滅<rt>しめつ</rt></ruby>させるための<ruby>加熱条件<rt>かねつじょうけん</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "75℃で1<ruby>分<rt>ふん</rt></ruby><ruby>以上<rt>いじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>する。",
+  "B": "85℃で90<ruby>秒<rt>びょう</rt></ruby><ruby>以上<rt>いじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>する。",
+  "C": "120℃で4<ruby>分<rt>ふん</rt></ruby><ruby>以上<rt>いじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>する。"
+  },
+  "correct_answer": "C",
+  "explanation": "<ruby>芽胞形成菌<rt>がほうけいせいきん</rt></ruby>は<ruby>高温高圧<rt>こうおんこうあつ</rt></ruby>の<ruby>条件<rt>じょうけん</rt></ruby>で<ruby>死滅<rt>しめつ</rt></ruby>させる必要があります。"
+  },
+  {
+  "id": "HACCP-042",
+  "question": "<ruby>加熱調理<rt>かねつちょうり</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>をすぐに<ruby>提供<rt>ていきょう</rt></ruby>しない<ruby>場合<rt>ばあい</rt></ruby>、<ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためにどのように<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>うべきですか。<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>室温<rt>しつおん</rt></ruby>のまま<ruby>放置<rt>ほうち</rt></ruby>する。",
+  "B": "<ruby>速<rt>すみ</rt></ruby>やかに<ruby>冷却<rt>れいきゃく</rt></ruby>し、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する。",
+  "C": "<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>布<rt>ぬの</rt></ruby>をかぶせて<ruby>保管<rt>ほかん</rt></ruby>する。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためには<ruby>温度管理<rt>おんどかんり</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>です。"
+  },
+  {
+  "id": "HACCP-043",
+  "question": "<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>後<rt>あと</rt></ruby>でも<ruby>芽胞<rt>がほう</rt></ruby>が<ruby>問題<rt>もんだい</rt></ruby>となることがあります。その<ruby>理由<rt>りゆう</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>温度<rt>おんど</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がると<ruby>芽胞<rt>がほう</rt></ruby>が<ruby>再<rt>ふたた</rt></ruby>び<ruby>活動<rt>かつどう</rt></ruby>し、<ruby>増殖<rt>ぞうしょく</rt></ruby>するため。",
+  "B": "<ruby>芽胞<rt>がほう</rt></ruby>が<ruby>低温<rt>ていおん</rt></ruby>で<ruby>毒素<rt>どくそ</rt></ruby>に<ruby>変化<rt>へんか</rt></ruby>するため。",
+  "C": "<ruby>芽胞<rt>がほう</rt></ruby>が<ruby>虫<rt>むし</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>寄<rt>よ</rt></ruby>せるため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>芽胞<rt>がほう</rt></ruby>は<ruby>環境<rt>かんきょう</rt></ruby>が<ruby>良好<rt>りょうこう</rt></ruby>になると<ruby>発芽<rt>はつが</rt></ruby>し<ruby>増殖<rt>ぞうしょく</rt></ruby>します。"
+  },
+  {
+  "id": "HACCP-044",
+  "question": "<ruby>大量調理<rt>たいりょうちょうり</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>大<rt>おお</rt></ruby>きな<ruby>鍋<rt>なべ</rt></ruby>のままゆっくり<ruby>冷却<rt>れいきゃく</rt></ruby>しています。Clostridium perfringensが<ruby>増殖<rt>ぞうしょく</rt></ruby>しやすい<ruby>環境<rt>かんきょう</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>加熱後<rt>かねつご</rt></ruby>にゆっくり<ruby>冷却<rt>れいきゃく</rt></ruby>している<ruby>大<rt>おお</rt></ruby>きな<ruby>鍋<rt>なべ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>。",
+  "B": "<ruby>果物<rt>くだもの</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>。",
+  "C": "<ruby>酢<rt>す</rt></ruby>が<ruby>入<rt>はい</rt></ruby>った<ruby>密閉容器<rt>みっぺいようき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>Clostridium perfringens</ruby>は<ruby>温度帯<rt>おんどたい</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がる<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>増殖<rt>ぞうしょく</rt></ruby>しやすいです。"
+  }
+  ],
+
+"sanitasi_umum": [
+  {
+  "id": "SU-001",
+  "question": "<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>に<ruby>手洗<rt>てあら</rt></ruby>いを<ruby>行<rt>おこな</rt></ruby>う<ruby>目的<rt>もくてき</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>手<rt>て</rt></ruby>に<ruby>付着<rt>ふちゃく</rt></ruby>した<ruby>汚<rt>よご</rt></ruby>れや<ruby>細菌<rt>さいきん</rt></ruby>が<ruby>食品<rt>しょくひん</rt></ruby>へ<ruby>移<rt>うつ</rt></ruby>るのを<ruby>防<rt>ふせ</rt></ruby>ぐため。",
+  "B": "<ruby>手<rt>て</rt></ruby>を<ruby>白<rt>しろ</rt></ruby>くきれいに<ruby>見<rt>み</rt></ruby>せるため。",
+  "C": "<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>石鹸<rt>せっけん</rt></ruby>が<ruby>無料<rt>むりょう</rt></ruby>で<ruby>使<rt>つか</rt></ruby>えるため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>手洗<rt>てあら</rt></ruby>いは<ruby>汚染<rt>おせん</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための<ruby>基本<rt>きほん</rt></ruby><ruby>衛生管理<rt>えいせいかんり</rt></ruby>です。"
+  },
+  {
+  "id": "SU-002",
+  "question": "<ruby>器具<rt>きぐ</rt></ruby>を<ruby>薬剤<rt>やくざい</rt></ruby>で<ruby>消毒<rt>しょうどく</rt></ruby>した<ruby>後<rt>あと</rt></ruby>は、どのように<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>うのが<ruby>正<rt>ただ</rt></ruby>しいですか。",
+  "options": {
+  "A": "そのまま<ruby>自然乾燥<rt>しぜんかんそう</rt></ruby>させる。",
+  "B": "<ruby>薬剤<rt>やくざい</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>らないように<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>水<rt>みず</rt></ruby>で<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>洗<rt>あら</rt></ruby>い<ruby>流<rt>なが</rt></ruby>す。",
+  "C": "すぐに<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>加工<rt>かこう</rt></ruby>に<ruby>使用<rt>しよう</rt></ruby>する。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>薬剤残留<rt>やくざいざんりゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため<ruby>十分<rt>じゅうぶん</rt></ruby>な<ruby>洗浄<rt>せんじょう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。"
+  },
+  {
+  "id": "SU-003",
+  "question": "<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>の<ruby>容器<rt>ようき</rt></ruby>についている<ruby>表示<rt>ひょうじ</rt></ruby>ラベルが<ruby>読<rt>よ</rt></ruby>めなくなった<ruby>場合<rt>ばあい</rt></ruby>、どうすればよいですか。",
+  "options": {
+  "A": "においで<ruby>判断<rt>はんだん</rt></ruby>して<ruby>使用<rt>しよう</rt></ruby>する。",
+  "B": "<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>内容<rt>ないよう</rt></ruby>が<ruby>確認<rt>かくにん</rt></ruby>できるまで<ruby>使用<rt>しよう</rt></ruby>しない。",
+  "C": "<ruby>中身<rt>なかみ</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てて<ruby>水<rt>みず</rt></ruby>を<ruby>入<rt>い</rt></ruby>れる。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>誤使用<rt>ごしよう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため<ruby>管理<rt>かんり</rt></ruby><ruby>責任者<rt>せきにんしゃ</rt></ruby>への<ruby>報告<rt>ほうこく</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。"
+  },
+  {
+  "id": "SU-004",
+  "question": "<ruby>排水溝<rt>はいすいこう</rt></ruby>（ドレン）を<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>清掃<rt>せいそう</rt></ruby>する<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>汚<rt>よご</rt></ruby>れた<ruby>排水溝<rt>はいすいこう</rt></ruby>は<ruby>細菌<rt>さいきん</rt></ruby>や<ruby>害虫<rt>がいちゅう</rt></ruby>の<ruby>発生原因<rt>はっせいげんいん</rt></ruby>になるため。",
+  "B": "<ruby>水<rt>みず</rt></ruby>の<ruby>流<rt>なが</rt></ruby>れる<ruby>音<rt>おと</rt></ruby>を<ruby>小<rt>ちい</rt></ruby>さくするため。",
+  "C": "<ruby>水<rt>みず</rt></ruby>を<ruby>保管<rt>ほかん</rt></ruby>するため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>排水溝<rt>はいすいこう</rt></ruby>は<ruby>汚染源<rt>おせんげん</rt></ruby>になりやすいため<ruby>清掃<rt>せいそう</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>です。"
+},
+{
+  "id": "SU-005",
+  "question": "<ruby>食品工場<rt>しょくひんこうじょう</rt></ruby>でねずみや<ruby>昆虫<rt>こんちゅう</rt></ruby>の<ruby>防除<rt>ぼうじょ</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>病原菌<rt>びょうげんきん</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>んだり<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>になったりするため。",
+  "B": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>食事<rt>しょくじ</rt></ruby>を<ruby>食<rt>た</rt></ruby>べてしまうため。",
+  "C": "<ruby>電気設備<rt>でんきせつび</rt></ruby>だけを<ruby>壊<rt>こわ</rt></ruby>すため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>害虫<rt>がいちゅう</rt></ruby>は<ruby>食品汚染<rt>しょくひんおせん</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きな<ruby>原因<rt>げんいん</rt></ruby>になります。"
+},
+{
+  "id": "SU-006",
+  "question": "<ruby>洗浄<rt>せんじょう</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<ruby>器具<rt>きぐ</rt></ruby>の<ruby>保管方法<rt>ほかんほうほう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>乾燥<rt>かんそう</rt></ruby>させて<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する。",
+  "B": "<ruby>濡<rt>ぬ</rt></ruby>れたままシンクの<ruby>中<rt>なか</rt></ruby>に<ruby>置<rt>お</rt></ruby>いておく。",
+  "C": "<ruby>水滴<rt>すいてき</rt></ruby>が<ruby>付<rt>つ</rt></ruby>いたまま<ruby>重<rt>かさ</rt></ruby>ねて<ruby>保管<rt>ほかん</rt></ruby>する。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>乾燥<rt>かんそう</rt></ruby>と<ruby>清潔<rt>せいけつ</rt></ruby><ruby>保管<rt>ほかん</rt></ruby>が<ruby>微生物<rt>びせいぶつ</rt></ruby><ruby>増殖<rt>ぞうしょく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぎます。"
+},
+{
+  "id": "SU-007",
+  "question": "<ruby>薬剤<rt>やくざい</rt></ruby><ruby>容器<rt>ようき</rt></ruby>に<ruby>名称<rt>めいしょう</rt></ruby>ラベルを<ruby>表示<rt>ひょうじ</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>食品<rt>しょくひん</rt></ruby>と<ruby>誤<rt>あやま</rt></ruby>って<ruby>使用<rt>しよう</rt></ruby>することを<ruby>防<rt>ふせ</rt></ruby>ぐため。",
+  "B": "<ruby>容器<rt>ようき</rt></ruby>をきれいに<ruby>見<rt>み</rt></ruby>せるため。",
+  "C": "<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>所有物<rt>しょゆうぶつ</rt></ruby>であることを<ruby>示<rt>しめ</rt></ruby>すため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>誤使用<rt>ごしよう</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>が<ruby>目的<rt>もくてき</rt></ruby>です。"
+},
+{
+  "id": "SU-008",
+  "question": "<ruby>製造区域<rt>せいぞうくいき</rt></ruby>で<ruby>腕時計<rt>うでどけい</rt></ruby>やアクセサリーの<ruby>着用<rt>ちゃくよう</rt></ruby>が<ruby>禁止<rt>きんし</rt></ruby>されている<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>や<ruby>汚<rt>よご</rt></ruby>れの<ruby>付着原因<rt>ふちゃくげんいん</rt></ruby>になるため。",
+  "B": "<ruby>時間<rt>じかん</rt></ruby>が<ruby>気<rt>き</rt></ruby>になって<ruby>集中<rt>しゅうちゅう</rt></ruby>できなくなるため。",
+  "C": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>立場<rt>たちば</rt></ruby>を<ruby>平等<rt>びょうどう</rt></ruby>にするため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>のため<ruby>装飾品<rt>そうしょくひん</rt></ruby>は<ruby>禁止<rt>きんし</rt></ruby>されます。"
+},
+{
+  "id": "SU-009",
+  "question": "<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラーの<ruby>正<rt>ただ</rt></ruby>しい<ruby>使用方法<rt>しようほうほう</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>作業服<rt>さぎょうふく</rt></ruby><ruby>全体<rt>ぜんたい</rt></ruby>にかけて<ruby>毛髪<rt>もうはつ</rt></ruby>やほこりを<ruby>除去<rt>じょきょ</rt></ruby>する。",
+  "B": "<ruby>作業台<rt>さぎょうだい</rt></ruby>の<ruby>清掃<rt>せいそう</rt></ruby>に<ruby>使用<rt>しよう</rt></ruby>する。",
+  "C": "<ruby>襟<rt>えり</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>だけに<ruby>使用<rt>しよう</rt></ruby>する。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>衣服<rt>いふく</rt></ruby>の<ruby>異物除去<rt>いぶつじょきょ</rt></ruby>が<ruby>目的<rt>もくてき</rt></ruby>です。"
+},
+{
+  "id": "SU-010",
+  "question": "<ruby>作業場入口<rt>さぎょうばいりぐち</rt></ruby>に<ruby>設置<rt>せっち</rt></ruby>されたエアシャワーの<ruby>役割<rt>やくわり</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>作業服<rt>さぎょうふく</rt></ruby>に<ruby>付着<rt>ふちゃく</rt></ruby>した<ruby>毛髪<rt>もうはつ</rt></ruby>やほこりを<ruby>吹<rt>ふ</rt></ruby>き<ruby>飛<rt>と</rt></ruby>ばすため。",
+  "B": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>体温<rt>たいおん</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げるため。",
+  "C": "<ruby>作業服<rt>さぎょうふく</rt></ruby>に<ruby>香<rt>かお</rt></ruby>りを<ruby>付<rt>つ</rt></ruby>けるため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>異物<rt>いぶつ</rt></ruby>を<ruby>除去<rt>じょきょ</rt></ruby>するための<ruby>設備<rt>せつび</rt></ruby>です。"
+},
+{
+  "id": "SU-011",
+  "question": "<ruby>手洗<rt>てあら</rt></ruby>いの<ruby>際<rt>さい</rt></ruby>に<ruby>洗<rt>あら</rt></ruby>い<ruby>残<rt>のこ</rt></ruby>しが<ruby>発生<rt>はっせい</rt></ruby>しやすい<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。",
+  "options": {
+  "A": "<ruby>指<rt>ゆび</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>や<ruby>指先<rt>ゆびさき</rt></ruby>、<ruby>爪<rt>つめ</rt></ruby>の<ruby>周辺<rt>しゅうへん</rt></ruby>。",
+  "B": "<ruby>手<rt>て</rt></ruby>のひら<ruby>全体<rt>ぜんたい</rt></ruby>。",
+  "C": "<ruby>手<rt>て</rt></ruby>の<ruby>甲<rt>こう</rt></ruby><ruby>全体<rt>ぜんたい</rt></ruby>。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>細部<rt>さいぶ</rt></ruby>は<ruby>汚<rt>よご</rt></ruby>れが<ruby>残<rt>のこ</rt></ruby>りやすい<ruby>場所<rt>ばしょ</rt></ruby>です。"
+},
+{
+  "id": "SU-012",
+  "question": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>爪<rt>つめ</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>保<rt>たも</rt></ruby>つ<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>爪<rt>つめ</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>に<ruby>汚<rt>よご</rt></ruby>れや<ruby>細菌<rt>さいきん</rt></ruby>がたまりにくくするため。",
+  "B": "<ruby>手袋<rt>てぶくろ</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れにくくなるため。",
+  "C": "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>を<ruby>良<rt>よ</rt></ruby>くするため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>爪<rt>つめ</rt></ruby>は<ruby>汚染源<rt>おせんげん</rt></ruby>になりやすい<ruby>部位<rt>ぶい</rt></ruby>です。"
+},
+{
+  "id": "SU-013",
+  "question": "<ruby>製造区域<rt>せいぞうくいき</rt></ruby>でのマニキュアの<ruby>使用<rt>しよう</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>透明<rt>とうめい</rt></ruby>な<ruby>色<rt>いろ</rt></ruby>であれば<ruby>使用<rt>しよう</rt></ruby>できる。",
+  "B": "<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>のため<ruby>使用<rt>しよう</rt></ruby>しない。",
+  "C": "<ruby>二重手袋<rt>にじゅうてぶくろ</rt></ruby>をすれば<ruby>使用<rt>しよう</rt></ruby>できる。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>衛生管理<rt>えいせいかんり</rt></ruby>上、<ruby>装飾品<rt>そうしょくひん</rt></ruby>は<ruby>禁止<rt>きんし</rt></ruby>されます。"
+},
+{
+  "id": "SU-014",
+  "question": "<ruby>マスク<rt>ますく</rt></ruby>の<ruby>正<rt>ただ</rt></ruby>しい<ruby>着用方法<rt>ちゃくようほうほう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>鼻<rt>はな</rt></ruby>からあごまでしっかり<ruby>覆<rt>おお</rt></ruby>う。",
+  "B": "<ruby>口<rt>くち</rt></ruby>だけを<ruby>覆<rt>おお</rt></ruby>い<ruby>鼻<rt>はな</rt></ruby>は<ruby>出<rt>だ</rt></ruby>しておく。",
+  "C": "<ruby>あご</ruby>の<ruby>下<rt>した</rt></ruby>に<ruby>下<rt>さ</rt></ruby>げて<ruby>使用<rt>しよう</rt></ruby>する。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>飛沫<rt>ひまつ</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>のため<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>します。"
+},
+{
+  "id": "SU-015",
+  "question": "<ruby>ヘアネット<rt>へあねっと</rt></ruby>や<ruby>帽子<rt>ぼうし</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>するときの<ruby>注意点<rt>ちゅういてん</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>をすべて<ruby>中<rt>なか</rt></ruby>に<ruby>入</ruby>れる。",
+  "B": "<ruby>前髪<rt>まえがみ</rt></ruby>は<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>だ</rt></ruby>してもよい。",
+  "C": "<ruby>長<rt>なが</rt></ruby>い<ruby>髪<rt>かみ</rt></ruby>は<ruby>外<rt>そと</rt></ruby>に<ruby>垂<rt>た</rt></ruby>らしてもよい。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>毛髪<rt>もうはつ</rt></ruby><ruby>混入<rt>こんにゅう</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>のためです。"
+},
+{
+  "id": "SU-016",
+  "question": "<ruby>作業場<rt>さぎょうば</rt></ruby>で<ruby>飲食<rt>いんしょく</rt></ruby>やガムをかむことが<ruby>禁止<rt>きんし</rt></ruby>されている<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>食品<rt>しょくひん</rt></ruby>や<ruby>唾液<rt>だえき</rt></ruby>が<ruby>製品<rt>せいひん</rt></ruby>を<ruby>汚染<rt>おせん</rt></ruby>する<ruby>可能性<rt>かのうせい</rt></ruby>があるため。",
+  "B": "<ruby>作業速度<rt>さぎょうそくど</rt></ruby>が<ruby>遅<rt>おそ</rt></ruby>くなるため。",
+  "C": "<ruby>他<rt>ほか</rt></ruby>の<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>気<rt>き</rt></ruby>が<ruby>散</rt></ruby>るため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>汚染防止<rt>おせんぼうし</rt></ruby>が<ruby>目的<rt>もくてき</rt></ruby>です。"
+},
+{
+  "id": "SU-017",
+  "question": "<ruby>製造区域<rt>せいぞうくいき</rt></ruby>で<ruby>喫煙<rt>きつえん</rt></ruby>が<ruby>禁止<rt>きんし</rt></ruby>されている<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>煙<rt>けむり</rt></ruby>や<ruby>灰<rt>はい</rt></ruby>が<ruby>製品<rt>せいひん</rt></ruby>を<ruby>汚染<rt>おせん</rt></ruby>するおそれがあるため。",
+  "B": "のどが<ruby>渇<rt>かわ</rt></ruby>きやすくなるため。",
+  "C": "ライターが<ruby>機械<rt>きかい</rt></ruby>を<ruby>故障<rt>こしょう</rt></ruby>させるため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>受動汚染<rt>じゅどうおせん</rt></ruby>防止のため<ruby>禁煙<rt>きんえん</rt></ruby>です。"
+},
+{
+  "id": "SU-018",
+  "question": "<ruby>手洗<rt>てあら</rt></ruby>い<ruby>後<rt>ご</rt></ruby>の<ruby>乾燥方法<rt>かんそうほうほう</rt></ruby>として<ruby>衛生的<rt>えいせいてき</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>使<rt>つか</rt></ruby>い<ruby>捨<rt>す</rt></ruby>てペーパーやハンドドライヤーを<ruby>使用<rt>しよう</rt></ruby>する。",
+  "B": "<ruby>共用<rt>きょうよう</rt></ruby>タオルで<ruby>拭<rt>ふ</rt></ruby>く。",
+  "C": "<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>って<ruby>自然乾燥<rt>しぜんかんそう</rt></ruby>させる。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>交差汚染<rt>こうさおせん</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>のため<ruby>使<rt>つか</rt></ruby>い<ruby>捨<rt>す</rt></ruby>てが<ruby>推奨<rt>すいしょう</rt></ruby>されます。"
+},
+{
+  "id": "SU-019",
+  "question": "<ruby>手洗<rt>てあら</rt></ruby>い<ruby>後<rt>ご</rt></ruby>にアルコール<ruby>消毒<rt>しょうどく</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う<ruby>目的<rt>もくてき</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>手<rt>て</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>った<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らし<ruby>衛生状態<rt>えいせいじょうたい</rt></ruby>を<ruby>保<rt>たも</rt></ruby>つため。",
+  "B": "<ruby>手肌<rt>てはだ</rt></ruby>を<ruby>保湿<rt>ほしつ</rt></ruby>するため。",
+  "C": "<ruby>石鹸<rt>せっけん</rt></ruby>の<ruby>代<rt>か</rt></ruby>わりに<ruby>使用<rt>しよう</rt></ruby>するため。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>微生物<rt>びせいぶつ</rt></ruby><ruby>低減<rt>ていげん</rt></ruby>が<ruby>目的<rt>もくてき</rt></ruby>です。"
+},
+{
+  "id": "SU-020",
+  "question": "<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>取<rt>あつか</rt></ruby>う<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>において、<ruby>黄色<rt>きいろ</rt></ruby><ruby>ブドウ<rt>ぶどう</rt></ruby><ruby>球菌<rt>きゅうきん</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>発生源<rt>はっせいげん</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+  "A": "<ruby>加熱<rt>かねつ</rt></ruby>していない<ruby>井戸水<rt>いどみず</rt></ruby>。",
+  "B": "<ruby>手指<rt>しゅし</rt></ruby>の<ruby>傷<rt>きず</rt></ruby>や<ruby>人<rt>ひと</rt></ruby>の<ruby>鼻腔<rt>びくう</rt></ruby>。",
+  "C": "<ruby>収穫直後<rt>しゅうかくちょくご</rt></ruby>の<ruby>野菜<rt>やさい</rt></ruby>。"
+  },
+  "correct_answer": "B",
+  "explanation": "<ruby>黄色<rt>きいろ</rt></ruby><ruby>ブドウ<rt>ぶどう</rt></ruby><ruby>球菌<rt>きゅうきん</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>由来の<ruby>汚染源<rt>おせんげん</rt></ruby>です。"
+},
+  {
+    "id": "SU-021",
+    "question": "<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>に<ruby>手洗<rt>てあら</rt></ruby>いを<ruby>行<rt>おこな</rt></ruby>う<ruby>目的<rt>もくてき</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>手<rt>て</rt></ruby>に<ruby>付着<rt>ふちゃく</rt></ruby>した<ruby>汚<rt>よご</rt></ruby>れや<ruby>細菌<rt>さいきん</rt></ruby>が<ruby>食品<rt>しょくひん</rt></ruby>へ<ruby>移<rt>うつ</rt></ruby>るのを<ruby>防<rt>ふせ</rt></ruby>ぐため。",
+      "B": "<ruby>手<rt>て</rt></ruby>を<ruby>白<rt>しろ</rt></ruby>くきれいに<ruby>見<rt>み</rt></ruby>せるため。",
+      "C": "<ruby>工場<rt>こうじょう</rt></ruby>で石けんが<ruby>無料<rt>むりょう</rt></ruby>で<ruby>使<rt>つか</rt></ruby>えるため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>手<rt>て</rt></ruby>から<ruby>食品<rt>しょくひん</rt></ruby>へ<ruby>汚染<rt>おせん</rt></ruby>が<ruby>移行<rt>いこう</rt></ruby>するのを<ruby>防<rt>ふせ</rt></ruby>ぐためです。"
+  },
+  {
+    "id": "SU-022",
+    "question": "<ruby>器具<rt>きぐ</rt></ruby>を<ruby>薬剤<rt>やくざい</rt></ruby>で<ruby>消毒<rt>しょうどく</rt></ruby>した<ruby>後<rt>あと</rt></ruby>は、どのように<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>うのが<ruby>正<rt>ただ</rt></ruby>しいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "そのまま<ruby>自然<rt>しぜん</rt></ruby><ruby>乾燥<rt>かんそう</rt></ruby>させる。",
+      "B": "<ruby>薬剤<rt>やくざい</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>らないように<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>水<rt>みず</rt></ruby>で<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>洗<rt>あら</rt></ruby>い<ruby>流<rt>なが</rt></ruby>す。",
+      "C": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>加工<rt>かこう</rt></ruby>に<ruby>使用<rt>しよう</rt></ruby>する。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>残留<rt>ざんりゅう</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するためです。"
+  },
+  {
+    "id": "SU-023",
+    "question": "<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>の<ruby>容器<rt>ようき</rt></ruby>についている<ruby>表示<rt>ひょうじ</rt></ruby><ruby>ラベル</ruby>が<ruby>読<rt>よ</rt></ruby>めなくなった<ruby>場合<rt>ばあい</rt></ruby>、どうすればよいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "においで<ruby>判断<rt>はんだん</rt></ruby>して<ruby>使用<rt>しよう</rt></ruby>する。",
+      "B": "<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>内容<rt>ないよう</rt></ruby>が<ruby>確認<rt>かくにん</rt></ruby>できるまで<ruby>使用<rt>しよう</rt></ruby>しない。",
+      "C": "<ruby>中身<rt>なかみ</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てて<ruby>水<rt>みず</rt></ruby>を<ruby>入<rt>い</rt></ruby>れる。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>誤使用<rt>ごしよう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためです。"
+  },
+  {
+    "id": "SU-024",
+    "question": "<ruby>排水溝<rt>はいすいこう</rt></ruby>（ドレン）を<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>清掃<rt>せいそう</rt></ruby>する<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>汚<rt>よご</rt></ruby>れた<ruby>排水溝<rt>はいすいこう</rt></ruby>は<ruby>細菌<rt>さいきん</rt></ruby>や<ruby>害虫<rt>がいちゅう</rt></ruby>の<ruby>発生<rt>はっせい</rt></ruby><ruby>原因<rt>げんいん</rt></ruby>になるため。",
+      "B": "<ruby>水<rt>みず</rt></ruby>の<ruby>流<rt>なが</rt></ruby>れる<ruby>音<rt>おと</rt></ruby>を<ruby>小<rt>ちい</rt></ruby>さくするため。",
+      "C": "<ruby>水<rt>みず</rt></ruby>を<ruby>保管<rt>ほかん</rt></ruby>するため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>衛生<rt>えいせい</rt></ruby><ruby>環境<rt>かんきょう</rt></ruby>を<ruby>維持<rt>いじ</rt></ruby>するためです。"
+  },
+  {
+    "id": "SU-025",
+    "question": "<ruby>食品<rt>しょくひん</rt></ruby><ruby>工場<rt>こうじょう</rt></ruby>でねずみや<ruby>昆虫<rt>こんちゅう</rt></ruby>の<ruby>防除<rt>ぼうじょ</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>病原菌<rt>びょうげんきん</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>んだり<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>になったりするため。",
+      "B": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>食事<rt>しょくじ</rt></ruby>を<ruby>食<rt>た</rt></ruby>べてしまうため。",
+      "C": "<ruby>電気設備<rt>でんきせつび</rt></ruby>だけを<ruby>壊<rt>こわ</rt></ruby>すため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>衛生<rt>えいせい</rt></ruby><ruby>管理<rt>かんり</rt></ruby><ruby>上<rt>じょう</rt></ruby>、<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>問題<rt>もんだい</rt></ruby>です。"
+  },
+  {
+    "id": "SU-026",
+    "question": "<ruby>洗浄<rt>せんじょう</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<ruby>器具<rt>きぐ</rt></ruby>の<ruby>保管<rt>ほかん</rt></ruby><ruby>方法<rt>ほうほう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>乾燥<rt>かんそう</rt></ruby>させて<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する。",
+      "B": "<ruby>濡<rt>ぬ</rt></ruby>れたままシンクの<ruby>中<rt>なか</rt></ruby>に<ruby>置<rt>お</rt></ruby>いておく。",
+      "C": "<ruby>水滴<rt>すいてき</rt></ruby>が<ruby>付<rt>つ</rt></ruby>いたまま<ruby>重<rt>かさ</rt></ruby>ねて<ruby>保管<rt>ほかん</rt></ruby>する。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>再汚染<rt>さいおせん</rt></ruby>防止のためです。"
+  },
+  {
+    "id": "SU-027",
+    "question": "<ruby>薬剤<rt>やくざい</rt></ruby><ruby>容器<rt>ようき</rt></ruby>に<ruby>名称<rt>めいしょう</rt></ruby><ruby>ラベル</ruby>を<ruby>表示<rt>ひょうじ</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>食品<rt>しょくひん</rt></ruby>と<ruby>誤<rt>あやま</rt></ruby>って<ruby>使用<rt>しよう</rt></ruby>することを<ruby>防<rt>ふせ</rt></ruby>ぐため。",
+      "B": "<ruby>容器<rt>ようき</rt></ruby>をきれいに<ruby>見<rt>み</rt></ruby>せるため。",
+      "C": "<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>所有物<rt>しょゆうぶつ</rt></ruby>であることを<ruby>示<rt>しめ</rt></ruby>すため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>誤使用<rt>ごしよう</rt></ruby>防止のためです。"
+  },
+  {
+    "id": "SU-028",
+    "question": "<ruby>製造<rt>せいぞう</rt></ruby><ruby>区域<rt>くいき</rt></ruby>で<ruby>腕時計<rt>うでどけい</rt></ruby>やアクセサリーの<ruby>着用<rt>ちゃくよう</rt></ruby>が<ruby>禁止<rt>きんし</rt></ruby>されている<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>や<ruby>汚<rt>よご</rt></ruby>れの<ruby>付着<rt>ふちゃく</rt></ruby>原因になるため。",
+      "B": "<ruby>時間<rt>じかん</rt></ruby>が<ruby>気<rt>き</rt></ruby>になって<ruby>集中<rt>しゅうちゅう</rt></ruby>できなくなるため。",
+      "C": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>立場<rt>たちば</rt></ruby>を<ruby>平等<rt>びょうどう</rt></ruby>にするため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>衛生<rt>えいせい</rt></ruby><ruby>管理<rt>かんり</rt></ruby><ruby>上<rt>じょう</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>です。"
+  },
+  {
+  "id": "SU-029",
+  "question": "<ruby>粘着<rt>ねんちゃく</rt></ruby><ruby>ローラー</ruby>の<ruby>正<rt>ただ</rt></ruby>しい<ruby>使用<rt>しよう</rt></ruby><ruby>方法<rt>ほうほう</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "options": {
+    "A": "<ruby>作業服<rt>さぎょうふく</rt></ruby><ruby>全体<rt>ぜんたい</rt></ruby>にかけて<ruby>毛髪<rt>もうはつ</rt></ruby>やほこりを<ruby>除去<rt>じょきょ</rt></ruby>する。",
+    "B": "<ruby>作業台<rt>さぎょうだい</rt></ruby>の<ruby>清掃<rt>せいそう</rt></ruby>に<ruby>使用<rt>しよう</rt></ruby>する。",
+    "C": "<ruby>襟<rt>えり</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>だけに<ruby>使用<rt>しよう</rt></ruby>する。"
+  },
+  "correct_answer": "A",
+  "explanation": "<ruby>衣服<rt>いふく</rt></ruby>の<ruby>異物除去<rt>いぶつじょきょ</rt></ruby>のためです。"
+  },
+  {
+    "id": "SU-030",
+    "question": "<ruby>作業場<rt>さぎょうば</rt></ruby><ruby>入口<rt>いりぐち</rt></ruby>に<ruby>設置<rt>せっち</rt></ruby>されたエアシャワーの<ruby>役割<rt>やくわり</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>作業服<rt>さぎょうふく</rt></ruby>に<ruby>付着<rt>ふちゃく</rt></ruby>した<ruby>毛髪<rt>もうはつ</rt></ruby>やほこりを<ruby>吹<rt>ふ</rt></ruby>き<ruby>飛<rt>と</rt></ruby>ばすため。",
+      "B": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>体温<rt>たいおん</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げるため。",
+      "C": "<ruby>作業服<rt>さぎょうふく</rt></ruby>に<ruby>香<rt>かお</rt></ruby>りを<ruby>付<rt>つ</rt></ruby>けるため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>異物<rt>いぶつ</rt></ruby><ruby>除去<rt>じょきょ</rt></ruby>のためです。"
+  },
+  {
+    "id": "SU-031",
+    "question": "<ruby>手洗<rt>てあら</rt></ruby>いの<ruby>際<rt>さい</rt></ruby>に<ruby>洗<rt>あら</rt></ruby>い<ruby>残<rt>のこ</rt></ruby>しが<ruby>発生<rt>はっせい</rt></ruby>しやすい<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>指<rt>ゆび</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>や<ruby>指先<rt>ゆびさき</rt></ruby>、<ruby>爪<rt>つめ</rt></ruby>の<ruby>周辺<rt>しゅうへん</rt></ruby>。",
+      "B": "<ruby>手<rt>て</rt></ruby>のひら<ruby>全体<rt>ぜんたい</rt></ruby>。",
+      "C": "<ruby>手<rt>て</rt></ruby>の<ruby>甲<rt>こう</rt></ruby><ruby>全体<rt>ぜんたい</rt></ruby>。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>洗<rt>あら</rt></ruby>い<ruby>残<rt>のこ</rt></ruby>しが<ruby>多<rt>おお</rt></ruby>い<ruby>部位<rt>ぶい</rt></ruby>です。"
+  },
+  {
+    "id": "SU-032",
+    "question": "<ruby>爪<rt>つめ</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>保<rt>たも</rt></ruby>つ<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>爪<rt>つめ</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>に<ruby>汚<rt>よご</rt></ruby>れや<ruby>細菌<rt>さいきん</rt></ruby>がたまりにくくするため。",
+      "B": "<ruby>手袋<rt>てぶくろ</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れにくくなるため。",
+      "C": "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>を<ruby>良<rt>よ</rt></ruby>くするため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>衛生<rt>えいせい</rt></ruby><ruby>管理<rt>かんり</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>です。"
+  },
+  {
+    "id": "SU-033",
+    "question": "<ruby>製造<rt>せいぞう</rt></ruby><ruby>区域<rt>くいき</rt></ruby>でのマニキュアの<ruby>使用<rt>しよう</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>透明<rt>とうめい</rt></ruby>な<ruby>色<rt>いろ</rt></ruby>であれば<ruby>使用<rt>しよう</rt></ruby>できる。",
+      "B": "<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>防止のため<ruby>使用<rt>しよう</rt></ruby>しない。",
+      "C": "<ruby>二重手袋<rt>にじゅうてぶくろ</rt></ruby>をすれば<ruby>使用<rt>しよう</rt></ruby>できる。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>防止のためです。"
+  },
+  {
+    "id": "SU-034",
+    "question": "<ruby>作業場<rt>さぎょうば</rt></ruby>で<ruby>飲食<rt>いんしょく</rt></ruby>やガムをかむことが<ruby>禁止<rt>きんし</rt></ruby>されている<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>食品<rt>しょくひん</rt></ruby>や<ruby>唾液<rt>だえき</rt></ruby>が<ruby>製品<rt>せいひん</rt></ruby>を<ruby>汚染<rt>おせん</rt></ruby>する可能性があるため。",
+      "B": "<ruby>作業速度<rt>さぎょうそくど</rt></ruby>が<ruby>遅<rt>おそ</rt></ruby>くなるため。",
+      "C": "<ruby>他<rt>ほか</rt></ruby>の<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>気<rt>き</rt></ruby>が<ruby>散<rt>ち</rt></ruby>るため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>衛生<rt>えいせい</rt></ruby><ruby>管理<rt>かんり</rt></ruby>上<rt>じょう</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>です。"
+  },
+  {
+    "id": "SU-035",
+    "question": "<ruby>製造<rt>せいぞう</rt></ruby><ruby>区域<rt>くいき</rt></ruby>で<ruby>喫煙<rt>きつえん</rt></ruby>が<ruby>禁止<rt>きんし</rt></ruby>されている<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>煙<rt>けむり</rt></ruby>や<ruby>灰<rt>はい</rt></ruby>が<ruby>製品<rt>せいひん</rt></ruby>を<ruby>汚染<rt>おせん</rt></ruby>するおそれがあるため。",
+      "B": "<ruby>のど</ruby>が<ruby>渇<rt>かわ</rt></ruby>きやすくなるため。",
+      "C": "<ruby>ライター</ruby>が<ruby>機械<rt>きかい</rt></ruby>を<ruby>故障<rt>こしょう</rt></ruby>させるため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>火気<rt>かき</rt></ruby><ruby>管理<rt>かんり</rt></ruby>と<ruby>衛生<rt>えいせい</rt></ruby><ruby>管理<rt>かんり</rt></ruby>のためです。"
+  },
+  {
+    "id": "SU-036",
+    "question": "<ruby>手洗<rt>てあら</rt></ruby>い<ruby>後<rt>ご</rt></ruby>の<ruby>乾燥<rt>かんそう</rt></ruby><ruby>方法<rt>ほうほう</rt></ruby>として<ruby>衛生的<rt>えいせいてき</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>使<rt>つか</rt></ruby>い<ruby>捨<rt>す</rt></ruby>てペーパーやハンドドライヤーを<ruby>使用<rt>しよう</rt></ruby>する。",
+      "B": "<ruby>共用<rt>きょうよう</rt></ruby>タオルで<ruby>拭<rt>ふ</rt></ruby>く。",
+      "C": "<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>って<ruby>自然<rt>しぜん</rt></ruby><ruby>乾燥<rt>かんそう</rt></ruby>させる。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>交差汚染<rt>こうさおせん</rt></ruby>防止のためです。"
+  },
+  {
+    "id": "SU-037",
+    "question": "<ruby>手洗<rt>てあら</rt></ruby>い<ruby>後<rt>ご</rt></ruby>にアルコール<ruby>消毒<rt>しょうどく</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う<ruby>目的<rt>もくてき</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>手<rt>て</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>った<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らし<ruby>衛生<rt>えいせい</rt></ruby><ruby>状態<rt>じょうたい</rt></ruby>を<ruby>保<rt>たも</rt></ruby>つため。",
+      "B": "<ruby>手肌<rt>てはだ</rt></ruby>を<ruby>保湿<rt>ほしつ</rt></ruby>するため。",
+      "C": "<ruby>石鹸<rt>せっけん</rt></ruby>の<ruby>代<rt>か</rt></ruby>わりに<ruby>使用<rt>しよう</rt></ruby>するため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>殺菌<rt>さっきん</rt></ruby>補助のためです。"
+  },
+  {
+    "id": "SU-038",
+    "question": "<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>う<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>衛生<rt>えいせい</rt></ruby><ruby>管理<rt>かんり</rt></ruby>において、<ruby>黄色<rt>きいろ</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>発生源<rt>はっせいげん</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>加熱<rt>かねつ</rt></ruby>していない<ruby>井戸水<rt>いどみず</rt></ruby>。",
+      "B": "<ruby>手指<rt>しゅし</rt></ruby>の<ruby>傷<rt>きず</rt></ruby>や<ruby>人<rt>ひと</rt></ruby>の<ruby>鼻腔<rt>びくう</rt></ruby>。",
+      "C": "<ruby>収穫<rt>しゅうかく</rt></ruby><ruby>直後<rt>ちょくご</rt></ruby>の<ruby>野菜<rt>やさい</rt></ruby>。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>常在菌<rt>じょうざいきん</rt></ruby>として<ruby>人体<rt>じんたい</rt></ruby>に存在します。"
+  },
+  {
+    "id": "SU-039",
+    "question": "<ruby>細菌<rt>さいきん</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>予防<rt>よぼう</rt></ruby>するためには、「<ruby>食中毒<rt>しょくちゅうどく</rt></ruby><ruby>予防<rt>よぼう</rt></ruby>の<ruby>三原則<rt>さんげんそく</rt></ruby>」を<ruby>守<rt>まも</rt></ruby>ることが<ruby>重要<rt>じゅうよう</rt></ruby>です。「つけない」「<ruby>増<rt>ふ</rt></ruby>やさない」「やっつける」の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "買う・加熱する・保存する。",
+      "B": "つけない・増やさない・やっつける。",
+      "C": "洗う・すすぐ・販売する。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>食中毒<rt>しょくちゅうどく</rt></ruby><ruby>予防<rt>よぼう</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>原則です。"
+  }
+],
+
+  "pengendalian_mutu": [
+  {
+    "id": "PM-001",
+    "question": "<ruby>硬質異物<rt>こうしついぶつ</rt></ruby>とはどのようなものですか。正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>歯<rt>は</rt></ruby>が<ruby>欠<rt>か</rt></ruby>けたり<ruby>口<rt>くち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>傷<rt>きず</rt></ruby>つけたりするおそれのある<ruby>金属<rt>きんぞく</rt></ruby>やガラスなど。",
+      "B": "<ruby>毛髪<rt>もうはつ</rt></ruby>や<ruby>紙片<rt>しへん</rt></ruby>などの<ruby>軽<rt>かる</rt></ruby>い<ruby>異物<rt>いぶつ</rt></ruby>。",
+      "C": "<ruby>包装<rt>ほうそう</rt></ruby><ruby>内<rt>ない</rt></ruby>に<ruby>混入<rt>こんにゅう</rt></ruby>した<ruby>死<rt>し</rt></ruby>んだ<ruby>昆虫<rt>こんちゅう</rt></ruby>。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>硬質異物<rt>こうしついぶつ</rt></ruby>は、<ruby>歯<rt>は</rt></ruby>や<ruby>口腔<rt>こうくう</rt></ruby>を<ruby>傷<rt>きず</rt></ruby>つけるおそれのある<ruby>金属<rt>きんぞく</rt></ruby>やガラスなどの<ruby>異物<rt>いぶつ</rt></ruby>を<ruby>指<rt>さ</rt></ruby>します。"
+  },
+  {
+    "id": "PM-002",
+    "question": "<ruby>毛髪<rt>もうはつ</rt></ruby>や<ruby>紙片<rt>しへん</rt></ruby>などの<ruby>軟質異物<rt>なんしついぶつ</rt></ruby>について、正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>飲<rt>の</rt></ruby>み<ruby>込<rt>こ</rt></ruby>むと<ruby>必<rt>かなら</rt></ruby>ず<ruby>中毒<rt>ちゅうどく</rt></ruby>を<ruby>起<rt>お</rt></ruby>こす。",
+      "B": "<ruby>消費者<rt>しょうひしゃ</rt></ruby>からの<ruby>苦情<rt>くじょう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となり、<ruby>衛生管理<rt>えいせいかんり</rt></ruby><ruby>上<rt>じょう</rt></ruby><ruby>問題<rt>もんだい</rt></ruby>となる。",
+      "C": "<ruby>機械<rt>きかい</rt></ruby>を<ruby>故障<rt>こしょう</rt></ruby>させる<ruby>原因<rt>げんいん</rt></ruby>になる。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>軟質異物<rt>なんしついぶつ</rt></ruby>は、<ruby>直接的<rt>ちょくせつてき</rt></ruby>な<ruby>健康被害<rt>けんこうひがい</rt></ruby>よりも、<ruby>苦情<rt>くじょう</rt></ruby>や<ruby>衛生管理<rt>えいせいかんり</rt></ruby><ruby>上<rt>じょう</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>となる<ruby>異物<rt>いぶつ</rt></ruby>です。"
+  },
+  {
+    "id": "PM-003",
+    "question": "<ruby>製造<rt>せいぞう</rt></ruby><ruby>ライン</ruby>で<ruby>異物<rt>いぶつ</rt></ruby>を<ruby>発見<rt>はっけん</rt></ruby>した場合、どのように<ruby>対応<rt>たいおう</rt></ruby>するべきですか。正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>見<rt>み</rt></ruby>つからないように<ruby>処分<rt>しょぶん</rt></ruby>する。",
+      "B": "<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>止<rt>と</rt></ruby>めて<ruby>責任者<rt>せきにんしゃ</rt></ruby>へ<ruby>報告<rt>ほうこく</rt></ruby>する。",
+      "C": "<ruby>小<rt>ちい</rt></ruby>さい<ruby>異物<rt>いぶつ</rt></ruby>ならそのまま<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>ける。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>異物<rt>いぶつ</rt></ruby><ruby>混入<rt>こんにゅう</rt></ruby>が<ruby>疑<rt>うたが</rt></ruby>われる場合は、<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>停止<rt>ていし</rt></ruby>し、<ruby>責任者<rt>せきにんしゃ</rt></ruby>へ<ruby>報告<rt>ほうこく</rt></ruby>することが<ruby>重要<rt>じゅうよう</rt></ruby>です。"
+  },
+  {
+    "id": "PM-004",
+    "question": "<ruby>野菜<rt>やさい</rt></ruby><ruby>原料<rt>げんりょう</rt></ruby>への<ruby>石<rt>いし</rt></ruby>の<ruby>混入<rt>こんにゅう</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するために、最も<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>方法<rt>ほうほう</rt></ruby>を一つ選びなさい。",
+    "options": {
+      "A": "<ruby>洗浄<rt>せんじょう</rt></ruby>や<ruby>選別<rt>せんべつ</rt></ruby>を十分に行う。",
+      "B": "<ruby>漂白剤<rt>ひょうはくざい</rt></ruby>を使用する。",
+      "C": "<ruby>通常<rt>つうじょう</rt></ruby>より<ruby>高温<rt>こうおん</rt></ruby>で<ruby>加熱<rt>かねつ</rt></ruby>する。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>異物<rt>いぶつ</rt></ruby><ruby>混入<rt>こんにゅう</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>には、<ruby>洗浄<rt>せんじょう</rt></ruby>と<ruby>選別<rt>せんべつ</rt></ruby>による<ruby>物理的<rt>ぶつりてき</rt></ruby><ruby>除去<rt>じょきょ</rt></ruby>が<ruby>基本<rt>きほん</rt></ruby>です。"
+  },
+  {
+    "id": "PM-005",
+    "question": "<ruby>じゃがいも</ruby>に<ruby>含<rt>ふく</rt></ruby>まれる<ruby>天然毒素<rt>てんねんどくそ</rt></ruby>ソラニンが多く<ruby>存在<rt>そんざい</rt></ruby>する<ruby>部分<rt>ぶぶん</rt></ruby>はどこですか。正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>になった<ruby>皮<rt>かわ</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>",
+      "B": "<ruby>白<rt>しろ</rt></ruby>い<ruby>果肉<rt>かにく</rt></ruby><ruby>部分<rt>ぶぶん</rt></ruby>",
+      "C": "<ruby>洗浄後<rt>せんじょうご</rt></ruby>の<ruby>根<rt>ね</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>ソラニン</ruby>は<ruby>芽<rt>め</rt></ruby>や<ruby>緑化<rt>りょくか</rt></ruby>した<ruby>皮<rt>かわ</rt></ruby>に多く<ruby>含<rt>ふく</rt></ruby>まれます。"
+  },
+  {
+    "id": "PM-006",
+    "question": "<ruby>ソラニン</ruby>による<ruby>危害<rt>きがい</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するために、じゃがいもの<ruby>下処理<rt>したしょり</rt></ruby>として正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>石けん</ruby>で何度も<ruby>洗<rt>あら</rt></ruby>う。",
+      "B": "<ruby>芽<rt>め</rt></ruby>を<ruby>取<rt>と</rt></ruby>り除き、<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>を<ruby>厚<rt>あつ</rt></ruby>くむく。",
+      "C": "<ruby>皮付<rt>かわつ</rt></ruby>きのまま<ruby>加熱<rt>かねつ</rt></ruby>する。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>ソラニン</ruby><ruby>除去<rt>じょきょ</rt></ruby>には<ruby>芽<rt>め</rt></ruby>の<ruby>除去<rt>じょきょ</rt></ruby>と<ruby>皮<rt>かわ</rt></ruby>の<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>除去<rt>じょきょ</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>です。"
+  },
+  {
+    "id": "PM-007",
+    "question": "<ruby>軟質異物<rt>なんしついぶつ</rt></ruby>に分類されるものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>小石<rt>こいし</rt></ruby>",
+      "B": "<ruby>昆虫<rt>こんちゅう</rt></ruby>、<ruby>毛髪<rt>もうはつ</rt></ruby>、<ruby>薄<rt>うす</rt></ruby>いプラスチック片",
+      "C": "<ruby>ガラス片<rt>がらすへん</rt></ruby>"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>軟質異物<rt>なんしついぶつ</rt></ruby>は、<ruby>人体<rt>じんたい</rt></ruby>への<ruby>直接的<rt>ちょくせつてき</rt></ruby><ruby>危害<rt>きがい</rt></ruby>よりも<ruby>衛生<rt>えいせい</rt></ruby><ruby>問題<rt>もんだい</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>異物<rt>いぶつ</rt></ruby>です。"
+  },
+  {
+    "id": "PM-008",
+    "question": "<ruby>X線<rt>エックスせん</rt></ruby><ruby>異物検出機<rt>いぶつけんしゅつき</rt></ruby>の<ruby>目的<rt>もくてき</rt></ruby>として正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>金属<rt>きんぞく</rt></ruby>や<ruby>骨<rt>ほね</rt></ruby>、<ruby>石<rt>いし</rt></ruby>などの<ruby>異物<rt>いぶつ</rt></ruby>を<ruby>検出<rt>けんしゅつ</rt></ruby>する。",
+      "B": "<ruby>製品<rt>せいひん</rt></ruby>のカロリーを<ruby>測定<rt>そくてい</rt></ruby>する。",
+      "C": "<ruby>包装<rt>ほうそう</rt></ruby><ruby>表面<rt>ひょうめん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>測定<rt>そくてい</rt></ruby>する。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>X線<rt>エックスせん</rt></ruby><ruby>異物検出機<rt>いぶつけんしゅつき</rt></ruby>は<ruby>異物<rt>いぶつ</rt></ruby><ruby>混入<rt>こんにゅう</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>のために使用されます。"
+  },
+  {
+    "id": "PM-009",
+    "question": "<ruby>漁獲<rt>ぎょかく</rt></ruby>した<ruby>魚<rt>さかな</rt></ruby>を速やかに<ruby>冷却<rt>れいきゃく</rt></ruby>または<ruby>冷凍<rt>れいとう</rt></ruby>する理由として正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>魚<rt>さかな</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>を濃くするため。",
+      "B": "<ruby>ヒスタミン</ruby>の<ruby>生成<rt>せいせい</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するため。",
+      "C": "<ruby>魚<rt>さかな</rt></ruby>を持ちやすくするため。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>ヒスタミン</ruby><ruby>生成<rt>せいせい</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>のために速やかな<ruby>冷却<rt>れいきゃく</rt></ruby>が必要です。"
+  },
+  {
+    "id": "PM-010",
+    "question": "<ruby>飲料製造業<rt>いんりょうせいぞうぎょう</rt></ruby>に分類される製品を一つ選びなさい。",
+    "options": {
+      "A": "<ruby>ハム</ruby>や<ruby>ソーセージ</ruby>",
+      "B": "<ruby>ジュース</ruby>、<ruby>茶<rt>ちゃ</rt></ruby>、<ruby>コーヒー</ruby>",
+      "C": "<ruby>パン</ruby>や<ruby>菓子類<rt>かしるい</rt></ruby>"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>飲料製造業<rt>いんりょうせいぞうぎょう</rt></ruby>は<ruby>飲料<rt>いんりょう</rt></ruby>を製造する<ruby>業種<rt>ぎょうしゅ</rt></ruby>です。"
+  },
+  {
+    "id": "PM-011",
+    "question": "<ruby>準清潔区域<rt>じゅんせいけつくいき</rt></ruby>（セミクリーンゾーン）の<ruby>役割<rt>やくわり</rt></ruby>として正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>洗浄<rt>せんじょう</rt></ruby>や<ruby>下処理<rt>したしょり</rt></ruby>を行う<ruby>区域<rt>くいき</rt></ruby>",
+      "B": "<ruby>物流<rt>ぶつりゅう</rt></ruby><ruby>車両<rt>しゃりょう</rt></ruby>の<ruby>駐車<rt>ちゅうしゃ</rt></ruby><ruby>場所<rt>ばしょ</rt></ruby>",
+      "C": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>休憩<rt>きゅうけい</rt></ruby><ruby>場所<rt>ばしょ</rt></ruby>"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>準清潔区域<rt>じゅんせいけつくいき</rt></ruby>は<ruby>原材料<rt>げんざいりょう</rt></ruby><ruby>処理<rt>しょり</rt></ruby>などを行う<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>区域<rt>くいき</rt></ruby>です。"
+  },
+  {
+    "id": "PM-012",
+    "question": "<ruby>冷凍<rt>れいとう</rt></ruby>した<ruby>魚<rt>さかな</rt></ruby>や<ruby>肉<rt>にく</rt></ruby>を<ruby>解凍<rt>かいとう</rt></ruby>したときに出るドリップについて、正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>うま味<rt>うまみ</rt></ruby><ruby>成分<rt>せいぶん</rt></ruby>だけを<ruby>含<rt>ふく</rt></ruby>む<ruby>液体<rt>えきたい</rt></ruby>",
+      "B": "<ruby>栄養<rt>えいよう</rt></ruby><ruby>分<rt>ぶん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>み、<ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>しやすい<ruby>液体<rt>えきたい</rt></ruby>",
+      "C": "<ruby>氷<rt>こおり</rt></ruby>が<ruby>蒸発<rt>じょうはつ</rt></ruby>した<ruby>水蒸気<rt>すいじょうき</rt></ruby>"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>ドリップ</ruby>は<ruby>栄養<rt>えいよう</rt></ruby><ruby>分<rt>ぶん</rt></ruby>を<ruby>含</rt></ruby>み、<ruby>微生物<rt>びせいぶつ</rt></ruby><ruby>増殖<rt>ぞうしょく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となります。"
+  },
+  {
+    "id": "PM-013",
+    "question": "<ruby>手<rt>て</rt></ruby>に<ruby>傷<rt>きず</rt></ruby>がある状態で<ruby>作業<rt>さぎょう</rt></ruby>を続けることが危険な理由として正しいものを一つ選びなさい。",
+    "options": {
+      "A": "<ruby>黄色<rt>おうしょく</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby>などによる<ruby>汚染<rt>おせん</rt></ruby>の原因になるため。",
+      "B": "<ruby>血液<rt>けつえき</rt></ruby>が<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>食感<rt>しょっかん</rt></ruby>を変えるため。",
+      "C": "<ruby>傷口<rt>きずぐち</rt></ruby>がしみて<ruby>痛<rt>いた</rt></ruby>くなるため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>傷<rt>きず</rt></ruby>からの<ruby>黄色<rt>おうしょく</rt></ruby><ruby>ブドウ球菌<rt>ぶどうきゅうきん</rt></ruby><ruby>汚染<rt>おせん</rt></ruby>が<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となります。"
+  },
+  {
+    "id": "PM-014",
+    "question": "<ruby>作業中<rt>さぎょうちゅう</rt></ruby>に手袋が破れた場合、どのように対応するべきですか。",
+    "options": {
+      "A": "<ruby>新<rt>あたら</rt></ruby>しい手袋に交換し、<ruby>破片<rt>はへん</rt></ruby>の<ruby>混入<rt>こんにゅう</rt></ruby>がないことを確認する。",
+      "B": "テープで補修して使用する。",
+      "C": "<ruby>小<rt>ちい</rt></ruby>さい<ruby>破<rt>やぶ</rt></ruby>れならそのまま使用する。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>手袋破損<rt>てぶくろはそん</rt></ruby>時は速やかに交換し、<ruby>異物<rt>いぶつ</rt></ruby><ruby>混入<rt>こんにゅう</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>します。"
+  },
+  {
+    "id": "PM-015",
+    "question": "<ruby>作業中<rt>さぎょうちゅう</rt></ruby>に顔や髪の毛に触れてしまった場合、どうするべきですか。",
+    "options": {
+      "A": "そのまま作業を続ける。",
+      "B": "<ruby>手洗<rt>てあら</rt></ruby>いを行うか手袋を交換する。",
+      "C": "<ruby>作業服<rt>さぎょうふく</rt></ruby>で手を拭く。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>接触<rt>せっしょく</rt></ruby>による<ruby>汚染<rt>おせん</rt></ruby>を防ぐため、<ruby>手洗<rt>てあら</rt></ruby>いまたは手袋交換が必要です。"
+  },
+  {
+    "id": "PM-016",
+    "question": "<ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>異物<rt>いぶつ</rt></ruby>が<ruby>発見<rt>はっけん</rt></ruby>された場合、どのように<ruby>対応<rt>たいおう</rt></ruby>すべきですか。",
+    "options": {
+      "A": "<ruby>見<rt>み</rt></ruby>つからないように<ruby>処分<rt>しょぶん</rt></ruby>する。",
+      "B": "<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>止<rt>と</rt></ruby>めて<ruby>責任者<rt>せきにんしゃ</rt></ruby>へ<ruby>報告<rt>ほうこく</rt></ruby>する。",
+      "C": "<ruby>小<rt>ちい</rt></ruby>さい<ruby>異物<rt>いぶつ</rt></ruby>ならそのまま<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>ける。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>異物<rt>いぶつ</rt></ruby>を<ruby>発見<rt>はっけん</rt></ruby>した場合は、<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>停止<rt>ていし</rt></ruby>し<ruby>責任者<rt>せきにんしゃ</rt></ruby>へ<ruby>報告<rt>ほうこく</rt></ruby>することが<ruby>重要<rt>じゅうよう</rt></ruby>です。"
+  },
+  {
+    "id": "PM-017",
+    "question": "<ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>手袋<rt>てぶくろ</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れた場合、どのように<ruby>対応<rt>たいおう</rt></ruby>すべきですか。",
+    "options": {
+      "A": "<ruby>新<rt>あたら</rt></ruby>しい手袋に交換し、<ruby>破片<rt>はへん</rt></ruby>の混入がないことを確認する。",
+      "B": "<ruby>テープ</ruby>で補修して使用する。",
+      "C": "<ruby>小<rt>ちい</rt></ruby>さな破れならそのまま使用する。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>手袋<rt>てぶくろ</rt></ruby>が破れた場合は、すぐに交換し<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>を防ぐ必要があります。"
+  }
+],
+
+"k3": [
+  {
+    "id": "K3-001",
+    "question": "<ruby>食品<rt>しょくひん</rt></ruby><ruby>製造<rt>せいぞう</rt></ruby><ruby>工場<rt>こうじょう</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>くことになりました。<ruby>食品<rt>しょくひん</rt></ruby>や<ruby>飲料<rt>いんりょう</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>産業<rt>さんぎょう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>田畑<rt>たはた</rt></ruby>で<ruby>米<rt>こめ</rt></ruby>や<ruby>野菜<rt>やさい</rt></ruby>を<ruby>栽培<rt>さいばい</rt></ruby>する<ruby>仕事<rt>しごと</rt></ruby>。",
+      "B": "<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>飲料<rt>いんりょう</rt></ruby>や<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>仕事<rt>しごと</rt></ruby>。",
+      "C": "<ruby>レストラン<rt>れすとらん</rt></ruby>で<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>販売<rt>はんばい</rt></ruby>する<ruby>仕事<rt>しごと</rt></ruby>。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>食品<rt>しょくひん</rt></ruby><ruby>製造<rt>せいぞう</rt></ruby>は<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>行<rt>おこな</rt></ruby>われます。"
+  },
+  {
+    "id": "K3-002",
+    "question": "<ruby>労働<rt>ろうどう</rt></ruby><ruby>安全<rt>あんぜん</rt></ruby><ruby>衛生<rt>えいせい</rt></ruby>の<ruby>取組<rt>とりくみ</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>安全<rt>あんぜん</rt></ruby>に<ruby>販売<rt>はんばい</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>決<rt>き</rt></ruby>めること。",
+      "B": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>と<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ること。",
+      "C": "<ruby>残業<rt>ざんぎょう</rt></ruby><ruby>時間<rt>じかん</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>すること。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>労働<rt>ろうどう</rt></ruby><ruby>安全<rt>あんぜん</rt></ruby><ruby>衛生<rt>えいせい</rt></ruby>は<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby><ruby>確保<rt>かくほ</rt></ruby>が<ruby>目的<rt>もくてき</rt></ruby>です。"
+  },
+  {
+    "id": "K3-003",
+    "question": "<ruby>食品<rt>しょくひん</rt></ruby><ruby>製造<rt>せいぞう</rt></ruby><ruby>工場<rt>こうじょう</rt></ruby>で<ruby>発生<rt>はっせい</rt></ruby>する<ruby>労働<rt>ろうどう</rt></ruby><ruby>災害<rt>さいがい</rt></ruby>について、<ruby>最<rt>もっと</rt></ruby>も<ruby>多<rt>おお</rt></ruby>く<ruby>発生<rt>はっせい</rt></ruby>する<ruby>場所<rt>ばしょ</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>本社<rt>ほんしゃ</rt></ruby><ruby>事務所<rt>じむしょ</rt></ruby>。",
+      "B": "<ruby>工場<rt>こうじょう</rt></ruby>や<ruby>作業<rt>さぎょう</rt></ruby><ruby>現場<rt>げんば</rt></ruby>。",
+      "C": "<ruby>公道<rt>こうどう</rt></ruby>や<ruby>道路<rt>どうろ</rt></ruby><ruby>上<rt>じょう</rt></ruby>。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>労働<rt>ろうどう</rt></ruby><ruby>災害<rt>さいがい</rt></ruby>は<ruby>現場<rt>げんば</rt></ruby>で<ruby>多<rt>おお</rt></ruby>く<ruby>発生<rt>はっせい</rt></ruby>します。"
+  },
+  {
+    "id": "K3-004",
+    "question": "<ruby>労働<rt>ろうどう</rt></ruby><ruby>災害<rt>さいがい</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するために、<ruby>作業者<rt>さぎょうしゃ</rt></ruby>が<ruby>実施<rt>じっし</rt></ruby>すべきこととして<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>判断<rt>はんだん</rt></ruby>だけで<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>進<rt>すす</rt></ruby>める。",
+      "B": "<ruby>保護<rt>ほご</rt></ruby><ruby>具<rt>ぐ</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>する。",
+      "C": "<ruby>急<rt>いそ</rt></ruby>いでいる<ruby>時<rt>とき</rt></ruby>は<ruby>作業<rt>さぎょう</rt></ruby><ruby>手順<rt>てじゅん</rt></ruby>を<ruby>省略<rt>しょうりゃく</rt></ruby>する。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>保護<rt>ほご</rt></ruby><ruby>具<rt>ぐ</rt></ruby>の<ruby>着用<rt>ちゃくよう</rt></ruby>は<ruby>安全<rt>あんぜん</rt></ruby><ruby>確保<rt>かくほ</rt></ruby>に<ruby>必要<rt>ひつよう</rt></ruby>です。"
+  },
+  {
+    "id": "K3-005",
+    "question": "<ruby>作業<rt>さぎょう</rt></ruby><ruby>手順<rt>てじゅん</rt></ruby><ruby>書<rt>しょ</rt></ruby>の<ruby>目的<rt>もくてき</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>安全<rt>あんぜん</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うための<ruby>基準<rt>きじゅん</rt></ruby>にする。",
+      "B": "<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>壁<rt>かべ</rt></ruby>に<ruby>掲示<rt>けいじ</rt></ruby>するために<ruby>作成<rt>さくせい</rt></ruby>する。",
+      "C": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>給与<rt>きゅうよ</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>するために<ruby>使用<rt>しよう</rt></ruby>する。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>作業<rt>さぎょう</rt></ruby><ruby>手順<rt>てじゅん</rt></ruby><ruby>書<rt>しょ</rt></ruby>は<ruby>安全<rt>あんぜん</rt></ruby><ruby>作業<rt>さぎょう</rt></ruby>のためです。"
+  },
+  {
+    "id": "K3-006",
+    "question": "<ruby>作業場<rt>さぎょうば</rt></ruby>で<ruby>保護<rt>ほご</rt></ruby><ruby>帽<rt>ぼう</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>する<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>来客<rt>らいきゃく</rt></ruby>に<ruby>良<rt>よ</rt></ruby>い<ruby>印象<rt>いんしょう</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えるため。",
+      "B": "<ruby>頭部<rt>とうぶ</rt></ruby>を<ruby>落下<rt>らっか</rt></ruby><ruby>物<rt>ぶつ</rt></ruby>や<ruby>衝撃<rt>しょうげき</rt></ruby>から<ruby>守<rt>まも</rt></ruby>るため。",
+      "C": "<ruby>髪型<rt>かみがた</rt></ruby>を<ruby>整<rt>ととの</rt></ruby>えるため。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>保護<rt>ほご</rt></ruby><ruby>帽<rt>ぼう</rt></ruby>は<ruby>安全<rt>あんぜん</rt></ruby><ruby>保護<rt>ほご</rt></ruby>のためです。"
+  },
+  {
+    "id": "K3-007",
+    "question": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>機械<rt>きかい</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うべきこととして<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>読<rt>よ</rt></ruby>まずに<ruby>試運転<rt>しうんてん</rt></ruby>する。",
+      "B": "<ruby>作業<rt>さぎょう</rt></ruby><ruby>手順<rt>てじゅん</rt></ruby><ruby>書<rt>しょ</rt></ruby>に<ruby>従<rt>したが</rt></ruby>って<ruby>操作<rt>そうさ</rt></ruby>する。",
+      "C": "<ruby>他<rt>ほか</rt></ruby>の<ruby>作業者<rt>さぎょうしゃ</rt></ruby>が<ruby>使<rt>つか</rt></ruby>うまで<ruby>待<rt>ま</rt></ruby>つ。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>手順<rt>てじゅん</rt></ruby><ruby>書<rt>しょ</rt></ruby>の<ruby>遵守<rt>じゅんしゅ</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>です。"
+  },
+  {
+    "id": "K3-008",
+    "question": "<ruby>食品<rt>しょくひん</rt></ruby><ruby>製造<rt>せいぞう</rt></ruby><ruby>工場<rt>こうじょう</rt></ruby>で<ruby>製造<rt>せいぞう</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>が<ruby>大規模<rt>だいきぼ</rt></ruby>な<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>発生<rt>はっせい</rt></ruby>させた<ruby>場合<rt>ばあい</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby>への<ruby>影響<rt>えいきょう</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>謝罪<rt>しゃざい</rt></ruby>すれば<ruby>問題<rt>もんだい</rt></ruby>にならない。",
+      "B": "<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>信用<rt>しんよう</rt></ruby>を<ruby>失<rt>うしな</rt></ruby>い、<ruby>事業<rt>じぎょう</rt></ruby><ruby>継続<rt>けいぞく</rt></ruby>が<ruby>困難<rt>こんなん</rt></ruby>になることがある。",
+      "C": "<ruby>国<rt>くに</rt></ruby>から<ruby>補助金<rt>ほじょきん</rt></ruby>を<ruby>受<rt>う</rt></ruby>けられる。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>は<ruby>企業<rt>きぎょう</rt></ruby><ruby>信用<rt>しんよう</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えます。"
+  },
+  {
+    "id": "K3-009",
+    "question": "<ruby>職場<rt>しょくば</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る<ruby>責任<rt>せきにん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>工場長<rt>こうじょうちょう</rt></ruby>だけが<ruby>責任<rt>せきにん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。",
+      "B": "<ruby>会社<rt>かいしゃ</rt></ruby>とすべての<ruby>作業者<rt>さぎょうしゃ</rt></ruby>が<ruby>責任<rt>せきにん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。",
+      "C": "<ruby>警備員<rt>けいびいん</rt></ruby>だけが<ruby>責任<rt>せきにん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>安全<rt>あんぜん</rt></ruby>は<ruby>全員<rt>ぜんいん</rt></ruby>の<ruby>責任<rt>せきにん</rt></ruby>です。"
+  },
+  {
+    "id": "K3-010",
+    "question": "5S<ruby>活動<rt>かつどう</rt></ruby>を<ruby>構成<rt>こうせい</rt></ruby>する<ruby>項目<rt>こうもく</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>整理<rt>せいり</rt></ruby>・<ruby>整頓<rt>せいとん</rt></ruby>・<ruby>清掃<rt>せいそう</rt></ruby>・<ruby>清潔<rt>せいけつ</rt></ruby>・しつけ。",
+      "B": "<ruby>石鹸<rt>せっけん</rt></ruby>・シャンプー・<ruby>清掃<rt>せいそう</rt></ruby>・<ruby>整理<rt>せいり</rt></ruby>・<ruby>整頓<rt>せいとん</rt></ruby>。",
+      "C": "<ruby>製造<rt>せいぞう</rt></ruby>・<ruby>生産<rt>せいさん</rt></ruby>・<ruby>整理<rt>せいり</rt></ruby>・<ruby>衛生<rt>えいせい</rt></ruby>・<ruby>管理<rt>かんり</rt></ruby>。"
+    },
+    "correct_answer": "A",
+    "explanation": "5S<ruby>活動<rt>かつどう</rt></ruby>は<ruby>職場<rt>しょくば</rt></ruby><ruby>改善<rt>かいぜん</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>です。"
+  },
+  {
+    "id": "K3-011",
+    "question": "5S<ruby>活動<rt>かつどう</rt></ruby>の「<ruby>整理<rt>せいり</rt></ruby>」とはどのような<ruby>活動<rt>かつどう</rt></ruby>ですか。正<ruby>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>物<rt>もの</rt></ruby>と<ruby>不要<rt>ふよう</rt></ruby>な<ruby>物<rt>もの</rt></ruby>を<ruby>分<rt>わ</rt></ruby>け、<ruby>不要<rt>ふよう</rt></ruby>な<ruby>物<rt>もの</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>くこと。",
+      "B": "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>色<rt>いろ</rt></ruby>ごとに<ruby>並<rt>なら</rt></ruby>べること。",
+      "C": "<ruby>床<rt>ゆか</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>すること。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>整理<rt>せいり</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby><ruby>物<rt>ぶつ</rt></ruby>の<ruby>除去<rt>じょきょ</rt></ruby>です。"
+  },
+  {
+    "id": "K3-012",
+    "question": "5S<ruby>活動<rt>かつどう</rt></ruby>の「<ruby>整頓<rt>せいとん</rt></ruby>」として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>物<rt>もの</rt></ruby>を<ruby>決<rt>き</rt></ruby>められた<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>置<rt>お</rt></ruby>き、すぐ<ruby>使<rt>つか</rt></ruby>えるようにすること。",
+      "B": "<ruby>毎月<rt>まいつき</rt></ruby><ruby>新<rt>あたら</rt></ruby>しい<ruby>設備<rt>せつび</rt></ruby>を<ruby>購入<rt>こうにゅう</rt></ruby>すること。",
+      "C": "<ruby>ごみ</ruby>を<ruby>廃棄<rt>はいき</rt></ruby>すること。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>整頓<rt>せいとん</rt></ruby>は<ruby>配置<rt>はいち</rt></ruby><ruby>管理<rt>かんり</rt></ruby>です。"
+  },
+  {
+    "id": "K3-013",
+    "question": "5S<ruby>活動<rt>かつどう</rt></ruby>の「<ruby>清掃<rt>せいそう</rt></ruby>」として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>作業場<rt>さぎょうば</rt></ruby>や<ruby>設備<rt>せつび</rt></ruby>を<ruby>清掃<rt>せいそう</rt></ruby>し、<ruby>汚<rt>よご</rt></ruby>れのない<ruby>状態<rt>じょうたい</rt></ruby>にすること。",
+      "B": "<ruby>出勤<rt>しゅっきん</rt></ruby><ruby>記録<rt>きろく</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>すること。",
+      "C": "<ruby>照明<rt>しょうめい</rt></ruby>を<ruby>交換<rt>こうかん</rt></ruby>すること。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>清掃<rt>せいそう</rt></ruby>は<ruby>衛生<rt>えいせい</rt></ruby><ruby>維持<rt>いじ</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>です。"
+  },
+  {
+    "id": "K3-014",
+    "question": "5S<ruby>活動<rt>かつどう</rt></ruby>の「<ruby>清潔<rt>せいけつ</rt></ruby>」とはどのような<ruby>活動<rt>かつどう</rt></ruby>ですか。正<ruby>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>整理<rt>せいり</rt></ruby>・<ruby>整頓<rt>せいとん</rt></ruby>・<ruby>清掃<rt>せいそう</rt></ruby>の<ruby>状態<rt>じょうたい</rt></ruby>を<ruby>維持<rt>いじ</rt></ruby>すること。",
+      "B": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>支給<rt>しきゅう</rt></ruby>すること。",
+      "C": "<ruby>消臭剤<rt>しょうしゅうざい</rt></ruby>を<ruby>設置<rt>せっち</rt></ruby>すること。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>清潔<rt>せいけつ</rt></ruby>は<ruby>状態<rt>じょうたい</rt></ruby><ruby>維持<rt>いじ</rt></ruby>です。"
+  },
+  {
+    "id": "K3-015",
+    "question": "5S<ruby>活動<rt>かつどう</rt></ruby>の「しつけ」として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>決<rt>き</rt></ruby>められたルールを<ruby>継続<rt>けいぞく</rt></ruby>して<ruby>守<rt>まも</rt></ruby>ること。",
+      "B": "<ruby>違反者<rt>いはんしゃ</rt></ruby>に<ruby>罰金<rt>ばっきん</rt></ruby>を<ruby>課<rt>か</rt></ruby>すこと。",
+      "C": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>長時間<rt>ちょうじかん</rt></ruby><ruby>会議<rt>かいぎ</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>うこと。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>しつけ</ruby>は<ruby>習慣<rt>しゅうかん</rt></ruby><ruby>化<rt>か</rt></ruby>です。"
+  },
+  {
+    "id": "K3-016",
+    "question": "<ruby>食品<rt>しょくひん</rt></ruby><ruby>製造<rt>せいぞう</rt></ruby><ruby>工場<rt>こうじょう</rt></ruby>で5S<ruby>活動<rt>かつどう</rt></ruby>を<ruby>実施<rt>じっし</rt></ruby>する<ruby>主<rt>おも</rt></ruby>な<ruby>目的<rt>もくてき</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>食品<rt>しょくひん</rt></ruby><ruby>衛生<rt>えいせい</rt></ruby>と<ruby>労働<rt>ろうどう</rt></ruby><ruby>安全<rt>あんぜん</rt></ruby>を<ruby>維持<rt>いじ</rt></ruby>するため。",
+      "B": "<ruby>工場<rt>こうじょう</rt></ruby>を<ruby>豪華<rt>ごうか</rt></ruby>に<ruby>見<rt>み</rt></ruby>せるため。",
+      "C": "<ruby>休日<rt>きゅうじつ</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らすため。"
+    },
+    "correct_answer": "A",
+    "explanation": "5S<ruby>活動<rt>かつどう</rt></ruby>は<ruby>安全<rt>あんぜん</rt></ruby><ruby>衛生<rt>えいせい</rt></ruby><ruby>向上<rt>こうじょう</rt></ruby>です。"
+  },
+  {
+    "id": "K3-017",
+    "question": "<ruby>ゾーニング</ruby>を<ruby>行<rt>おこな</rt></ruby>う<ruby>目的<rt>もくてき</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>衛生<rt>えいせい</rt></ruby><ruby>レベル</ruby>ごとに<ruby>作業<rt>さぎょう</rt></ruby><ruby>区域<rt>くいき</rt></ruby>を<ruby>分<rt>わ</rt></ruby>けるため。",
+      "B": "<ruby>勤続<rt>きんぞく</rt></ruby><ruby>年数<rt>ねんすう</rt></ruby>ごとに<ruby>作業者<rt>さぎょうしゃ</rt></ruby>を<ruby>分<rt>わ</rt></ruby>けるため。",
+      "C": "<ruby>私物<rt>しぶつ</rt></ruby>を<ruby>保管<rt>ほかん</rt></ruby>するため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>ゾーニング</ruby>は<ruby>汚染<rt>おせん</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>です。"
+  },
+  {
+    "id": "K3-018",
+    "question": "<ruby>加熱後<rt>かねつご</rt></ruby>の<ruby>製品<rt>せいひん</rt></ruby>を<ruby>包装<rt>ほうそう</rt></ruby>する<ruby>区域<rt>くいき</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>汚染<rt>おせん</rt></ruby><ruby>作業<rt>さぎょう</rt></ruby><ruby>区域<rt>くいき</rt></ruby>。",
+      "B": "<ruby>清潔<rt>せいけつ</rt></ruby><ruby>作業<rt>さぎょう</rt></ruby><ruby>区域<rt>くいき</rt></ruby>。",
+      "C": "<ruby>準<rt>じゅん</rt></ruby><ruby>清潔<rt>せいけつ</rt></ruby><ruby>作業<rt>さぎょう</rt></ruby><ruby>区域<rt>くいき</rt></ruby>。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>加熱後<rt>かねつご</rt></ruby>は<ruby>清潔<rt>せいけつ</rt></ruby><ruby>区域<rt>くいき</rt></ruby>で<ruby>扱<rt>あつか</rt></ruby>います。"
+  },
+  {
+    "id": "K3-019",
+    "question": "<ruby>交差<rt>こうさ</rt></ruby><ruby>汚染<rt>おせん</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>汚染<rt>おせん</rt></ruby>された<ruby>物<rt>もの</rt></ruby>から<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>物<rt>もの</rt></ruby>へ<ruby>危害<rt>きがい</rt></ruby><ruby>要因<rt>よういん</rt></ruby>が<ruby>移<rt>うつ</rt></ruby>ること。",
+      "B": "<ruby>調味料<rt>ちょうみりょう</rt></ruby>の<ruby>配合<rt>はいごう</rt></ruby>を<ruby>間違<rt>まちが</rt></ruby>えること。",
+      "C": "<ruby>細菌<rt>さいきん</rt></ruby>が<ruby>死滅<rt>しめつ</rt></ruby>すること。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>交差<rt>こうさ</rt></ruby><ruby>汚染<rt>おせん</rt></ruby>は<ruby>移動<rt>いどう</rt></ruby><ruby>汚染<rt>おせん</rt></ruby>です。"
+  },
+  {
+    "id": "K3-020",
+    "question": "<ruby>洗剤<rt>せんざい</rt></ruby>や<ruby>塩素<rt>えんそ</rt></ruby><ruby>系<rt>けい</rt></ruby><ruby>薬剤<rt>やくざい</rt></ruby>などの<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>保管<rt>ほかん</rt></ruby>する<ruby>場所<rt>ばしょ</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>食品<rt>しょくひん</rt></ruby><ruby>保管<rt>ほかん</rt></ruby><ruby>場所<rt>ばしょ</rt></ruby>と<ruby>離<rt>はな</rt></ruby>れた<ruby>専用<rt>せんよう</rt></ruby><ruby>保管庫<rt>ほかんこ</rt></ruby>。",
+      "B": "<ruby>製造<rt>せいぞう</rt></ruby><ruby>ライン<rt>らいん</rt></ruby>の<ruby>下<rt>した</rt></ruby>。",
+      "C": "<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じ<ruby>棚<rt>たな</rt></ruby>。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>薬剤<rt>やくざい</rt></ruby>は<ruby>食品<rt>しょくひん</rt></ruby>と<ruby>分離<rt>ぶんり</rt></ruby><ruby>保管<rt>ほかん</rt></ruby>します。"
+  },
+
+  {
+    "id": "K3-021",
+    "question": "<ruby>包丁<rt>ほうちょう</rt></ruby>や<ruby>まな板<rt>まないた</rt></ruby>を<ruby>色分<rt>いろわ</rt></ruby>けして<ruby>使用<rt>しよう</rt></ruby>する<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>交差汚染<rt>こうさおせん</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するため。",
+      "B": "<ruby>作業場<rt>さぎょうば</rt></ruby>を<ruby>明<rt>あか</rt></ruby>るく<ruby>見<rt>み</rt></ruby>せるため。",
+      "C": "<ruby>購入価格<rt>こうにゅうかかく</rt></ruby>を<ruby>区別<rt>くべつ</rt></ruby>するため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>包丁<rt>ほうちょう</rt></ruby>や<ruby>まな板<rt>まないた</rt></ruby>の<ruby>色分<rt>いろわ</rt></ruby>けは<ruby>交差汚染<rt>こうさおせん</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するために<ruby>行<rt>おこな</rt></ruby>われます。"
+  },
+  {
+    "id": "K3-022",
+    "question": "<ruby>作業場<rt>さぎょうば</rt></ruby>の<ruby>床<rt>ゆか</rt></ruby>が<ruby>濡<rt>ぬ</rt></ruby>れている<ruby>場合<rt>ばあい</rt></ruby>、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>対応<rt>たいおう</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>速<rt>すみ</rt></ruby>やかに<ruby>乾燥<rt>かんそう</rt></ruby>させる。",
+      "B": "<ruby>自然<rt>しぜん</rt></ruby>に<ruby>乾<rt>かわ</rt></ruby>くまで<ruby>放置<rt>ほうち</rt></ruby>する。",
+      "C": "<ruby>段<rt>だん</rt></ruby><ruby>ボール</ruby>で<ruby>覆<rt>おお</rt></ruby>う。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>床<rt>ゆか</rt></ruby>の<ruby>水濡<rt>みずぬ</rt></ruby>れは<ruby>転倒<rt>てんとう</rt></ruby><ruby>事故<rt>じこ</rt></ruby>や<ruby>衛生<rt>えいせい</rt></ruby><ruby>上<rt>じょう</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>につながるため、<ruby>速<rt>すみ</rt></ruby>やかに<ruby>乾燥<rt>かんそう</rt></ruby>させます。"
+  },
+  {
+    "id": "K3-023",
+    "question": "<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>を<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>外<rt>そと</rt></ruby>で<ruby>使用<rt>しよう</rt></ruby>してはいけない<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>外部<rt>がいぶ</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まないため。",
+      "B": "<ruby>靴<rt>くつ</rt></ruby>を<ruby>汚<rt>よご</rt></ruby>さないため。",
+      "C": "<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>禁止<rt>きんし</rt></ruby>されているため。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>を<ruby>外部<rt>がいぶ</rt></ruby>で<ruby>使用<rt>しよう</rt></ruby>すると<ruby>汚染<rt>おせん</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>む<ruby>原因<rt>げんいん</rt></ruby>になるためです。"
+  },
+  {
+    "id": "K3-024",
+    "question": "<ruby>5S活動<rt>ごえすかつどう</rt></ruby>を<ruby>実施<rt>じっし</rt></ruby>する<ruby>責任<rt>せきにん</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>清掃担当者<rt>せいそうたんとうしゃ</rt></ruby>だけが<ruby>行<rt>おこな</rt></ruby>う。",
+      "B": "<ruby>全<rt>すべ</rt></ruby>ての<ruby>作業者<rt>さぎょうしゃ</rt></ruby>が<ruby>担当区域<rt>たんとうくいき</rt></ruby>で<ruby>実施<rt>じっし</rt></ruby>する。",
+      "C": "<ruby>社長<rt>しゃちょう</rt></ruby>だけが<ruby>実施<rt>じっし</rt></ruby>する。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>5S活動<rt>ごえすかつどう</rt></ruby>は<ruby>全<rt>すべ</rt></ruby>ての<ruby>作業者<rt>さぎょうしゃ</rt></ruby>が<ruby>自分<rt>じぶん</rt></ruby>の<ruby>担当区域<rt>たんとうくいき</rt></ruby>で<ruby>実施<rt>じっし</rt></ruby>します。"
+  },
+  {
+    "id": "K3-025",
+    "question": "<ruby>作業場<rt>さぎょうば</rt></ruby>へ<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うこととして<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>する。",
+      "B": "<ruby>健康状態<rt>けんこうじょうたい</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する。",
+      "C": "<ruby>同僚<rt>どうりょう</rt></ruby>と<ruby>握手<rt>あくしゅ</rt></ruby>する。"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>作業<rt>さぎょう</rt></ruby><ruby>開始前<rt>かいしまえ</rt></ruby>には<ruby>健康状態<rt>けんこうじょうたい</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>食品<rt>しょくひん</rt></ruby><ruby>汚染<rt>おせん</rt></ruby>の<ruby>防止<rt>ぼうし</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>います。"
+  },
+  {
+    "id": "K3-026",
+    "question": "<ruby>作業開始前<rt>さぎょうかいしまえ</rt></ruby>に<ruby>責任者<rt>せきにんしゃ</rt></ruby>へ<ruby>報告<rt>ほうこく</rt></ruby>すべき<ruby>健康状態<rt>けんこうじょうたい</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>下痢<rt>げり</rt></ruby>、<ruby>発熱<rt>はつねつ</rt></ruby>、<ruby>嘔吐<rt>おうと</rt></ruby>、<ruby>手<rt>て</rt></ruby>の<ruby>傷<rt>きず</rt></ruby>がある<ruby>場合<rt>ばあい</rt></ruby>。",
+      "B": "<ruby>髪型<rt>かみがた</rt></ruby>が<ruby>乱<rt>みだ</rt></ruby>れている<ruby>場合<rt>ばあい</rt></ruby>。",
+      "C": "<ruby>少<rt>すこ</rt></ruby>し<ruby>眠<rt>ねむ</rt></ruby>い<ruby>場合<rt>ばあい</rt></ruby>。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>体調不良<rt>たいちょうふりょう</rt></ruby>は<ruby>食品<rt>しょくひん</rt></ruby><ruby>汚染<rt>おせん</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となるため、<ruby>責任者<rt>せきにんしゃ</rt></ruby>へ<ruby>報告<rt>ほうこく</rt></ruby>が必要です。"
+  },
+  {
+    "id": "K3-027",
+    "question": "<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>正<rt>ただ</rt></ruby>しい<ruby>着用順序<rt>ちゃくようじゅんじょ</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>インナーキャップ<rt>いんなーきゃっぷ</rt></ruby>→<ruby>帽子<rt>ぼうし</rt></ruby>→<ruby>マスク<rt>ますく</rt></ruby>→<ruby>作業服<rt>さぎょうふく</rt></ruby>→<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>。",
+      "B": "<ruby>作業服<rt>さぎょうふく</rt></ruby>→<ruby>帽子<rt>ぼうし</rt></ruby>→<ruby>マスク<rt>ますく</rt></ruby>→<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>→<ruby>インナーキャップ<rt>いんなーきゃっぷ</rt></ruby>。",
+      "C": "<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>→<ruby>マスク<rt>ますく</rt></ruby>→<ruby>帽子<rt>ぼうし</rt></ruby>→<ruby>作業服<rt>さぎょうふく</rt></ruby>。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>衛生的<rt>えいせいてき</rt></ruby>な<ruby>作業服<rt>さぎょうふく</rt></ruby><ruby>着用順序<rt>ちゃくようじゅんじょ</rt></ruby>は<ruby>外部汚染<rt>がいぶおせん</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために<ruby>重要<rt>じゅうよう</rt></ruby>です。"
+  },
+  {
+    "id": "K3-028",
+    "question": "<ruby>作業中<rt>さぎょうちゅう</rt></ruby>にめまいや<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>を<ruby>感<rt>かん</rt></ruby>じた<ruby>場合<rt>ばあい</rt></ruby>の<ruby>対応<rt>たいおう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>直<rt>ただ</rt></ruby>ちに<ruby>責任者<rt>せきにんしゃ</rt></ruby>へ<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>取扱<rt>とりあつか</rt></ruby>いを<ruby>中止<rt>ちゅうし</rt></ruby>する。",
+      "B": "<ruby>製造<rt>せいぞう</rt></ruby><ruby>ライン<rt>らいん</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くで<ruby>休憩<rt>きゅうけい</rt></ruby>する。",
+      "C": "<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んで<ruby>黙<rt>だま</rt></ruby>って<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>ける。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>体調不良<rt>たいちょうふりょう</rt></ruby>がある場合は<ruby>直<rt>ただ</rt></ruby>ちに<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>中止<rt>ちゅうし</rt></ruby>し<ruby>報告<rt>ほうこく</rt></ruby>します。"
+  },
+  {
+    "id": "K3-029",
+    "question": "<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れや<ruby>着用状態<rt>ちゃくようじょうたい</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>するための<ruby>鏡<rt>かがみ</rt></ruby>の<ruby>設置場所<rt>せっちばしょ</rt></ruby>として<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>作業場<rt>さぎょうば</rt></ruby>へ<ruby>入<rt>はい</rt></ruby>る<ruby>直前<rt>ちょくぜん</rt></ruby>の<ruby>入口付近<rt>いりぐちふきん</rt></ruby>。",
+      "B": "<ruby>更衣室<rt>こういしつ</rt></ruby>の<ruby>奥<rt>おく</rt></ruby>。",
+      "C": "<ruby>食堂<rt>しょくどう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>。"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>入室前<rt>にゅうしつまえ</rt></ruby>に<ruby>身<rt>み</rt></ruby>だしなみと<ruby>衛生状態<rt>えいせいじょうたい</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>するため、<ruby>入口付近<rt>いりぐちふきん</rt></ruby>に<ruby>設置<rt>せっち</rt></ruby>します。"
+  }
+],
+
+"hitungan": [
+  {
+    "id": "HT-001",
+    "question": "<ruby>濃度<rt>のうど</rt></ruby>10％のNaClO<ruby>溶液<rt>ようえき</rt></ruby>があります。100ppmのNaClO<ruby>溶液<rt>ようえき</rt></ruby>を2L<ruby>作<rt>つく</rt></ruby>るのに、<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はどれぐらいの<ruby>量<rt>りょう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": {
+      "A": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1996ml",
+      "B": "<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>1998ml",
+      "C": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1998ml"
+    },
+    "correct_answer": "B",
+    "explanation": "100ppmのNaClO<ruby>溶液<rt>ようえき</rt></ruby>を2L<ruby>作<rt>つく</rt></ruby>るためには、<ruby>希釈<rt>きしゃく</rt></ruby><ruby>計算<rt>けいさん</rt></ruby>により<ruby>溶液<rt>ようえき</rt></ruby>2mlと<ruby>水<rt>みず</rt></ruby>1998mlが<ruby>必要<rt>ひつよう</rt></ruby>です。"
+  },
+  {
+    "id": "HT-002",
+    "question": "<ruby>下<rt>した</rt></ruby>は300gのパンの<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと、<ruby>小麦粉<rt>こむぎこ</rt></ruby>6kgからどれだけのパンを<ruby>作<rt>つく</rt></ruby>ることができますか。",
+    "options": {
+      "A": "7kg",
+      "B": "9kg",
+      "C": "11kg"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>配合比<rt>はいごうひ</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づき<ruby>小麦粉<rt>こむぎこ</rt></ruby>6kgからパンの<ruby>総量<rt>そうりょう</rt></ruby>は9kgになります。"
+  },
+  {
+    "id": "HT-003",
+    "question": "<ruby>表<rt>ひょう</rt></ruby>はソーセージ1セット（6<ruby>本<rt>ほん</rt></ruby>）の<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと、<ruby>豚<rt>ぶた</rt></ruby><ruby>ひき肉<rt>ひきにく</rt></ruby>6kgからどれだけのソーセージを<ruby>作<rt>つく</rt></ruby>ることができますか。",
+    "options": {
+      "A": "20セット",
+      "B": "120セット",
+      "C": "180セット"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>配合比<rt>はいごうひ</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づき<ruby>豚<rt>ぶた</rt></ruby><ruby>ひき肉<rt>ひきにく</rt></ruby>6kgから120セットのソーセージが<ruby>作<rt>つく</rt></ruby>れます。"
+  },
+  {
+    "id": "HT-004",
+    "question": "<ruby>濃度<rt>のうど</rt></ruby>10％の<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>があります。400ppmの<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>を1L<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>ml<ruby>必要<rt>ひつよう</rt></ruby>ですか。",
+    "options": {
+      "A": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>996ml",
+      "B": "<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>998ml",
+      "C": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1000ml"
+    },
+    "correct_answer": "A",
+    "explanation": "400ppm<ruby>溶液<rt>ようえき</rt></ruby>を1L<ruby>作<rt>つく</rt></ruby>るために<ruby>溶液<rt>ようえき</rt></ruby>4mlと<ruby>水<rt>みず</rt></ruby>996mlが<ruby>必要<rt>ひつよう</rt></ruby>です。"
+  },
+  {
+    "id": "HT-005",
+    "question": "<ruby>下<rt>した</rt></ruby>は450gのうどんの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、<ruby>小麦粉<rt>こむぎこ</rt></ruby>10kgあれば、うどんは<ruby>何<rt>なん</rt></ruby>kgできますか。",
+    "options": {
+      "A": "15kg",
+      "B": "16kg",
+      "C": "17kg"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>配合比<rt>はいごうひ</rt></ruby>により<ruby>小麦粉<rt>こむぎこ</rt></ruby>10kgからうどんは15kg<ruby>作<rt>つく</rt></ruby>れます。"
+  },
+  {
+    "id": "HT-006",
+    "question": "450gのうどん<ruby>麺<rt>めん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るためには、<ruby>小麦粉<rt>こむぎこ</rt></ruby>300gが<ruby>必要<rt>ひつよう</rt></ruby>です。では、<ruby>小麦粉<rt>こむぎこ</rt></ruby>6kgからどれだけのうどん<ruby>麺<rt>めん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ることができますか。",
+    "options": {
+      "A": "9kgのうどん<ruby>麺<rt>めん</rt></ruby>",
+      "B": "450kgのうどん",
+      "C": "300kgのうどん<ruby>麺<rt>めん</rt></ruby>"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>小麦粉<rt>こむぎこ</rt></ruby>の<ruby>比率<rt>ひりつ</rt></ruby>から6kgでは9kgのうどん<ruby>麺<rt>めん</rt></ruby>が<ruby>作<rt>つく</rt></ruby>れます。"
+  },
+  {
+    "id": "HT-007",
+    "question": "<ruby>濃度<rt>のうど</rt></ruby>30％のNaClO<ruby>溶液<rt>ようえき</rt></ruby>があります。100ppmのNaClO<ruby>溶液<rt>ようえき</rt></ruby>を3L<ruby>作<rt>つく</rt></ruby>るのに、<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はどれぐらいの<ruby>量<rt>りょう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ですか。",
+    "options": {
+      "A": "<ruby>溶液<rt>ようえき</rt></ruby>1ml、<ruby>水<rt>みず</rt></ruby>2999ml",
+      "B": "<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>2998ml",
+      "C": "<ruby>溶液<rt>ようえき</rt></ruby>3ml、<ruby>水<rt>みず</rt></ruby>3000ml"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>希釈<rt>きしゃく</rt></ruby><ruby>計算<rt>けいさん</rt></ruby>により100ppmの3Lでは1mlの<ruby>原液<rt>げんえき</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。"
+  },
+  {
+    "id": "HT-008",
+    "question": "<ruby>下<rt>した</rt></ruby>は450gのそばの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、<ruby>小麦粉<rt>こむぎこ</rt></ruby>6kgあれば、そばは<ruby>何<rt>なん</rt></ruby>kgできますか。",
+    "options": {
+      "A": "8kg",
+      "B": "9kg",
+      "C": "10kg"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>配合比<rt>はいごうひ</rt></ruby>により6kgの<ruby>小麦粉<rt>こむぎこ</rt></ruby>から9kgのそばが<ruby>作<rt>つく</rt></ruby>れます。"
+  },
+  {
+    "id": "HT-009",
+    "question": "<ruby>濃度<rt>のうど</rt></ruby>10％の<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>があります。400ppmの<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>を1L<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>ml<ruby>必要<rt>ひつよう</rt></ruby>ですか。",
+    "options": {
+      "A": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>996ml",
+      "B": "<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>998ml",
+      "C": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1000ml"
+    },
+    "correct_answer": "A",
+    "explanation": "<ruby>希釈<rt>きしゃく</rt></ruby><ruby>計算<rt>けいさん</rt></ruby>により400ppmでは4mlの<ruby>原液<rt>げんえき</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。"
+  },
+  {
+    "id": "HT-010",
+    "question": "500gのそうめんを<ruby>作<rt>つく</rt></ruby>るためには、<ruby>小麦粉<rt>こむぎこ</rt></ruby>300gが<ruby>必要<rt>ひつよう</rt></ruby>です。では、<ruby>小麦粉<rt>こむぎこ</rt></ruby>3kgからどれだけのそうめんを<ruby>作<rt>つく</rt></ruby>ることができますか。",
+    "options": {
+      "A": "3kgのそうめん",
+      "B": "5kgのそうめん",
+      "C": "10kgのそうめん"
+    },
+    "correct_answer": "B",
+    "explanation": "<ruby>比例計算<rt>ひれいけいさん</rt></ruby>により3kgの<ruby>小麦粉<rt>こむぎこ</rt></ruby>から5kgのそうめんが<ruby>作<rt>つく</rt></ruby>れます。"
+  },
+  {
+    "id": "HT-011",
+    "question": "<ruby>濃度<rt>のうど</rt></ruby>10％のNaClO<ruby>溶液<rt>ようえき</rt></ruby>があります。200ppmのNaClO<ruby>溶液<rt>ようえき</rt></ruby>を1L<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>ml<ruby>必要<rt>ひつよう</rt></ruby>ですか。",
+    "options": {
+      "A": "<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>998ml",
+      "B": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>996ml",
+      "C": "<ruby>溶液<rt>ようえき</rt></ruby>1ml、<ruby>水<rt>みず</rt></ruby>999ml"
+    },
+    "correct_answer": "A",
+    "explanation": "200ppmでは1Lあたり2mlの<ruby>原液<rt>げんえき</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。"
+  }
+  ]
+}

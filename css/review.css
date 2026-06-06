@@ -1,0 +1,146 @@
+/* css/review.css - Lembar Gaya Evaluasi Premium */
+
+.review-body {
+    background-color: #f1f5f9;
+    color: #334155;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.review-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* 1. Scorecard Card Ringkasan Utama */
+.score-summary-card {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+}
+
+.score-badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.score-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #0f172a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #3b82f6;
+    box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2);
+}
+.score-circle span { font-size: 2.2rem; font-weight: 800; line-height: 1; }
+.score-circle small { font-size: 0.7rem; color: #94a3b8; margin-top: 4px; text-transform: uppercase; }
+
+.status-badge {
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.status-badge.pass { background-color: #d1fae5; color: #065f46; border: 1px solid #a7f3d0; }
+.status-badge.fail { background-color: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+
+.score-details-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    flex: 1;
+}
+.detail-box {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+.detail-box .detail-label { display: block; font-size: 0.8rem; color: #64748b; font-weight: 600; margin-bottom: 4px; }
+.detail-box .detail-value { font-size: 1.5rem; font-weight: 700; color: #1e293b; }
+.detail-box.success { border-left: 4px solid #10b981; }
+.detail-box.success .detail-value { color: #10b981; }
+.detail-box.danger { border-left: 4px solid #ef4444; }
+.detail-box.danger .detail-value { color: #ef4444; }
+.detail-box.info { border-left: 4px solid #3b82f6; }
+
+/* 2. Progress Bar Per Kategori */
+.category-analysis-section {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 24px;
+}
+.category-analysis-section h3, .table-header-flex h3 { font-size: 1.1rem; color: #0f172a; font-weight: 700; }
+.section-desc { font-size: 0.85rem; color: #64748b; margin-top: 2px; margin-bottom: 20px; }
+
+.bars-grid { display: flex; flex-direction: column; gap: 14px; }
+.bar-row { display: flex; flex-direction: column; gap: 6px; }
+.bar-info-flex { display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; color: #475569; }
+.bar-track { height: 10px; background-color: #e2e8f0; border-radius: 5px; overflow: hidden; }
+.bar-fill { height: 100%; background-color: #3b82f6; border-radius: 5px; transition: width 0.5s ease; }
+
+/* 3. Tabel Hasil Ulasan Kompak */
+.table-review-section {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+.table-header-flex { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+
+.filter-legend-flex { display: flex; gap: 8px; }
+.badge-filter {
+    padding: 6px 14px; font-size: 0.8rem; font-weight: 600; border-radius: 6px; cursor: pointer; border: 1px solid #cbd5e1; background: white; color: #475569;
+}
+.badge-filter.active { background-color: #0f172a; color: white; border-color: #0f172a; }
+
+.table-responsive-wrapper { overflow-x: auto; }
+.styled-review-table {
+    width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem;
+}
+.styled-review-table th {
+    background-color: #f8fafc; color: #475569; font-weight: 700; padding: 12px 16px; border-bottom: 2px solid #e2e8f0;
+}
+.styled-review-table td {
+    padding: 14px 16px; border-bottom: 1px solid #e2e8f0; vertical-align: top; line-height: 1.5;
+}
+.styled-review-table tbody tr:hover { background-color: #f8fafc; }
+
+/* Status Baris & Badge di Dalam Tabel */
+.status-row-badge {
+    display: inline-block; padding: 4px 10px; font-size: 0.75rem; font-weight: 700; border-radius: 4px; text-align: center; width: 100%;
+}
+.status-row-badge.correct-tag { background-color: #d1fae5; color: #065f46; }
+.status-row-badge.incorrect-tag { background-color: #fee2e2; color: #991b1b; }
+
+.text-center { text-align: center; }
+.font-bold { font-weight: 700; }
+
+@media (max-width: 768px) {
+    .score-summary-card { flex-direction: column; gap: 20px; }
+    .score-details-grid { grid-template-columns: repeat(2, 1fr); width: 100%; }
+    .table-header-flex { flex-direction: column; align-items: flex-start; gap: 12px; }
+}

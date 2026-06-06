@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Ujian CBT - SSW Pengolahan Makanan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/prometric.css">
+</head>
+<body class="prometric-body">
+
+    <header class="prometric-header">
+        <div class="exam-title">
+            <span class="title-main">Simulasi CBT Tokutei Ginou</span>
+            <span class="title-sub">Pengolahan Makanan (外食・食品製造)</span>
+        </div>
+        <div class="header-right">
+            <div class="progress-info" id="progress-text">Answered: 0 / 40 Soal</div>
+            <div class="timer-box">
+                <span class="timer-clock">⏱</span>
+                <span id="countdown-timer">70:00</span>
+            </div>
+            <button class="btn-ctrl btn-pause" id="btn-pause" onclick="togglePauseExam()">⏸ Pause</button>
+            <button class="btn-ctrl btn-finish" onclick="finishUjian()">Finish Test</button>
+        </div>
+    </header>
+
+    <!-- 🔥 TAMBAHAN SUBHEADER PROMETRIC -->
+    <div class="prometric-subheader">
+        <div class="subheader-left">
+            <strong> Test :</strong> Prometric Exam Simulation
+        </div>
+
+        <div class="subheader-right">
+            Candidate: dhepp <span id="nama-peserta"></span>
+        </div>
+    </div>
+
+    <div class="prometric-main">
+        
+        <aside class="exam-sidebar">
+            <div class="sidebar-header">
+                <h3>Question Number</h3>
+                </div>
+            
+            <div class="question-grid" id="number-grid">
+                </div>
+            
+            <div class="grid-legend">
+                <div class="legend-item"><span class="legend-color belum"></span> Belum</div>
+                <div class="legend-item"><span class="legend-color sudah"></span> Answered</div>
+                <div class="legend-item"><span class="legend-color ragu"></span> Ragu-ragu</div>
+            </div>
+        </aside>
+
+        <main class="exam-content">
+            <div class="question-container-box">
+                <div class="question-header">
+                    <h2 id="question-number-title">Soal No. 1</h2>
+                    <span class="category-badge" id="question-category">Memuat...</span>
+                </div>
+                
+                <div class="question-body" id="question-text">
+                    Sedang memuat pertanyaan...
+                </div>
+                
+                <div class="options-container">
+                    <button class="option-row" onclick="pilihJawaban('A')">
+                        <span class="option-badge">A</span>
+                        <span class="option-text" id="opt-text-A">Pilihan A</span>
+                    </button>
+                    <button class="option-row" onclick="pilihJawaban('B')">
+                        <span class="option-badge">B</span>
+                        <span class="option-text" id="opt-text-B">Pilihan B</span>
+                    </button>
+                    <button class="option-row" onclick="pilihJawaban('C')">
+                        <span class="option-badge">C</span>
+                        <span class="option-text" id="opt-text-C">Pilihan C</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <footer class="prometric-footer">
+        <button class="btn-nav btn-secondary" id="btn-prev" onclick="soalSebelumnya()">◀ PREV</button>
+        
+        <button class="btn-nav btn-flag" id="btn-flag" onclick="toggleRaguRagu()">
+            <span class="flag-icon">⭐UNSURE</span> 
+        </button>
+        
+        <button class="btn-nav btn-primary" id="btn-next" onclick="soalBerikutnya()">NEXT ▶</button>
+        <button class="btn-nav btn-submit" id="btn-submit" onclick="prosesSelesaiUjian()" style="display:none;">SELESAI UJIAN ✔</button>
+    </footer>
+
+    <div class="pause-overlay" id="pause-modal">
+        <div class="pause-card">
+            <h2>PAUSE</h2>
+            <p>Mau kemana hayo??🙄</p>
+            <button class="btn-resume" onclick="togglePauseExam()">▶ CONTINUE</button>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/exam.js"></script>
+    
+</body>
+</html>

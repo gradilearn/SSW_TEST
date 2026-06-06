@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - CBT SSW Food Processing</title>
+    <link rel="stylesheet" href="css/prometric.css">
+    <link rel="stylesheet" href="css/review.css">
+</head>
+<body class="review-body">
+
+    <header class="prometric-header">
+        <div class="exam-title">
+            <span class="title-main">TEST RESULT & EVALUATION</span>
+            <span class="title-sub">Simulasi CBT Tokutei Ginou - Pengolahan Makanan</span>
+        </div>
+        <div class="header-right">
+            <button class="btn-ctrl btn-pause" onclick="window.print()">🖨️ Print Results</button>
+            <button class="btn-ctrl btn-exit" onclick="Beranda()">🚪 Home Page</button>
+        </div>
+    </header>
+
+    <main class="review-container">
+        
+        <section class="score-summary-card">
+            <div class="score-badge-container">
+                <div class="score-circle">
+                    <span id="final-score-val">0</span>
+                    <small>Skor Akhir</small>
+                </div>
+                <div class="status-badge" id="pass-status-badge">-</div>
+            </div>
+            
+            <div class="score-details-grid">
+                <div class="detail-box">
+                    <span class="detail-label">Total Questions</span>
+                    <span class="detail-value" id="total-soal-val">40</span>
+                </div>
+                <div class="detail-box success">
+                    <span class="detail-label">True</span>
+                    <span class="detail-value" id="benar-val">0</span>
+                </div>
+                <div class="detail-box danger">
+                    <span class="detail-label">False</span>
+                    <span class="detail-value" id="salah-val">0</span>
+                </div>
+                <div class="detail-box info">
+                    <span class="detail-label">Passing Mark</span>
+                    <span class="detail-value">70%</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-analysis-section">
+            <h3>📈 Performance Analysis by Competency Category</h3>
+            <p class="section-desc">Gunakan grafik di bawah ini untuk melihat materi mana yang sudah Anda kuasai dan mana yang memerlukan belajar mandiri tambahan.</p>
+            <div id="category-bars-container" class="bars-grid">
+                </div>
+        </section>
+
+        <section class="table-review-section">
+            <div class="table-header-flex">
+                <h3>🔍 Answer Sheet Correction Details</h3>
+                <div class="filter-legend-flex">
+                    <span class="badge-filter status-all active" onclick="filterReviewTable('all')">All</span>
+                    <span class="badge-filter status-correct" onclick="filterReviewTable('correct')">True</span>
+                    <span class="badge-filter status-incorrect" onclick="filterReviewTable('incorrect')">False</span>
+                </div>
+            </div>
+
+            <div class="table-responsive-wrapper">
+                <table class="styled-review-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 70px; text-align: center;">No</th>
+                            <th style="width: 200px;">Module Category</th>
+                            <th>Question Text</th>
+                            <th style="width: 100px; text-align: center;">Your Answer</th>
+                            <th style="width: 100px; text-align: center;">Answer Key</th>
+                            <th style="width: 100px; text-align: center;">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="review-table-body">
+                        </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="prometric-footer" style="justify-content: center; gap: 16px;">
+        <button class="btn-nav btn-primary" onclick="restartSimulation()">
+🔄 Restart Simulation
+</button>
+        <button class="btn-nav btn-secondary" onclick="window.location.href='index.html'">🏠 Back To Dashboard</button>
+    </footer>
+
+    <script src="js/review.js"></script>
+
+    
+</body>
+</html>

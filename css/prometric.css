@@ -160,6 +160,7 @@ body.prometric-body {
     padding: 14px;
     background-color: var(--bg-sidebar-header);
     border-bottom: 1px solid var(--border-color);
+    text-align: center;
 }
 
 .sidebar-header h3 {

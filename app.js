@@ -247,7 +247,7 @@ function renderQuestion() {
     const q = examQuestions[currentQuestion];
 
     questionNumber.textContent =
-        `Soal ${currentQuestion + 1}`;
+        `Question ${currentQuestion + 1}`;
 
     questionText.innerHTML = q.t;
 
@@ -509,13 +509,13 @@ finishBtn.addEventListener("click", () => {
     if(unanswered > 0){
 
         message =
-            `Masih ada ${unanswered} soal yang belum dijawab.\n\nAkhiri ujian?`;
+            `There are still ${unanswered} unanswered questions.\n\nEnd the exam?`;
 
     }
     else{
 
         message =
-            "Semua soal sudah dijawab.\n\nAkhiri ujian?";
+            "All questions have been answered.\n\nFinish the exam?"
     }
 
     if(confirm(message)){

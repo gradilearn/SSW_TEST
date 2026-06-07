@@ -158,17 +158,27 @@ body {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: all 0.2s ease;
     background-color: #6c757d;
     color: white;
 }
 
+.btn:hover {
+    transform: translateY(-2px);
+    background-color: #5f666d;
+}
+
+.btn:active {
+    transform: translateY(1px) scale(0.98);
+}
+
 .btn-primary {
     background-color: #608a2d; /* Warna hijau mencolok untuk tombol mulai */
+
 }
 
 .btn-primary:hover {
-    background-color: #507424;
+    background-color: #507a1c;
 }
 
 .btn-block {

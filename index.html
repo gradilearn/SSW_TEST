@@ -50,7 +50,7 @@
                     </thead>
                     <tbody id="list-riwayat">
                         <tr>
-                            <td colspan="5" style="text-align: center; color: #888;">Belum ada riwayat ujian.</td>
+                            <td colspan="5" style="text-align: center; color: #888;">No exam history available.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -111,7 +111,7 @@ btnCancelStart.addEventListener('click', () => {
 
 // Proses Start Now (Ini menggantikan logika lama yang ada di tombol btn-mulai)
 btnConfirmStart.addEventListener('click', async () => {
-    btnConfirmStart.innerText = 'Memuat...';
+    btnConfirmStart.innerText = 'Writing...';
     btnConfirmStart.disabled = true;
 
     const sukses = await buatSimulasiUjian();
@@ -119,7 +119,7 @@ btnConfirmStart.addEventListener('click', async () => {
     if (sukses) {
         window.location.href = 'exam.html';
     } else {
-        alert('Gagal memuat bank soal.');
+        alert('Failed to load the question bank.');
         btnConfirmStart.innerText = 'Start Now';
         btnConfirmStart.disabled = false;
     }

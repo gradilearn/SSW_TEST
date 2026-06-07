@@ -105,7 +105,7 @@ async function initUjian() {
         } else {
             // Ambil data soal baru langsung dari questions.json secara aman
             const response = await fetch('data/questions.json');
-            if (!response.ok) throw new Error("Gagal memuat file database soal.");
+            if (!response.ok) throw new Error("Failed to load the question database file.");
             
             const dataSoalSemua = await response.json(); 
             
@@ -175,7 +175,7 @@ function renderSoal() {
     
     const soalAktif = sesi.daftarSoal[sesi.indexAktif];
     
-    document.getElementById('question-number-title').innerText = `Soal No. ${sesi.indexAktif + 1}`;
+    document.getElementById('question-number-title').innerText = `Question ${sesi.indexAktif + 1}`;
     document.getElementById('question-category').innerText = formatNamaKategori(soalAktif.id);
     
     // UBAH DARI .innerText KE .innerHTML AGAR TAG <ruby> DIRENDER SEBAGAI FURIGANA
@@ -339,7 +339,7 @@ function updateProgressInfo() {
     const jumlahTerjawab = Object.keys(sesi.jawabanUser).length;
     const elProgress = document.getElementById('progress-text');
     if (elProgress) {
-        elProgress.innerText = `Answered: ${jumlahTerjawab} / ${totalSoal} Soal`;
+        elProgress.innerText = `Answered: ${jumlahTerjawab} / ${totalSoal} Questions`;
     }
 }
 
@@ -437,10 +437,10 @@ function prosesSelesaiUjian() {
     
     let pesanKonfirmasi = `Are you sure, FINISH TEST?`;
     if (sisaSoal > 0) {
-        pesanKonfirmasi = `PERINGATAN: Masih ada ${sisaSoal} soal yang BELUM Anda jawab.\n\n${pesanKonfirmasi}`;
+        pesanKonfirmasi = `WARNING: There are still ${sisaSoal} questions you have NOT answered.\n\n${pesanKonfirmasi}`;
     }
     if (sesi.raguRagu.length > 0) {
-        pesanKonfirmasi = `INFO: Ada ${sesi.raguRagu.length} soal yang masih Anda tandai Ragu-Ragu.\n\n${pesanKonfirmasi}`;
+        pesanKonfirmasi = `INFO: There are ${sesi.raguRagu.length} questions you have marked as Uncertain.\n\n${pesanKonfirmasi}`;
     }
     
     if (confirm(pesanKonfirmasi)) {

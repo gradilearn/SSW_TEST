@@ -44,12 +44,12 @@ body {
     border-radius: 12px;
     text-align: center;
     margin-bottom: 20px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .dash-header h1 {
     font-size: 2.5rem;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     margin-bottom: 1px;
 }
 

@@ -164,7 +164,7 @@ body {
 }
 
 .btn-primary {
-    background-color: var(--success-color); /* Warna hijau mencolok untuk tombol mulai */
+    background-color: #218838; /* Warna hijau mencolok untuk tombol mulai */
 }
 
 .btn-primary:hover {

@@ -2,8 +2,8 @@
 
 /* Reset Dasar & Variabel Warna */
 :root {
-    --primary-color: #218838;     
-    --primary-hover: #218838;
+    --primary-color: #608a2d;     
+    --primary-hover: #608a2d;
     --success-color: #28a745;
     --danger-color: #dc3545;
     --warning-color: #ffc107;
@@ -38,7 +38,7 @@ body {
 
 /* Gaya Header Dashboard */
 .dash-header {
-    background: linear-gradient(135deg, var(--primary-color), #218838);
+    background: linear-gradient(135deg, var(--primary-color), #608a2d);
     color: #ffffff;
     padding: 25px 20px;
     border-radius: 12px;
@@ -164,7 +164,7 @@ body {
 }
 
 .btn-primary {
-    background-color: #218838; /* Warna hijau mencolok untuk tombol mulai */
+    background-color: #608a2d; /* Warna hijau mencolok untuk tombol mulai */
 }
 
 .btn-primary:hover {

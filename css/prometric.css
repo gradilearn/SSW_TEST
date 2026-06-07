@@ -122,7 +122,8 @@ body.prometric-body {
     font-size: 0.95rem;   /* 🔥 teks lebih besar */
     border-radius: 8px;   /* sedikit lebih tegas */
 }
-.btn-pause:hover { background-color: #ff0000; }
+.btn-pause:hover { background-color: #cfcfcf; transform: translateY(-2px);}
+
 
 /* tombol finish */
 .btn-finish {
@@ -132,7 +133,7 @@ body.prometric-body {
     font-size: 0.95rem;   /* 🔥 teks lebih besar */
     border-radius: 8px;   /* sedikit lebih tegas */
 }
-.btn-finish:hover { background-color: #e6c77a; }
+.btn-finish:hover { background-color: #e6c77a; transform: translateY(-2px);}
 
 .btn-finish:active {
     background-color: #e0b85f;
@@ -396,24 +397,27 @@ body.prometric-body {
 }
 
 .btn-secondary { background-color: #ffffff; color: #475569; }
-.btn-secondary:hover { background-color: #f1f5f9; }
+.btn-secondary:hover { background-color: #d1d1d1; transform: translateY(-2px);}
 
 .btn-primary { background-color: var(--accent-blue); color: white; border: none; }
-.btn-primary:hover { background-color: #da0000; }
+.btn-primary:hover { background-color: #507a1c; transform: translateY(-2px); }
 
 .btn-submit { background-color: var(--success-green); color: white; border: none; }
-.btn-submit:hover { background-color: #059669; }
+.btn-submit:hover { background-color: #507a1c; transform: translateY(-2px);}
 
 .btn-flag {
-    background-color: #fffbeb;
+    background-color: #f59e0b;
     border-color: #fde68a;
-    color: #b45309;
+    color: #ffffff;
 }
+.btn-flag:hover { background-color: #db8f0b; transform: translateY(-2px);}
+
 .btn-flag.flagged {
     background-color: var(--warning-yellow);
     color: white;
     border-color: var(--warning-yellow);
 }
+.btn-flag.flagged:hover { background-color: #db8f0b; transform: translateY(-2px);}
 
 /* Pop-up Modul Pause Overlay */
 .pause-overlay {
@@ -467,7 +471,7 @@ body.prometric-body {
     border-radius: 6px;
     cursor: pointer;
 }
-.btn-resume:hover { background-color: #059669; }
+.btn-resume:hover { background-color: #507a1c; transform: translateY(-2px);}
 
 /* OPTIMASI LAYAR HP ANDROID (Responsive) */
 @media (max-width: 768px) {

@@ -154,8 +154,8 @@ function dapatkanNamaKategoriCantik(key) {
         "keamanan_pangan_haccp": "HACCP & Keamanan Pangan (A)",
         "sanitasi_umum": "Sanitasi Umum & Manajemen Pekerja (B)",
         "pengendalian_mutu": "Pengendalian Mutu Proses Produksi (C)",
-        "k3": "Keselamatan & Kesehatan Kerja / K3 (D)",
-        "hitungan": "Hitungan (E)"
+        "hitungan": "Hitungan (E)",
+        "k3": "Keselamatan & Kesehatan Kerja / K3 (D)"
     };
     return kamus[key] || "Kompetensi Umum Pengolahan Makanan";
 }
@@ -164,8 +164,8 @@ function formatKategoriSingkat(idSoal) {
     if (idSoal.startsWith('KP-')) return 'HACCP & Keamanan';
     if (idSoal.startsWith('SU-')) return 'Sanitasi Umum';
     if (idSoal.startsWith('PM-')) return 'Pengendalian Mutu';
-    if (idSoal.startsWith('K3-')) return 'K3';
     if (idSoal.startsWith('HT-')) return 'Hitungan';
+    if (idSoal.startsWith('K3-')) return 'K3';
     return 'Umum';
 }
 

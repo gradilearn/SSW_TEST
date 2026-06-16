@@ -643,7 +643,7 @@
 },
 {
   "id": "SU-015",
-  "question": "<ruby>ヘアネット<rt>へあねっと</rt></ruby>や<ruby>帽子<rt>ぼうし</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>するときの<ruby>注意点<rt>ちゅういてん</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "question": "ヘアネットや<ruby>帽子<rt>ぼうし</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>するときの<ruby>注意点<rt>ちゅういてん</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
   "options": {
   "A": "<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>をすべて<ruby>中<rt>なか</rt></ruby>に<ruby>入</ruby>れる。",
   "B": "<ruby>前髪<rt>まえがみ</rt></ruby>は<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>だ</rt></ruby>してもよい。",
@@ -1105,10 +1105,9 @@
     },
     "correct_answer": "A",
     "explanation": "<ruby>手袋<rt>てぶくろ</rt></ruby>が破れた場合は、すぐに交換し<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>を防ぐ必要があります。"
-  }
-],
+  },
 
-"k3": [
+
   {
     "id": "K3-001",
     "question": "<ruby>食品<rt>しょくひん</rt></ruby><ruby>製造<rt>せいぞう</rt></ruby><ruby>工場<rt>こうじょう</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>くことになりました。<ruby>食品<rt>しょくひん</rt></ruby>や<ruby>飲料<rt>いんりょう</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>産業<rt>さんぎょう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
@@ -1329,7 +1328,6 @@
     "correct_answer": "A",
     "explanation": "<ruby>薬剤<rt>やくざい</rt></ruby>は<ruby>食品<rt>しょくひん</rt></ruby>と<ruby>分離<rt>ぶんり</rt></ruby><ruby>保管<rt>ほかん</rt></ruby>します。"
   },
-
   {
     "id": "K3-021",
     "question": "<ruby>包丁<rt>ほうちょう</rt></ruby>や<ruby>まな板<rt>まないた</rt></ruby>を<ruby>色分<rt>いろわ</rt></ruby>けして<ruby>使用<rt>しよう</rt></ruby>する<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
@@ -1428,6 +1426,609 @@
     },
     "correct_answer": "A",
     "explanation": "<ruby>入室前<rt>にゅうしつまえ</rt></ruby>に<ruby>身<rt>み</rt></ruby>だしなみと<ruby>衛生状態<rt>えいせいじょうたい</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>するため、<ruby>入口付近<rt>いりぐちふきん</rt></ruby>に<ruby>設置<rt>せっち</rt></ruby>します。"
+  }
+],
+
+"k3": [
+  {
+    "id": "K3-001",
+    "question": "<ruby>段<rt>だん</rt></ruby>ボール<ruby>箱<rt>ばこ</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねて<ruby>持<rt>も</rt></ruby>って<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>移動<rt>いどう</rt></ruby>したとき、<ruby>坂<rt>さか</rt></ruby>で<ruby>滑<rt>すべ</rt></ruby>りそうになった。この<ruby>場合<rt>ばあい</rt></ruby>はどうすればいいのか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1OVvgLqhEYlfZvTshxtMrOU4P2378GgZD",
+    "options": {
+      "A": "<ruby>作業<rt>さぎょう</rt></ruby><ruby>靴<rt>ぐつ</rt></ruby>は<ruby>定期<rt>ていき</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>点検<rt>てんけん</rt></ruby>し、<ruby>靴底<rt>くつぞこ</rt></ruby>のすり<ruby>減<rt>へ</rt></ruby>った<ruby>作業<rt>さぎょう</rt></ruby><ruby>靴<rt>ぐつ</rt></ruby>は<ruby>交換<rt>こうかん</rt></ruby>する",
+      "B": "<ruby>重<rt>かさ</rt></ruby>ねて<ruby>持<rt>も</rt></ruby>って<ruby>移動<rt>いどう</rt></ruby>するとき、<ruby>作業<rt>さぎょう</rt></ruby><ruby>靴<rt>ぐつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>かない",
+      "C": "<ruby>重<rt>かさ</rt></ruby>ねて<ruby>持<rt>も</rt></ruby>って<ruby>移動<rt>いどう</rt></ruby>するとき、<ruby>前<rt>まえ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えなくても<ruby>急<rt>いそ</rt></ruby>いで<ruby>歩<rt>ある</rt></ruby>く"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat memindahkan kotak kardus yang ditumpuk di dalam gudang, hampir terpeleset di tanjakan/turunan. Dalam kasus ini, apa yang sebaiknya dilakukan? Pilihlah satu yang benar."
+  },
+  {
+    "id": "K3-002",
+    "question": "トラックから<ruby>米<rt>こめ</rt></ruby>を<ruby>降<rt>お</rt></ruby>ろそうとして、<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げた<ruby>米袋<rt>こめぶくろ</rt></ruby>を<ruby>肩<rt>かた</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せたところ、<ruby>腰<rt>こし</rt></ruby>をひねって<ruby>痛<rt>いた</rt></ruby>めそうになった。この<ruby>場合<rt>ばあい</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1JvbBBUmC3jJv1HmcjEcb4jgmMVZ979Uo",
+    "options": {
+      "A": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>急<rt>きゅう</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げて、<ruby>顔<rt>かお</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せたため",
+      "B": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>急<rt>きゅう</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げて、<ruby>肩<rt>かた</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せたため、<ruby>腰<rt>こし</rt></ruby>に<ruby>急<rt>きゅう</rt></ruby>な<ruby>力<rt>ちから</rt></ruby>がかかった",
+      "C": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>急<rt>きゅう</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げて、<ruby>頭<rt>あたま</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せたため"
+    },
+    "correct_answer": "B",
+    "explanation": "Saat hendak menurunkan beras dari truk, ketika karung beras yang diangkat diletakkan di bahu, pinggang terpelintir dan hampir cedera. Apa penyebabnya dalam kasus ini? Pilihlah satu yang benar."
+  },
+  {
+    "id": "K3-003",
+    "question": "<ruby>重<rt>おも</rt></ruby>い<ruby>窯<rt>かま</rt></ruby>を<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げた<ruby>際<rt>さい</rt></ruby>、<ruby>腰<rt>こし</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>痛<rt>いた</rt></ruby>みを<ruby>感<rt>かん</rt></ruby>じた。この<ruby>場合<rt>ばあい</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/14LvfzGWSSIruGNTTTk4H5Qlr_XESPzbb",
+    "options": {
+      "A": "<ruby>元気<rt>げんき</rt></ruby>よく<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げようとしたこと",
+      "B": "<ruby>安定<rt>あんてい</rt></ruby>した<ruby>姿勢<rt>しせい</rt></ruby>のまま<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げようとしたこと",
+      "C": "<ruby>不安定<rt>ふあんてい</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>のまま<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げようとしたこと"
+    },
+    "correct_answer": "C",
+    "explanation": "Saat mengangkat ketel/panci berat dengan kedua tangan, terasa sakit yang kuat di pinggang. Apa penyebabnya dalam kasus ini? Pilihlah satu yang benar."
+  },
+  {
+    "id": "K3-004",
+    "question": "<ruby>問題<rt>もんだい</rt></ruby>37の<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/14LvfzGWSSIruGNTTTk4H5Qlr_XESPzbb",
+    "options": {
+      "A": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>持<rt>も</rt></ruby>たないようにする",
+      "B": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>移動<rt>いどう</rt></ruby>させるときは、できるだけ<ruby>台車<rt>だいしゃ</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>する",
+      "C": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>移動<rt>いどう</rt></ruby>させるときは、<ruby>常<rt>つね</rt></ruby>に<ruby>走<rt>はし</rt></ruby>って<ruby>運<rt>はこ</rt></ruby>ぶ"
+    },
+    "correct_answer": "B",
+    "explanation": "Untuk mencegah kecelakaan pada soal No. 37, apa yang sebaiknya dilakukan? Pilihlah satu yang benar."
+  },
+  {
+    "id": "K3-005",
+    "question": "<ruby>熱<rt>ねっ</rt></ruby><ruby>中<rt>ちゅう</rt></ruby><ruby>症<rt>しょう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby><ruby>ぐための<ruby>対<rt>たい</rt></ruby><ruby>策<rt>さく</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
+    "img": "https://lh3.googleusercontent.com/d/19S3EMYIkeO8tLtaR2gXof8uGGqK_C0K5",
+    "options": {
+      "A": "<ruby>気<rt>き</rt></ruby><ruby>温<rt>おん</rt></ruby>や<ruby>湿<rt>しつ</rt></ruby><ruby>度<rt>ど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いときは、<ruby>休<rt>きゅう</rt></ruby><ruby>憩<rt>けい</rt></ruby>せずに<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>を<ruby>続<rt>つづ</rt></ruby>ける",
+      "B": "<ruby>汗<rt>あせ</rt></ruby><ruby>を<ruby>吸<rt>す</rt></ruby>って<ruby>乾<rt>かわ</rt></ruby>きやすい<ruby>衣<rt>い</rt></ruby><ruby>服<rt>ふく</rt></ruby>を<ruby>着<rt>ちゃく</rt></ruby><ruby>用<rt>よう</rt></ruby>する",
+      "C": "<ruby>冷<rt>つめ</rt></ruby><ruby>たい<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>避<rt>よ</rt></ruby>ける"
+    },
+    "correct_answer": "B",
+    "explanation": "Mana tindakan yang benar sebagai langkah untuk mencegah sengatan panas (heatstroke/netchuusho)?"
+  },
+  {
+    "id": "K3-006",
+    "question": "げんいんはどれですか。（<ruby>脚立<rt>きゃたつ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>不安定<rt>ふ不安てい</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>で<ruby>作業<rt>さぎょう</rt></ruby>しているイラスト）",
+    "img": "https://lh3.googleusercontent.com/d/10VNWt-KGe18mQY7QViKleTT14IpDMFb0",
+    "options": {
+      "A": "ボルトをしめるときに<ruby>力<rt>ちから</rt></ruby>を<ruby>入<rt>い</rt></ruby>れないこと",
+      "B": "<ruby>不安定<rt>ふあんてい</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>をさけること",
+      "C": "<ruby>脚立<rt>きゃたつ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って<ruby>不安定<rt>ふあんてい</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>で<ruby>作業<rt>さぎょう</rt></ruby>したこと"
+    },
+    "correct_answer": "C",
+    "explanation": "[Soal Gambar] Manakah yang menjadi penyebabnya? (Ilustrasi bekerja dengan posisi tidak stabil di atas tangga berkaki/step ladder)"
+  },
+  {
+    "id": "K3-007",
+    "question": "この<ruby>絵<rt>え</rt></ruby>のような<ruby>腰痛<rt>ようつう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby><ruby>ぐために、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
+    "img": "https://lh3.googleusercontent.com/d/1CXlggXhXeVUH8i0Zbf6l9nbhLIiKZQVL",
+    "options": {
+      "A": "<ruby>腰<rt>こし</rt></ruby><ruby>だけを使（つか）って持（も）ち上（あ）げる",
+      "B": "<ruby>膝<rt>ひざ</rt></ruby><ruby>を<ruby>曲<rt>ま</rt></ruby>げて、<ruby>体<rt>からだ</rt></ruby><ruby>を<ruby>近<rt>ちか</rt></ruby>づけて持（も）ち上（あ）げる",
+      "C": "<ruby>急<rt>いそ</rt></ruby><ruby>いで<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby><ruby>を持（も）ち上（あ）げる"
+    },
+    "correct_answer": "B",
+    "explanation": "[Soal Gambar] Manakah hal yang benar untuk mencegah sakit pinggang seperti pada gambar ini?"
+  },
+  {
+    "id": "K3-008",
+    "question": "フォークリフトによる<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby><ruby>ぐためには、どうしますか。",
+    "img": "https://lh3.googleusercontent.com/d/17lE9bfWM1bHyba87l6e8aZ2nyE5gUG5J",
+    "options": {
+      "A": "<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>で<ruby>一時停止<rt>いちじていし</rt></ruby>しない",
+      "B": "スピードを<ruby>上<rt>あ</rt></ruby>げて<ruby>通過<rt>つうか</rt></ruby>する",
+      "C": "<ruby>一時停止<rt>いちじていし</rt></ruby>して、<ruby>安全確認<rt>あんぜんかくにん</rt></ruby>をする"
+    },
+    "correct_answer": "C",
+    "explanation": "[Soal Gambar] Apa yang harus dilakukan untuk mencegah kecelakaan akibat forklift?"
+  },
+  {
+    "id": "K3-009",
+    "question": "<ruby>包装<rt>ほうそう</rt></ruby>ラインの<ruby>機械<rt>きかい</rt></ruby>で<ruby>製品<rt>せいひん</rt></ruby>が<ruby>詰まって<rt>つまって</rt></ruby><ruby>止まった<rt>とまった</rt></ruby>ので、<ruby>停止<rt>ていし</rt></ruby>ボタンを<ruby>押さ<rt>おさ</rt></ruby>ないでカバーを<ruby>開けて<rt>あけて</rt></ruby>、<ruby>詰まった<rt>つまって</rt></ruby><ruby>製品<rt>せいひん</rt></ruby>を<ruby>取り除こう<rt>とりのぞこう</rt></ruby>としたら、<ruby>突然<rt>とつぜん</rt></ruby><ruby>機械<rt>きかい</rt></ruby>が<ruby>動き出し<rt>うごきだし</rt></ruby>て<ruby>手<rt>て</rt></ruby>が<ruby>挟まれ<rt>はさまれ</rt></ruby>そうになった。この<ruby>場合<rt>ばあい</rt></ruby>の<ruby>災害防止対策<rt>さいがいぼうしたいさく</rt></ruby>はどれですか。",
+    "img": "https://lh3.googleusercontent.com/d/11tHsAQY52N8bbP2iMNMHxaZrHE_CmU-p",
+    "options": {
+      "A": "カバーを<ruby>閉める<rt>しめる</rt></ruby>と<ruby>機械<rt>きかい</rt></ruby>が<ruby>自動的<rt>じどうてき</rt></ruby>に<ruby>止まる<rt>とまる</rt></ruby><ruby>装置<rt>そうち</rt></ruby>をつける",
+      "B": "カバーを<ruby>開ける<rt>あける</rt></ruby>と<ruby>機械<rt>きかい</rt></ruby>が<ruby>自動的<rt>じどうてき</rt></ruby>に<ruby>止まる<rt>とまる</rt></ruby><ruby>装置<rt>そうち</rt></ruby>をつける",
+      "C": "<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>停止<rt>ていし</rt></ruby>ボタンを<ruby>押し<rt>おし</rt></ruby>て<ruby>機械<rt>きかい</rt></ruby>を<ruby>止めて<rt>とめて</rt></ruby>からカバーを<ruby>開ける<rt>あける</rt></ruby>"
+    },
+    "correct_answer": "B",
+    "explanation": "Produk tersangkut pada mesin lini pengemasan sehingga mesin berhenti. Saat mencoba mengambil produk dengan membuka penutup tanpa menekan tombol stop, mesin tiba-tiba menyala kembali dan tangan hampir terjepit. Manakah tindakan pencegahan kecelakaan yang tepat dalam kasus ini?"
+  },
+  {
+    "id": "K3-010",
+    "question": "フレコンバッグをクレーンで<ruby>吊<rt>つ</rt></ruby>り<ruby>上<rt>あ</rt></ruby>げ、<ruby>荷台<rt>にだい</rt></ruby>から<ruby>降<rt>お</rt></ruby>ろそうとした<ruby>時<rt>とき</rt></ruby>にフレコンバッグが<ruby>揺<rt>ゆ</rt></ruby>れて<ruby>身体<rt>しんたい</rt></ruby>に<ruby>当<rt>あ</rt></ruby>たり、<ruby>荷台<rt>にだい</rt></ruby>から<ruby>落<rt>お</rt></ruby>ちそうになった。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。",
+    "img": "https://lh3.googleusercontent.com/d/1PCAnQNMKfy6kpNTqQMyfX91TlTRhKEeH",
+    "options": {
+      "A": "クレーンを<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>立<rt>た</rt></ruby>つ<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>十分理解<rt>じゅうぶんりかい</rt></ruby>しておく",
+      "B": "フレコンバッグを<ruby>吊<rt>つ</rt></ruby>り<ruby>上<rt>あ</rt></ruby>げる<ruby>際<rt>さい</rt></ruby>、クレーンのワイヤーが<ruby>切<rt>き</rt></ruby>れていたこと",
+      "C": "クレーンを<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>、フレコンバッグを<ruby>気<rt>き</rt></ruby>がつきましたこと"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat mengangkat tas fleksibel (flecon bag) dengan derek dan hendak menurunkannya dari bak truk, tas tersebut bergoyang dan mengenai tubuh, sehingga hampir jatuh dari bak. Apa yang harus dilakukan untuk mencegah kecelakaan ini?"
+  },
+  {
+    "id": "K3-011",
+    "question": "このイラストはフォークリフトで<ruby>空箱<rt>からばこ</rt></ruby>を<ruby>外<rt>そと</rt></ruby>の<ruby>置<rt>お</rt></ruby>き<ruby>場<rt>ば</rt></ruby>に<ruby>運<rt>はこ</rt></ruby>ぶため、<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>を<ruby>一時停止<rt>いちじていし</rt></ruby>しないで<ruby>通過<rt>つうか</rt></ruby>した<ruby>時<rt>とき</rt></ruby>、<ruby>横<rt>よこ</rt></ruby>から<ruby>来<rt>き</rt></ruby>た<ruby>人<rt>ひと</rt></ruby>とぶつかりそうになった<ruby>様子<rt>ようす</rt></ruby>です。この<ruby>事故<rt>じこ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+    "img": "https://lh3.googleusercontent.com/d/1u14dpsYpP9iG6NlPgPz_TixfM0bMVo_v",
+    "options": {
+      "A": "<ruby>歩<rt>ある</rt></ruby>いている<ruby>人<rt>ひと</rt></ruby>が<ruby>帽子<rt>ぼうし</rt></ruby>をかぶっているため、フォークリフトが<ruby>見<rt>み</rt></ruby>えなかったため",
+      "B": "フォークリフトの<ruby>運転者<rt>うんてんしゃ</rt></ruby>は<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>で、<ruby>一時停止<rt>いちじていし</rt></ruby>しなかったため",
+      "C": "<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>が<ruby>狭<rt>せま</rt></ruby>かったため"
+    },
+    "correct_answer": "B",
+    "explanation": "Ilustrasi ini menunjukkan keadaan di mana forklift hampir menabrak orang yang datang dari samping saat melewati pintu masuk gudang tanpa berhenti sejenak untuk membawa kotak kosong ke tempat penyimpanan luar. Apa penyebab kecelakaan ini?"
+  },
+  {
+    "id": "K3-012",
+    "question": "<ruby>問題<rt>もんだい</rt></ruby>34の<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらよいですか。",
+    "img": "https://lh3.googleusercontent.com/d/1u14dpsYpP9iG6NlPgPz_TixfM0bMVo_v",
+    "options": {
+      "A": "フォークリフトの<ruby>運転者<rt>うんてんしゃ</rt></ruby>は、<ruby>入口前<rt>いりぐちまえ</rt></ruby>での<ruby>一時停止<rt>いちじていし</rt></ruby>と、<ruby>指差呼称<rt>ゆびさしこしょう</rt></ruby>による<ruby>安全確認<rt>あんぜんかくにん</rt></ruby>をかならず<ruby>行<rt>おこな</rt></ruby>うようにする",
+      "B": "<ruby>工場内<rt>こうじょうない</rt></ruby>では<ruby>帽子<rt>ぼうし</rt></ruby>をかぶらないようにする",
+      "C": "<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>を<ruby>大<rt>おお</rt></ruby>きくして、フォークリフトを<ruby>通<rt>とお</rt></ruby>しやすくする"
+    },
+    "correct_answer": "A",
+    "explanation": "Apa yang harus dilakukan untuk mencegah kecelakaan pada soal nomor 34?"
+  },
+  {
+    "id": "K3-013",
+    "question": "<ruby>以下<rt>いか</rt></ruby>の<ruby>図<rt>ず</rt></ruby>は<ruby>作業場<rt>さぎょうじょう</rt></ruby>のホースの<ruby>状態<rt>じょうたい</rt></ruby>です。それについて<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1eAHSdl1HUZVTjtdWVdWaUg-wSOfFAOGo",
+    "options": {
+      "A": "<ruby>表面<rt>ひょうめん</rt></ruby>がボロボロになっているけど、<ruby>使用<rt>しよう</rt></ruby>に<ruby>影響<rt>えいきょう</rt></ruby>がないためそのまま<ruby>使用<rt>しよう</rt></ruby>する",
+      "B": "<ruby>虫<rt>むし</rt></ruby>やカビの<ruby>発生<rt>はっせい</rt></ruby>になりやすい<ruby>状態<rt>じょうたい</rt></ruby>である",
+      "C": "この<ruby>状態<rt>じょうたい</rt></ruby>で<ruby>使用<rt>しよう</rt></ruby>すると<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>しやすい"
+    },
+    "correct_answer": "A",
+    "explanation": "Gambar berikut menunjukkan kondisi selang di tempat kerja. Pilih satu hal yang salah mengenai hal tersebut."
+  },
+  {
+    "id": "K3-014",
+    "question": "パンが<ruby>入<rt>はい</rt></ruby>った<ruby>箱<rt>はこ</rt></ruby>を<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>ち、トラックに<ruby>向<rt>む</rt></ruby>かって<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>いていた<ruby>際<rt>さい</rt></ruby>、<ruby>足元<rt>あしもと</rt></ruby>に<ruby>置<rt>お</rt></ruby>かれていた<ruby>空箱<rt>からばこ</rt></ruby>に<ruby>気<rt>き</rt></ruby>づかず、つまずき<ruby>転倒<rt>てんとう</rt></ruby>しそうになった。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1bjV_-DItDQ0ItOjp68Af3BlBKEqlcHHr",
+    "options": {
+      "A": "<ruby>通路<rt>つうろ</rt></ruby>に<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>きっぱなしにして、<ruby>箱<rt>はこ</rt></ruby>をいくつ<ruby>持<rt>も</rt></ruby>ってもいいです",
+      "B": "<ruby>作業<rt>さぎょう</rt></ruby>で<ruby>使用<rt>しよう</rt></ruby>するものであっても、<ruby>通路<rt>つうろ</rt></ruby>にものを<ruby>置<rt>お</rt></ruby>きっぱなしにせず、<ruby>作業開始前<rt>さぎょうかいしまえ</rt></ruby>には<ruby>通路<rt>つうろ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>すること",
+      "C": "<ruby>箱<rt>はこ</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねて<ruby>運<rt>はこ</rt></ruby>ぶ<ruby>際<rt>さい</rt></ruby>は、<ruby>前<rt>まえ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えるように<ruby>運<rt>はこ</rt></ruby>する"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat membawa kotak berisi roti dengan kedua tangan dan berjalan di tempat parkir menuju truk, orang tersebut tidak menyadari adanya kotak kosong di kakinya dan hampir tersandung serta jatuh. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilih satu yang salah."
+  },
+  {
+    "id": "K3-015",
+    "question": "<ruby>以下<rt>いか</rt></ruby>の<ruby>図<rt>ず</rt></ruby>は<ruby>包装<rt>ほうそう</rt></ruby>ラインで、<ruby>製品<rt>せいひん</rt></ruby>が<ruby>詰<rt>つ</rt></ruby>まって<ruby>機械<rt>きかい</rt></ruby>が<ruby>止<rt>と</rt></ruby>まっていた<ruby>様子<rt>ようす</rt></ruby>です。その<ruby>対応<rt>たいおう</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1MfEJA2L_dHhDTdevGob9MHLluVHRcxtf",
+    "options": {
+      "A": "<ruby>停止<rt>ていし</rt></ruby>ボタンを<ruby>押<rt>お</rt></ruby>し、<ruby>完全<rt>かんぜん</rt></ruby>な<ruby>停止<rt>ていし</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>してから<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う",
+      "B": "<ruby>誰<rt>だれ</rt></ruby>にも<ruby>放置<rt>ほうち</rt></ruby>する",
+      "C": "<ruby>一人<rt>ひとり</rt></ruby>で<ruby>処理<rt>しょり</rt></ruby>をする"
+    },
+    "correct_answer": "A",
+    "explanation": "Gambar berikut menunjukkan kondisi di mana mesin berhenti karena produk tersumbat di lini pengemasan. Pilih satu tindakan yang benar untuk menanganinya."
+  },
+  {
+    "id": "K3-016",
+    "question": "<ruby>以下<rt>いか</rt></ruby>の<ruby>図<rt>ず</rt></ruby>はA<ruby>子<rt>こ</rt></ruby>さんがお<ruby>湯<rt>ゆ</rt></ruby>を<ruby>捨<rt>す</rt></ruby>て、<ruby>転倒<rt>てんとう</rt></ruby>しそうな<ruby>様子<rt>ようす</rt></ruby>です。それについて、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1iBbXAzJsztq75ctwhY6ECduSVS0w6Fzt",
+    "options": {
+      "A": "<ruby>熱湯<rt>ねっとう</rt></ruby>の<ruby>入<rt>はい</rt></ruby>った<ruby>大鍋<rt>おおなべ</rt></ruby>は<ruby>二人<rt>ふたり</rt></ruby>で<ruby>運<rt>はこ</rt></ruby>んだ<ruby>方<rt>ほう</rt></ruby>がよい",
+      "B": "<ruby>運<rt>はこ</rt></ruby>ぶ<ruby>時<rt>とき</rt></ruby>にゴム<ruby>手袋<rt>てぶくろ</rt></ruby外部、<ruby>前掛<rt>まえか</rt></ruby>け、メガネなどの<ruby>保護具<rt>ほごぐ</rt></ruby>をつける",
+      "C": "<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>を<ruby>着<rt>つ</rt></ruby>けば<ruby>一人<rt>ひとり</rt></ruby>でお<ruby>湯入<rt>ゆい</rt></ruby>りの<ruby>大鍋<rt>おおなべ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>んでも<ruby>問題<rt>もんだい</rt></ruby>はない"
+    },
+    "correct_answer": "C",
+    "explanation": "Gambar berikut menunjukkan Nona A yang hampir terjatuh saat membuang air panas. Pilih satu hal yang salah mengenai situasi tersebut."
+  },
+  {
+    "id": "K3-017",
+    "question": "<ruby>段<rt>だん</rt></ruby>ボール<ruby>箱<rt>ばこ</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねて<ruby>持<rt>も</rt></ruby>って<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>移動<rt>いどう</rt></ruby>したとき、<ruby>坂<rt>さか</rt></ruby>で<ruby>滑<rt>すべ</rt></ruby>りそうになった。この<ruby>場合<rt>ばあい</rt></ruby>はどうすればいいのか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1OVvgLqhEYlfZvTshxtMrOU4P2378GgZD",
+    "options": {
+      "A": "<ruby>作業<rt>さぎょう</rt></ruby><ruby>靴<rt>ぐつ</rt></ruby>は<ruby>定期<rt>ていき</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>点検<rt>てんけん</rt></ruby>し、<ruby>靴底<rt>くつぞこ</rt></ruby>のすり<ruby>減<rt>へ</rt></ruby>った<ruby>作業<rt>さぎょう</rt></ruby><ruby>靴<rt>ぐつ</rt></ruby>は<ruby>交換<rt>こうかん</rt></ruby>する",
+      "B": "<ruby>重<rt>かさ</rt></ruby>ねて<ruby>持<rt>も</rt></ruby>って<ruby>移動<rt>いどう</rt></ruby>するとき、<ruby>作業<rt>さぎょう</rt></ruby><ruby>靴<rt>ぐつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>かない",
+      "C": "<ruby>重<rt>かさ</rt></ruby>ねて<ruby>持<rt>も</rt></ruby>って<ruby>移動<rt>いどう</rt></ruby>するとき、<ruby>前<rt>まえ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えなくても<ruby>急<rt>いそ</rt></ruby>いで<ruby>歩<rt>ある</rt></ruby>く"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat memindahkan kotak kardus yang ditumpuk di dalam gudang, hampir terpeleset di tanjakan/turunan. Dalam kasus ini, apa yang sebaiknya dilakukan? Pilihlah satu yang benar."
+  },
+  {
+    "id": "K3-018",
+    "question": "トラックから<ruby>米<rt>こめ</rt></ruby>を<ruby>降<rt>お</rt></ruby>ろそうとして、<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げた<ruby>米袋<rt>こめぶくろ</rt></ruby>を<ruby>肩<rt>かた</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せたところ、<ruby>腰<rt>こし</rt></ruby>をひねって<ruby>痛<rt>いた</rt></ruby>めそうになった。この<ruby>場合<rt>ばあい</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1JvbBBUmC3jJv1HmcjEcb4jgmMVZ979Uo",
+    "options": {
+      "A": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>急<rt>きゅう</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げて、<ruby>顔<rt>かお</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せたため",
+      "B": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>急<rt>きゅう</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げて、<ruby>肩<rt>かた</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せたため、<ruby>腰<rt>こし</rt></ruby>に<ruby>急<rt>きゅう</rt></ruby>な<ruby>力<rt>ちから</rt></ruby>がかかった",
+      "C": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>急<rt>きゅう</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げて、<ruby>頭<rt>あたま</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>せたため"
+    },
+    "correct_answer": "B",
+    "explanation": "Saat hendak menurunkan beras dari truk, ketika karung beras yang diangkat diletakkan di bahu, pinggang terpelintir and hampir cedera. Apa penyebabnya dalam kasus ini? Pilihlah satu yang benar."
+  },
+  {
+    "id": "K3-019",
+    "question": "<ruby>重<rt>おも</rt></ruby>い<ruby>窯<rt>かま</rt></ruby>を<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げた<ruby>際<rt>さい</rt></ruby>、<ruby>腰<rt>こし</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>痛<rt>いた</rt></ruby>みを<ruby>感<rt>かん</rt></ruby>じた。この<ruby>場合<rt>ばあい</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/14LvfzGWSSIruGNTTTk4H5Qlr_XESPzbb",
+    "options": {
+      "A": "<ruby>元気<rt>げんき</rt></ruby>よく<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げようとしたこと",
+      "B": "<ruby>安定<rt>あんてい</rt></ruby>した<ruby>姿勢<rt>しせい</rt></ruby>のまま<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げようとしたこと",
+      "C": "<ruby>不安定<rt>ふあんてい</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>のまま<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げようとしたこと"
+    },
+    "correct_answer": "C",
+    "explanation": "Saat mengangkat ketel/panci berat dengan kedua tangan, terasa sakit yang kuat di pinggang. Apa penyebabnya dalam kasus ini? Pilihlah satu yang benar."
+  },
+  {
+    "id": "K3-020",
+    "question": "<ruby>問題<rt>もんだい</rt></ruby>37の<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/14LvfzGWSSIruGNTTTk4H5Qlr_XESPzbb",
+    "options": {
+      "A": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>持<rt>も</rt></ruby>たないようにする",
+      "B": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>移動<rt>いどう</rt></ruby>させるときは、できるだけ<ruby>台車<rt>だいしゃ</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>する",
+      "C": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>移動<rt>いどう</rt></ruby>させるときは、<ruby>常<rt>つね</rt></ruby>に<ruby>走<rt>はし</rt></ruby>って<ruby>運<rt>はこ</rt></ruby>ぶ"
+    },
+    "correct_answer": "B",
+    "explanation": "Untuk mencegah kecelakaan pada soal No. 37, apa yang sebaiknya dilakukan? Pilihlah satu yang benar."
+  },
+  {
+    "id": "K3-021",
+    "question": "ロッカーの<ruby>下<rt>した</rt></ruby>を<ruby>清掃<rt>せいそう</rt></ruby>するとき、どうすればいいのか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1I90zwadeQJC4nFNqiqrLCfLyPw2haqbC",
+    "options": {
+      "A": "<ruby>清掃<rt>せいそう</rt></ruby>しにくい<ruby>場所<rt>ばしょ</rt></ruby>がある<ruby>場合<rt>ばあい</rt></ruby>は、<ruby>清掃<rt>せいそう</rt></ruby>しやすくする<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>える",
+      "B": "<ruby>清掃<rt>せいそう</rt></ruby>しにくい<ruby>場所<rt>ばしょ</rt></ruby>がある<ruby>場合<rt>ばあい</rt></ruby>は、<ruby>掃除<rt>そうじ</rt></ruby>しなくてもいい",
+      "C": "<ruby>清掃<rt>せいそう</rt></ruby>しにくい<ruby>場所<rt>ばしょ</rt></ruby>は、わざと<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>いて<ruby>隠<rt>かく</rt></ruby>する"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat membersihkan bagian bawah loker, apa yang sebaiknya dilakukan? Pilihlah satu yang benar."
+  },
+  {
+    "id": "K3-022",
+    "question": "<ruby>以下<rt>いか</rt></ruby>は<ruby>浸水<rt>しんすい</rt></ruby>され、<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>掲示物<rt>けいじぶつ</rt></ruby>が<ruby>見<rt>み</rt></ruby>にくくなることを<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>何<rt>なに</rt></ruby>をしたら<ruby>良<rt>よ</rt></ruby>いですか。",
+    "img": "https://lh3.googleusercontent.com/d/1oe4InG5vd-RX8Laf0xvFjmfW2pJxkbaL",
+    "options": {
+      "A": "<ruby>高<rt>たか</rt></ruby>いところに<ruby>貼<rt>は</rt></ruby>る",
+      "B": "<ruby>透明<rt>とうめい</rt></ruby>パウチに<ruby>入<rt>い</rt></ruby>れて<ruby>貼<rt>は</rt></ruby>る",
+      "C": "<ruby>直接壁<rt>ちょくせつかべ</rt></ruby>などに<ruby>書<rt>か</rt></ruby>く"
+    },
+    "correct_answer": "B",
+    "explanation": "Berikut adalah untuk mencegah poster yang terendam air atau basah menjadi sulit dilihat, apa yang sebaiknya dilakukan?"
+  },
+  {
+    "id": "K3-023",
+    "question": "トラックの<ruby>荷台<rt>にだい</rt></ruby>で<ruby>荷物<rt>にもつ</rt></ruby>の<ruby>積<rt>つ</rt></ruby>み<ruby>込<rt>こ</rt></ruby>み<ruby>作業中<rt>さぎょうちゅう</rt></ruby>、<ruby>崩<rt>くず</rt></ruby>れ<ruby>落<rt>お</rt></ruby>ちそうになった<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>支<rt>ささ</rt></ruby>えようとして、<ruby>荷台<rt>にだい</rt></ruby>から<ruby>転落<rt>てんらく</rt></ruby>しそうになりました。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためには、どうしたらよいですか。",
+    "img": "https://lh3.googleusercontent.com/d/1J5oW04zhfDCSV5PBM-s33bW3B70Q-Qkt",
+    "options": {
+      "A": "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>積<rt>つ</rt></ruby>み<ruby>上<rt>あ</rt></ruby>げないようにする",
+      "B": "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>荷台<rt>にだい</rt></ruby>に<ruby>平均<rt>へいきん</rt></ruby>して<ruby>積<rt>つ</rt></ruby>み<ruby>上<rt>あ</rt></ruby>げる。<ruby>崩<rt>くず</rt></ruby>れやすい<ruby>荷物<rt>にもつ</rt></ruby>は<ruby>崩<rt>くず</rt></ruby>れ<ruby>対策<rt>たいさく</rt></ruby>をとる",
+      "C": "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>荷台<rt>にだい</rt></ruby>に<ruby>適当<rt>てきとう</rt></ruby>に<ruby>積<rt>つ</rt></ruby>み<ruby>上<rt>あ</rt></ruby>げ、テープで<ruby>固定<rt>こてい</rt></ruby>する"
+    },
+    "correct_answer": "B",
+    "explanation": "Saat memuat barang di bak truk, seseorang hampir jatuh dari bak truk karena mencoba menahan barang yang akan runtuh. Apa yang harus dilakukan untuk mencegah kecelakaan ini?"
+  },
+  {
+    "id": "K3-024",
+    "question": "<ruby>棚<rt>たな</rt></ruby>から<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>取出<rt>とりだ</rt></ruby>し、<ruby>手<rt>て</rt></ruby>で<ruby>持<rt>も</rt></ruby>って<ruby>降<rt>お</rt></ruby>ろそうとしたときに、<ruby>脚立<rt>きゃたつ</rt></ruby>がぐらついてバランスを<ruby>崩<rt>くず</rt></ruby>し、<ruby>落<rt>お</rt></ruby>ちそうになった<ruby>様子<rt>ようす</rt></ruby>です。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらよいですか。",
+    "img": "https://lh3.googleusercontent.com/d/1Ge3TjfClAWSM8oiZ-LHkcsOH9R3Dgqv5",
+    "options": {
+      "A": "<ruby>脚立<rt>きゃたつ</rt></ruby>は、<ruby>必<rt>かなら</rt></ruby>ず<ruby>開<rt>ひら</rt></ruby>き<ruby>止<rt>ど</rt></ruby>めをセットして<ruby>使用<rt>しよう</rt></ruby>する",
+      "B": "<ruby>下<rt>お</rt></ruby>りる<ruby>時<rt>とき</rt></ruby>に<ruby>両手<rt>りょうて</rt></ruby>で<ruby>脚立<rt>きゃたつ</rt></ruby>をつかむため、<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>床<rt>ゆか</rt></ruby>に<ruby>投<rt>な</rt></ruby>げる",
+      "C": "<ruby>脚立<rt>きゃたつ</rt></ruby>は<ruby>危険<rt>きけん</rt></ruby>なので、できるだけ<ruby>使<rt>つか</rt></ruby>わないようにする"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat mengambil barang dari rak dan mencoba menurunkannya dengan tangan, tangga goyah dan orang tersebut hampir jatuh karena kehilangan keseimbangan. Apa yang harus dilakukan untuk mencegah kecelakaan ini?"
+  },
+  {
+    "id": "K3-025",
+    "question": "<ruby>作業場内<rt>さぎょうばない</rt></ruby>を<ruby>移動<rt>いどう</rt></ruby>する<ruby>時<rt>とき</rt></ruby>、<ruby>床<rt>ゆか</rt></ruby>に<ruby>散乱<rt>さんらん</rt></ruby>したコードに<ruby>足<rt>あし</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>っかけて<ruby>転倒<rt>てんとう</rt></ruby>しそうになりました。この<ruby>事故<rt>じこ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+    "img": "https://lh3.googleusercontent.com/d/1anoTFw3G9IdBPLsj6atT4t-heFE4Jlhm",
+    "options": {
+      "A": "<ruby>床<rt>ゆか</rt></ruby>は<ruby>滑<rt>すべ</rt></ruby>りやすかったため",
+      "B": "<ruby>使用<rt>しよう</rt></ruby>するコードが<ruby>長<rt>なが</rt></ruby>かったため",
+      "C": "<ruby>使用<rt>しよう</rt></ruby>したコードをそのまま<ruby>置<rt>お</rt></ruby>きっぱなしにしたため"
+    },
+    "correct_answer": "C",
+    "explanation": "Saat bergerak di dalam area kerja, seseorang hampir tersandung dan jatuh karena kakinya tersangkut kabel yang berserakan di lantai. Apa penyebab kecelakaan ini?"
+  },
+  {
+    "id": "K3-026",
+    "question": "<ruby>作業台<rt>さぎょうだい</rt></ruby>で<ruby>食<rt>しょく</rt></ruby>パンをスライスしている<ruby>際<rt>さい</rt></ruby>、<ruby>手<rt>て</rt></ruby>で<ruby>食<rt>しょく</rt></ruby>パンを<ruby>押<rt>お</rt></ruby>しながらスライスしていたため、<ruby>指<rt>ゆび</rt></ruby>がスライサーの<ruby>刃<rt>は</rt></ruby>に<ruby>切<rt>切</rt></ruby>れそうになりました。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために<ruby>何<rt>なに</rt></ruby>をすればよいですか。",
+    "img": "https://lh3.googleusercontent.com/d/1_K_t9heSA6xCaacBgnDbx-8XVkTdNx6K",
+    "options": {
+      "A": "スライサーを<ruby>使用<rt>しよう</rt></ruby>する<ruby>際<rt>さい</rt></ruby>は、<ruby>押<rt>お</rt></ruby>し<ruby>板<rt>いた</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>してパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す",
+      "B": "スライサーを<ruby>使用<rt>しよう</rt></ruby>する<ruby>際<rt>さい</rt></ruby>は、<ruby>両手<rt>りょうて</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す",
+      "C": "スライサーを<ruby>使用<rt>しよう</rt></ruby>する<ruby>際<rt>さい</rt></ruby>は、<ruby>左手<rt>ひだりて</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat mengiris roti tawar di meja kerja, jari seseorang hampir teriris pisau pemotong karena mengiris sambil mendorong roti dengan tangan. Apa yang harus dilakukan untuk mencegah kecelakaan ini?"
+  },
+  {
+    "id": "K3-027",
+    "question": "<ruby>脚立<rt>きゃたつ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>天井<rt>てんじょう</rt></ruby><ruby>近<rt>ちか</rt></ruby>のボルトを<ruby>締<rt>し</rt></ruby>めたとき、<ruby>脚立<rt>きゃたつ</rt></ruby>から<ruby>落<rt>お</rt></ruby>ちそうになった。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1PKlFe7bOJKUxmLb0ETo7jPaa3MeIgIbi",
+    "options": {
+      "A": "レンチでボルトを<ruby>締<rt>し</rt></ruby>めるときの<ruby>作業<rt>さぎょう</rt></ruby><ruby>位置<rt>いち</rt></ruby>は、<ruby>安定<rt>あんてい</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>を<ruby>避<rt>よ</rt></ruby>けること。",
+      "B": "<ruby>作業<rt>さぎょう</rt></ruby><ruby>開始<rt>かいし</rt></ruby><ruby>前<rt>まえ</rt></ruby>に、レンチにすり<ruby>減<rt>へ</rt></ruby>りなどの<ruby>故障<rt>こしょう</rt></ruby>がないか<ruby>確認<rt>かくにん</rt></ruby>すること。",
+      "C": "<ruby>脚立<rt>きゃたつ</rt></ruby>の<ruby>天板<rt>てんばん</rt></ruby>には<ruby>立<rt>た</rt></ruby>てないこと。"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat menaiki tangga lipat dan mengencangkan baut di dekat langit-langit, hampir saja jatuh dari tangga. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilih satu jawaban yang SALAH."
+  },
+  {
+    "id": "K3-028",
+    "question": "フレコンバッグをクレーンで<ruby>釣<rt>つ</rt></ruby>り<ruby>上<rt>あ</rt></ruby>上げ、<ruby>荷台<rt>にだい</rt></ruby>から<ruby>降<rt>お</rt></ruby>ろそうとしたときにフレコンバッグが<ruby>揺<rt>ゆ</rt></ruby>れて<ruby>身体<rt>しんたい</rt></ruby>に<ruby>当<rt>あ</rt></ruby>たり、<ruby>荷台<rt>にだい</rt></ruby>から<ruby>落<rt>お</rt></ruby>ちそうになった。この<ruby>事故<rt>じこ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。<ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1MHjakGLdTBW83QB33_gd33Dbjl4G-sRn",
+    "options": {
+      "A": "クレーンを<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>の<ruby>自分<rt>じぶん</rt></ruby>の<ruby>立つ場所<rt>ばしょ</rt></ruby>を<ruby>十分<rt>じゅうぶん</rt></ruby><ruby>理解<rt>りかい</rt></ruby>していなかったこと。",
+      "B": "フレコンバッグをつり<ruby>上<rt>あ</rt></ruby>げる<ruby>際<rt>さい</rt></ruby>、クレーンのワイヤーが<ruby>切<rt>き</rt></ruby>れていたこと。",
+      "C": "クレーンを<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>、フレコンバッグに<ruby>気<rt>き</rt></ruby>がつきましたこと。"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat mengangkat kantong fleksibel (flex-bag) dengan derek dan hendak menurunkannya dari bak truk, kantong tersebut bergoyang dan mengenai tubuh, sehingga hampir jatuh dari bak truk. Apa penyebab kecelakaan ini? Pilih satu jawaban yang paling tepat."
+  },
+  {
+    "id": "K3-029",
+    "question": "<ruby>動<rt>うご</rt></ruby>いているベルトコンベアを<ruby>清掃<rt>せいそう</rt></ruby>していた<ruby>時<rt>とき</rt></ruby>に、ぞうきんがベルトに<ruby>引<rt>ひ</rt></ruby>っかかって、<ruby>手<rt>て</rt></ruby>が<ruby>機械<rt>きかい</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれそうになりました。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1VuUc7ay5prYVEbKovyQusDFVn4xmkk-g",
+    "options": {
+      "A": "ぞうきんを<ruby>使<rt>つか</rt></ruby>わずに<ruby>清掃<rt>せいそう</rt></ruby>する。",
+      "B": "<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めてから<ruby>清掃<rt>せいそう</rt></ruby>する。",
+      "C": "<ruby>近<rt>ちか</rt></ruby>くでほかの<ruby>人<rt>ひと</rt></ruby>が<ruby>見<rt>み</rt></ruby>ている<ruby>時<rt>とき</rt></ruby>に<ruby>清掃<rt>せいそう</rt></ruby>する。"
+    },
+    "correct_answer": "B",
+    "explanation": "Saat membersihkan ban berjalan (conveyor belt) yang sedang bergerak, lap tersangkut di ban dan tangan hampir ikut terjepit ke dalam mesin. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilih satu jawaban yang benar."
+  },
+  {
+    "id": "K3-030",
+    "question": "<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>作業<rt>さぎょう</rt></ruby>をしていた<ruby>時<rt>とき</rt></ruby>、<ruby>床<rt>ゆか</rt></ruby>の<ruby>霜<rt>しも</rt></ruby>のために<ruby>足<rt>あし</rt></ruby>が<ruby>滑<rt>すべ</rt></ruby>って<ruby>転倒<rt>てんとう</rt></ruby>しました。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1aAgIFqkxRW8Gp020_5vU_V7FXwqk9jSF",
+    "options": {
+      "A": "<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げて、<ruby>床<rt>ゆか</rt></ruby>の<ruby>霜<rt>しも</rt></ruby>を<ruby>取<rt>と</rt></ruby>る。",
+      "B": "<ruby>霜<rt>しも</rt></ruby>や<ruby>水濡<rt>みずぬ</rt></ruby>れを<ruby>踏<rt>ふ</rt></ruby>んで<ruby>滑<rt>すべ</rt></ruby>らないよう、<ruby>大股<rt>おおまた</rt></ruby>で<ruby>歩<rt>ある</rt></ruby>く。",
+      "C": "<ruby>滑<rt>すべ</rt></ruby>りにくい<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>いて、<ruby>床<rt>ゆか</rt></ruby>の<ruby>霜<rt>しも</rt></ruby>や<ruby>水濡<rt>みずぬ</rt></ruby>れに<ruby>注意<rt>ちゅうい</rt></ruby>する。"
+    },
+    "correct_answer": "C",
+    "explanation": "Saat bekerja di dalam freezer, seseorang terpeleset dan jatuh karena adanya bunga es (fros) di lantai. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilih satu jawaban yang benar."
+  },
+  {
+    "id": "K3-031",
+    "question": "<ruby>機械<rt>きかい</rt></ruby>の<ruby>反対側<rt>はんたいがわ</rt></ruby>に<ruby>行<rt>い</rt></ruby>こうとして、ローラーコンベアの<ruby>上<rt>うえ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ったために、<ruby>転<rt>ころ</rt></ruby>んでけがをしました。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1qIyilgYsN-1eE7LMQ4wHJv1mP3cQF4OO",
+    "options": {
+      "A": "<ruby>機械<rt>きかい</rt></ruby>のわきに<ruby>柵<rt>さく</rt></ruby>をつけて、<ruby>上<rt>うえ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>れないようにする。",
+      "B": "ローラーが<ruby>回転<rt>かいてん</rt></ruby>しないように、ローラーを<ruby>固定<rt>こてい</rt></ruby>する。",
+      "C": "ローラーコンベアの<ruby>上<rt>うえ</rt></ruby>にカバーをつけて、<ruby>歩<rt>ある</rt></ruby>きやすくする。"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat mencoba pergi ke sisi lain mesin, seseorang naik ke atas roller conveyor sehingga terjatuh dan terluka. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilih satu jawaban yang benar."
+  },
+  {
+    "id": "K3-032",
+    "question": "<ruby>安全<rt>あんぜん</rt></ruby>カバーのないスライサーで<ruby>肉<rt>にく</rt></ruby>を<ruby>切<rt>き</rt></ruby>っているとき、<ruby>回転刃<rt>かいてんば</rt></ruby>で<ruby>右手<rt>みぎて</rt></ruby>を<ruby>切<rt>き</rt></ruby>りそうになりました。<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐには、<ruby>安全<rt>あんぜん</rt></ruby>カバーをつけるほかにどのような<ruby>肉<rt>にく</rt></ruby>の<ruby>持<rt>も</rt></ruby>ち<ruby>方<rt>かた</rt></ruby>がいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1dh4K2rE1IUfptGNESv_S_oraHkKRVZ5k",
+    "options": {
+      "A": "<ruby>二人<rt>ふたり</rt></ruby>で<ruby>持<rt>も</rt></ruby>u。",
+      "B": "<ruby>右手<rt>みぎて</rt></ruby>だけで<ruby>持<rt>も</rt></ruby>つ。",
+      "C": "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>持<rt>も</rt></ruby>つ。"
+    },
+    "correct_answer": "C",
+    "explanation": "Saat memotong daging dengan mesin pengiris (slicer) tanpa penutup pengaman, tangan kanan hampir terpotong oleh bilah yang berputar. Selain memasang penutup pengaman, cara memegang daging seperti apa yang baik untuk mencegah kecelakaan? Pilih satu jawaban yang benar."
+  },
+  {
+    "id": "K3-033",
+    "question": "<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>台<rt>だい</rt></ruby>でパンをスライスしている<ruby>際<rt>さい</rt></ruby>、<ruby>手<rt>て</rt></ruby>でパンを<ruby>押<rt>お</rt></ruby>さえながらスライスしていたため、<ruby>指<rt>ゆび</rt></ruby>がスライサーの<ruby>刃<rt>は</rt></ruby>に<ruby>触<rt>ふ</rt></ruby>れそうになりました。この<ruby>事<rt>じ</rt></ruby><ruby>故<rt>こ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>何<rt>なに</rt></ruby>をすればいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1_K_t9heSA6xCaacBgnDbx-8XVkTdNx6K",
+    "options": {
+      "A": "スライサーを<ruby>使<rt>し</rt></ruby><ruby>用<rt>よう</rt></ruby>する<ruby>際<rt>さい</rt></ruby>は、<ruby>押<rt>お</rt></ruby>し<ruby>板<rt>いた</rt></ruby><ruby>を使<rt>し</rt></ruby><ruby>用<rt>よう</rt></ruby>してパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す",
+      "B": "スライサーを<ruby>使<rt>し</rt></ruby><ruby>用<rt>よう</rt></ruby>する<ruby>際<rt>さい</rt></ruby>は、<ruby>両<rt>りょう</rt></ruby><ruby>手<rt>て</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す",
+      "C": "スライサーを<ruby>使<rt>し</rt></ruby><ruby>用<rt>よう</rt></ruby>する<ruby>際<rt>さい</rt></ruby>は、<ruby>左<rt>ひだり</rt></ruby><ruby>手<rt>て</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat mengiris roti di atas meja kerja menggunakan tangan untuk mendorong roti, jari hampir menyentuh pisau pemotong (slicer). Untuk mencegah kecelakaan ini, apa yang sebaiknya dilakukan?"
+  },
+  {
+    "id": "K3-034",
+    "question": "<ruby>用<rt>よう</rt></ruby><ruby>具<rt>ぐ</rt></ruby>を<ruby>専<rt>せん</rt></ruby><ruby>用<rt>よう</rt></ruby>のボックスに<ruby>保<rt>ほ</rt></ruby><ruby>管<rt>かん</rt></ruby>する<ruby>理<rt>り</rt></ruby><ruby>由<rt>ゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものをつ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1qFy1YtV-lPH5kFa6xbeJ8hndsmdou5l8",
+    "options": {
+      "A": "<ruby>飾<rt>かざ</rt></ruby>るためです",
+      "B": "ネジや<ruby>壊<rt>こわ</rt></ruby>れた<ruby>用<rt>よう</rt></ruby><ruby>具<rt>ぐ</rt></ruby>が<ruby>製<rt>せい</rt></ruby><ruby>品<rt>ひん</rt></ruby>に<ruby>混<rt>こん</rt></ruby><ruby>入<rt>にゅう</rt></ruby>しないためです",
+      "C": "どこに<ruby>保<rt>ほ</rt></ruby><ruby>管<rt>かん</rt></ruby>しているかすぐわかるためです"
+    },
+    "correct_answer": "B",
+    "explanation": "Apa alasan menyimpan peralatan kerja di dalam kotak khusus? Pilihlah jawaban yang benar."
+  },
+  {
+    "id": "K3-035",
+    "question": "<ruby>清<rt>せい</rt></ruby><ruby>掃<rt>そう</rt></ruby><ruby>用<rt>よう</rt></ruby><ruby>具<rt>ぐ</rt></ruby>の<ruby>整<rt>せい</rt></ruby><ruby>理<rt>り</rt></ruby><ruby>整<rt>とん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを選びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/100ZAE7IsBWY3cGVNhHNRTrtH8puqH3BE",
+    "options": {
+      "A": "スポンジなどの<ruby>清<rt>せい</rt></ruby><ruby>掃<rt>そう</rt></ruby><ruby>用<rt>よう</rt></ruby><ruby>具<rt>ぐ</rt></ruby>を「<ruby>濡<rt>ぬ</rt></ruby>れたまま」「<ruby>汚<rt>よご</rt></ruby>れたまま」にしておく",
+      "B": "<ruby>食<rt>しょく</rt></ruby><ruby>品<rt>ひん</rt></ruby>からできるだけ<ruby>離<rt>はな</rt></ruby>れた、<ruby>風<rt>かぜ</rt></ruby><ruby>通<rt>とお</rt></ruby>しの<ruby>良<rt>よ</rt></ruby><ruby>い<ruby>場<rt>ば</rt></ruby><ruby>所<rt>しょ</rt></ruby>に<ruby>保<rt>ほ</rt></ruby><ruby>管<rt>かん</rt></ruby>する",
+      "C": "<ruby>食<rt>しょく</rt></ruby><ruby>品<rt>ひん</rt></ruby>と<ruby>一<rt>いっ</rt></ruby><ruby>諸<rt>しょ</rt></ruby>に<ruby>保<rt>ほ</rt></ruby><ruby>管<rt>かん</rt></ruby>する"
+    },
+    "correct_answer": "B",
+    "explanation": "Mengenai kerapian and keteraturan alat-alat pembersih, pilihlah jawaban yang benar."
+  },
+  {
+    "id": "K3-036",
+    "question": "なぜパイプの<ruby>下<rt>した</rt></ruby>も<ruby>清<rt>せい</rt></ruby><ruby>掃<rt>そう</rt></ruby>しなければならないのですか。",
+    "img": "https://lh3.googleusercontent.com/d/1QVKLSOPw-8HknLruNUGh2z5tODCTdxIa",
+    "options": {
+      "A": "<ruby>誰<rt>だれ</rt></ruby>も<ruby>清<rt>せい</rt></ruby><ruby>掃<rt>そう</rt></ruby>しないところだから",
+      "B": "<ruby>食<rt>しょく</rt></ruby><ruby>中<rt>ちゅう</rt></ruby><ruby>毒<rt>どく</rt></ruby>のおそれがあるから",
+      "C": "カビなどの<ruby>微<rt>び</rt></ruby><ruby>生<rt>せい</rt></ruby><ruby>物<rt>ぶつ</rt></ruby>や<ruby>虫<rt>むし</rt></ruby>が<ruby>発<rt>hatsu</rt></ruby><ruby>生<rt>せい</rt></ruby>するおそれがあるから"
+    },
+    "correct_answer": "C",
+    "explanation": "Mengapa bagian bawah pipa juga harus dibersihkan?"
+  },
+  {
+    "id": "K3-037",
+    "question": "どのような<ruby>状<rt>じょう</rt></ruby><ruby>況<rt>きょう</rt></ruby>で<ruby>事<rt>じ</rt></ruby><ruby>故<rt>こ</rt></ruby>が<ruby>発<rt>hatsu</rt></ruby><ruby>生<rt>せい</rt></ruby>したのですか。",
+    "img": "https://lh3.googleusercontent.com/d/1rgYfYp-kzxFoVmqyNd5YO1ZWqBeS0aG-",
+    "options": {
+      "A": "フォークリフトが<ruby>通<rt>つう</rt></ruby><ruby>過<rt>か</rt></ruby>する<ruby>際<rt>さい</rt></ruby>に、<ruby>横<rt>よこ</rt></ruby><ruby>から<ruby>来<rt>き</rt></ruby>た<ruby>人<rt>ひと</rt></ruby>とぶつかりそうになった",
+      "B": "<ruby>倉<rt>そう</rt></ruby><ruby>庫<rt>こ</rt></ruby>の<ruby>入<rt>い</rt></ruby><ruby>り<ruby>口<rt>ぐち</rt></ruby>でフォークリフトが<ruby>停<rt>てい</rt></ruby><ruby>止<rt>し</rt></ruby>していた",
+      "C": "<ruby>倉<rt>そう</rt></ruby><ruby>庫<rt>こ</rt></ruby>が<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もつ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>んでいる<ruby>最<rt>さい</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>に<ruby>障<rt>しょう</rt></ruby><ruby>害<rt>がい</rt></ruby><ruby>物<rt>ぶつ</rt></ruby>にぶつかった"
+    },
+    "correct_answer": "A",
+    "explanation": "(Berdasarkan gambar ilustrasi) Dalam situasi seperti apa kecelakaan tersebut hampir terjadi?"
+  },
+  {
+    "id": "K3-038",
+    "question": "<ruby>熱<rt>ねっ</rt></ruby><ruby>中<rt>ちゅう</rt></ruby><ruby>症<rt>しょう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby><ruby>ぐための<ruby>対<rt>たい</rt></ruby><ruby>策<rt>さく</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
+    "img": "https://lh3.googleusercontent.com/d/19S3EMYIkeO8tLtaR2gXof8uGGqK_C0K5",
+    "options": {
+      "A": "<ruby>気<rt>き</rt></ruby><ruby>温<rt>おん</rt></ruby>や<ruby>湿<rt>しつ</rt></ruby><ruby>度<rt>ど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いときは、<ruby>休<rt>きゅう</rt></ruby><ruby>憩<rt>けい</rt></ruby>せずに<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>を<ruby>続<rt>つづ</rt></ruby>ける",
+      "B": "<ruby>汗<rt>あせ</rt></ruby><ruby>を<ruby>吸<rt>す</rt></ruby>って<ruby>乾<rt>かわ</rt></ruby>きやすい<ruby>衣<rt>い</rt></ruby><ruby>服<rt>ふく</rt></ruby>を<ruby>着<rt>ちゃく</rt></ruby><ruby>用<rt>よう</rt></ruby>する",
+      "C": "<ruby>冷<rt>つめ</rt></ruby><ruby>たい<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>避<rt>よ</rt></ruby>ける"
+    },
+    "correct_answer": "B",
+    "explanation": "Mana tindakan yang benar sebagai langkah untuk mencegah sengatan panas (heatstroke/netchuusho)?"
+  },
+  {
+    "id": "K3-039",
+    "question": "<ruby>以<rt>い</rt></ruby><ruby>下<rt>か</rt></ruby>の<ruby>写<rt>しゃ</rt></ruby><ruby>真<rt>しん</rt></ruby>は、<ruby>棚<rt>たな</rt></ruby>から<ruby>商<rt>しょう</rt></ruby><ruby>品<rt>ひん</rt></ruby><ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>し、<ruby>手<rt>て</rt></ruby>で<ruby>持<rt>も</rt></ruby>って<ruby>降<rt>お</rt></ruby>りようとしたときに、<ruby>脚<rt>きゃつ</rt></ruby><ruby>立<rt>たつ</rt></ruby>がぐらついてバランスを<ruby>崩<rt>くず</rt></ruby>し、<ruby>落<rt>お</rt></ruby>ちそうになった<ruby>様<rt>よう</rt></ruby><ruby>子<rt>す</rt></ruby>です。この<ruby>事<rt>じ</rt></ruby><ruby>故<rt>こ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby><ruby>ぐために、どうしたらいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1Lw8nl58DFSaUzl5zoLfedTNPAVy7E4kC",
+    "options": {
+      "A": "<ruby>脚<rt>きゃつ</rt></ruby><ruby>立<rt>たつ</rt></ruby>は、<ruby>必<rt>かなら</rt></ruby>ず<ruby>開<rt>ひら</rt></ruby>き<ruby>止<rt>ど</rt></ruby>めをセットして<ruby>使<rt>し</rt></ruby><ruby>用<rt>よう</rt></ruby>する",
+      "B": "<ruby>降<rt>お</rt></ruby>りるときに<ruby>両<rt>りょう</rt></ruby><ruby>手<rt>て</rt></ruby>で<ruby>脚<rt>きゃつ</rt></ruby><ruby>立<rt>たつ</rt></ruby>をつかむため、<ruby>商<rt>しょう</rt></ruby><ruby>品<rt>ひん</rt></ruby>を<ruby>床<rt>ゆか</rt></ruby>に<ruby>投<rt>な</rt></ruby>げる",
+      "C": "<ruby>脚<rt>きゃつ</rt></ruby><ruby>立<rt>たつ</rt></ruby>は<ruby>危<rt>き</rt></ruby><ruby>険<rt>けん</rt></ruby>なので、できるだけ<ruby>使<rt>つか</rt></ruby><ruby>わないようにする"
+    },
+    "correct_answer": "A",
+    "explanation": "Foto berikut memperlihatkan keadaan seseorang yang hampir jatuh dari tangga lipat karena tangga goyah saat mengambil barang dari rak dan membawanya turun. Apa yang harus dilakukan untuk mencegah kecelakaan ini?"
+  },
+  {
+    "id": "K3-040",
+    "question": "<ruby>脚<rt>きゃく</rt></ruby><ruby>立<rt>たつ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り、<ruby>天<rt>てん</rt></ruby><ruby>井<rt>じょう</rt></ruby><ruby>近<rt>ちか</rt></ruby>のボルトを<ruby>締<rt>し</rt></ruby>めた<ruby>時<rt>とき</rt></ruby>、<ruby>脚<rt>きゃく</rt></ruby><ruby>立<rt>たつ</rt></ruby>から<ruby>落<rt>お</rt></ruby>ちそうになりました。この<ruby>事<rt>こ</rt></ruby><ruby>故<rt>こ</rt></ruby>の<ruby>原<rt>いん</rt></ruby><ruby>因<rt>いん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1mtvXcNHGWE0ZxO3ymINFRv_mZARulkWT",
+    "options": {
+      "A": "<ruby>脚<rt>きゃく</rt></ruby><ruby>立<rt>たつ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ってから、<ruby>保<rt>ほ</rt></ruby><ruby>護<rt>ご</rt></ruby><ruby>具<rt>ぐ</rt></ruby>を<ruby>設<rt>せつ</rt></ruby><ruby>備<rt>び</rt></ruby>しなかったこと",
+      "B": "ボルトを<ruby>締<rt>し</rt></ruby>めるときに<ruby>力<rt>ちから</rt></ruby>を<ruby>入<rt>い</rt></ruby>れすぎたこと",
+      "C": "ダンスをしながら<ruby>作<rt>さぎょう</rt></ruby><ruby>業<rt>ぎょう</rt></ruby>したこと"
+    },
+    "correct_answer": "B",
+    "explanation": "Saat menaiki tangga lipat (kaki tiga) dan mengencangkan baut dekat langit-langit, hampir saja terjatuh dari tangga. Apa penyebab kecelakaan ini? Pilih satu yang benar."
+  },
+  {
+    "id": "K3-041",
+    "question": "フレコンバッグをクレーンでつり<ruby>上<rt>あ</rt></ruby>げ、<ruby>荷<rt>に</rt></ruby><ruby>台<rt>だい</rt></ruby>から<ruby>降<rt>お</rt></ruby>ろそうとしたときに、フレコンバッグが<ruby>揺<rt>ゆ</rt></ruby>れて<ruby>身<rt>しん</rt></ruby><ruby>体<rt>たい</rt></ruby>に<ruby>当<rt>あ</rt></ruby>たり、<ruby>荷<rt>に</rt></ruby><ruby>台<rt>だい</rt></ruby>から<ruby>落<rt>お</rt></ruby>ちそうになりました。この<ruby>事<rt>こ</rt></ruby><ruby>故<rt>こ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1MuA0pO3-FHdliz0yTfuyde0chpJFUUPj",
+    "options": {
+      "A": "クレーンを<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>の<ruby>自<rt>じ</rt></ruby><ruby>分<rt>ぶん</rt></ruby>の<ruby>立<rt>た</rt></ruby>つ<ruby>場<rt>ば</rt></ruby><ruby>所<rt>しょ</rt></ruby>について、<ruby>十<rt>じゅう</rt></ruby><ruby>分<rt>ぶん</rt></ruby><ruby>な労<rt>ろう</rt></ruby><ruby>働<rt>どう</rt></ruby><ruby>安<rt>あん</rt></ruby><ruby>全<rt>ぜん</rt></ruby><ruby>教<rt>きょう</rt></ruby><ruby>育<rt>いく</rt></ruby><ruby>を<ruby>行<rt>おこな</rt></ruby>うこと",
+      "B": "クレーンでフレコンバッグをつり<ruby>上<rt>あ</rt></ruby>げる<ruby>際<rt>さい</rt></ruby>、ワイヤーにたるみがないことを<ruby>確<rt>かく</rt></ruby><ruby>認<rt>にん</rt></ruby>せずにフックにかけないこと",
+      "C": "フレコンバッグをつり<ruby>上<rt>あ</rt></ruby>げる<ruby>際<rt>さい</rt></ruby>、フレコンバッグを<ruby>避<rt>よ</rt></ruby>けないこと"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat mengangkat flecon bag (flexible container bag) menggunakan derek (crane) dan hendak menurunkannya dari bak muatan, flecon bag tersebut bergoyang dan mengenai tubuh, sehingga hampir terjatuh dari bak muatan. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilih satu yang paling benar."
+  },
+  {
+    "id": "K3-042",
+    "question": "<ruby>安<rt>あん</rt></ruby><ruby>全<rt>ぜん</rt></ruby>カバーのないスライサーで<ruby>肉<rt>にく</rt></ruby>を<ruby>切<rt>き</rt></ruby>っている<ruby>時<rt>とき</rt></ruby>、<ruby>回<rt>かい</rt></ruby><ruby>転<rt>てん</rt></ruby><ruby>刃<rt>ば</rt></ruby>で<ruby>右<rt>みぎ</rt></ruby><ruby>手<rt>て</rt></ruby>を<ruby>切<rt>き</rt></ruby>りそうになりました。<ruby>事<rt>こ</rt></ruby><ruby>故<rt>こ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐには、<ruby>安<rt>あん</rt></ruby><ruby>全<rt>ぜん</rt></ruby>カバーをつけるほかに、どのような<ruby>肉<rt>にく</rt></ruby>の<ruby>持<rt>も</rt></ruby>ち<ruby>方<rt>かた</rt></ruby>がいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1PvmTGqG3x-77rviGucvz3_q-z4kfX3By",
+    "options": {
+      "A": "<ruby>二<rt>に</rt></ruby><ruby>人<rt>にん</rt></ruby>で<ruby>持<rt>も</rt></ruby>つ",
+      "B": "<ruby>右<rt>みぎ</rt></ruby><ruby>手<rt>て</rt></ruby>だけで<ruby>持<rt>も</rt></ruby>つ",
+      "C": "<ruby>道<rt>どう</rt></ruby><ruby>具<rt>ぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>持<rt>も</rt></ruby>つ"
+    },
+    "correct_answer": "C",
+    "explanation": "Saat memotong daging dengan mesin pengiris (slicer) tanpa penutup pengaman, tangan kanan hampir terpotong oleh pisau berputar. Untuk mencegah kecelakaan, selain memasang penutup pengaman, bagaimana cara memegang daging yang baik? Pilih satu yang benar."
+  },
+  {
+    "id": "K3-043",
+    "question": "パンが<ruby>入<rt>はい</rt></ruby>った<ruby>箱<rt>ハコ</rt></ruby>を<ruby>両<rt>りょう</rt></ruby><ruby>手<rt>て</rt></ruby>で<ruby>持<rt>も</rt></ruby>ち、トラックに<ruby>向<rt>む</rt></ruby>かって<ruby>駐<rt>ちゅう</rt></ruby><ruby>車<rt>しゃ</rt></ruby><ruby>場<rt>じょう</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>いていた<ruby>際<rt>さい</rt></ruby>、<ruby>足<rt>あし</rt></ruby><ruby>元<rt>moto</rt></ruby>に<ruby>置<rt>お</rt></ruby>かれていた<ruby>空<rt>から</rt></ruby><ruby>箱<rt>ばこ</rt></ruby>に<ruby>気<rt>き</rt></ruby>づかず、つまずき<ruby>転<rt>てん</rt></ruby><ruby>導<rt>とう</rt></ruby>しそうになりました。この<ruby>事<rt>こ</rt></ruby><ruby>故<rt>こ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby><ruby>ぐために、どうしたらいいですか。<ruby>間<rt>ま</rt></ruby><ruby>違<rt>ちが</rt></ruby><ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "img": "https://lh3.googleusercontent.com/d/1H6ZA2SesVjzgT7IwYEBp8rJjV2xfseZa",
+    "options": {
+      "A": "<ruby>通<rt>つう</rt></ruby><ruby>路<rt>ろ</rt></ruby>に<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>きっぱなしにして、<ruby>箱<rt>はこ</rt></ruby>をいくつ<ruby>持<rt>も</rt></ruby>ってもいいです",
+      "B": "<ruby>作<rt>さぎょう</rt></ruby><ruby>業<rt>ぎょう</rt></ruby>で<ruby>使<rt>し</rt></ruby><ruby>用<rt>よう</rt></ruby>するものであっても、<ruby>通<rt>つう</rt></ruby><ruby>路<rt>ろ</rt></ruby>に<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>きっぱなしにせず、<ruby>作<rt>さぎょう</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>開<rt>かい</rt></ruby><ruby>始<rt>し</rt></ruby><ruby>前<rt>まえ</rt></ruby>には<ruby>通<rt>つう</rt></ruby><ruby>路<rt>ろ</rt></ruby>の<ruby>安<rt>あん</rt></ruby><ruby>全<rt>ぜん</rt></ruby><ruby>を<ruby>確<rt>かく</rt></ruby><ruby>認<rt>にん</rt></ruby>すること",
+      "C": "<ruby>箱<rt>はこ</rt></ruby><ruby>を<ruby>重<rt>かさ</rt></ruby>ねて<ruby>運<rt>はこ</rt></ruby>ぶ<ruby>際<rt>さい</rt></ruby>は、<ruby>前<rt>まえ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えるように<ruby>箱<rt>はこ</rt></ruby><ruby>を<ruby>持<rt>も</rt></ruby>つ"
+    },
+    "correct_answer": "A",
+    "explanation": "Saat berjalan di tempat parkir menuju truk sambil membawa kotak berisi roti dengan kedua tangan, pekerja tidak menyadari adanya kotak kosong yang ditaruh di kaki, sehingga tersandung dan hampir terjatuh. Untuk mencegah kecelakaan ini, apa yang sebaiknya dilakukan? Pilih satu yang salah."
+  },
+  {
+    "id": "K3-044",
+    "question": "<ruby>以<rt>い</rt></ruby><ruby>下<rt>か</rt></ruby><ruby>の<ruby>図<rt>ず</rt></ruby>は、A<ruby>子<rt>こ</rt></ruby>さんがお<ruby>湯<rt>ゆ</rt></ruby>を<ruby>捨<rt>す</rt></ruby>て、<ruby>転<rt>てん</rt></ruby><ruby>導<rt>とう</rt></ruby>しそうな<ruby>様<rt>よう</rt></ruby><ruby>子<rt>す</rt></ruby>です。それについて、<ruby>間<rt>ま</rt></ruby><ruby>違<rt>ちが</rt></ruby><ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。\n※（<ruby>図<rt>ず</rt></ruby>・<ruby>写<rt>しゃ</rt></ruby><ruby>真<rt>しん</rt></ruby>は<ruby>後<rt>あと</rt></ruby>で<ruby>追<rt>つい</rt></ruby><ruby>加<rt>か</rt></ruby>）",
+    "img": "https://lh3.googleusercontent.com/d/1yixZ8xh6YEEnK8OvKWLFwpyM2kpZddvg",
+    "options": {
+      "A": "<ruby>熱<rt>ねっ</rt></ruby><ruby>湯<rt>とう</rt></ruby>の<ruby>入<rt>はい</rt></ruby>った<ruby>大<rt>おお</rt></ruby><ruby>鍋<rt>なべ</rt></ruby>は<ruby>二<rt>に</rt></ruby><ruby>人<rt>にん</rt></ruby>で<ruby>運<rt>はこ</rt></ruby>んだほうがいい",
+      "B": "<ruby>運<rt>はこ</rt></ruby>ぶときにゴム<ruby>手<rt>て</rt></ruby><ruby>袋<rt>ぶくろ</rt></ruby>、<ruby>前<rt>まえ</rt></ruby><ruby>掛<rt>か</rt></ruby>け、メガネなどの<ruby>保<rt>ほ</rt></ruby><ruby>護<rt>ご</rt></ruby><ruby>具<rt>ぐ</rt></ruby>をつける",
+      "C": "<ruby>作<rt>さぎょう</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>靴<rt>ぐつ</rt></ruby>さえ<ruby>着<rt>き</rt></ruby>けば、<ruby>一<rt>ひとり</rt></ruby>でお<ruby>湯<rt>ゆ</rt></ruby><ruby>入<rt>い</rt></ruby>りの<ruby>大<rt>おお</rt></ruby><ruby>鍋<rt>なべ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>んでも<ruby>問<rt>もん</rt></ruby><ruby>題<rt>だい</rt></ruby>はない"
+    },
+    "correct_answer": "C",
+    "explanation": "Gambar berikut menunjukkan situasi di mana Nona A sedang membuang air panas dan hampir terjatuh. Mengenai hal tersebut, pilih satu yang salah.\n* (Gambar/Foto akan ditambahkan nanti)"
+  },
+  {
+    "id": "K3-045",
+    "question": "<ruby>浸<rt>しん</rt></ruby><ruby>水<rt>すい</rt></ruby>され、<ruby>濡<rt>ぬ</rt></ruby>れていて<ruby>見<rt>み</rt></ruby>にくくなった<ruby>掲<rt>けい</rt></ruby><ruby>示<rt>じ</rt></ruby><ruby>物<rt>ぶつ</rt></ruby>の<ruby>写<rt>しゃ</rt></ruby><ruby>真<rt>しん</rt></ruby>があります。<ruby>掲<rt>けい</rt></ruby><ruby>示<rt>じ</rt></ruby><ruby>物<rt>ぶつ</rt></ruby>が<ruby>濡<rt>ぬ</rt></ruby>れて<ruby>見<rt>み</rt></ruby>にくくなることを<ruby>防<rt>ふせ</rt></ruby><ruby>ぐために、どうしますか。",
+    "img": "https://lh3.googleusercontent.com/d/1OwITPTnTJFwx2s1ccgD6roe12BmhEvTO",
+    "options": {
+      "A": "<ruby>高<rt>たか</rt></ruby><ruby>いところに貼<rt>は</rt></ruby>る",
+      "B": "パウチに<ruby>入<rt>い</rt></ruby>れて<ruby>貼<rt>は</rt></ruby>る",
+      "C": "<ruby>紙<rt>かみ</rt></ruby>のものが<ruby>濡<rt>ぬ</rt></ruby>れることを<ruby>防<rt>ふせ</rt></ruby><ruby>ぐため、直<rt>ちょく</rt></ruby><ruby>切<rt>seつ</rt></ruby><ruby>壁<rt>かべ</rt></ruby>などに<ruby>書<rt>か</rt></ruby>く"
+    },
+    "correct_answer": "B",
+    "explanation": "Terdapat foto papan pengumuman yang basah terkena air. Apa yang dilakukan agar papan pengumuman tidak basah?"
+  },
+  {
+    "id": "K3-046",
+    "question": "<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>員<rt>いん</rt></ruby>が<ruby>雑<rt>ぞう</rt></ruby><ruby>巾<rt>きん</rt></ruby>で<ruby>機<rt>き</rt></ruby><ruby>械<rt>かい</rt></ruby>を<ruby>清<rt>せい</rt></ruby><ruby>掃<rt>そう</rt></ruby>している<ruby>写<rt>しゃ</rt></ruby><ruby>真<rt>しん</rt></ruby>があります。<ruby>機<rt>き</rt></ruby><ruby>械<rt>かい</rt></ruby>がまだ<ruby>動<rt>うご</rt></ruby>いているので、<ruby>手<rt>て</rt></ruby>が<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれそうになりました。このような<ruby>災<rt>さい</rt></ruby><ruby>害<rt>がい</rt></ruby><ruby>を防<rt>ふせ</rt></ruby><ruby>ぐために、どうしますか。",
+    "img": "https://lh3.googleusercontent.com/d/1sTsbAXgF67BF-lU7KLD5_gsixitHxtHk",
+    "options": {
+      "A": "<ruby>雑<rt>ぞう</rt></ruby><ruby>巾<rt>きん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>わないで<ruby>清<rt>せい</rt></ruby><ruby>掃<rt>そう</rt></ruby>する",
+      "B": "<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>の<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>清<rt>せい</rt></ruby><ruby>掃<rt>そう</rt></ruby>する",
+      "C": "<ruby>機<rt>き</rt></ruby><ruby>械<rt>かい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めてから<ruby>清<rt>せい</rt></ruby><ruby>掃<rt>そう</rt></ruby>する"
+    },
+    "correct_answer": "C",
+    "explanation": "Terdapat foto pekerja membersihkan mesin dengan lap. Karena mesin masih bergerak, tangannya hampir tersangkut. Apa yang harus dilakukan untuk mencegah kecelakaan ini?"
+  },
+  {
+    "id": "K3-047",
+    "question": "<ruby>冷<rt>れい</rt></ruby><ruby>蔵<rt>ぞう</rt></ruby><ruby>庫<rt>こ</rt></ruby>から<ruby>食<rt>しょく</rt></ruby><ruby>品<rt>ひん</rt></ruby><ruby>を<ruby>取<rt>と</rt></ruby>ろうとしている<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>員<rt>いん</rt></ruby>の<ruby>写<rt>しゃ</rt></ruby><ruby>真<rt>しん</rt></ruby>があります。<ruby>床<rt>ゆか</rt></ruby>に<ruby>霜<rt>しも</rt></ruby>があるので、<ruby>滑<rt>すべ</rt></ruby>って<ruby>転<rt>ころ</rt></ruby>んでしまいました。このような<ruby>災<rt>さい</rt></ruby><ruby>害<rt>がい</rt></ruby><ruby>を防<rt>ふせ</rt></ruby><ruby>ぐために、どうしますか。",
+    "img": "https://lh3.googleusercontent.com/d/1KqmYX9ldKXcuFm1M4VhVPPiRMoWSCuDB",
+    "options": {
+      "A": "<ruby>滑<rt>すべ</rt></ruby><ruby>りにくい<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>く",
+      "B": "<ruby>霜<rt>しも</rt></ruby>の<ruby>濡<rt>ぬ</rt></ruby>れを<ruby>避<rt>さ</rt></ruby>けるため、大<rt>おお</rt></ruby><ruby>股<rt>また</rt></ruby>で<ruby>歩<rt>ある</rt></ruby>く",
+      "C": "<ruby>冷<rt>れい</rt></ruby><ruby>蔵<rt>ぞう</rt></ruby><ruby>庫<rt>こ</rt></ruby>の<ruby>温<rt>おん</rt></ruby><ruby>度<rt>ど</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げて、床<rt>ゆか</rt></ruby>の<ruby>濡<rt>ぬ</rt></ruby>れを<ruby>拭<rt>ふ</rt></ruby>き<ruby>取<rt>と</rt></ruby>る"
+    },
+    "correct_answer": "C",
+    "explanation": "Terdapat foto pekerja mengambil makanan di lemari pendingin. Karena ada bunga es (frost) di lantai, dia terpeleset. Apa yang harus dilakukan untuk mencegah kecelakaan ini?"
+  },
+  {
+    "id": "K3-048",
+    "question": "<ruby>動<rt>うご</rt></ruby>いているローラーコンベヤーの<ruby>反<rt>はん</rt></ruby><ruby>対<rt>たい</rt></ruby><ruby>側<rt>がわ</rt></ruby>へ<ruby>行<rt>い</rt></ruby> activismたいので、コンベヤーの上<rt>うえ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って<ruby>渡<rt>わた</rt></ruby>ろうとしたとき、<ruby>滑<rt>すべ</rt></ruby>って<ruby>転<rt>ころ</rt></ruby>んでしまいました。このような<ruby>災<rt>さい</rt></ruby><ruby>害<rt>がい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby><ruby>ぐために、どうしますか。",
+    "img": "https://lh3.googleusercontent.com/d/1o3mPV4L87Y2Q-ohYY5fhVDMxgGCka5_4",
+    "options": {
+      "A": "コンベヤーを<ruby>乗<rt>の</rt></ruby>りやすくするため、カバーをつける",
+      "B": "コンベヤーを<ruby>止<rt>と</rt></ruby>めてから<ruby>乗<rt>の</rt></ruby>る",
+      "C": "コンベヤーに<ruby>乗<rt>の</rt></ruby>らないように、<ruby>脇<rt>わき</rt></ruby>を<ruby>通<rt>とお</rt></ruby>る"
+    },
+    "correct_answer": "C",
+    "explanation": "Karena ingin ke sisi seberang conveyor roller yang sedang bergerak, seseorang mencoba menaikinya lalu terpeleset. Apa yang harus dilakukan untuk mencegah kecelakaan ini?"
+  },
+  {
+    "id": "K3-049",
+    "question": "<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もつ</rt></ruby>を<ruby>二<rt>ふた</rt></ruby><ruby>人<rt>り</rt></ruby>で<ruby>車<rt>くるま</rt></ruby>から<ruby>別<rt>べつ</rt></ruby>のトラックへ<ruby>移<rt>い</rt></ruby><ruby>動<rt>どう</rt></ruby>する<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby>中<rt>ちゅう</rt></ruby>、<ruby>勢<rt>いきお</rt></ruby>いよく<ruby>振<rt>ふ</rt></ruby>り<ruby>向<rt>む</rt></ruby>いた<ruby>瞬<rt>しゅん</rt></ruby><ruby>間<rt>かん</rt></ruby、、<ruby>車<rt>くるま</rt></ruby>のドアに<ruby>頭<rt>あたま</rt></ruby>を<ruby>打<rt>打</rt></ruby>ちそうになりました。この<ruby>事<rt>じ</rt></ruby><ruby>故<rt>こ</rt></ruby>の<ruby>原<rt>げん</rt></ruby><ruby>因<rt>いん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+    "img": "https://lh3.googleusercontent.com/d/1KbzzeeUbECidRyetQw2P0o_Z34et4TvZ",
+    "options": {
+      "A": "<ruby>保<rt>ほ</rt></ruby><ruby>護<rt>ご</rt></ruby><ruby>帽<rt>ぼう</rt></ruby>をかぶらないこと",
+      "B": "<ruby>後<rt>うし</rt></ruby><ruby>ろの<ruby>人<rt>ひと</rt></ruby>が<ruby>注<rt>ちゅう</rt></ruby><ruby>意<rt>い</rt></ruby>しないこと",
+      "C": "<ruby>周<rt>まわ</rt></ruby>りをよく<ruby>見<rt>み</rt></ruby>ず、<ruby>急<rt>きゅう</rt></ruby><ruby>な動<rt>うご</rt></ruby><ruby>作<rt>さ</rt></ruby>をしたこと"
+    },
+    "correct_answer": "C",
+    "explanation": "Saat memindahkan barang dari mobil ke truk bersama orang lain, seseorang hampir membenturkan kepalanya ke pintu mobil karena berbalik dengan cepat. Apa penyebab kecelakaan ini?"
+  },
+  {
+    "id": "K3-050",
+    "question": "<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>場<rt>ば</rt></ruby><ruby>内<rt>ない</rt></ruby>を<ruby>移<rt>い</rt></ruby><ruby>動<rt>どう</rt></ruby>するとき、<ruby>床<rt>ゆか</rt></ruby>に<ruby>散<rt>さん</rt></ruby><ruby>乱<rt>らん</rt></ruby>したコードに<ruby>足<rt>あし</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>っかけて<ruby>転<rt>てん</rt></ruby><ruby>倒<rt>とう</rt></ruby>しそうになりました。この<ruby>事<rt>じ</rt></ruby><ruby>故<rt>こ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby><ruby>ぐために、どうしたらよいですか。",
+    "img": "https://lh3.googleusercontent.com/d/1OGlE5Tkhn5Z_cQKFcnF9vfnzPNIAFfMF",
+    "options": {
+      "A": "コードやホースなどは<ruby>床<rt>ゆか</rt></ruby>に<ruby>置<rt>お</rt></ruby>かないで、<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>台<rt>だい</rt></ruby>に<ruby>置<rt>お</rt></ruby>く",
+      "B": "コードやホースなどは<ruby>床<rt>ゆか</rt></ruby>に<ruby>置<rt>お</rt></ruby>きっぱなしにしないで、<ruby>決<rt>き</rt></ruby>められた<ruby>場<rt>ば</rt></ruby><ruby>所<rt>しょ</rt></ruby>に<ruby>置<rt>お</rt></ruby>いて<ruby>保<rt>ほ</rt></ruby><ruby>管<rt>かん</rt></ruby>する",
+      "C": "<ruby>作<rt>さ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby><ruby>場<rt>ば</rt></ruby><ruby>内<rt>ない</rt></ruby>を<ruby>移<rt>い</rt></ruby><ruby>動<rt>どう</rt></ruby>しない"
+    },
+    "correct_answer": "B",
+    "explanation": "Saat berjalan di area kerja, seseorang hampir terjatuh karena kakinya tersangkut kabel yang berserakan di lantai. Apa yang harus dilakukan untuk mencegah kecelakaan ini?"
   }
 ],
 

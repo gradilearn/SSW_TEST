@@ -135,36 +135,39 @@ async function initUjian() {
  * Mengambil soal acak dari bank data dengan komposisi pas 40 nomor
  */
 function racikSoalSesuaiKuota(semuaKategori) {
-    // 1. Definisikan target kuota (Total harus 40)
+    // 1. Definisikan target kuota (Total 40 soal)
     const kuotaKategori = {
         "keamanan_pangan_haccp": 18,
         "sanitasi_umum": 10,
         "pengendalian_mutu": 5,
-        "k3": 5,
-        "hitungan": 2
+        "hitungan": 2,
+        "k3": 5
     };
-    
+
     let kumpulanSoalTerpilih = [];
-    
-    // 2. Loop berdasarkan kategori
+
+    // 2. Ambil soal per kategori sesuai urutan kuotaKategori
     for (const [kategori, jumlahKuota] of Object.entries(kuotaKategori)) {
         const listSoalKategori = semuaKategori[kategori] || [];
-        
-        // Acak soal dalam kategori tersebut
-        const soalDiacak = [...listSoalKategori].sort(() => 0.5 - Math.random());
-        
-        // Ambil sebanyak kuota yang ditentukan
+
+        // Acak soal dalam kategori
+        const soalDiacak = [...listSoalKategori]
+            .sort(() => Math.random() - 0.5);
+
+        // Ambil sesuai kuota
         const diambil = soalDiacak.slice(0, jumlahKuota);
-        
-        kumpulanSoalTerpilih = kumpulanSoalTerpilih.concat(diambil);
+
+        // Tambahkan ke daftar akhir
+        kumpulanSoalTerpilih.push(...diambil);
     }
-    
-    // 3. PENTING: Jika jumlah soal di JSON kurang dari 40, sistem akan mengambil apa yang ada saja.
-    // Jika Anda ingin memastikan 40, pastikan JSON Anda memiliki jumlah soal yang cukup.
-    console.log("Jumlah soal yang terkumpul: " + kumpulanSoalTerpilih.length);
-    
-    // 4. Acak urutan 40 soal tersebut agar tidak berurutan berdasarkan kategori
-    return kumpulanSoalTerpilih.sort(() => 0.5 - Math.random());
+
+    console.log(
+        "Jumlah soal yang terkumpul: " +
+        kumpulanSoalTerpilih.length
+    );
+
+    // JANGAN DIACAK LAGI
+    return kumpulanSoalTerpilih;
 }
 
 /**
@@ -179,7 +182,29 @@ function renderSoal() {
     document.getElementById('question-category').innerText = formatNamaKategori(soalAktif.id);
     
     // UBAH DARI .innerText KE .innerHTML AGAR TAG <ruby> DIRENDER SEBAGAI FURIGANA
-    document.getElementById('question-text').innerHTML = soalAktif.question;
+    const questionElement =
+    document.getElementById('question-text');
+
+let isiSoal = soalAktif.question;
+
+if (soalAktif.img) {
+    isiSoal += `
+        <div style="margin-top:15px;text-align:center;">
+            <img
+                src="${soalAktif.img}"
+                alt="Gambar Soal"
+                style="
+                    max-width:100%;
+                    max-height:400px;
+                    border-radius:8px;
+                "
+                onerror="this.style.display='none'"
+            >
+        </div>
+    `;
+}
+
+questionElement.innerHTML = isiSoal;
     
     const containerOpsi = document.querySelector('.options-container');
     containerOpsi.innerHTML = '';
@@ -459,8 +484,8 @@ function eksekusiHitungHasilAkhir() {
         "keamanan_pangan_haccp": { benar: 0, total: 0 },
         "sanitasi_umum": { benar: 0, total: 0 },
         "pengendalian_mutu": { benar: 0, total: 0 },
-        "k3": { benar: 0, total: 0 },
-        "hitungan": { benar: 0, total: 0 }
+        "hitungan": { benar: 0, total: 0 },
+        "k3": { benar: 0, total: 0 }
     };
     
     sesi.daftarSoal.forEach((soal) => {
@@ -521,8 +546,8 @@ function dapatkanKodeKategoriDariId(idSoal) {
     if (idSoal.startsWith('KP-')) return 'keamanan_pangan_haccp';
     if (idSoal.startsWith('SU-')) return 'sanitasi_umum';
     if (idSoal.startsWith('PM-')) return 'pengendalian_mutu';
-    if (idSoal.startsWith('K3-')) return 'k3';
     if (idSoal.startsWith('HT-')) return 'hitungan';
+    if (idSoal.startsWith('K3-')) return 'k3';
     return 'keamanan_pangan_haccp';
 }
 
@@ -530,7 +555,7 @@ function formatNamaKategori(idSoal) {
     if (idSoal.startsWith('KP-')) return 'HACCP & Keamanan Pangan';
     if (idSoal.startsWith('SU-')) return 'Sanitasi Umum & Pekerja';
     if (idSoal.startsWith('PM-')) return 'Pengendalian Mutu Proses';
-    if (idSoal.startsWith('K3-')) return 'Keselamatan & Kesehatan Kerja (K3)';
     if (idSoal.startsWith('HT-')) return 'Hitungan';
+    if (idSoal.startsWith('K3-')) return 'Keselamatan & Kesehatan Kerja (K3)';
     return 'Pengolahan Makanan';
 }

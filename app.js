@@ -7,8 +7,8 @@ const EXAM_CONFIG = {
     haccp: 18,
     sanitasi: 10,
     mutu: 5,
-    k3: 5,
     hitungan: 2,
+    k3: 5,
     duration: 70 * 60
 };
 
@@ -184,9 +184,10 @@ function createExam() {
 
         ...pickQuestions("mutu", 5).map(q => ({...q, category:"mutu"})),
 
-        ...pickQuestions("k3", 5).map(q => ({...q, category:"k3"})),
+        ...pickQuestions("hitungan", 2).map(q => ({...q, category:"hitungan"})),
 
-        ...pickQuestions("hitungan", 2).map(q => ({...q, category:"hitungan"}))
+        ...pickQuestions("k3", 5).map(q => ({...q, category:"k3"}))
+
 
     ];
 

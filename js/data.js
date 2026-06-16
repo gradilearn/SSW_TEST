@@ -21,8 +21,8 @@ async function buatSimulasiUjian() {
     keamanan_pangan_haccp: 18,
     sanitasi_umum: 10,
     pengendalian_mutu: 5,
-    k3: 5,
-    hitungan: 2
+    hitungan: 2,
+    k3: 5
 };
 
         let soalTerpilih = [];
@@ -39,9 +39,6 @@ async function buatSimulasiUjian() {
                 soalTerpilih = soalTerpilih.concat(diambil);
             }
         }
-
-        // 4. Acak kembali hasil akhir 40 soal agar urutan kategori bercampur
-        shuffle(soalTerpilih);
 
         // 5. Buat struktur data (state) untuk sesi ujian saat ini
         const sesiUjian = {

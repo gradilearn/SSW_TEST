@@ -36,7 +36,7 @@
 .exam-title { display: flex; flex-direction: column; gap: 0;
     line-height: 1.4; }
 .title-main { font-size: 1.1rem !important; font-weight: auto; color: #ffffff; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px;}
-.title-sub  { font-size: 1.0rem !important; color: #94a3b8; margin-top: 1px !important; }
+.title-sub  { font-size: 0.9rem !important; color: #94a3b8; margin-top: 1px !important; }
 
 .header-right { display: flex; gap: 8px; flex-shrink: 0; }
 

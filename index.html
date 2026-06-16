@@ -89,7 +89,7 @@
                     const row = document.createElement('tr');
                     
                     // Beri warna teks status (LULUS hijau, TIDAK LULUS merah)
-                    const statusClass = item.status === 'LULUS' ? 'text-success' : 'text-danger';
+                    const statusClass = item.status === 'PASSED' ? 'text-success' : 'text-danger';
 
                     row.innerHTML = `
                         <td>${item.tanggal}</td>

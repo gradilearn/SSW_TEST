@@ -20,23 +20,27 @@
 }
 
 /* ===== HEADER ===== */
-.prometric-header {
-    flex-shrink: 0;
+.exam-title {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background: rgba(15, 23, 42, 0.92);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255,255,255,0.12);
-    z-index: 200;
+    flex-direction: column;
+    gap: 0;
+    line-height: 1.2;
 }
 
-.exam-title { display: flex; flex-direction: column; gap: 0;
-    line-height: 1.4; }
-.title-main { font-size: 1.1rem !important; font-weight: auto; color: #ffffff; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px;}
-.title-sub  { font-size: 0.9rem !important; color: #94a3b8; margin-top: 1px !important; }
+.exam-title .title-main {
+    font-weight: 700;
+    font-size: 1.1em;
+    display: block;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+}
+
+.exam-title .title-sub {
+    font-size: 0.92rem;
+    color: #94a3b8;
+    margin-top: 3px;
+    display: block;
+}
 
 .header-right { display: flex; gap: 8px; flex-shrink: 0; }
 

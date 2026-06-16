@@ -298,7 +298,7 @@ body.prometric-body {
     align-items: center;
     width: 100%;
     background-color: #ffffff;
-    border: 1.5px solid #e2e8f0;
+    border: 1.5px solid #d8dee7;
     border-radius: 10px;
     padding: 14px 20px;
     text-align: left;
@@ -308,7 +308,7 @@ body.prometric-body {
 }
 
 .option-row:hover {
-    background-color: #f8fafc;
+    background-color: #eeeeee;
     border-color: #94a3b8;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     transform: translateY(-1px);

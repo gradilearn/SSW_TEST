@@ -23,7 +23,7 @@ function simpanHasilUjian(skor, totalBenar, totalSalah, analisisKategori) {
         skor: skor,
         benar: totalBenar,
         salah: totalSalah,
-        status: skor >= 70 ? 'LULUS' : 'TIDAK LULUS',
+        status: skor >= 70 ? 'PASSED' : 'FAILED',
         analisis: analisisKategori,         // dibaca oleh review.js
         detailKategori: analisisKategori,   // backward-compat untuk dashboard
         daftarSoal: sesiAktif.daftarSoal   || [],

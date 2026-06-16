@@ -16,28 +16,29 @@ async function buatSimulasiUjian() {
         const response = await fetch('data/questions.json');
         const bankSoal = await response.json();
 
-        // 2. Tentukan komposisi soal per kategori
-        const komposisi = {
-    keamanan_pangan_haccp: 18,
-    sanitasi_umum: 10,
-    pengendalian_mutu: 5,
-    hitungan: 2,
-    k3: 5
-};
+        // 2. Komposisi soal — pakai array agar urutan & kuota selalu konsisten
+        const komposisi = [
+            { kategori: 'keamanan_pangan_haccp', kuota: 18 },
+            { kategori: 'sanitasi_umum',         kuota: 10 },
+            { kategori: 'pengendalian_mutu',      kuota: 5  },
+            { kategori: 'hitungan',              kuota: 2  },
+            { kategori: 'k3',                    kuota: 5  },
+        ];
 
         let soalTerpilih = [];
 
         // 3. Ambil soal secara acak berdasarkan kuota masing-masing kategori
-        for (const kategori in komposisi) {
-            if (bankSoal[kategori]) {
-                // Salin dan acak soal pada kategori saat ini
-                const soalDiacak = shuffle([...bankSoal[kategori]]);
-                // Ambil sebanyak kuota yang dibutuhkan
-                const kuota = komposisi[kategori];
-                const diambil = soalDiacak.slice(0, kuota);
-                // Gabungkan ke array utama
-                soalTerpilih = soalTerpilih.concat(diambil);
+        for (const { kategori, kuota } of komposisi) {
+            if (!bankSoal[kategori]) {
+                console.warn(`Kategori "${kategori}" tidak ditemukan di questions.json`);
+                continue;
             }
+            const soalDiacak = shuffle([...bankSoal[kategori]]);
+            const diambil = soalDiacak.slice(0, kuota);
+            if (diambil.length < kuota) {
+                console.warn(`Kategori "${kategori}": kuota ${kuota} tapi soal hanya ${diambil.length}`);
+            }
+            soalTerpilih = soalTerpilih.concat(diambil);
         }
 
         // 5. Buat struktur data (state) untuk sesi ujian saat ini

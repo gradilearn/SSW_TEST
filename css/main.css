@@ -169,7 +169,7 @@ body {
     background: linear-gradient(135deg, #5a8228, #73a835);
     color: white;
     padding: 13px 32px;
-    border-radius: 50px;
+    border-radius: 12px;
     font-size: 0.95rem;
     box-shadow: 0 4px 14px rgba(80,130,30,0.35);
     letter-spacing: 0.3px;

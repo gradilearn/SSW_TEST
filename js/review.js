@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const nav = performance.getEntriesByType("navigation")[0];
 
-if (nav && nav.type === "reload") {
-    window.location.replace("index.html");
-    return;
-}
+    if (nav && nav.type === "reload") {
+        window.location.replace("index.html");
+        return;
+    }
 
     muatHasilEvaluasi();
 });
@@ -19,21 +19,17 @@ let kumpulanSoalReview = [];
 let jawabanUserReview = {};
 
 function muatHasilEvaluasi() {
-    // Ambil data ujian yang barusan diselesaikan dari LocalStorage
-    // Jika tidak ada, gunakan cetakan data cadangan mock agar halaman tidak kosong melongpong
-    const sesiSelesai = JSON.parse(localStorage.getItem('ssw_current_exam'));
     const riwayatUjian = JSON.parse(localStorage.getItem('ssw_exam_history') || '[]');
-    
-    // Gunakan entri terakhir dari riwayat jika sesi langsung sudah dibersihkan
-    const dataHasil = riwayatUjian[riwayatUjian.length - 1] || { skor: 0, benar: 0, salah: 0, analisis: {} };
-    
-    // 1. Suntik Angka Ringkasan Atas
+    const dataHasil = riwayatUjian[0] || { skor: 0, benar: 0, salah: 0 };
+    // kompatibel format lama (detailKategori) dan baru (analisis)
+    dataHasil.analisis = dataHasil.analisis || dataHasil.detailKategori || {};
+
+    // 1. Ringkasan Skor
     const skorAkhir = dataHasil.skor;
     document.getElementById('final-score-val').innerText = skorAkhir;
     document.getElementById('benar-val').innerText = dataHasil.benar;
     document.getElementById('salah-val').innerText = dataHasil.salah;
-    
-    // Status Kelulusan (Kriteria Kelulusan Prometric Asli adalah minimal 70%)
+
     const badgeStatus = document.getElementById('pass-status-badge');
     if (skorAkhir >= 70) {
         badgeStatus.innerText = "合格 (PASSED)";
@@ -43,15 +39,15 @@ function muatHasilEvaluasi() {
         badgeStatus.className = "status-badge fail";
     }
 
-    // 2. Render Grafik Batang Kompetensi Kategori Kerja
+    // 2. Grafik Batang Kategori
     const containerBatang = document.getElementById('category-bars-container');
     if (containerBatang && dataHasil.analisis) {
         containerBatang.innerHTML = '';
-        
+
         Object.entries(dataHasil.analisis).forEach(([keyKat, data]) => {
             const persenKat = data.total > 0 ? Math.round((data.benar / data.total) * 100) : 0;
             const namaClean = dapatkanNamaKategoriCantik(keyKat);
-            
+
             const barRow = document.createElement('div');
             barRow.className = 'bar-row';
             barRow.innerHTML = `
@@ -60,102 +56,132 @@ function muatHasilEvaluasi() {
                     <span>${data.benar}/${data.total} Benar (${persenKat}%)</span>
                 </div>
                 <div class="bar-track">
-                    <div class="bar-fill" style="width: ${persenKat}%; background-color: ${persenKat >= 70 ? '#10b981' : '#f59e0b'}"></div>
+                    <div class="bar-fill" style="width: ${persenKat}%; background: ${persenKat >= 70 ? '#10b981' : '#f59e0b'}"></div>
                 </div>
             `;
             containerBatang.appendChild(barRow);
         });
     }
 
-    // 3. Simpan Referensi untuk Pengisian Tabel Detil Soal di Bawah
-    if (sesiSelesai && Array.isArray(sesiSelesai.daftarSoal)) {
+    // 3. Tabel Detail Soal — baca dari history entry (lebih andal dari ssw_current_exam)
+    if (dataHasil.daftarSoal && Array.isArray(dataHasil.daftarSoal) && dataHasil.daftarSoal.length > 0) {
+        kumpulanSoalReview = dataHasil.daftarSoal;
+        jawabanUserReview  = dataHasil.jawabanUser || {};
 
-    kumpulanSoalReview = sesiSelesai.daftarSoal || [];
-    jawabanUserReview = sesiSelesai.jawabanUser || {};
+        const totalEl = document.getElementById('total-soal-val');
+        if (totalEl) totalEl.textContent = kumpulanSoalReview.length;
 
-    const totalEl = document.getElementById('total-soal-val');
-    if (totalEl) {
-        totalEl.textContent = kumpulanSoalReview.length;
+        renderTabelUlasan('all');
+
+    } else {
+        // Fallback: coba dari ssw_current_exam jika history lama belum menyimpan daftarSoal
+        const sesiSelesai = JSON.parse(localStorage.getItem('ssw_current_exam'));
+        if (sesiSelesai && Array.isArray(sesiSelesai.daftarSoal) && sesiSelesai.daftarSoal.length > 0) {
+            kumpulanSoalReview = sesiSelesai.daftarSoal;
+            jawabanUserReview  = sesiSelesai.jawabanUser || {};
+
+            const totalEl = document.getElementById('total-soal-val');
+            if (totalEl) totalEl.textContent = kumpulanSoalReview.length;
+
+            renderTabelUlasan('all');
+        } else {
+            const tbody = document.getElementById('review-table-body');
+            if (tbody) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="6" class="text-center" style="color:#64748b;padding:30px;">
+                            Riwayat lembar pengerjaan penuh sudah dibersihkan.
+                            Silakan lakukan simulasi ujian ulang untuk melihat lembar koreksi interaktif.
+                        </td>
+                    </tr>
+                `;
+            }
+            const totalEl = document.getElementById('total-soal-val');
+            if (totalEl) totalEl.textContent = '0';
+        }
     }
-
-    renderTabelUlasan('all');
-
-} else {
-
-    const tbody = document.getElementById('review-table-body');
-    if (tbody) {
-        tbody.innerHTML = `
-            <tr>
-                <td colspan="6" class="text-center" style="color: #64748b; padding: 30px;">
-                    Riwayat lembar pengerjaan penuh sudah dibersihkan. Sila lakukan simulasi ujian ulang untuk melihat lembar koreksi interaktif.
-                </td>
-            </tr>
-        `;
-    }
-
-    const totalEl = document.getElementById('total-soal-val');
-    if (totalEl) {
-        totalEl.textContent = '0';
-    }
-}
 }
 
 /**
- * Render Baris Tabel Berdasarkan Filter (Semua / Benar / Salah)
+ * Render baris tabel berdasarkan filter
  */
 function renderTabelUlasan(filter) {
     const tbody = document.getElementById('review-table-body');
     if (!tbody) return;
     tbody.innerHTML = '';
 
-    kumpulanSoalReview.forEach((soal, index) => {
-        const jawabanUser = (jawabanUserReview[soal.id] || '-').toUpperCase().trim();
-        const kunciBenar = soal.correct_answer.toUpperCase().trim();
-        const isCorrect = jawabanUser === kunciBenar;
+    let tampilCount = 0;
 
-        // Logika Penyaringan Filter Tombol Atas
-        if (filter === 'correct' && !isCorrect) return;
-        if (filter === 'incorrect' && isCorrect) return;
+    kumpulanSoalReview.forEach((soal, index) => {
+        // Normalisasi jawaban — trim spasi & uppercase
+        const jawabanUser = String(jawabanUserReview[soal.id] || '-').toUpperCase().trim();
+        const kunciBenar  = String(soal.correct_answer || '').toUpperCase().trim();
+        const isCorrect   = jawabanUser !== '-' && jawabanUser === kunciBenar;
+
+        if (filter === 'correct'   && !isCorrect) return;
+        if (filter === 'incorrect' &&  isCorrect) return;
+
+        tampilCount++;
 
         const tr = document.createElement('tr');
+        tr.dataset.status = isCorrect ? 'correct' : 'incorrect';
         tr.innerHTML = `
-            <td class="text-center font-bold" style="color: #64748b;">${index + 1}</td>
-            <td class="font-bold" style="font-size: 0.8rem; color: #475569;">${formatKategoriSingkat(soal.id)}</td>
+            <td class="text-center font-bold" style="color:#64748b;">${index + 1}</td>
+            <td class="font-bold" style="font-size:0.8rem;color:#475569;">${formatKategoriSingkat(soal.id)}</td>
             <td>
-                <div style="font-weight: 600; color: #1e293b; margin-bottom: 4px;">${soal.question}</div>
-                <div style="font-size: 0.8rem; color: #059669; background-color: #f0fdf4; padding: 8px 12px; border-radius: 6px; margin-top: 6px; border: 1px dashed #bbf7d0;">
-                    💡 <strong>Penjelasan:</strong> ${soal.explanation || 'Tidak ada penjelasan khusus.'}
+                <div style="font-weight:600;color:#1e293b;margin-bottom:4px;">${soal.question}</div>
+                <div style="font-size:0.78rem;color:#059669;background:#f0fdf4;padding:7px 11px;border-radius:6px;margin-top:5px;border:1px dashed #bbf7d0;">
+                    💡 <strong>Explanation:</strong> ${soal.explanation || 'Tidak ada penjelasan khusus.'}
                 </div>
             </td>
-            <td class="text-center font-bold ${isCorrect ? 'text-success' : 'text-danger'}" style="color: ${isCorrect ? '#10b981' : '#ef4444'}">${jawabanUser}</td>
-            <td class="text-center font-bold" style="color: #10b981;">${kunciBenar}</td>
+            <td class="text-center font-bold" style="color:${isCorrect ? '#10b981' : '#ef4444'}">${jawabanUser}</td>
+            <td class="text-center font-bold" style="color:#10b981;">${kunciBenar}</td>
             <td class="text-center">
                 <span class="status-row-badge ${isCorrect ? 'correct-tag' : 'incorrect-tag'}">
-                    ${isCorrect ? 'BENAR' : 'SALAH'}
+                    ${isCorrect ? 'TRUE' : 'FALSE'}
                 </span>
             </td>
         `;
         tbody.appendChild(tr);
     });
+
+    // Tampilkan pesan jika tidak ada data sesuai filter
+    if (tampilCount === 0) {
+        tbody.innerHTML = `
+            <tr>
+                <td colspan="6" class="text-center" style="color:#64748b;padding:24px;">
+                    Tidak ada data untuk filter ini.
+                </td>
+            </tr>
+        `;
+    }
 }
 
-function filterReviewTable(tipeFilter, event) {
-    document.querySelectorAll('.badge-filter').forEach(btn => btn.classList.remove('active'));
-
-    if (event && event.target) {
-        event.target.classList.add('active');
-    }
+/**
+ * Filter tabel — dipanggil dari onclick di HTML
+ * Tidak butuh parameter event; gunakan querySelectorAll untuk update active
+ */
+function filterReviewTable(tipeFilter) {
+    // Pindahkan class active ke tombol yang diklik berdasarkan tipeFilter
+    document.querySelectorAll('.badge-filter').forEach(btn => {
+        btn.classList.remove('active');
+        // Cocokkan tombol via onclick attribute
+        const onclickVal = btn.getAttribute('onclick') || '';
+        if (onclickVal.includes(`'${tipeFilter}'`)) {
+            btn.classList.add('active');
+        }
+    });
 
     renderTabelUlasan(tipeFilter);
 }
 
 function dapatkanNamaKategoriCantik(key) {
     const kamus = {
-        "keamanan_pangan_haccp": "HACCP & Keamanan Pangan (A)",
-        "sanitasi_umum": "Sanitasi Umum & Manajemen Pekerja (B)",
-        "pengendalian_mutu": "Pengendalian Mutu Proses Produksi (C)",
-        "hitungan": "Hitungan (E)",
-        "k3": "Keselamatan & Kesehatan Kerja / K3 (D)"
+        "keamanan_pangan_haccp": "HACCP & Keamanan Pangan",
+        "sanitasi_umum":         "Sanitasi Umum & Manajemen Pekerja",
+        "pengendalian_mutu":     "Pengendalian Mutu Proses Produksi",
+        "hitungan":              "Hitungan",
+        "k3":                    "Keselamatan & Kesehatan Kerja / K3"
     };
     return kamus[key] || "Kompetensi Umum Pengolahan Makanan";
 }
@@ -176,13 +202,6 @@ function Beranda() {
 }
 
 function restartSimulation() {
-    // Hapus semua data ujian
     localStorage.removeItem('ssw_current_exam');
-
-    // OPTIONAL: kalau mau full reset history
-    // localStorage.removeItem('ssw_exam_history');
-
-    // Pindah ke halaman ujian
     window.location.href = 'exam.html';
 }
-

@@ -516,7 +516,9 @@ function eksekusiHitungHasilAkhir() {
             skor: skorAkhir,
             benar: totalBenar,
             salah: totalSalah,
-            analisis: analisisKategori
+            analisis: analisisKategori,
+            daftarSoal: sesi.daftarSoal,
+            jawabanUser: sesi.jawabanUser
         });
         localStorage.setItem('ssw_exam_history', JSON.stringify(riwayatSsw));
     }

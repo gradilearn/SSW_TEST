@@ -9,7 +9,10 @@ function getRiwayatUjian() {
 // 2. Simpan hasil ujian baru ke dalam riwayat
 function simpanHasilUjian(skor, totalBenar, totalSalah, analisisKategori) {
     const riwayat = getRiwayatUjian();
-    
+
+    // Ambil daftarSoal dan jawabanUser dari sesi aktif sebelum dihapus
+    const sesiAktif = JSON.parse(localStorage.getItem('ssw_current_exam') || '{}');
+
     // Data hasil ujian saat ini
     const hasilBaru = {
         id: 'EXAM-' + Date.now(),
@@ -17,11 +20,14 @@ function simpanHasilUjian(skor, totalBenar, totalSalah, analisisKategori) {
             year: 'numeric', month: 'long', day: 'numeric',
             hour: '2-digit', minute: '2-digit'
         }),
-        skor: skor,                    // Nilai akhir (0 - 100)
-        benar: totalBenar,              // Jumlah jawaban benar (dari 40 soal)
-        salah: totalSalah,              // Jumlah jawaban salah
-        status: skor >= 65 ? 'LULUS' : 'TIDAK LULUS', // Standar kelulusan SSW ~65%
-        detailKategori: analisisKategori // Persentase kebenaran per kategori
+        skor: skor,
+        benar: totalBenar,
+        salah: totalSalah,
+        status: skor >= 70 ? 'LULUS' : 'TIDAK LULUS',
+        analisis: analisisKategori,         // dibaca oleh review.js
+        detailKategori: analisisKategori,   // backward-compat untuk dashboard
+        daftarSoal: sesiAktif.daftarSoal   || [],
+        jawabanUser: sesiAktif.jawabanUser  || {}
     };
 
     // Tambahkan ke urutan paling atas (terbaru)

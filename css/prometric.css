@@ -1,6 +1,6 @@
 /* css/prometric.css */
 
-/* Reset & Set Font Modern */
+/* ===== RESET & FONT ===== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,239 +8,213 @@
     font-family: 'Inter', -apple-system, sans-serif;
 }
 
+/* ===== VARIABEL WARNA ===== */
 :root {
-    --bg-header: #1e293b;
+    --bg-header:         #1e293b;
     --bg-sidebar-header: #f1f5f9;
-    --border-color: #cbd5e1;
-    --primary-blue: #0f172a;
-    --accent-blue: #608a2d;
-    --success-green: #608a2d;
-    --warning-yellow: #f59e0b;
-    --danger-red: #ef4444;
+    --border-color:      #cbd5e1;
+    --primary-blue:      #0f172a;
+    --accent-green:      #608a2d;
+    --success-green:     #608a2d;
+    --warning-yellow:    #f59e0b;
+    --danger-red:        #ef4444;
 }
 
+/* ===== BODY ===== */
 body.prometric-body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
-    background-color: #f8fafc;
+    background-color: #f1f5f9;
 }
 
-/* Header Atas */
+/* ===== HEADER ATAS ===== */
 .prometric-header {
-    background-color: var(--bg-header);
+    background: linear-gradient(135deg, #1e293b, #2d3f55);
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px 24px;
     border-bottom: 1px solid #334155;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 .exam-title .title-main {
     font-weight: 700;
     font-size: 1.1em;
     display: block;
+    letter-spacing: 0.3px;
 }
 
 .exam-title .title-sub {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     color: #94a3b8;
+    margin-top: 2px;
 }
 
 .header-right {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
 }
 
 .progress-info {
-    font-size: 0.9rem;
-    background-color: #334155;
+    font-size: 0.85rem;
+    background-color: rgba(255,255,255,0.08);
     padding: 6px 12px;
-    border-radius: 6px;
+    border-radius: 8px;
     color: #cbd5e1;
+    border: 1px solid #334155;
 }
 
 .timer-box {
     background-color: #ffffff;
     color: #0f172a;
     padding: 6px 14px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-weight: 700;
     font-size: 1.05rem;
     border: 1px solid var(--border-color);
     display: flex;
     align-items: center;
     gap: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
 
-.timer-clock {
-    color: var(--danger-red);
-}
+.timer-clock { color: var(--danger-red); }
 
-/* Nama Peserta */
-.prometric-subheader{
+/* ===== SUBHEADER ===== */
+.prometric-subheader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
-
-    background: #608a2d; /* 🔥 hijau */
+    padding: 6px 16px;
+    background: linear-gradient(135deg, #4e7a22, #6fa832);
     color: #ffffff;
-
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 0.88rem;
     font-weight: 600;
+    letter-spacing: 0.2px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 }
 
 .subheader-left,
-.subheader-right{
-    color: #ffffff;
-}
+.subheader-right { color: #ffffff; }
 
-.subheader-left,
-.subheader-right{
-    color: #ffffff;
-}
-
-/* Tombol Kontrol Atas (Pause, Keluar) */
+/* ===== TOMBOL KONTROL HEADER ===== */
 .btn-ctrl {
     padding: 8px 14px;
     font-size: 0.85rem;
     font-weight: 600;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 .btn-pause {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 8px 15px;   /* 🔥 bikin lebih besar */
-    font-size: 0.95rem;   /* 🔥 teks lebih besar */
-    border-radius: 8px;   /* sedikit lebih tegas */
+    background-color: rgba(255,255,255,0.92);
+    color: #1e293b;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
-.btn-pause:hover { background-color: #cfcfcf; transform: translateY(-2px);}
+.btn-pause:hover  { background-color: #e2e8f0; transform: translateY(-2px); }
 
-
-/* tombol finish */
 .btn-finish {
-    background-color: #F4D994;
-    color: rgb(0, 0, 0);
-    padding: 10px 30px;   /* 🔥 bikin lebih besar */
-    font-size: 0.95rem;   /* 🔥 teks lebih besar */
-    border-radius: 8px;   /* sedikit lebih tegas */
+    background: linear-gradient(135deg, #f4d06a, #F4D994);
+    color: #78450a;
+    padding: 9px 26px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(244,185,60,0.3);
 }
-.btn-finish:hover { background-color: #e6c77a; transform: translateY(-2px);}
+.btn-finish:hover  { background: linear-gradient(135deg, #e6c060, #e8c87a); transform: translateY(-2px); }
+.btn-finish:active { transform: scale(0.97); }
 
-.btn-finish:active {
-    background-color: #e0b85f;
-    transform: scale(0.97);
-}
-
-/* Struktur Tengah (Layout Kiri-Kanan Diperbarui Sesuai Gambar) */
+/* ===== LAYOUT TENGAH ===== */
 .prometric-main {
     display: flex;
-    flex-direction: row; /* Kiri ke Kanan */
+    flex-direction: row;
     flex: 1;
     overflow: hidden;
 }
 
-/* SISI KIRI: Sidebar Navigasi Nomor */
+/* ===== SIDEBAR KIRI ===== */
 .exam-sidebar {
     width: 200px;
     background-color: #ffffff;
     border-right: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.04);
 }
 
 .sidebar-header {
     padding: 14px;
-    background-color: var(--bg-sidebar-header);
+    background: linear-gradient(135deg, #f1f5f9, #e8eef5);
     border-bottom: 1px solid var(--border-color);
     text-align: center;
 }
 
 .sidebar-header h3 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #1e293b;
     font-weight: 700;
+    letter-spacing: 0.3px;
 }
 
 .sidebar-header p {
     font-size: 0.75rem;
     color: #64748b;
+    margin-top: 2px;
 }
 
-/* Grid Tombol Angka */
+/* Grid Nomor Soal */
 .question-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 4 Kolom Vertikal Rapi */
-    gap: 1px;
-    padding: 16px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    padding: 14px;
     overflow-y: auto;
     flex: 1;
 }
 
 .grid-item {
-    background-color: #ffffff;
-    border: 1px solid var(--border-color);
+    background-color: #f8fafc;
+    border: 1px solid #dde3ec;
     border-radius: 6px;
-
     width: 30px;
     height: 30px;
-    aspect-ratio: 1 / 1;   /* ini yang bikin persegi */
-
+    aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-weight: 600;
-    font-size: 0.8rem;     /* diperkecil */
-    color: #334155;
-
+    font-size: 0.78rem;
+    color: #475569;
     cursor: pointer;
     transition: all 0.15s ease;
-
-    padding: 0;           /* penting: jangan pakai padding */
+    padding: 0;
 }
 
-.grid-item:hover {
-    border-color: var(--accent-blue);
-    background-color: #f1f5f9;
-}
+.grid-item:hover  { border-color: var(--accent-green); background-color: #f0f7e6; color: var(--accent-green); }
+.grid-item.aktif  { border: 2px solid #1e293b; background-color: #1e293b; color: #ffffff; box-shadow: 0 2px 6px rgba(30,41,59,0.3); }
+.grid-item.sudah  { background-color: var(--success-green); color: #ffffff; border-color: #4a7020; box-shadow: 0 1px 4px rgba(80,130,30,0.3); }
+.grid-item.ragu   { background-color: var(--warning-yellow); color: #ffffff; border-color: #d08a00; box-shadow: 0 1px 4px rgba(240,158,0,0.3); }
 
-/* Status Warna Item Grid */
-.grid-item.aktif {
-    border: 2px solid #334155;
-    background-color: #334155;
-    color: #ffffff;
-}
-
-.grid-item.sudah {
-    background-color: var(--success-green);
-    color: #ffffff;
-    border-color: var(--success-green);
-}
-
-.grid-item.ragu {
-    background-color: var(--warning-yellow);
-    color: #ffffff;
-    border-color: var(--warning-yellow);
-}
-
-/* Legend Status Bawah Sidebar */
+/* Legend Status */
 .grid-legend {
     padding: 12px;
     border-top: 1px solid var(--border-color);
-    background-color: var(--bg-sidebar-header);
+    background: linear-gradient(135deg, #f1f5f9, #e8eef5);
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    font-size: 0.8rem;
+    gap: 7px;
+    font-size: 0.78rem;
 }
 
 .legend-item {
@@ -248,25 +222,28 @@ body.prometric-body {
     align-items: center;
     gap: 8px;
     color: #475569;
+    font-weight: 500;
 }
 
 .legend-color {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     border-radius: 4px;
     border: 1px solid var(--border-color);
+    flex-shrink: 0;
 }
-.legend-color.belum { background-color: #ffffff; }
-.legend-color.sudah { background-color: var(--success-green); }
-.legend-color.ragu { background-color: var(--warning-yellow); }
+.legend-color.belum { background-color: #f8fafc; }
+.legend-color.sudah { background-color: var(--success-green); border-color: #4a7020; }
+.legend-color.ragu  { background-color: var(--warning-yellow); border-color: #d08a00; }
 
-/* SISI KANAN: Area Konten Pertanyaan */
+/* ===== KONTEN SOAL (KANAN) ===== */
 .exam-content {
     flex: 1;
     padding: 32px;
     overflow-y: auto;
     display: flex;
     justify-content: center;
+    background-color: #f8fafc;
 }
 
 .question-container-box {
@@ -284,12 +261,13 @@ body.prometric-body {
 }
 
 .question-header h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #0f172a;
     font-weight: 700;
 }
 
 .category-badge {
+    display: none;
     background-color: #e0f2fe;
     color: #0369a1;
     padding: 6px 12px;
@@ -301,18 +279,18 @@ body.prometric-body {
 .question-body {
     font-size: 1.4rem;
     line-height: 1.7;
-    color: #334155;
+    color: #1e293b;
     margin-bottom: 32px;
     font-weight: 500;
     letter-spacing: 0.1rem;
     text-align: left;
 }
 
-/* Desain Pilihan Jawaban (Box Lebar) */
+/* ===== PILIHAN JAWABAN ===== */
 .options-container {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
 }
 
 .option-row {
@@ -320,44 +298,49 @@ body.prometric-body {
     align-items: center;
     width: 100%;
     background-color: #ffffff;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 16px 20px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 14px 20px;
     text-align: left;
     cursor: pointer;
     transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 
 .option-row:hover {
     background-color: #f8fafc;
     border-color: #94a3b8;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transform: translateY(-1px);
 }
 
 .option-row.selected {
-    background-color: #eff6ff;
-    border-color: var(--accent-blue);
-    box-shadow: 0 0 0 1px var(--accent-blue);
+    background-color: #f0f7e6;
+    border-color: var(--accent-green);
+    box-shadow: 0 0 0 2px rgba(96,138,45,0.2);
 }
 
 .option-badge {
-    width: 32px;
-    height: 32px;
-    line-height: 30px;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
     text-align: center;
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
+    border: 1.5px solid #dde3ec;
+    border-radius: 8px;
     font-weight: 700;
     font-size: 0.95rem;
     color: #475569;
     margin-right: 16px;
     background-color: #f8fafc;
     flex-shrink: 0;
+    transition: all 0.2s ease;
 }
 
 .option-row.selected .option-badge {
-    background-color: var(--accent-blue);
+    background-color: var(--accent-green);
     color: #ffffff;
-    border-color: var(--accent-blue);
+    border-color: var(--accent-green);
+    box-shadow: 0 2px 6px rgba(96,138,45,0.3);
 }
 
 .option-text {
@@ -376,148 +359,62 @@ body.prometric-body {
     hyphens: auto;
 }
 
-/* Footer Navigasi Bawah */
+/* ===== FOOTER NAVIGASI ===== */
 .prometric-footer {
     background-color: #ffffff;
     border-top: 1px solid var(--border-color);
-    padding: 16px 24px;
+    padding: 14px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
 }
 
 .btn-nav {
-    padding: 12px 24px;
-    font-size: 0.95rem;
+    padding: 11px 24px;
+    font-size: 0.92rem;
     font-weight: 600;
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
+    border: 1.5px solid var(--border-color);
+    border-radius: 8px;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.2s ease;
+    letter-spacing: 0.3px;
 }
 
-.btn-secondary { background-color: #ffffff; color: #475569; }
-.btn-secondary:hover { background-color: #d1d1d1; transform: translateY(-2px);}
+.btn-secondary       { background-color: #ffffff; color: #475569; }
+.btn-secondary:hover { background-color: #e2e8f0; transform: translateY(-2px); box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
 
-.btn-primary { background-color: var(--accent-blue); color: white; border: none; }
-.btn-primary:hover { background-color: #507a1c; transform: translateY(-2px); }
+.btn-primary         { background: linear-gradient(135deg, #4e7a22, #6fa832); color: white; border: none; box-shadow: 0 2px 6px rgba(80,130,30,0.3); }
+.btn-primary:hover   { background: linear-gradient(135deg, #436818, #5e9028); transform: translateY(-2px); box-shadow: 0 4px 10px rgba(80,130,30,0.35); }
 
-.btn-submit { background-color: var(--success-green); color: white; border: none; }
-.btn-submit:hover { background-color: #507a1c; transform: translateY(-2px);}
+.btn-submit          { background: linear-gradient(135deg, #4e7a22, #6fa832); color: white; border: none; box-shadow: 0 2px 6px rgba(80,130,30,0.3); }
+.btn-submit:hover    { background: linear-gradient(135deg, #436818, #5e9028); transform: translateY(-2px); }
 
-.btn-flag {
-    background-color: #f59e0b;
-    border-color: #fde68a;
-    color: #ffffff;
-}
-.btn-flag:hover { background-color: #db8f0b; transform: translateY(-2px);}
+.btn-flag            { background: linear-gradient(135deg, #d08600, #f59e0b); border-color: #fde68a; color: #ffffff; box-shadow: 0 2px 6px rgba(240,158,0,0.25); }
+.btn-flag:hover      { background: linear-gradient(135deg, #b87500, #e08f00); transform: translateY(-2px); }
+.btn-flag.flagged    { background: linear-gradient(135deg, #d08600, #f59e0b); color: white; border-color: #d08600; }
+.btn-flag.flagged:hover { background: linear-gradient(135deg, #b87500, #e08f00); transform: translateY(-2px); }
 
-.btn-flag.flagged {
-    background-color: var(--warning-yellow);
-    color: white;
-    border-color: var(--warning-yellow);
-}
-.btn-flag.flagged:hover { background-color: #db8f0b; transform: translateY(-2px);}
-
-/* Pop-up Modul Pause Overlay */
+/* ===== PAUSE OVERLAY ===== */
 .pause-overlay {
     position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
+    inset: 0;
     background-color: rgba(15, 23, 42, 0.85);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 100;
+    z-index: 9999;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
+    backdrop-filter: blur(3px);
 }
 
 .pause-overlay.active {
     opacity: 1;
     pointer-events: auto;
-    /* Saat overlay aktif, beri efek blur pada body atau class utama */
-}
-    body.paused .prometric-header,
-    body.paused .prometric-main,
-    body.paused .prometric-footer {
-    filter: blur(5px);
-    pointer-events: none;
-    user-select: none;
-    transition: filter 0.1s ease;
 }
 
-
-.pause-card {
-    background-color: #ffffff;
-    padding: 32px;
-    border-radius: 12px;
-    text-align: center;
-    max-width: 450px;
-    width: 90%;
-    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-}
-
-.pause-card h2 { color: #0f172a; margin-bottom: 12px; font-size: 2.2rem; }
-.pause-card p { color: #475569; font-size: 1.2rem; margin-bottom: 24px; line-height: 1.5; }
-
-.btn-resume {
-    background-color: var(--success-green);
-    color: white;
-    border: none;
-    padding: 12px 28px;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 6px;
-    cursor: pointer;
-}
-.btn-resume:hover { background-color: #507a1c; transform: translateY(-2px);}
-
-/* OPTIMASI LAYAR HP ANDROID (Responsive) */
-@media (max-width: 768px) {
-    .prometric-body { overflow-y: auto; height: auto; }
-    .prometric-header { flex-direction: column; gap: 10px; padding: 12px; text-align: center; }
-    .header-right { width: 100%; justify-content: center; font-size: 0.85rem; }
-    
-    .prometric-main { flex-direction: column; overflow: visible; }
-    .exam-sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border-color); }
-    .question-grid { grid-template-columns: repeat(8, 1fr); padding: 12px; gap: 6px; }
-    .grid-legend { flex-direction: row; justify-content: space-around; }
-    
-    .exam-content { padding: 16px; overflow-y: visible; }
-    .question-body { font-size: 1.1rem; margin-bottom: 20px; }
-    
-    .prometric-footer { position: sticky; bottom: 0; padding: 12px; box-shadow: 0 -4px 12px rgba(0,0,0,0.05); }
-    .btn-nav { padding: 10px 14px; font-size: 0.85rem; }
-}
-
-.category-badge{
-    display:none;
-}
-
-/* Mengatur agar Furigana muncul di atas Kanji */
-ruby {
-    ruby-align: space-around;
-    display: ruby;
-}
-
-rt {
-    font-size: 0.65em;
-    letter-spacing: 0.05em;
-    white-space: nowrap;
-    margin-bottom: 2px;
-}
-
-rb {
-    letter-spacing: 0.08em;
-}
-
-/* Menambah jarak baris agar Furigana tidak bertabrakan */
-.soal-container, .pilihan-container {
-    line-height: 2.5; 
-}
-
-/* ===== PAUSE BLUR EFFECT ===== */
 body.paused .prometric-header,
 body.paused .prometric-main,
 body.paused .prometric-footer {
@@ -527,7 +424,44 @@ body.paused .prometric-footer {
     transition: filter 0.3s ease;
 }
 
-/* overlay tetap di atas */
-.pause-overlay {
-    z-index: 9999;
+.pause-card {
+    background-color: #ffffff;
+    padding: 36px 32px;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 24px 40px rgba(0,0,0,0.25);
+}
+
+.pause-card h2 { color: #0f172a; margin-bottom: 12px; font-size: 2.2rem; font-weight: 800; }
+.pause-card p  { color: #64748b; font-size: 1.1rem; margin-bottom: 28px; line-height: 1.6; }
+
+.btn-resume       { background: linear-gradient(135deg, #4e7a22, #6fa832); color: white; border: none; padding: 13px 32px; font-size: 1rem; font-weight: 700; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 12px rgba(80,130,30,0.35); transition: all 0.2s ease; }
+.btn-resume:hover { background: linear-gradient(135deg, #436818, #5e9028); transform: translateY(-2px); }
+
+/* ===== FURIGANA (RUBY) ===== */
+ruby { ruby-align: space-around; display: ruby; }
+rt   { font-size: 0.65em; letter-spacing: 0.05em; white-space: nowrap; margin-bottom: 2px; }
+rb   { letter-spacing: 0.08em; }
+
+.soal-container,
+.pilihan-container { line-height: 2.5; }
+
+/* ===== RESPONSIVE (HP) ===== */
+@media (max-width: 768px) {
+    body.prometric-body  { overflow-y: auto; height: auto; }
+    .prometric-header    { flex-direction: column; gap: 10px; padding: 12px; text-align: center; }
+    .header-right        { width: 100%; justify-content: center; font-size: 0.85rem; flex-wrap: wrap; }
+
+    .prometric-main      { flex-direction: column; overflow: visible; }
+    .exam-sidebar        { width: 100%; border-right: none; border-bottom: 1px solid var(--border-color); }
+    .question-grid       { grid-template-columns: repeat(8, 1fr); padding: 12px; gap: 6px; }
+    .grid-legend         { flex-direction: row; justify-content: space-around; }
+
+    .exam-content        { padding: 16px; overflow-y: visible; }
+    .question-body       { font-size: 1.1rem; margin-bottom: 20px; }
+
+    .prometric-footer    { position: sticky; bottom: 0; padding: 12px; box-shadow: 0 -4px 12px rgba(0,0,0,0.08); }
+    .btn-nav             { padding: 10px 14px; font-size: 0.85rem; }
 }

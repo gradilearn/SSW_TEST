@@ -53,7 +53,7 @@ function muatHasilEvaluasi() {
             barRow.innerHTML = `
                 <div class="bar-info-flex">
                     <span>${namaClean}</span>
-                    <span>${data.benar}/${data.total} Benar (${persenKat}%)</span>
+                    <span>${data.benar}/${data.total} True (${persenKat}%)</span>
                 </div>
                 <div class="bar-track">
                     <div class="bar-fill" style="width: ${persenKat}%; background: ${persenKat >= 70 ? '#10b981' : '#f59e0b'}"></div>

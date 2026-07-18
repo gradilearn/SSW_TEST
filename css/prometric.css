@@ -184,28 +184,77 @@ body.prometric-body {
     flex: 1;
 }
 
-.grid-item {
-    background-color: #f8fafc;
-    border: 1px solid #dde3ec;
-    border-radius: 6px;
-    width: 30px;
-    height: 30px;
-    aspect-ratio: 1 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    font-size: 0.78rem;
-    color: #475569;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    padding: 0;
+/* ===== GRID NOMOR SOAL ===== */
+
+/* Belum dijawab */
+.grid-item{
+    background:#ffffff;
+    border:1px solid #cbd5e1;
+    color:#475569;
+
+    border-radius:6px;
+    width:30px;
+    height:30px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-weight:600;
+    font-size:.78rem;
+    cursor:pointer;
+    transition:all .2s ease;
 }
 
-.grid-item:hover  { border-color: var(--accent-green); background-color: #f0f7e6; color: var(--accent-green); }
-.grid-item.aktif  { border: 2px solid var(--success-green); background-color: var(--success-green); color: #ffffff; box-shadow: 0 2px 6px rgba(96,138,45,0.3); }
-.grid-item.sudah  { background-color: var(--answered-blue); color: #ffffff; border-color: #0f172a; box-shadow: 0 1px 4px rgba(30,41,59,0.3); }
-.grid-item.ragu   { background-color: var(--warning-yellow); color: #ffffff; border-color: #d08a00; box-shadow: 0 1px 4px rgba(240,158,0,0.3); }
+/* Hover */
+.grid-item:hover{
+    border-color:#1e293b;
+    background:#f8fafc;
+}
+
+/* Sedang dikerjakan (biru sama seperti header) */
+.grid-item.aktif{
+    background:#1e293b;
+    border:2px solid #1e293b;
+    color:#ffffff;
+    box-shadow:0 2px 8px rgba(30,41,59,.35);
+}
+
+/* Sudah dijawab (hijau) */
+.grid-item.sudah{
+    background:#608a2d;
+    border:2px solid #608a2d;
+    color:#ffffff;
+    box-shadow:0 2px 8px rgba(96,138,45,.35);
+}
+
+/* Ditandai (ragu-ragu) */
+.grid-item.ragu{
+    background:#f59e0b;
+    border:2px solid #d08600;
+    color:#ffffff;
+    box-shadow:0 2px 8px rgba(245,158,11,.35);
+}
+
+.legend-color.aktif{
+    background:#1e293b;
+    border-color:#1e293b;
+}
+
+.legend-color.sudah{
+    background:#608a2d;
+    border-color:#608a2d;
+}
+
+.legend-color.belum{
+    background:#ffffff;
+    border:1px solid #cbd5e1;
+}
+
+.legend-color.ragu{
+    background:#f59e0b;
+    border-color:#d08600;
+}
 
 /* Legend Status */
 .grid-legend {
@@ -226,16 +275,13 @@ body.prometric-body {
     font-weight: 500;
 }
 
-.legend-color {
-    width: 14px;
-    height: 14px;
-    border-radius: 4px;
-    border: 1px solid var(--border-color);
-    flex-shrink: 0;
+.legend-color{
+    width:14px;
+    height:14px;
+    border-radius:4px;
+    flex-shrink:0;
 }
-.legend-color.belum { background-color: #f8fafc; }
-.legend-color.sudah { background-color: var(--answered-blue); border-color: #0f172a; }
-.legend-color.ragu  { background-color: var(--warning-yellow); border-color: #d08a00; }
+
 
 /* ===== KONTEN SOAL (KANAN) ===== */
 .exam-content {
@@ -316,8 +362,8 @@ body.prometric-body {
 }
 
 .option-row.selected {
-    background-color: #f0f7e6;
-    border-color: var(--accent-green);
+    background-color: #f0f8e8;
+    border: 2px solid #608a2d;
     box-shadow: 0 0 0 2px rgba(96,138,45,0.2);
 }
 
@@ -474,9 +520,4 @@ rb   { letter-spacing: 0.08em; }
 
     .prometric-footer    { position: sticky; bottom: 0; padding: 12px; box-shadow: 0 -4px 12px rgba(0,0,0,0.08); }
     .btn-nav             { padding: 10px 14px; font-size: 0.85rem; }
-}
-
-.option-row.selected{
-    border-color:#608a2d;
-    background:#f0f8e8;
 }

@@ -92,7 +92,7 @@
 <div id="modalStart" class="modal-overlay" style="display:none;">
 <div class="modal-content">
 
-<h2>Exam Preparation</h2>
+<h2>Fighting Dhepp💗</h2>
 
 <p id="modal-info"></p>
 
@@ -258,10 +258,12 @@ tbody.innerHTML+=`
 <td>${new Date(item.timestamp).toLocaleDateString("id-ID")}</td>
 <td>${item.score}</td>
 <td>${item.correct??"-"} / ${item.wrong??"-"}</td>
-<td class="${item.score>=config.passScore?"status-pass":"status-fail"}">${item.score>=config.passScore?"Lulus":"Gagal"}</td>
+<td class="${item.score>=config.passScore?"status-pass":"status-fail"}">${item.score>=config.passScore?"Passed":"Failed"}</td>
 <td>
-<button onclick="openReview('${item.id}')">
-Review
+<button
+    class="btn-review"
+    onclick="openReview('${item.id}')">
+    Review
 </button>
 </td>
 </tr>

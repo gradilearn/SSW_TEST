@@ -105,8 +105,7 @@ function applyExamTheme(config) {
                 color: #fff !important;
                 border-color: ${color} !important;
             }
-            .grid-item.sudah {
-                border-color: ${color} !important;
+
             }
             .category-badge {
                 background: ${color} !important;

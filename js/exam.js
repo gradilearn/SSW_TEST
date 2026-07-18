@@ -1,8 +1,9 @@
 /**
  * js/exam.js
- * Logika Utama Ruang Ujian CBT SSW Pengolahan Makanan
- * Versi Optimasi: Waktu Ujian 70 Menit & Otomatis Kembali ke Halaman Depan Saat Reload
+ * Logika Utama Ruang Ujian CBT SSW
+ * Versi Optimasi: Waktu Ujian sesuai config bidang & Otomatis Kembali ke Halaman Depan Saat Reload
  * + Terapkan tema/branding per bidang dari config.json
+ * + Generic multi-bidang: kategori & label soal dibaca dari config.json bidang aktif (questionConfig / categoryLabels)
  */
 
 // Deteksi awal sebelum konten dimuat: Jika halaman dimuat karena RELOAD, langsung lempar ke depan
@@ -26,6 +27,10 @@ let sesi = {
     raguRagu: [],    // Format: ["KP-001", "K3-005"]
     sisaWaktu: 4200  // 70 menit (70 * 60 = 4200 detik)
 };
+
+// Config bidang aktif (di-load lewat loadConfig di initUjian) — disimpan global
+// agar bisa dipakai juga oleh eksekusiHitungHasilAkhir() dan formatNamaKategori()
+let configBidangAktif = null;
 
 let isPaused = false;
 let timerInterval = null;
@@ -80,7 +85,7 @@ function perbaikiStrukturSesi() {
 // =====================================================
 // TERAPKAN TEMA & BRANDING SESUAI BIDANG (config.json)
 // =====================================================
-function applyExamTheme(config) {
+function applyExamTheme(config, kategoriFolder) {
     if (!config) return;
 
     // Judul & subjudul header
@@ -114,9 +119,12 @@ function applyExamTheme(config) {
     }
 
     // Gambar background per bidang
-    if (config.theme && config.theme.background && config.category) {
+    // Catatan: pakai `kategoriFolder` (key folder asli, mis. "kaigo"/"pm" dari getActiveCategory()),
+    // BUKAN config.category — karena config.category kadang berisi label tampilan
+    // (mis. "Care Worker" di data/kaigo/config.json), bukan nama folder, yang menyebabkan 404.
+    if (config.theme && config.theme.background && kategoriFolder) {
         document.body.style.backgroundImage =
-            `url('data/${config.category}/${config.theme.background}')`;
+            `url('data/${kategoriFolder}/${config.theme.background}')`;
         document.body.style.backgroundSize = 'cover';
         document.body.style.backgroundPosition = 'center';
         document.body.style.backgroundAttachment = 'fixed';
@@ -186,11 +194,15 @@ async function initUjian() {
             return;
         }
 
-        // Ambil config bidang (kuota soal & durasi) secara dinamis
+        // Ambil config bidang (kuota soal, durasi, label kategori) secara dinamis
         const configBidang = await loadConfig(kategoriAktif);
 
+        // Simpan ke variabel global agar bisa dipakai fungsi lain (mis. saat hitung hasil akhir)
+        configBidangAktif = configBidang;
+
         // Terapkan branding/tema (judul, warna, background) sesuai config bidang aktif
-        applyExamTheme(configBidang);
+        // kategoriAktif dikirim terpisah karena config.category tidak selalu berisi nama folder yang benar
+        applyExamTheme(configBidang, kategoriAktif);
 
         const sesiLokal = localStorage.getItem('ssw_current_exam');
 
@@ -242,7 +254,9 @@ async function initUjian() {
 /**
  * 2. PROPORSI CETAK BIRU SOAL (DISTRIBUTION BACKEND)
  * Mengambil soal acak dari bank data sesuai kuota di config.json,
- * dengan fallback ke kuota default kalau config tidak tersedia
+ * dengan fallback ke kuota default PM kalau config tidak tersedia.
+ * Setiap soal ditandai dengan field `kategori` supaya proses hitung hasil
+ * & tampilan badge kategori tidak perlu menebak dari prefix ID soal lagi.
  */
 function racikSoalSesuaiKuota(semuaKategori, kuotaDariConfig) {
 
@@ -258,6 +272,8 @@ function racikSoalSesuaiKuota(semuaKategori, kuotaDariConfig) {
 
     // Ambil soal per kategori sesuai urutan kuotaKategori
     for (const [kategori, jumlahKuota] of Object.entries(kuotaKategori)) {
+        if (!jumlahKuota || jumlahKuota <= 0) continue;
+
         const listSoalKategori = semuaKategori[kategori] || [];
 
         // Acak soal dalam kategori
@@ -266,6 +282,9 @@ function racikSoalSesuaiKuota(semuaKategori, kuotaDariConfig) {
 
         // Ambil sesuai kuota
         const diambil = soalDiacak.slice(0, jumlahKuota);
+
+        // Tandai tiap soal dengan key kategorinya (generic untuk semua bidang)
+        diambil.forEach(soal => { soal.kategori = kategori; });
 
         // Tambahkan ke daftar akhir
         kumpulanSoalTerpilih.push(...diambil);
@@ -289,7 +308,7 @@ function renderSoal() {
     const soalAktif = sesi.daftarSoal[sesi.indexAktif];
 
     document.getElementById('question-number-title').innerText = `Question ${sesi.indexAktif + 1}`;
-    document.getElementById('question-category').innerText = formatNamaKategori(soalAktif.id);
+    document.getElementById('question-category').innerText = formatNamaKategori(soalAktif);
 
     // UBAH DARI .innerText KE .innerHTML AGAR TAG <ruby> DIRENDER SEBAGAI FURIGANA
     const questionElement = document.getElementById('question-text');
@@ -598,26 +617,38 @@ function eksekusiHitungHasilAkhir() {
     let totalBenar = 0;
     let totalSalah = 0;
 
-    let analisisKategori = {
-        "keamanan_pangan_haccp": { benar: 0, total: 0 },
-        "sanitasi_umum": { benar: 0, total: 0 },
-        "pengendalian_mutu": { benar: 0, total: 0 },
-        "hitungan": { benar: 0, total: 0 },
-        "k3": { benar: 0, total: 0 }
-    };
+    // Bangun struktur analisis kategori secara dinamis dari config bidang aktif,
+    // supaya tiap bidang (PM, kaigo, dst) punya key kategorinya sendiri — bukan hardcode PM.
+    // Fallback ke set kategori PM kalau config belum ter-load (mis. karena error jaringan).
+    const kuotaKategoriUntukAnalisis =
+        (configBidangAktif && configBidangAktif.questionConfig) || {
+            "keamanan_pangan_haccp": 0,
+            "sanitasi_umum": 0,
+            "pengendalian_mutu": 0,
+            "hitungan": 0,
+            "k3": 0
+        };
+
+    let analisisKategori = {};
+    Object.keys(kuotaKategoriUntukAnalisis).forEach(kategori => {
+        analisisKategori[kategori] = { benar: 0, total: 0 };
+    });
 
     sesi.daftarSoal.forEach((soal) => {
-        const kodeKategori = dapatkanKodeKategoriDariId(soal.id);
+        const kodeKategori = dapatkanKodeKategori(soal);
         const jawabanBenar = soal.correct_answer.toUpperCase().trim();
         const jawabanUser = (sesi.jawabanUser[soal.id] || '').toUpperCase().trim();
 
-        if (analisisKategori[kodeKategori]) {
-            analisisKategori[kodeKategori].total++;
+        // Jaga-jaga jika kategori soal tidak ada di daftar analisis (mis. data lama / config berubah)
+        if (!analisisKategori[kodeKategori]) {
+            analisisKategori[kodeKategori] = { benar: 0, total: 0 };
         }
+
+        analisisKategori[kodeKategori].total++;
 
         if (jawabanUser === jawabanBenar) {
             totalBenar++;
-            if (analisisKategori[kodeKategori]) analisisKategori[kodeKategori].benar++;
+            analisisKategori[kodeKategori].benar++;
         } else {
             totalSalah++;
         }
@@ -674,20 +705,58 @@ function simpanSesiLokal() {
     localStorage.setItem('ssw_current_exam', JSON.stringify(sesi));
 }
 
-function dapatkanKodeKategoriDariId(idSoal) {
+/**
+ * Terjemahkan soal -> key kategori.
+ * Prioritas: field soal.kategori (ditandai saat racikSoalSesuaiKuota()).
+ * Fallback: tebak dari prefix ID soal (untuk data lama, mendukung PM & kaigo).
+ */
+function dapatkanKodeKategori(soal) {
+    if (soal && soal.kategori) return soal.kategori;
+
+    const idSoal = (soal && soal.id) || '';
+
+    // Fallback lama — prefix ID bidang PM
     if (idSoal.startsWith('KP-')) return 'keamanan_pangan_haccp';
     if (idSoal.startsWith('SU-')) return 'sanitasi_umum';
     if (idSoal.startsWith('PM-')) return 'pengendalian_mutu';
     if (idSoal.startsWith('HT-')) return 'hitungan';
     if (idSoal.startsWith('K3-')) return 'k3';
+
+    // Fallback lama — prefix ID bidang Kaigo
+    if (idSoal.startsWith('DPL-')) return 'dasar_perawatan_lansia';
+    if (idSoal.startsWith('MMT-')) return 'mekanisme_mental_dan_tubuh';
+    if (idSoal.startsWith('KK-'))  return 'keterampilan_komunikasi';
+    if (idSoal.startsWith('KDK-')) return 'keterampilan_dukungan_kehidupan';
+
     return 'keamanan_pangan_haccp';
 }
 
-function formatNamaKategori(idSoal) {
+/**
+ * Label kategori untuk badge di layar soal (#question-category).
+ * Prioritas: categoryLabels di config.json bidang aktif.
+ * Fallback: tebak dari prefix ID soal (untuk data lama, mendukung PM & kaigo).
+ */
+function formatNamaKategori(soal) {
+    const kodeKategori = dapatkanKodeKategori(soal);
+
+    if (configBidangAktif && configBidangAktif.categoryLabels && configBidangAktif.categoryLabels[kodeKategori]) {
+        return configBidangAktif.categoryLabels[kodeKategori];
+    }
+
+    const idSoal = (soal && soal.id) || '';
+
+    // Fallback lama — prefix ID bidang PM
     if (idSoal.startsWith('KP-')) return 'HACCP & Keamanan Pangan';
     if (idSoal.startsWith('SU-')) return 'Sanitasi Umum & Pekerja';
     if (idSoal.startsWith('PM-')) return 'Pengendalian Mutu Proses';
     if (idSoal.startsWith('HT-')) return 'Hitungan';
     if (idSoal.startsWith('K3-')) return 'Keselamatan & Kesehatan Kerja (K3)';
-    return 'Pengolahan Makanan';
+
+    // Fallback lama — prefix ID bidang Kaigo
+    if (idSoal.startsWith('DPL-')) return 'Dasar Perawatan Lansia';
+    if (idSoal.startsWith('MMT-')) return 'Mekanisme Mental & Tubuh';
+    if (idSoal.startsWith('KK-'))  return 'Keterampilan Komunikasi';
+    if (idSoal.startsWith('KDK-')) return 'Keterampilan Dukungan Kehidupan';
+
+    return 'Kompetensi Umum';
 }

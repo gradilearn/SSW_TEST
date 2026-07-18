@@ -177,9 +177,11 @@ body.prometric-body {
 /* Grid Nomor Soal */
 .question-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
-    padding: 14px;
+    grid-template-columns: repeat(5, 35px);
+    column-gap: 4px;
+    row-gap: 3px;
+    padding: 10px;
+    justify-content: center;
     overflow-y: auto;
     flex: 1;
 }
@@ -362,7 +364,7 @@ body.prometric-body {
 }
 
 .option-row.selected {
-    background-color: #f0f8e8;
+    background-color: #dde6d5;
     border: 2px solid #608a2d;
     box-shadow: 0 0 0 2px rgba(96,138,45,0.2);
 }

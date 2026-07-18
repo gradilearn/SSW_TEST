@@ -106,7 +106,6 @@ function applyExamTheme(config) {
                 border-color: ${color} !important;
             }
 
-            }
             .category-badge {
                 background: ${color} !important;
             }

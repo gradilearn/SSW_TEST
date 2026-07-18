@@ -203,17 +203,17 @@ body{
 .btn-primary{
     background:linear-gradient(135deg,#4e7a22,#6fa832);
     color:#fff;
-    width:100%;
+    width:50%;
     min-height:60px;
     padding:18px 32px;
-    border-radius:14px;
+    border-radius:25px;
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    gap:12px;
+    gap:10px;
     font-size:1.3rem;
     font-weight:700;
-    letter-spacing:.5px;
+    letter-spacing:1.5px;
     box-shadow:var(--panel-shadow);
 }
 
@@ -238,7 +238,7 @@ body{
 }
 
 .btn-block{
-    width:100%;
+    width:50%;
 }
 
 /* HISTORY */

@@ -339,7 +339,7 @@ th{
 
 
 .btn-remove{
-    background:#dc3545;
+    background:#be2d3b;
     color:white;
     font-size:.9rem;
     padding:10px 20px;
@@ -350,7 +350,7 @@ th{
 
 
 .btn-remove:hover{
-    background:#b02a37;
+    background:#861e28;
     transform:translateY(-2px);
 }
 

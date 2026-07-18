@@ -167,6 +167,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // AKTIFKAN PROTEKSI REFRESH / CLOSE TAB BROWSER (Peringatan sebelum reload eksekusi)
     window.addEventListener('beforeunload', proteksiReloadBrowser);
+
+    // =====================================================
+    // SHORTCUT KEYBOARD: Panah Kiri/Kanan untuk pindah soal, Space untuk pause/resume
+    // =====================================================
+    document.addEventListener('keydown', (e) => {
+        const tag = (document.activeElement && document.activeElement.tagName) || '';
+        const sedangMengetik = (tag === 'INPUT' || tag === 'TEXTAREA');
+
+        if (e.key === ' ' || e.code === 'Space') {
+            if (sedangMengetik) return;
+            e.preventDefault();
+            togglePauseExam();
+            return;
+        }
+
+        if (isPaused || sedangMengetik) return;
+
+        if (e.key === 'ArrowLeft') {
+            e.preventDefault();
+            soalSebelumnya();
+        } else if (e.key === 'ArrowRight') {
+            e.preventDefault();
+            soalBerikutnya();
+        }
+    });
 });
 
 /**

@@ -19,6 +19,20 @@ document.addEventListener("DOMContentLoaded", () => {
 let kumpulanSoalReview = [];
 let jawabanUserReview = {};
 
+/**
+ * Terapkan background halaman result sesuai bidang aktif — persis logic yang
+ * dipakai di dashboard.html, supaya background result.html konsisten dengan dashboard
+ * (bukan lagi hardcode backgroundpb.png seperti sebelumnya).
+ */
+function applyResultBackground(config, kategoriFolder) {
+    if (!config || !config.theme || !config.theme.background || !kategoriFolder) return;
+
+    document.body.style.background = `
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+        url('data/${kategoriFolder}/${config.theme.background}')
+        center/cover fixed`;
+}
+
 // Config bidang aktif (di-load async lewat loadConfig) — dipakai oleh
 // dapatkanNamaKategoriCantik() untuk menerjemahkan key kategori -> label tampilan
 // Catatan: sengaja diberi nama unik (bukan configBidangAktif) karena result.js dan
@@ -52,6 +66,10 @@ function muatHasilEvaluasi() {
                     configBidang.examHeader ||
                     configBidang.displayName ||
                     '';
+
+                // Terapkan background sesuai bidang aktif — sama seperti dashboard.html,
+                // menggantikan background statis (backgroundpb.png) yang ada di <style> result.html
+                applyResultBackground(configBidang, kategoriAktif);
 
                 // Render ulang tabel & grafik kategori setelah config bidang tersedia,
                 // supaya label kategori terjemahan sudah benar (tidak menunggu race condition)

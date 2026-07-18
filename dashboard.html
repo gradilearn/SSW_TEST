@@ -185,6 +185,18 @@ document.addEventListener("keydown", (e) => {
     }
 });
 
+// Izinkan tombol BACKSPACE di keyboard untuk memicu tombol "Back" (goBack)
+// Dikecualikan saat fokus di input/textarea agar tidak mengganggu pengetikan teks
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Backspace") {
+        const tag = (document.activeElement && document.activeElement.tagName) || "";
+        if (tag === "INPUT" || tag === "TEXTAREA") return;
+
+        e.preventDefault();
+        goBack();
+    }
+});
+
 });
 
 async function startExam(){

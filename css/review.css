@@ -44,6 +44,14 @@
 
 .header-right { display: flex; gap: 8px; flex-shrink: 0; }
 
+/* Override line-height:1.6 dari .review-body — supaya tinggi kotak Test/Candidate
+   (.prometric-subheader, class yang sama dipakai di exam.html) tidak ikut memuai.
+   exam.html tidak punya line-height custom di body, jadi ini menyamakan keduanya. */
+.prometric-subheader,
+.prometric-subheader * {
+    line-height: normal;
+}
+
 .btn-ctrl {
     padding: 6px 14px;
     font-size: 0.9rem;
@@ -82,7 +90,7 @@
     align-items: center;
     gap: 12px;
 
-    background: rgba(255,255,255,0.18);
+    background: rgba(255,255,255,0.10);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
     border-radius: 16px;
@@ -137,7 +145,7 @@
 }
 
 .detail-box {
-    background: rgba(255,255,255,0.65);
+    background: rgba(255,255,255,0.38);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border: 1px solid rgba(255,255,255,0.85);
@@ -190,7 +198,7 @@
 
 .category-analysis-section,
 .table-review-section {
-    background: rgba(255,255,255,0.62);
+    background: rgba(255,255,255,0.35);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 14px;
@@ -247,7 +255,7 @@
 
 .table-responsive-wrapper {
     overflow-x: auto;
-    background: rgba(255,255,255,0.88);
+    background: rgba(255,255,255,0.50);
     border-radius: 10px;
     border: 1px solid rgba(220,230,210,0.8);
 }

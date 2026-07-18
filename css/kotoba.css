@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #608a2d;
+    --primary-hover: #507a1c;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --text-color: #333;
+    --panel-shadow: 0 8px 22px rgba(0,0,0,.18);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif; /* Mengikuti font family dari main.css */
+}
+
+body {
+  min-height: 100vh;
+  padding: 20px;
+  background: #ffe6ef;
+  background-image: url("../backgroundpb.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.15); /* Transparansi kontainer asli */
+  backdrop-filter: blur(14px);
+  border-radius: 30px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+}
+
+/* =========================
+   JUDUL
+========================= */
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+  font-size: 32px;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* =========================
+   MENU TAB / NAVIGASI
+========================= */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.menu button {
+  width: 130px;
+  background: linear-gradient(135deg, #4e7a22, #6fa832); /* Gradasi hijau khas main.css */
+  color: white;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(96, 138, 45, 0.4);
+  transition: 0.25s;
+}
+
+.menu button:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(96, 138, 45, 0.5);
+}
+
+/* =========================
+   CARD (ANTI SHIFT)
+========================= */
+
+/* =========================
+   CARD (ANTI SHIFT)
+========================= */
+
+.card {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  padding: 20px 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease;
+
+  margin-bottom: 40px;
+
+  width: 100%;
+  height: 420px;          /* tetap tinggi fix */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* biar isi tidak “loncat” */
+  gap: 10px;              /* jarak antar elemen stabil */
+  
+  position: relative;     /* PERBAIKAN: Menjadi jangkar posisi bagi tombol #flashBtn */
+}
+
+.kotoba {
+  font-size: 70px;
+  margin-top: 15px;
+  color: #1e293b; /* Warna teks gelap dari main.css */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+ruby rt {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #5a7a3a; /* Warna hijau lembut untuk furigana */
+}
+
+/* =========================
+   ARTI + PENJELASAN (FIX STABIL)
+========================= */
+
+.arti {
+  font-size: 38px;
+  color: #4a7a22; /* Warna hijau gelap untuk arti kata */
+  font-weight: bold;
+  line-height: 1.2;
+  /* Memberikan ruang tetap agar penjelasan tidak naik saat arti pendek */
+  min-height: 50px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px; /* Jarak kecil ke penjelasan */
+}
+
+.penjelasan {
+  font-size: 22px;
+  color: var(--text-color); /* Menggunakan variabel warna teks utama */
+  min-height: 100px; 
+  margin-top: 0; /* Menempel tepat di bawah arti */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+/* =========================
+   BUTTON FLASH / NEXT
+========================= */
+
+.flash-buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.flash-buttons button {
+  background: linear-gradient(135deg, #4e7a22, #6fa832);
+  border: none;
+  padding: 14px 22px;
+  color: white;
+  border-radius: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 5px 15px rgba(96, 138, 45, 0.3);
+}
+
+.flash-buttons button:hover {
+  transform: translateY(-2px);
+}
+
+/* tombol utama */
+#flashBtn {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+
+  background: linear-gradient(135deg, #4e7a22, #6fa832);
+  border: none;
+  padding: 14px 22px;
+  color: white;
+  border-radius: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 5px 15px rgba(96, 138, 45, 0.3);
+}
+
+#flashBtn:hover {
+  transform: translateX(-50%) translateY(-2px);
+}
+
+#kotobaListBox {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 25px;
+  animation: fadeIn 0.3s ease;
+}
+
+.kotoba-item {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  border-left: 5px solid var(--primary-color); /* Sesuai warna primer hijau */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.kotoba-item ruby rt {
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #888;
+}
+
+.kotoba-item ruby {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.kotoba-item .item-arti {
+  font-size: 18px;
+  color: #4a7a22; /* Mengubah warna biru menjadi hijau */
+  font-weight: bold;
+}
+
+.kotoba-item .item-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+#listContainer {
+  max-height: 500px; /* Membatasi tinggi kotak agar tidak tembus ke bawah */
+  overflow-y: auto;  /* Memunculkan scrollbar jika kata sudah banyak */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Mempercantik tampilan scrollbar */
+#listContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+#listContainer::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+.search-box input:focus {
+  outline: 2px solid var(--primary-color);
+  background: #fff;
+}
+
+/* =========================
+   INFO
+========================= */
+
+.info {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+/* =========================
+   SOAL
+========================= */
+
+.question {
+  font-size: 75px;
+  color: #000;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* =========================
+   PILIHAN
+========================= */
+
+.option {
+  width: 80%;
+  margin: 5px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  background: #e2e6ea; /* Menggunakan warna abu-abu netral main.css */
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.option:hover {
+  transform: scale(1.02);
+  background: #e2f0d5; /* Warna hover hijau pastel muda */
+}
+
+.correct {
+  background: var(--success-color) !important;
+  color: white;
+}
+
+.wrong {
+  background: var(--danger-color) !important;
+  color: white;
+}
+
+/* =========================
+   RESULT
+========================= */
+
+#resultBox h2 {
+  color: #4a7a22;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+#resultBox p {
+  margin: 12px 0;
+  font-size: 22px;
+  color: #555;
+}
+
+#resultBox button {
+  margin-top: 25px;
+  background: linear-gradient(135deg, #4e7a22, #6fa832);
+  border: none;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 18px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(96, 138, 45, 0.4);
+}
+
+/* =========================
+   UTIL
+========================= */
+
+.hidden {
+  display: none;
+}
+
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .kotoba {
+    font-size: 32px;
+  }
+
+  ruby rt {
+    font-size: 18px;
+  }
+
+  .question {
+    font-size: 28px;
+  }
+
+  .arti {
+    font-size: 22px;
+  }
+
+  .option {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .kotoba-item ruby {
+    font-size: 18px;
+  }
+
+  .kotoba-item ruby rt {
+    font-size: 11px;
+  }
+}
+
+/* ==========================
+   TOMBOL KEMBALI (BACK BUTTON)
+========================== */
+
+.btn-back {
+    position: fixed;
+    top: 106px;
+    left: 100px; /* Menyelaraskan posisi horizontal */
+
+    width: 112px;
+    height: 44px;
+
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 15px;
+    background: linear-gradient(135deg, #4e7a22, #6fa832);
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+    transition: .25s;
+    z-index: 1000;
+}
+
+.btn-back:hover {
+    background: #880505;
+    color: #fff;
+}
+
+/* Penyesuaian Responsif untuk Layar HP/Tablet */
+@media(max-width:768px) {
+    .btn-back {
+        position: fixed;
+        left: 15px;
+        bottom: 15px;
+        top: auto; /* Memindahkan posisi dari atas ke bawah pada layar HP */
+        padding: 10px 16px;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+    }
+}

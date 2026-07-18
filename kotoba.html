@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Belajar Kotoba SSW</title>
+
+  <link rel="stylesheet" href="css/kotoba.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- PERBAIKAN 1: Menambahkan id="kotobaTitle" agar bisa diubah dinamis oleh JS -->
+    <h1 id="kotobaTitle">Belajar Kotoba SSW</h1>
+
+    <div class="menu">
+      <button onclick="showHafalan()">HAFALAN</button>
+      <button onclick="startLatihan(true)">LATIHAN</button>
+      <button onclick="acakData()">ACAK</button>
+      <button onclick="showKotobaList()">LIST</button>
+    </div>
+
+    <!-- HAFALAN -->
+    <div id="hafalanBox" class="card">
+
+      <div class="kotoba" id="kotobaText"></div>
+
+      <div class="arti" id="artiText"></div>
+      <div class="penjelasan" id="penjelasanText"></div>
+      <button id="flashBtn" onclick="flashAction()">
+       Lihat Arti
+      </button>
+
+    </div>
+
+    <!-- LATIHAN -->
+    <div id="latihanBox" class="card hidden">
+
+      <div class="info">
+        <b>Sesi:</b> <span id="sessionText">1</span>/5
+        |
+        <b>Soal:</b> <span id="questionNumber">1</span>/20
+      </div>
+
+      <div class="question" id="questionText"></div>
+
+      <div id="optionsBox"></div>
+
+    </div>
+    
+    <div id="kotobaListBox" class="hidden">
+      <div class="search-box" style="margin-bottom: 20px;">
+        <input type="text" id="searchInput" placeholder="Cari kata atau arti..." onkeyup="filterKotoba()" 
+               style="width: 100%; padding: 12px; border-radius: 15px; border: none;">
+      </div>
+      <div id="listContainer" style="max-height: 500px; overflow-y: auto; display: grid; gap: 10px;">
+      </div>
+    </div>
+ 
+    <!-- HASIL -->
+    <div id="resultBox" class="card hidden">
+
+      <h2>Hasil Sesi</h2>
+
+      <p>Nilai: <span id="nilaiText"></span></p>
+      <p>Benar: <span id="benarText"></span></p>
+      <p>Salah: <span id="salahText"></span></p>
+
+      <button onclick="nextSession()">Lanjut</button>
+
+    </div>
+
+  </div>
+
+  <!-- PERBAIKAN 2: Wajib memuat js/config.js sebelum js/kotoba.js -->
+  <script src="js/config.js"></script>
+  <script src="js/kotoba.js"></script>
+
+  <!-- Tombol Kembali -->
+  <button id="btn-back" class="btn-back" onclick="goBack()">
+      Back
+  </button>
+
+</body>
+</html>
+
+</body>
+</html>

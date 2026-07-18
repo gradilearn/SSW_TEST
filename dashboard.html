@@ -51,9 +51,21 @@
 </section>
 
 <section class="action-section">
-    <button id="btn-mulai" class="btn btn-primary btn-block">
-        Start Simulation
-    </button>
+
+    <div class="action-buttons">
+
+        <button id="btn-mulai" class="btn btn-start">
+            Start Simulation
+        </button>
+
+        <button 
+            class="btn btn-kotoba"
+            onclick="location.href='kotoba.html'">
+            Kotoba
+        </button>
+
+    </div>
+
 </section>
 
 <section class="history-section">
@@ -432,11 +444,18 @@ function showToast(message){
     },2000);
 
 }
+
+function goKotoba(){
+
+    location.href = "kotoba.html";
+
+}
+
 </script>
 
 <!-- Tombol Kembali -->
 <button id="btn-back" class="btn-back" onclick="goBack()">
-    Back 
+    Back
 </button>
 
 </body>

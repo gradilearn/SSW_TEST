@@ -3,6 +3,8 @@
 
     "title": "介護技能評価試験",
 
+    "displayName": "Care Worker",
+
     "dashboardTitle": "介護技能評価試験",
 
     "examHeader": "Care Worker",
@@ -21,7 +23,6 @@
         "keterampilan_komunikasi": 6,
         "keterampilan_dukungan_kehidupan": 22,
         "soal_ilustrasi": 0
-        
     },
 
     "questionFile": "data/kaigo/questions.json",

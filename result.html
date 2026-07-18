@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - SSW CBT</title>
+
+    <link rel="stylesheet" href="css/prometric.css">
+    <link rel="stylesheet" href="css/review.css">
+
+    <style>
+        .review-body {
+            background:
+            linear-gradient(
+                rgba(0,0,0,0.4),
+                rgba(0,0,0,0.4)
+            ),
+            url('backgroundpb.png') no-repeat center center fixed;
+
+            background-size: cover;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body class="review-body">
+
+<header class="prometric-header">
+
+    <div class="exam-title">
+        <span class="title-main">
+            Specified Skilled Worker Tests
+        </span>
+
+        <span class="title-sub" id="result-title">
+            特定技能1号
+        </span>
+    </div>
+
+    <div class="header-right">
+
+        <button class="btn-ctrl btn-pause" onclick="window.print()">
+            🖨️ Print Results
+        </button>
+
+        <button class="btn-ctrl btn-exit" onclick="goHome()">
+            🚪 Dashboard
+        </button>
+
+    </div>
+
+</header>
+
+
+<div class="prometric-subheader">
+
+    <div class="subheader-left">
+        <strong>Test :</strong>
+        <span id="test-name"></span>
+    </div>
+
+    <div class="subheader-right">
+        Candidate:
+        <span id="nama-peserta">
+            Guest
+        </span>
+    </div>
+
+</div>
+
+
+
+<main class="review-container">
+
+<section class="score-summary-card">
+
+    <div class="score-badge-container">
+
+        <div class="score-circle">
+
+            <span id="final-score-val">
+                0
+            </span>
+
+            <small>
+                Score
+            </small>
+
+        </div>
+
+
+        <div class="status-badge" id="pass-status-badge">
+            -
+        </div>
+
+    </div>
+
+
+
+    <div class="score-details-grid">
+
+        <div class="detail-box">
+
+            <span class="detail-label">
+                Total Questions
+            </span>
+
+            <span class="detail-value" id="total-soal-val">
+                0
+            </span>
+
+        </div>
+
+
+        <div class="detail-box success">
+
+            <span class="detail-label">
+                True
+            </span>
+
+            <span class="detail-value" id="benar-val">
+                0
+            </span>
+
+        </div>
+
+
+        <div class="detail-box danger">
+
+            <span class="detail-label">
+                False
+            </span>
+
+            <span class="detail-value" id="salah-val">
+                0
+            </span>
+
+        </div>
+
+
+        <div class="detail-box info">
+
+            <span class="detail-label">
+                Passing Mark
+            </span>
+
+            <span class="detail-value" id="passing-mark">
+                0%
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<div class="review-right-col">
+
+
+<section class="category-analysis-section">
+
+    <h3>
+        📈 Performance Analysis by Competency Category
+    </h3>
+
+    <p class="section-desc">
+        Review your performance based on competency categories.
+    </p>
+
+    <div id="category-bars-container" class="bars-grid">
+    </div>
+
+</section>
+
+
+
+
+<section class="table-review-section">
+
+    <div class="table-header-flex">
+
+        <h3>
+            🔍 Answer Sheet Correction Details
+        </h3>
+
+
+        <div class="filter-legend-flex">
+
+            <span 
+            class="badge-filter status-all active"
+            onclick="filterReviewTable('all')">
+                All
+            </span>
+
+
+            <span 
+            class="badge-filter status-correct"
+            onclick="filterReviewTable('correct')">
+                True
+            </span>
+
+
+            <span 
+            class="badge-filter status-incorrect"
+            onclick="filterReviewTable('incorrect')">
+                False
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="table-responsive-wrapper">
+
+        <table class="styled-review-table">
+
+            <thead>
+
+                <tr>
+
+                    <th style="width:70px;text-align:center;">
+                        No
+                    </th>
+
+                    <th style="width:180px;">
+                        Category
+                    </th>
+
+                    <th>
+                        Question
+                    </th>
+
+                    <th style="width:120px;text-align:center;">
+                        Your Answer
+                    </th>
+
+                    <th style="width:120px;text-align:center;">
+                        Answer Key
+                    </th>
+
+                    <th style="width:100px;text-align:center;">
+                        Status
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody id="review-table-body">
+
+            </tbody>
+
+
+        </table>
+
+    </div>
+
+</section>
+
+
+</div>
+
+
+</main>
+
+
+<footer class="prometric-footer">
+
+    <button 
+    class="btn-nav btn-primary"
+    onclick="restartSimulation()">
+
+        🔄 Restart Simulation
+
+    </button>
+
+
+
+    <button 
+    class="btn-nav btn-secondary"
+    onclick="goDashboard()">
+
+        🏠 Back To Dashboard
+
+    </button>
+
+
+</footer>
+
+
+
+<script src="js/config.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/loader.js"></script>
+<script src="js/result.js"></script>
+
+
+</body>
+</html>

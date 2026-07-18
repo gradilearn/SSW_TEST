@@ -16,6 +16,7 @@
     --primary-blue:      #0f172a;
     --accent-green:      #608a2d;
     --success-green:     #608a2d;
+    --answered-blue:     #1e293b;
     --warning-yellow:    #f59e0b;
     --danger-red:        #ef4444;
 }
@@ -202,8 +203,8 @@ body.prometric-body {
 }
 
 .grid-item:hover  { border-color: var(--accent-green); background-color: #f0f7e6; color: var(--accent-green); }
-.grid-item.aktif  { border: 2px solid #1e293b; background-color: #1e293b; color: #ffffff; box-shadow: 0 2px 6px rgba(30,41,59,0.3); }
-.grid-item.sudah  { background-color: var(--success-green); color: #ffffff; border-color: #4a7020; box-shadow: 0 1px 4px rgba(80,130,30,0.3); }
+.grid-item.aktif  { border: 2px solid var(--success-green); background-color: var(--success-green); color: #ffffff; box-shadow: 0 2px 6px rgba(96,138,45,0.3); }
+.grid-item.sudah  { background-color: var(--answered-blue); color: #ffffff; border-color: #0f172a; box-shadow: 0 1px 4px rgba(30,41,59,0.3); }
 .grid-item.ragu   { background-color: var(--warning-yellow); color: #ffffff; border-color: #d08a00; box-shadow: 0 1px 4px rgba(240,158,0,0.3); }
 
 /* Legend Status */
@@ -233,7 +234,7 @@ body.prometric-body {
     flex-shrink: 0;
 }
 .legend-color.belum { background-color: #f8fafc; }
-.legend-color.sudah { background-color: var(--success-green); border-color: #4a7020; }
+.legend-color.sudah { background-color: var(--answered-blue); border-color: #0f172a; }
 .legend-color.ragu  { background-color: var(--warning-yellow); border-color: #d08a00; }
 
 /* ===== KONTEN SOAL (KANAN) ===== */
@@ -392,8 +393,17 @@ body.prometric-body {
 
 .btn-flag            { background: linear-gradient(135deg, #d08600, #f59e0b); border-color: #fde68a; color: #ffffff; box-shadow: 0 2px 6px rgba(240,158,0,0.25); }
 .btn-flag:hover      { background: linear-gradient(135deg, #b87500, #e08f00); transform: translateY(-2px); }
-.btn-flag.flagged    { background: linear-gradient(135deg, #d08600, #f59e0b); color: white; border-color: #d08600; }
-.btn-flag.flagged:hover { background: linear-gradient(135deg, #b87500, #e08f00); transform: translateY(-2px); }
+.btn-flag.flagged    {
+    background: linear-gradient(135deg, #b45309, #d97706);
+    color: #ffffff;
+    border-color: #92400e;
+    box-shadow: 0 0 0 3px rgba(217,119,6,0.35), 0 2px 8px rgba(180,83,9,0.4);
+    transform: scale(1.03);
+}
+.btn-flag.flagged:hover {
+    background: linear-gradient(135deg, #92400e, #b45309);
+    transform: scale(1.03) translateY(-2px);
+}
 
 /* ===== PAUSE OVERLAY ===== */
 .pause-overlay {
@@ -464,4 +474,9 @@ rb   { letter-spacing: 0.08em; }
 
     .prometric-footer    { position: sticky; bottom: 0; padding: 12px; box-shadow: 0 -4px 12px rgba(0,0,0,0.08); }
     .btn-nav             { padding: 10px 14px; font-size: 0.85rem; }
+}
+
+.option-row.selected{
+    border-color:#608a2d;
+    background:#f0f8e8;
 }

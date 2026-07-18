@@ -1,0 +1,2318 @@
+{
+  "dasar_perawatan_lansia": [
+    {
+      "id": "DPL-001",
+      "question": "Pengertian martabat manusia sebagai dasar perawatan lansia yang tepat adalah...",
+      "options": {
+        "A": "Memberikan perawatan yang sama untuk semua pengguna tanpa memperhatikan keinginannya",
+        "B": "Menghormati setiap pengguna selaku individu dan melindungi hak asasi manusianya",
+        "C": "Mengutamakan efisiensi kerja staf perawat lansia"
+      },
+      "correct_answer": "B",
+      "explanation": "Martabat manusia berarti menghormati setiap pengguna sebagai individu dan melindungi hak asasi manusianya."
+    },
+    {
+      "id": "DPL-002",
+      "question": "Manakah pernyataan yang paling tepat tentang pelaku utama dalam kehidupan pengguna?",
+      "options": {
+        "A": "Perawatan lansia didasarkan pada nilai-nilai staf perawat",
+        "B": "Pengguna bertanggung jawab atas kehidupannya sendiri meski memerlukan perawatan lansia",
+        "C": "Staf perawat menentukan cara hidup pengguna demi keselamatan"
+      },
+      "correct_answer": "B",
+      "explanation": "Pengguna adalah pelaku utama dalam kehidupannya sendiri, bukan staf perawat."
+    },
+    {
+      "id": "DPL-003",
+      "question": "Pengertian QOL (Quality of Life) yang tepat adalah...",
+      "options": {
+        "A": "Kemampuan fisik untuk melakukan aktivitas sehari-hari secara mandiri",
+        "B": "Cara berpikir tentang kehidupan yang mencakup kepuasan dan kebahagiaan hidup",
+        "C": "Standar kebersihan lingkungan tempat tinggal pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "QOL adalah cara berpikir yang mengutamakan kepuasan dan kebahagiaan hidup seseorang."
+    },
+    {
+      "id": "DPL-004",
+      "question": "Pengertian normalisasi dalam perawatan lansia adalah...",
+      "options": {
+        "A": "Penyandang disabilitas dapat hidup normal tanpa prasangka dan hak asasinya dilindungi",
+        "B": "Semua pengguna diperlakukan sama tanpa memperhatikan kondisi disabilitasnya",
+        "C": "Penyandang disabilitas dipisahkan agar mendapat perawatan khusus"
+      },
+      "correct_answer": "A",
+      "explanation": "Normalisasi berarti penyandang disabilitas dapat hidup normal dan hak asasinya dilindungi seperti masyarakat lainnya."
+    },
+    {
+      "id": "DPL-005",
+      "question": "Definisi kemandirian dalam perawatan lansia yang tepat adalah...",
+      "options": {
+        "A": "Pengguna melakukan seluruh aktivitas kehidupan tanpa bantuan siapa pun",
+        "B": "Pengguna memilih cara hidupnya dan membuat keputusan sendiri",
+        "C": "Staf perawat memutuskan hal terbaik untuk pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "Kemandirian berarti pengguna sendiri yang memilih cara hidup dan membuat keputusan, bukan bebas dari bantuan sama sekali."
+    },
+    {
+      "id": "DPL-006",
+      "question": "Pernyataan yang tepat tentang kehidupan (ritme hidup) pengguna adalah...",
+      "options": {
+        "A": "Ritme hidup setiap pengguna sama karena mengikuti jadwal fasilitas",
+        "B": "Ritme hidup setiap orang berbeda-beda sesuai niat, nilai, dan preferensi individu",
+        "C": "Kehidupan pengguna hanya mencakup aktivitas makan dan tidur"
+      },
+      "correct_answer": "B",
+      "explanation": "Ritme hidup setiap orang berbeda-beda sesuai dengan niat, nilai, dan preferensi masing-masing individu."
+    },
+    {
+      "id": "DPL-007",
+      "question": "Sikap staf perawat lansia yang tepat terkait informasi pribadi pengguna adalah...",
+      "options": {
+        "A": "Membagikan informasi pengguna di media sosial agar keluarga dapat memantau",
+        "B": "Tidak membagikan informasi pribadi pengguna tanpa persetujuan pengguna",
+        "C": "Membagikan informasi kesehatan kepada tetangga pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "Informasi pribadi pengguna wajib dijaga kerahasiaannya dan tidak boleh dibagikan tanpa persetujuan."
+    },
+    {
+      "id": "DPL-008",
+      "question": "Yang dimaksud dengan pembatasan fisik dalam perawatan lansia adalah...",
+      "options": {
+        "A": "Tindakan merampas kebebasan pengguna",
+        "B": "Tindakan melatih kemandirian pengguna",
+        "C": "Tindakan menjaga keselamatan pengguna dari kecelakaan"
+      },
+      "correct_answer": "A",
+      "explanation": "Pembatasan fisik adalah tindakan yang merampas kebebasan pengguna sehingga pada dasarnya dilarang."
+    },
+    {
+      "id": "DPL-009",
+      "question": "Contoh pengabaian perawatan lansia (neglect) adalah...",
+      "options": {
+        "A": "Mengambil aset pengguna secara semena-mena",
+        "B": "Tidak memberi makan atau perawatan lansia yang dibutuhkan pengguna",
+        "C": "Melakukan tindakan tidak senonoh terhadap pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "Pengabaian (neglect) berarti tidak memberikan makanan atau perawatan lansia yang seharusnya dibutuhkan pengguna."
+    },
+    {
+      "id": "DPL-010",
+      "question": "Tugas utama dokter dalam kerja sama tim perawatan lansia adalah...",
+      "options": {
+        "A": "Melakukan diagnosis penyakit dan pengobatannya",
+        "B": "Membantu pemeriksaan medis di bawah arahan tenaga lain",
+        "C": "Melatih kemampuan gerak pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Dokter bertugas melakukan diagnosis penyakit dan memberikan pengobatan kepada pengguna."
+    },
+    {
+      "id": "DPL-011",
+      "question": "Peran utama terapis wicara (ST) dalam tim perawatan lansia adalah...",
+      "options": {
+        "A": "Melatih kemampuan berjalan pengguna",
+        "B": "Melatih pengguna yang mengalami kesulitan berbicara dan menelan",
+        "C": "Membuat daftar makanan sesuai kebutuhan gizi"
+      },
+      "correct_answer": "B",
+      "explanation": "Terapis wicara melatih pengguna yang mengalami kesulitan berbicara dan menelan."
+    },
+    {
+      "id": "DPL-012",
+      "question": "Peran ahli diet terdaftar dalam tim perawatan lansia adalah...",
+      "options": {
+        "A": "Membuat menu yang mempertimbangkan bentuk makanan dan kalori pengguna",
+        "B": "Melatih pengguna melakukan aktivitas kehidupan sehari-hari",
+        "C": "Mengoordinasikan layanan kesejahteraan pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Ahli diet terdaftar bertugas membuat menu dengan mempertimbangkan bentuk makanan dan kebutuhan kalori pengguna."
+    },
+    {
+      "id": "DPL-013",
+      "question": "Layanan ambulatori (day service) dalam perawatan lansia adalah...",
+      "options": {
+        "A": "Layanan yang diberikan dengan berkunjung ke rumah pengguna",
+        "B": "Layanan yang diberikan di fasilitas perawatan lansia pada siang hari",
+        "C": "Layanan yang diberikan dengan menginapkan pengguna di fasilitas"
+      },
+      "correct_answer": "B",
+      "explanation": "Layanan ambulatori adalah layanan yang diberikan di fasilitas pada siang hari, pengguna pulang ke rumah setelahnya."
+    },
+    {
+      "id": "DPL-014",
+      "question": "Tahap pertama dalam alur dasar proses perawatan lansia adalah...",
+      "options": {
+        "A": "Penyusunan rencana perawatan lansia",
+        "B": "Penilaian (mengumpulkan informasi dan menganalisis kondisi pengguna)",
+        "C": "Evaluasi hasil perawatan lansia"
+      },
+      "correct_answer": "B",
+      "explanation": "Tahap pertama adalah penilaian, yaitu mengumpulkan informasi dan menganalisis kondisi pengguna."
+    },
+    {
+      "id": "DPL-015",
+      "question": "Arti penting observasi dalam perawatan lansia adalah...",
+      "options": {
+        "A": "Melihat dengan cermat untuk mengetahui kondisi pengguna",
+        "B": "Mencatat riwayat kesehatan pengguna sejak lahir",
+        "C": "Menilai kinerja staf perawat lain"
+      },
+      "correct_answer": "A",
+      "explanation": "Observasi berarti melihat dengan cermat untuk mengetahui kondisi pengguna secara akurat."
+    },
+    {
+      "id": "DPL-016",
+      "question": "Manajemen risiko dalam perawatan lansia adalah...",
+      "options": {
+        "A": "Memprediksi bahaya dan mencegah kecelakaan dengan menyimpan catatan akurat",
+        "B": "Menghukum staf yang menyebabkan kecelakaan",
+        "C": "Mengurangi jumlah staf untuk efisiensi biaya"
+      },
+      "correct_answer": "A",
+      "explanation": "Manajemen risiko adalah upaya memprediksi bahaya, mencegah kecelakaan, dan menyimpan catatan secara akurat."
+    },
+    {
+      "id": "DPL-017",
+      "question": "Prinsip dasar pengendalian penyakit menular adalah...",
+      "options": {
+        "A": "Meningkatkan jumlah pengguna dalam satu ruangan agar mudah diawasi",
+        "B": "Memutus rantai penularan melalui sumber, jalur, dan inang infeksi",
+        "C": "Memberikan obat kepada seluruh pengguna secara rutin"
+      },
+      "correct_answer": "B",
+      "explanation": "Pengendalian penyakit menular dilakukan dengan memutus rantai penularan pada sumber, jalur, dan inang infeksi."
+    },
+    {
+      "id": "DPL-018",
+      "question": "Kewaspadaan standar (standard precautions) mengharuskan staf perawat untuk...",
+      "options": {
+        "A": "Memperlakukan darah dan cairan tubuh semua pengguna sebagai berisiko infeksi",
+        "B": "Hanya menggunakan sarung tangan saat pengguna diketahui sakit menular",
+        "C": "Mencuci tangan hanya setelah bekerja seharian penuh"
+      },
+      "correct_answer": "A",
+      "explanation": "Kewaspadaan standar mengharuskan darah dan cairan tubuh semua pengguna diperlakukan sebagai berisiko infeksi."
+    },
+    {
+      "id": "DPL-019",
+      "question": "Salah satu prinsip mekanika tubuh untuk mencegah sakit pinggang adalah...",
+      "options": {
+        "A": "Mempersempit landasan penopang untuk meninggikan posisi pusat berat",
+        "B": "Memperlebar landasan penopang untuk merendahkan posisi pusat berat",
+        "C": "Memuntir tubuh saat mengangkat pengguna agar lebih cepat"
+      },
+      "correct_answer": "B",
+      "explanation": "Memperlebar landasan penopang dan merendahkan pusat berat membuat postur lebih stabil dan mengurangi beban pinggang."
+    },
+    {
+      "id": "DPL-020",
+      "question": "Sikap yang tepat bagi staf perawat lansia dalam menjaga kesehatan mentalnya adalah...",
+      "options": {
+        "A": "Menyimpan kecemasan dan kekhawatiran sendiri agar tidak membebani rekan kerja",
+        "B": "Berbicara dan berkonsultasi dengan senior atau rekan kerja",
+        "C": "Mengurangi waktu tidur agar pekerjaan cepat selesai"
+      },
+      "correct_answer": "B",
+      "explanation": "Menjaga kesehatan mental dilakukan dengan berbicara dan berkonsultasi dengan senior atau rekan kerja, bukan memendam sendiri."
+    },
+    {
+      "id": "DPL-021",
+      "question": "Dalam memberikan dukungan kemandirian, hal yang perlu dijaga oleh staf perawat adalah...",
+      "options": {
+        "A": "Nilai dan preferensi pengguna",
+        "B": "Efisiensi waktu kerja staf",
+        "C": "Keseragaman pelayanan bagi semua pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Dukungan kemandirian harus tetap menjaga nilai dan preferensi masing-masing pengguna."
+    },
+    {
+      "id": "DPL-022",
+      "question": "Tujuan dukungan dalam kehidupan sehari-hari yang diberikan staf perawat lansia adalah...",
+      "options": {
+        "A": "Memastikan kondisi perlu perawatan lansia pengguna tidak bertambah buruk",
+        "B": "Mempercepat proses penuaan pengguna",
+        "C": "Mengurangi interaksi pengguna dengan profesi lain"
+      },
+      "correct_answer": "A",
+      "explanation": "Dukungan kehidupan sehari-hari bertujuan agar kondisi perlu perawatan lansia pengguna tidak semakin memburuk."
+    },
+    {
+      "id": "DPL-023",
+      "question": "Peran utama terapis fisik (PT) dalam tim perawatan lansia adalah...",
+      "options": {
+        "A": "Melatih kemampuan gerak, seperti berjalan",
+        "B": "Membuat menu makanan bergizi",
+        "C": "Mengoordinasikan layanan kesejahteraan"
+      },
+      "correct_answer": "A",
+      "explanation": "Terapis fisik (PT) bertugas melatih kemampuan gerak pengguna, seperti berjalan."
+    },
+    {
+      "id": "DPL-024",
+      "question": "Peran utama terapis okupasi (OT) adalah...",
+      "options": {
+        "A": "Melatih tindakan yang diperlukan untuk menjalani aktivitas keseharian",
+        "B": "Melakukan diagnosis penyakit",
+        "C": "Menyaring darah dari zat buangan"
+      },
+      "correct_answer": "A",
+      "explanation": "Terapis okupasi melatih tindakan-tindakan yang diperlukan untuk aktivitas kehidupan sehari-hari."
+    },
+    {
+      "id": "DPL-025",
+      "question": "Influenza termasuk penyakit yang menular melalui jalur infeksi...",
+      "options": {
+        "A": "Infeksi udara",
+        "B": "Infeksi droplet",
+        "C": "Infeksi kontak"
+      },
+      "correct_answer": "B",
+      "explanation": "Influenza menular melalui infeksi droplet, yaitu percikan dari batuk atau bersin."
+    },
+    {
+      "id": "DPL-026",
+      "question": "Norovirus termasuk penyakit yang menular melalui jalur infeksi...",
+      "options": {
+        "A": "Infeksi udara",
+        "B": "Infeksi droplet",
+        "C": "Infeksi kontak"
+      },
+      "correct_answer": "C",
+      "explanation": "Norovirus umumnya menular melalui infeksi kontak, misalnya melalui tangan atau benda yang terkontaminasi."
+    },
+    {
+      "id": "DPL-027",
+      "question": "Cara memakai masker yang benar adalah menutupi bagian...",
+      "options": {
+        "A": "Dari hidung hingga dagu",
+        "B": "Hanya menutupi mulut saja",
+        "C": "Hanya menutupi hidung saja"
+      },
+      "correct_answer": "A",
+      "explanation": "Masker harus dipakai menutupi bagian dari hidung hingga dagu agar berfungsi optimal."
+    },
+    {
+      "id": "DPL-028",
+      "question": "Cara membuang sarung tangan sekali pakai yang tepat adalah...",
+      "options": {
+        "A": "Membalik sisi kotor ke dalam sebelum membuangnya",
+        "B": "Mencucinya untuk digunakan kembali",
+        "C": "Membuangnya di tempat sampah umum tanpa dibalik"
+      },
+      "correct_answer": "A",
+      "explanation": "Sarung tangan sekali pakai dilepas dengan membalik sisi kotor ke dalam agar tidak mencemari lingkungan sekitar."
+    },
+    {
+      "id": "DPL-029",
+      "question": "Salah satu prinsip mekanika tubuh dalam perawatan lansia adalah...",
+      "options": {
+        "A": "Menjauhkan pusat berat dari sisi yang diberi perawatan",
+        "B": "Mendekatkan pusat berat ke sisi yang mendapatkan perawatan lansia",
+        "C": "Mengangkat pengguna hanya dengan kekuatan otot punggung bawah"
+      },
+      "correct_answer": "B",
+      "explanation": "Mendekatkan pusat berat staf ke sisi yang dirawat membuat gerakan lebih stabil dan ringan."
+    },
+    {
+      "id": "DPL-030",
+      "question": "Untuk mengurangi gesekan saat memindahkan pengguna, staf perawat sebaiknya...",
+      "options": {
+        "A": "Mendorong pengguna menjauhi tubuhnya",
+        "B": "Menarik pengguna mendekati tubuhnya",
+        "C": "Memutar tubuh pengguna dengan cepat"
+      },
+      "correct_answer": "B",
+      "explanation": "Menarik pengguna mendekati tubuh staf mengurangi gesekan dan beban saat berpindah."
+    },
+    {
+      "id": "DPL-031",
+      "question": "Penggunaan prinsip tuas dalam mekanika tubuh bertujuan untuk...",
+      "options": {
+        "A": "Mengubah tenaga kecil menjadi tenaga besar",
+        "B": "Memperbesar landasan penopang",
+        "C": "Mempercepat gerakan berpindah"
+      },
+      "correct_answer": "A",
+      "explanation": "Prinsip tuas dimanfaatkan agar tenaga kecil dapat diubah menjadi tenaga yang lebih besar."
+    },
+    {
+      "id": "DPL-032",
+      "question": "Layanan yang diberikan dengan cara berkunjung ke rumah pengguna disebut...",
+      "options": {
+        "A": "Layanan kunjungan (home help service)",
+        "B": "Layanan ambulatori",
+        "C": "Layanan inap"
+      },
+      "correct_answer": "A",
+      "explanation": "Layanan kunjungan (home help service) diberikan dengan mendatangi rumah pengguna."
+    },
+    {
+      "id": "DPL-033",
+      "question": "Fasilitas kesejahteraan perawatan lansia seperti panti wreda perawatan khusus termasuk dalam jenis...",
+      "options": {
+        "A": "Layanan kunjungan",
+        "B": "Layanan ambulatori",
+        "C": "Layanan inap"
+      },
+      "correct_answer": "C",
+      "explanation": "Panti wreda perawatan khusus merupakan fasilitas layanan inap karena pengguna tinggal menetap di fasilitas."
+    },
+    {
+      "id": "DPL-034",
+      "question": "Tahap terakhir dalam alur dasar proses perawatan lansia adalah...",
+      "options": {
+        "A": "Penilaian",
+        "B": "Pelaksanaan",
+        "C": "Evaluasi"
+      },
+      "correct_answer": "C",
+      "explanation": "Evaluasi adalah tahap terakhir untuk menilai hasil dari perawatan lansia yang telah dilaksanakan."
+    },
+    {
+      "id": "DPL-035",
+      "question": "Tiga unsur penyebab penyakit menular adalah...",
+      "options": {
+        "A": "Sumber penularan, cara penularan, dan inang",
+        "B": "Bakteri, virus, dan jamur",
+        "C": "Demam, muntah, dan diare"
+      },
+      "correct_answer": "A",
+      "explanation": "Penyakit menular timbul dari tiga unsur, yaitu sumber penularan, cara/jalur penularan, dan inang yang tertular."
+    },
+    {
+      "id": "DPL-036",
+      "question": "Contoh sumber infeksi yang perlu diwaspadai staf perawat lansia adalah...",
+      "options": {
+        "A": "Darah, cairan tubuh, dan ekskreta pengguna",
+        "B": "Warna pakaian pengguna",
+        "C": "Jenis makanan yang disukai pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Darah, cairan tubuh, dan ekskreta pengguna merupakan sumber infeksi yang harus diwaspadai."
+    },
+    {
+      "id": "DPL-037",
+      "question": "Bagian tangan yang cenderung paling tidak tercuci dengan baik saat mencuci tangan adalah...",
+      "options": {
+        "A": "Telapak tangan",
+        "B": "Sela-sela jari dan ujung jari",
+        "C": "Lengan bagian atas"
+      },
+      "correct_answer": "B",
+      "explanation": "Sela-sela jari dan ujung jari adalah bagian yang paling sering terlewat saat mencuci tangan."
+    },
+    {
+      "id": "DPL-038",
+      "question": "Definisi bencana menurut buku ini adalah...",
+      "options": {
+        "A": "Kerusakan yang disebabkan oleh gempa, angin topan, kebakaran, dll.",
+        "B": "Penurunan fungsi fisik akibat penuaan",
+        "C": "Kesalahan prosedur kerja staf perawat"
+      },
+      "correct_answer": "A",
+      "explanation": "Bencana didefinisikan sebagai kerusakan yang disebabkan oleh gempa, angin topan, kebakaran, dan kejadian serupa."
+    }
+  ],
+
+
+
+  "mekanisme_mental_dan_tubuh": [
+    {
+      "id": "MMT-001",
+      "question": "Pengertian homeostasis yang tepat adalah...",
+      "options": {
+        "A": "Sistem biologi yang mempertahankan kondisi tubuh meski lingkungan berubah",
+        "B": "Sistem biologi yang menghasilkan hormon pertumbuhan",
+        "C": "Sistem biologi yang mengatur pergerakan otot rangka"
+      },
+      "correct_answer": "A",
+      "explanation": "Homeostasis adalah mekanisme tubuh untuk mempertahankan kondisi internal tetap stabil meski lingkungan berubah."
+    },
+    {
+      "id": "MMT-002",
+      "question": "Definisi tekanan darah yang tepat adalah...",
+      "options": {
+        "A": "Detak jantung yang ditransmisikan lewat arteri",
+        "B": "Kekuatan memompa darah dari jantung ke pembuluh darah",
+        "C": "Volume darah yang beredar dalam satu menit"
+      },
+      "correct_answer": "B",
+      "explanation": "Tekanan darah adalah kekuatan yang dihasilkan jantung saat memompa darah ke pembuluh darah."
+    },
+    {
+      "id": "MMT-003",
+      "question": "Pernyataan yang tepat tentang denyut nadi adalah...",
+      "options": {
+        "A": "Denyut nadi adalah detak jantung yang ditransmisikan lewat arteri",
+        "B": "Denyut nadi selalu sama pada semua usia",
+        "C": "Denyut nadi hanya dapat diukur di pergelangan tangan"
+      },
+      "correct_answer": "A",
+      "explanation": "Denyut nadi merupakan detak jantung yang ditransmisikan dan dapat dirasakan melalui arteri."
+    },
+    {
+      "id": "MMT-004",
+      "question": "Pernyataan yang tepat tentang suhu tubuh adalah...",
+      "options": {
+        "A": "Suhu tubuh sama pada semua individu",
+        "B": "Suhu tubuh cenderung tinggi pada siang hari dan rendah saat tidur malam",
+        "C": "Suhu tubuh hanya dapat diukur di area dahi"
+      },
+      "correct_answer": "B",
+      "explanation": "Suhu tubuh mengikuti ritme harian, cenderung lebih tinggi pada siang hari dan lebih rendah saat tidur malam."
+    },
+    {
+      "id": "MMT-005",
+      "question": "Saraf yang bekerja saat tubuh beristirahat, seperti saat tidur, adalah...",
+      "options": {
+        "A": "Saraf simpatik",
+        "B": "Saraf parasimpatik",
+        "C": "Saraf spinal"
+      },
+      "correct_answer": "B",
+      "explanation": "Saraf parasimpatik aktif saat tubuh beristirahat, misalnya saat tidur."
+    },
+    {
+      "id": "MMT-006",
+      "question": "Fungsi utama otak dalam sistem saraf pusat adalah...",
+      "options": {
+        "A": "Menyampaikan informasi antara saraf pusat dan organ tubuh",
+        "B": "Mengumpulkan informasi, menganalisis, dan mengirim perintah ke seluruh tubuh",
+        "C": "Mengatur gerakan otot rangka secara langsung tanpa melalui saraf tepi"
+      },
+      "correct_answer": "B",
+      "explanation": "Otak berfungsi mengumpulkan dan menganalisis informasi, lalu mengirim perintah ke seluruh tubuh."
+    },
+    {
+      "id": "MMT-007",
+      "question": "Proses \"menyimpan\" dalam mekanisme memori berarti...",
+      "options": {
+        "A": "Mengingat hal baru",
+        "B": "Terus menyimpan informasi",
+        "C": "Mengeluarkan informasi yang tersimpan"
+      },
+      "correct_answer": "B",
+      "explanation": "Menyimpan adalah proses mempertahankan informasi yang sudah diingat agar tetap ada dalam memori."
+    },
+    {
+      "id": "MMT-008",
+      "question": "Kebutuhan fisiologis dalam hierarki kebutuhan Maslow ditunjukkan oleh contoh...",
+      "options": {
+        "A": "Ingin dihormati oleh orang lain",
+        "B": "Ingin mewujudkan potensi diri sendiri",
+        "C": "Bantuan hidup seperti makan, minum, dan tidur"
+      },
+      "correct_answer": "C",
+      "explanation": "Kebutuhan fisiologis mencakup kebutuhan dasar hidup seperti makan, minum, dan tidur."
+    },
+    {
+      "id": "MMT-009",
+      "question": "Pernyataan yang tepat tentang tidur REM adalah...",
+      "options": {
+        "A": "Otak sedang beristirahat penuh",
+        "B": "Otak berada dalam kondisi mirip saat terjaga dan sering terjadi mimpi",
+        "C": "Merupakan tahap tidur yang paling nyenyak"
+      },
+      "correct_answer": "B",
+      "explanation": "Pada tidur REM, otak berada dalam kondisi mirip saat terjaga sehingga sering terjadi mimpi."
+    },
+    {
+      "id": "MMT-010",
+      "question": "Pernyataan yang tepat tentang arteri (pembuluh nadi) adalah...",
+      "options": {
+        "A": "Mengalirkan darah kaya oksigen dari jantung ke seluruh tubuh",
+        "B": "Mengumpulkan darah kaya karbon dioksida menuju jantung",
+        "C": "Hanya terdapat di sekitar jantung"
+      },
+      "correct_answer": "A",
+      "explanation": "Arteri mengalirkan darah kaya oksigen dari jantung menuju seluruh tubuh."
+    },
+    {
+      "id": "MMT-011",
+      "question": "Fungsi utama usus halus dalam sistem pencernaan adalah...",
+      "options": {
+        "A": "Membentuk feses",
+        "B": "Menyerap nutrisi dan air dari makanan",
+        "C": "Menyimpan urine sementara"
+      },
+      "correct_answer": "B",
+      "explanation": "Usus halus berfungsi menyerap nutrisi dan sebagian air dari makanan yang telah dicerna."
+    },
+    {
+      "id": "MMT-012",
+      "question": "Urutan yang tepat dalam mekanisme berkemih adalah...",
+      "options": {
+        "A": "Urine diproduksi di ginjal, disimpan di kandung kemih, dikeluarkan lewat uretra",
+        "B": "Urine diproduksi di kandung kemih, disimpan di ginjal, dikeluarkan lewat ureter",
+        "C": "Urine diproduksi di uretra, disimpan di ureter, dikeluarkan lewat ginjal"
+      },
+      "correct_answer": "A",
+      "explanation": "Urine diproduksi di ginjal, disimpan sementara di kandung kemih, lalu dikeluarkan melalui uretra."
+    },
+    {
+      "id": "MMT-013",
+      "question": "Salah satu hal yang dapat meningkatkan kekebalan tubuh pengguna adalah...",
+      "options": {
+        "A": "Kurang tidur",
+        "B": "Olahraga yang cukup",
+        "C": "Tekanan mental berlebihan"
+      },
+      "correct_answer": "B",
+      "explanation": "Olahraga yang cukup dapat membantu meningkatkan kekebalan tubuh."
+    },
+    {
+      "id": "MMT-014",
+      "question": "Salah satu karakteristik penuaan yang tepat adalah...",
+      "options": {
+        "A": "Terjadi dengan cara yang sama pada semua orang",
+        "B": "Berbeda-beda pada setiap orang dan dipengaruhi gaya hidup",
+        "C": "Tidak memengaruhi fungsi mental sama sekali"
+      },
+      "correct_answer": "B",
+      "explanation": "Proses penuaan berbeda-beda pada setiap orang dan dipengaruhi oleh gaya hidup masing-masing."
+    },
+    {
+      "id": "MMT-015",
+      "question": "Salah satu gejala dehidrasi pada lansia adalah...",
+      "options": {
+        "A": "Frekuensi dan volume urine meningkat drastis",
+        "B": "Bibir, rongga mulut, dan kulit menjadi kering",
+        "C": "Tekanan darah meningkat tajam disertai denyut nadi melambat"
+      },
+      "correct_answer": "B",
+      "explanation": "Dehidrasi ditandai dengan bibir, rongga mulut, dan kulit yang menjadi kering."
+    },
+    {
+      "id": "MMT-016",
+      "question": "Salah satu poin penting perawatan lansia untuk mencegah konstipasi adalah...",
+      "options": {
+        "A": "Membatasi asupan serat makanan",
+        "B": "Mendorong pengguna menahan keinginan defekasi",
+        "C": "Memastikan asupan serat makanan dan olahraga yang cukup"
+      },
+      "correct_answer": "C",
+      "explanation": "Mencegah konstipasi dilakukan dengan memastikan asupan serat makanan dan olahraga yang cukup."
+    },
+    {
+      "id": "MMT-017",
+      "question": "Edema pada lansia mudah timbul pada...",
+      "options": {
+        "A": "Sisi sakit orang yang mengalami kelumpuhan",
+        "B": "Seluruh tubuh secara merata tanpa perbedaan sisi",
+        "C": "Hanya pada bagian wajah"
+      },
+      "correct_answer": "A",
+      "explanation": "Edema mudah timbul pada sisi sakit dari pengguna yang mengalami kelumpuhan."
+    },
+    {
+      "id": "MMT-018",
+      "question": "Infark serebral terjadi karena...",
+      "options": {
+        "A": "Pecahnya pembuluh darah di otak",
+        "B": "Penyumbatan pembuluh darah di otak",
+        "C": "Peradangan pada selaput otak"
+      },
+      "correct_answer": "B",
+      "explanation": "Infark serebral terjadi akibat tersumbatnya pembuluh darah di otak."
+    },
+    {
+      "id": "MMT-019",
+      "question": "Infark miokard terjadi karena...",
+      "options": {
+        "A": "Penyempitan sementara pembuluh darah jantung",
+        "B": "Penyumbatan pembuluh darah jantung yang menyebabkan nekrosis otot jantung",
+        "C": "Peningkatan denyut jantung akibat olahraga berat"
+      },
+      "correct_answer": "B",
+      "explanation": "Infark miokard terjadi karena pembuluh darah jantung tersumbat sehingga otot jantung mengalami nekrosis."
+    },
+    {
+      "id": "MMT-020",
+      "question": "Pneumonia aspirasi terjadi akibat...",
+      "options": {
+        "A": "Infeksi virus yang menyebar melalui udara",
+        "B": "Masuknya makanan atau saliva bersama bakteri ke trakea atau bronkus",
+        "C": "Penurunan fungsi ginjal yang memengaruhi paru-paru"
+      },
+      "correct_answer": "B",
+      "explanation": "Pneumonia aspirasi terjadi karena makanan atau saliva bersama bakteri masuk ke trakea atau bronkus."
+    },
+    {
+      "id": "MMT-021",
+      "question": "Diabetes tipe 2 pada lansia umumnya berkaitan dengan...",
+      "options": {
+        "A": "Defisiensi sekresi insulin sejak usia muda",
+        "B": "Gaya hidup seperti makan berlebihan, kurang olahraga, dan stres",
+        "C": "Infeksi virus pada pankreas"
+      },
+      "correct_answer": "B",
+      "explanation": "Diabetes tipe 2 umumnya berkaitan dengan gaya hidup seperti makan berlebihan, kurang olahraga, dan stres."
+    },
+    {
+      "id": "MMT-022",
+      "question": "Salah satu penyebab osteoporosis adalah...",
+      "options": {
+        "A": "Kelebihan asupan kalsium",
+        "B": "Berbaring dalam waktu lama dan kekurangan kalsium",
+        "C": "Olahraga yang berlebihan"
+      },
+      "correct_answer": "B",
+      "explanation": "Osteoporosis dapat disebabkan oleh berbaring dalam waktu lama dan kekurangan kalsium."
+    },
+    {
+      "id": "MMT-023",
+      "question": "Pemahaman dasar tentang disabilitas menurut ICF menekankan bahwa...",
+      "options": {
+        "A": "Disabilitas hanya dilihat dari sisi negatifnya",
+        "B": "Disabilitas dilihat tidak hanya dari sisi negatif tetapi juga sisi positifnya",
+        "C": "Disabilitas menjadi penentu utama kemampuan sosial seseorang"
+      },
+      "correct_answer": "B",
+      "explanation": "ICF memandang disabilitas tidak hanya dari sisi negatif tetapi juga mempertimbangkan sisi positifnya."
+    },
+    {
+      "id": "MMT-024",
+      "question": "Salah satu metode komunikasi bagi pengidap gangguan pendengaran adalah...",
+      "options": {
+        "A": "Huruf Braille",
+        "B": "Membaca gerak bibir (oralism)",
+        "C": "Metode posisi jam"
+      },
+      "correct_answer": "B",
+      "explanation": "Membaca gerak bibir (oralism) adalah salah satu metode komunikasi bagi pengidap gangguan pendengaran."
+    },
+    {
+      "id": "MMT-025",
+      "question": "Afasia adalah kondisi di mana...",
+      "options": {
+        "A": "Seseorang kehilangan kemampuan mendengar akibat kerusakan telinga",
+        "B": "Terjadi kerusakan pada pusat bahasa di otak sehingga mengganggu mendengar, berbicara, membaca, dan menulis",
+        "C": "Seseorang kehilangan kemampuan berjalan akibat kerusakan otot"
+      },
+      "correct_answer": "B",
+      "explanation": "Afasia terjadi akibat kerusakan pada pusat bahasa di otak yang mengganggu kemampuan mendengar, berbicara, membaca, dan menulis."
+    },
+    {
+      "id": "MMT-026",
+      "question": "Pendekatan yang tepat dalam merawat pengguna dengan gangguan intelektual adalah...",
+      "options": {
+        "A": "Memberikan perawatan yang sama untuk semua tahap kehidupan",
+        "B": "Menangani sesuai dengan tahap kehidupan dan kondisi pengguna",
+        "C": "Membatasi seluruh aktivitas pengguna demi keamanan"
+      },
+      "correct_answer": "B",
+      "explanation": "Perawatan bagi pengguna dengan gangguan intelektual perlu disesuaikan dengan tahap kehidupan dan kondisinya."
+    },
+    {
+      "id": "MMT-027",
+      "question": "Kondisi merasa tertekan, tidak banyak bicara, dan murung merupakan gejala gangguan mental yang disebut...",
+      "options": {
+        "A": "Delusi",
+        "B": "Depresi",
+        "C": "Manik"
+      },
+      "correct_answer": "B",
+      "explanation": "Depresi ditandai dengan perasaan tertekan, tidak banyak bicara, dan murung."
+    },
+    {
+      "id": "MMT-028",
+      "question": "Fungsi lobus frontal pada otak besar meliputi...",
+      "options": {
+        "A": "Pengendalian gerakan, emosi, semangat, dan kemauan",
+        "B": "Penglihatan",
+        "C": "Pendengaran dan pemahaman bahasa"
+      },
+      "correct_answer": "A",
+      "explanation": "Lobus frontal berfungsi mengendalikan gerakan, emosi, semangat, dan kemauan."
+    },
+    {
+      "id": "MMT-029",
+      "question": "Ciri lupa akibat demensia dibandingkan lupa karena penuaan adalah...",
+      "options": {
+        "A": "Hanya melupakan sebagian pengalaman dan masih menyadarinya",
+        "B": "Melupakan keseluruhan pengalaman dan tidak menyadari kelupaannya",
+        "C": "Tidak memengaruhi aktivitas kehidupan sehari-hari"
+      },
+      "correct_answer": "B",
+      "explanation": "Lupa akibat demensia bercirikan melupakan keseluruhan pengalaman dan tidak menyadari bahwa dirinya lupa."
+    },
+    {
+      "id": "MMT-030",
+      "question": "Demensia tipe Alzheimer ditandai dengan...",
+      "options": {
+        "A": "Kemunculan mendadak dan bermula dari gangguan bicara",
+        "B": "Kemunculan dan perkembangan lambat, bermula dari gangguan memori",
+        "C": "Selalu disertai halusinasi visual sejak awal"
+      },
+      "correct_answer": "B",
+      "explanation": "Demensia Alzheimer muncul dan berkembang secara lambat, umumnya bermula dari gangguan memori."
+    },
+    {
+      "id": "MMT-031",
+      "question": "Demensia vaskular disebabkan oleh...",
+      "options": {
+        "A": "Penyusutan otak secara umum akibat penuaan",
+        "B": "Penyumbatan pembuluh darah pada penyakit serebrovaskular yang mematikan sebagian sel otak",
+        "C": "Munculnya badan Lewy di lobus oksipital"
+      },
+      "correct_answer": "B",
+      "explanation": "Demensia vaskular disebabkan oleh penyumbatan pembuluh darah akibat penyakit serebrovaskular yang mematikan sebagian sel otak."
+    },
+    {
+      "id": "MMT-032",
+      "question": "Perilaku berkeliaran pada pengidap demensia termasuk dalam kategori...",
+      "options": {
+        "A": "Gejala inti",
+        "B": "Gejala perilaku dan mental (BPSD)",
+        "C": "Gejala fisik akibat penuaan normal"
+      },
+      "correct_answer": "B",
+      "explanation": "Perilaku berkeliaran termasuk gejala perilaku dan mental (BPSD), bukan gejala inti demensia."
+    },
+    {
+      "id": "MMT-033",
+      "question": "Disfungsi eksekutif pada pengidap demensia ditunjukkan dengan contoh...",
+      "options": {
+        "A": "Menganggap keluarga sebagai orang lain",
+        "B": "Menjadi tidak tahu tata cara memasak",
+        "C": "Menjadi sulit menghitung uang"
+      },
+      "correct_answer": "B",
+      "explanation": "Disfungsi eksekutif ditunjukkan dengan hilangnya kemampuan melakukan prosedur, misalnya menjadi tidak tahu cara memasak."
+    },
+    {
+      "id": "MMT-034",
+      "question": "Pengertian stres yang tepat adalah...",
+      "options": {
+        "A": "Keadaan ketegangan yang terjadi pada pikiran dan tubuh",
+        "B": "Perasaan ingin melakukan sesuatu sendiri",
+        "C": "Kondisi tubuh yang selalu stabil"
+      },
+      "correct_answer": "A",
+      "explanation": "Stres adalah keadaan ketegangan yang terjadi pada pikiran maupun tubuh."
+    },
+    {
+      "id": "MMT-035",
+      "question": "Memori tentang pengalaman dan kenangan disebut...",
+      "options": {
+        "A": "Memori semantik",
+        "B": "Memori episodik",
+        "C": "Memori prosedural"
+      },
+      "correct_answer": "B",
+      "explanation": "Memori episodik adalah memori tentang pengalaman dan kenangan pribadi."
+    },
+    {
+      "id": "MMT-036",
+      "question": "Memori yang diingat oleh tubuh tanpa disadari, seperti kemampuan mengendarai sepeda, disebut...",
+      "options": {
+        "A": "Memori episodik",
+        "B": "Memori semantik",
+        "C": "Memori prosedural"
+      },
+      "correct_answer": "C",
+      "explanation": "Memori prosedural adalah memori keterampilan yang diingat tubuh tanpa disadari, seperti mengendarai sepeda."
+    },
+    {
+      "id": "MMT-037",
+      "question": "Salah satu fungsi utama tulang dalam sistem rangka adalah...",
+      "options": {
+        "A": "Menghasilkan hormon pengatur tubuh",
+        "B": "Perlindungan organ dalam tubuh",
+        "C": "Menyaring darah dari zat buangan"
+      },
+      "correct_answer": "B",
+      "explanation": "Salah satu fungsi tulang adalah melindungi organ-organ dalam tubuh."
+    },
+    {
+      "id": "MMT-038",
+      "question": "Bagian mata yang berfungsi memproyeksikan gambar adalah...",
+      "options": {
+        "A": "Lensa mata",
+        "B": "Retina",
+        "C": "Saraf optik"
+      },
+      "correct_answer": "B",
+      "explanation": "Retina berfungsi memproyeksikan gambar dari cahaya yang masuk ke mata."
+    },
+    {
+      "id": "MMT-039",
+      "question": "Batuk dan dahak pada dasarnya merupakan mekanisme tubuh untuk...",
+      "options": {
+        "A": "Mengeluarkan benda asing seperti bakteri dan debu dari saluran pernapasan",
+        "B": "Mendinginkan suhu tubuh",
+        "C": "Meningkatkan kekebalan tubuh secara permanen"
+      },
+      "correct_answer": "A",
+      "explanation": "Batuk dan dahak adalah mekanisme tubuh untuk mengeluarkan benda asing dari saluran pernapasan."
+    },
+    {
+      "id": "MMT-040",
+      "question": "Kondisi bibir dan kuku membiru akibat kesulitan bernapas yang parah disebut...",
+      "options": {
+        "A": "Sianosis",
+        "B": "Edema",
+        "C": "Pruritus"
+      },
+      "correct_answer": "A",
+      "explanation": "Sianosis adalah kondisi bibir dan kuku membiru akibat kesulitan bernapas yang parah."
+    },
+    {
+      "id": "MMT-041",
+      "question": "Peredaran darah dari jantung melalui paru-paru dan kembali ke jantung disebut...",
+      "options": {
+        "A": "Sirkulasi sistemik",
+        "B": "Sirkulasi pulmonal",
+        "C": "Sirkulasi limfatik"
+      },
+      "correct_answer": "B",
+      "explanation": "Sirkulasi pulmonal adalah peredaran darah dari jantung melalui paru-paru dan kembali ke jantung."
+    },
+    {
+      "id": "MMT-042",
+      "question": "Sistem endokrin dalam tubuh berfungsi sebagai...",
+      "options": {
+        "A": "Organ dengan kelenjar yang mengeluarkan hormon pengatur fungsi tubuh",
+        "B": "Saluran yang mengangkut oksigen ke seluruh tubuh",
+        "C": "Jaringan yang menopang pergerakan otot rangka"
+      },
+      "correct_answer": "A",
+      "explanation": "Sistem endokrin terdiri dari kelenjar yang mengeluarkan hormon untuk mengatur fungsi tubuh."
+    },
+    {
+      "id": "MMT-043",
+      "question": "Pruritus adalah kondisi di mana...",
+      "options": {
+        "A": "Kulit menjadi gatal",
+        "B": "Feses tertahan lama di usus besar",
+        "C": "Cairan tubuh menumpuk menyebabkan bengkak"
+      },
+      "correct_answer": "A",
+      "explanation": "Pruritus adalah kondisi kulit terasa gatal."
+    },
+    {
+      "id": "MMT-044",
+      "question": "Salah satu poin penting perawatan lansia bagi pengguna yang mengalami susah tidur adalah...",
+      "options": {
+        "A": "Mendorong pengguna tidur siang dalam waktu lama",
+        "B": "Mendorong pengguna berjemur setelah bangun tidur",
+        "C": "Membiarkan pengguna tidur kapan saja tanpa jadwal tertentu"
+      },
+      "correct_answer": "B",
+      "explanation": "Mendorong pengguna berjemur setelah bangun tidur membantu mengatur ritme tidur yang sehat."
+    },
+    {
+      "id": "MMT-045",
+      "question": "Salah satu poin penting perawatan lansia bagi pengguna dengan hipertensi adalah...",
+      "options": {
+        "A": "Membatasi asupan garam",
+        "B": "Meningkatkan asupan garam agar tekanan darah stabil",
+        "C": "Menghindari seluruh aktivitas olahraga"
+      },
+      "correct_answer": "A",
+      "explanation": "Membatasi asupan garam adalah poin penting perawatan bagi pengguna dengan hipertensi."
+    },
+    {
+      "id": "MMT-046",
+      "question": "Gagal jantung pada lansia terjadi akibat...",
+      "options": {
+        "A": "Penyempitan pembuluh darah jantung sementara",
+        "B": "Penurunan fungsi jantung",
+        "C": "Peningkatan fungsi ginjal"
+      },
+      "correct_answer": "B",
+      "explanation": "Gagal jantung terjadi akibat penurunan fungsi jantung dalam memompa darah."
+    },
+    {
+      "id": "MMT-047",
+      "question": "Hal yang perlu dilaporkan kepada tenaga profesional medis terkait perawatan stoma adalah...",
+      "options": {
+        "A": "Area sekitar stoma berwarna merah akibat radang",
+        "B": "Warna kantong penampung stoma",
+        "C": "Ukuran pakaian pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Area sekitar stoma yang berwarna merah akibat radang perlu segera dilaporkan kepada tenaga medis."
+    },
+    {
+      "id": "MMT-048",
+      "question": "Poin penting perawatan lansia bagi pengguna dengan alat pacu jantung adalah...",
+      "options": {
+        "A": "Menghindari olahraga yang dapat menghantam bagian implan di dada",
+        "B": "Menganjurkan olahraga berat secara rutin",
+        "C": "Melepas alat pacu jantung saat mandi"
+      },
+      "correct_answer": "A",
+      "explanation": "Pengguna dengan alat pacu jantung perlu menghindari aktivitas yang dapat menghantam bagian implan di dada."
+    },
+    {
+      "id": "MMT-049",
+      "question": "Salah satu poin penting perawatan lansia bagi pengguna yang menjalani hemodialisis adalah...",
+      "options": {
+        "A": "Menganjurkan mandi berendam pada hari dilakukannya hemodialisis",
+        "B": "Menghindari mandi berendam pada hari dilakukannya hemodialisis",
+        "C": "Meningkatkan asupan garam dan cairan"
+      },
+      "correct_answer": "B",
+      "explanation": "Pada hari dilakukannya hemodialisis, pengguna sebaiknya menghindari mandi berendam."
+    },
+    {
+      "id": "MMT-050",
+      "question": "Hal yang perlu dihindari saat pengguna menggunakan konsentrator oksigen adalah...",
+      "options": {
+        "A": "Nyala api terbuka",
+        "B": "Cahaya matahari",
+        "C": "Suara bising"
+      },
+      "correct_answer": "A",
+      "explanation": "Nyala api terbuka harus dihindari saat pengguna menggunakan konsentrator oksigen karena berisiko kebakaran."
+    },
+    {
+      "id": "MMT-051",
+      "question": "Fungsi lobus parietal pada otak besar meliputi...",
+      "options": {
+        "A": "Penciuman dan pengendalian gerakan",
+        "B": "Indra pengecap, penilaian, dan pemahaman",
+        "C": "Pendengaran dan memori"
+      },
+      "correct_answer": "B",
+      "explanation": "Lobus parietal berkaitan dengan indra pengecap, penilaian, dan pemahaman."
+    },
+    {
+      "id": "MMT-052",
+      "question": "Fungsi lobus temporal pada otak besar meliputi...",
+      "options": {
+        "A": "Penglihatan",
+        "B": "Pendengaran, pemahaman bahasa, dan memori",
+        "C": "Pengendalian gerakan tubuh"
+      },
+      "correct_answer": "B",
+      "explanation": "Lobus temporal berkaitan dengan pendengaran, pemahaman bahasa, dan memori."
+    },
+    {
+      "id": "MMT-053",
+      "question": "Halusinasi pada pengidap demensia dapat diartikan sebagai...",
+      "options": {
+        "A": "Persepsi terhadap sesuatu yang tidak nyata sebagai nyata",
+        "B": "Perasaan sedih yang berkepanjangan",
+        "C": "Ketidakmampuan mengingat nama orang lain"
+      },
+      "correct_answer": "A",
+      "explanation": "Halusinasi adalah persepsi terhadap sesuatu yang sebenarnya tidak nyata namun dirasakan seperti nyata."
+    },
+    {
+      "id": "MMT-054",
+      "question": "Fungsi utama sistem otot dalam tubuh adalah...",
+      "options": {
+        "A": "Menjaga postur, bergerak, dan membentuk organ internal",
+        "B": "Menghasilkan hormon pengatur tubuh",
+        "C": "Menyaring darah dari zat buangan"
+      },
+      "correct_answer": "A",
+      "explanation": "Sistem otot berfungsi menjaga postur tubuh, menggerakkan tubuh, dan membentuk sebagian organ internal."
+    },
+    {
+      "id": "MMT-055",
+      "question": "Pembuluh balik (vena) berfungsi untuk...",
+      "options": {
+        "A": "Mengalirkan darah kaya oksigen dari jantung ke seluruh tubuh",
+        "B": "Mengumpulkan darah kaya karbon dioksida dan zat buangan menuju jantung",
+        "C": "Menghubungkan arteri langsung ke jaringan otot"
+      },
+      "correct_answer": "B",
+      "explanation": "Vena berfungsi mengumpulkan darah yang kaya karbon dioksida dan zat buangan menuju jantung."
+    },
+    {
+      "id": "MMT-056",
+      "question": "Pembuluh darah kecil yang menghubungkan arteri ke vena disebut...",
+      "options": {
+        "A": "Pembuluh kapiler",
+        "B": "Pembuluh limfa",
+        "C": "Pembuluh koroner"
+      },
+      "correct_answer": "A",
+      "explanation": "Pembuluh kapiler adalah pembuluh darah kecil yang menghubungkan arteri dengan vena."
+    },
+    {
+      "id": "MMT-057",
+      "question": "Peredaran darah yang mengalir melalui arteri dan vena ke seluruh tubuh disebut...",
+      "options": {
+        "A": "Sirkulasi pulmonal",
+        "B": "Sirkulasi sistemik",
+        "C": "Sirkulasi portal"
+      },
+      "correct_answer": "B",
+      "explanation": "Sirkulasi sistemik adalah peredaran darah melalui arteri dan vena ke seluruh tubuh."
+    },
+    {
+      "id": "MMT-058",
+      "question": "Kondisi gangguan penglihatan di mana separuh dari ruang yang terlihat tidak dapat dikenali disebut...",
+      "options": {
+        "A": "Skotoma sentral",
+        "B": "Penyempitan bidang pandang",
+        "C": "Hemiagnosia"
+      },
+      "correct_answer": "C",
+      "explanation": "Hemiagnosia adalah kondisi di mana separuh ruang yang terlihat tidak dapat dikenali oleh penderita."
+    },
+    {
+      "id": "MMT-059",
+      "question": "Kondisi merasa bersemangat dan aktif secara tidak normal dibandingkan biasanya merupakan gejala gangguan mental yang disebut...",
+      "options": {
+        "A": "Delusi",
+        "B": "Depresi",
+        "C": "Manik"
+      },
+      "correct_answer": "C",
+      "explanation": "Manik ditandai dengan perasaan bersemangat dan aktif secara tidak normal dibandingkan biasanya."
+    },
+    {
+      "id": "MMT-060",
+      "question": "Gangguan memori pada pengidap demensia diartikan sebagai...",
+      "options": {
+        "A": "Ketidakmampuan mengenali waktu dan tempat",
+        "B": "Ketidakmampuan mengingat hal-hal atau informasi baru",
+        "C": "Ketidakmampuan memahami prosedur memasak"
+      },
+      "correct_answer": "B",
+      "explanation": "Gangguan memori pada demensia berarti ketidakmampuan mengingat hal-hal atau informasi baru."
+    },
+    {
+      "id": "MMT-061",
+      "question": "Disorientasi pada pengidap demensia dapat ditunjukkan dengan contoh...",
+      "options": {
+        "A": "Menganggap anggota keluarga sebagai orang lain",
+        "B": "Menjadi sulit menghitung uang",
+        "C": "Menjadi tidak tahu tata cara memasak"
+      },
+      "correct_answer": "A",
+      "explanation": "Disorientasi ditunjukkan dengan ketidakmampuan mengenali orang, waktu, atau tempat, misalnya menganggap keluarga sebagai orang lain."
+    },
+    {
+      "id": "MMT-062",
+      "question": "Jumlah pasang saraf kranial pada manusia menurut buku ini adalah...",
+      "options": {
+        "A": "12 pasang",
+        "B": "31 pasang",
+        "C": "24 pasang"
+      },
+      "correct_answer": "A",
+      "explanation": "Menurut buku ini, terdapat 12 pasang saraf kranial pada manusia."
+    },
+    {
+      "id": "MMT-063",
+      "question": "Jumlah pasang saraf spinal pada manusia menurut buku ini adalah...",
+      "options": {
+        "A": "12 pasang",
+        "B": "31 pasang",
+        "C": "24 pasang"
+      },
+      "correct_answer": "B",
+      "explanation": "Menurut buku ini, terdapat 31 pasang saraf spinal pada manusia."
+    },
+    {
+      "id": "MMT-064",
+      "question": "Salah satu jenis patogen penyebab penyakit menular adalah...",
+      "options": {
+        "A": "Jamur",
+        "B": "Hormon",
+        "C": "Enzim pencernaan"
+      },
+      "correct_answer": "A",
+      "explanation": "Jamur merupakan salah satu jenis patogen yang dapat menyebabkan penyakit menular."
+    },
+    {
+      "id": "MMT-065",
+      "question": "Kondisi bagian tengah bidang pandang menjadi hitam dan tidak terlihat disebut...",
+      "options": {
+        "A": "Skotoma sentral",
+        "B": "Penyempitan bidang pandang",
+        "C": "Hemiagnosia"
+      },
+      "correct_answer": "A",
+      "explanation": "Skotoma sentral adalah kondisi bagian tengah bidang pandang menjadi hitam dan tidak terlihat."
+    },
+    {
+      "id": "MMT-066",
+      "question": "Bagian telinga yang berfungsi menerima suara sebagai getaran adalah...",
+      "options": {
+        "A": "Gendang telinga",
+        "B": "Koklea",
+        "C": "Saraf pendengaran"
+      },
+      "correct_answer": "A",
+      "explanation": "Gendang telinga berfungsi menerima suara dalam bentuk getaran."
+    },
+    {
+      "id": "MMT-067",
+      "question": "Fungsi koklea dalam mekanisme mendengar adalah...",
+      "options": {
+        "A": "Memperbesar getaran suara",
+        "B": "Mengubah getaran menjadi sinyal",
+        "C": "Menyampaikan sinyal ke otak"
+      },
+      "correct_answer": "B",
+      "explanation": "Koklea berfungsi mengubah getaran suara menjadi sinyal yang dapat diproses tubuh."
+    },
+    {
+      "id": "MMT-068",
+      "question": "Tingkat kebutuhan Maslow yang berkaitan dengan keinginan melindungi diri sendiri adalah...",
+      "options": {
+        "A": "Kebutuhan fisiologis",
+        "B": "Kebutuhan akan rasa aman",
+        "C": "Kebutuhan aktualisasi diri"
+      },
+      "correct_answer": "B",
+      "explanation": "Kebutuhan akan rasa aman berkaitan dengan keinginan untuk melindungi diri sendiri."
+    },
+    {
+      "id": "MMT-069",
+      "question": "Tingkat tertinggi dalam hierarki kebutuhan Maslow adalah...",
+      "options": {
+        "A": "Kebutuhan akan penghargaan",
+        "B": "Kebutuhan aktualisasi diri",
+        "C": "Kebutuhan sosial"
+      },
+      "correct_answer": "B",
+      "explanation": "Kebutuhan aktualisasi diri merupakan tingkat tertinggi dalam hierarki kebutuhan Maslow."
+    },
+    {
+      "id": "MMT-070",
+      "question": "Pengertian semangat dalam konteks perawatan lansia adalah...",
+      "options": {
+        "A": "Perasaan ingin melakukan sesuatu sendiri",
+        "B": "Keadaan ketegangan pikiran dan tubuh",
+        "C": "Kondisi tubuh yang selalu konstan"
+      },
+      "correct_answer": "A",
+      "explanation": "Semangat adalah perasaan atau dorongan ingin melakukan sesuatu atas kemauan sendiri."
+    }
+  ],
+
+
+
+  "keterampilan_komunikasi": [
+    {
+      "id": "KK-001",
+      "question": "Pengertian komunikasi yang tepat adalah...",
+      "options": {
+        "A": "Kegiatan menyampaikan perintah kepada pengguna",
+        "B": "Saling menyampaikan dan berbagi perasaan serta pemikiran",
+        "C": "Kegiatan mencatat kondisi kesehatan pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "Komunikasi adalah kegiatan saling menyampaikan dan berbagi perasaan serta pemikiran antara dua pihak."
+    },
+    {
+      "id": "KK-002",
+      "question": "Contoh komunikasi non-verbal adalah...",
+      "options": {
+        "A": "Menuliskan pesan di atas kertas",
+        "B": "Berbicara menggunakan bahasa isyarat",
+        "C": "Ekspresi wajah dan gerakan tubuh"
+      },
+      "correct_answer": "C",
+      "explanation": "Ekspresi wajah dan gerakan tubuh merupakan bentuk komunikasi non-verbal."
+    },
+    {
+      "id": "KK-003",
+      "question": "Sikap \"menerima\" dalam keterampilan komunikasi berarti...",
+      "options": {
+        "A": "Menyampaikan pendapat pribadi kepada pengguna",
+        "B": "Menerima perasaan dan pendapat pengguna apa adanya",
+        "C": "Menyetujui semua permintaan pengguna tanpa pertimbangan"
+      },
+      "correct_answer": "B",
+      "explanation": "Menerima berarti menerima perasaan dan pendapat pengguna apa adanya tanpa menghakimi."
+    },
+    {
+      "id": "KK-004",
+      "question": "Pertanyaan tertutup adalah pertanyaan yang...",
+      "options": {
+        "A": "Dapat ditanggapi dengan bebas oleh pengguna",
+        "B": "Dapat ditanggapi dengan satu kata seperti \"ya\" atau \"tidak\"",
+        "C": "Selalu berkaitan dengan alasan suatu tindakan"
+      },
+      "correct_answer": "B",
+      "explanation": "Pertanyaan tertutup dapat dijawab dengan singkat, misalnya cukup dengan \"ya\" atau \"tidak\"."
+    },
+    {
+      "id": "KK-005",
+      "question": "Tujuan staf perawat mengulangi kata-kata yang diucapkan pengguna adalah untuk...",
+      "options": {
+        "A": "Menguji ingatan pengguna",
+        "B": "Menunjukkan bahwa staf perawat menyimak apa yang dikatakan pengguna",
+        "C": "Mempersingkat waktu percakapan"
+      },
+      "correct_answer": "B",
+      "explanation": "Mengulangi kata-kata pengguna menunjukkan bahwa staf perawat benar-benar menyimak pembicaraannya."
+    },
+    {
+      "id": "KK-006",
+      "question": "Sikap yang perlu dihindari staf perawat saat mendengarkan pembicaraan pengguna adalah...",
+      "options": {
+        "A": "Melakukan kontak mata",
+        "B": "Menyilangkan tangan atau duduk bersandar dengan arogan",
+        "C": "Menghadap ke arah pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "Menyilangkan tangan atau duduk bersandar dengan arogan adalah sikap yang perlu dihindari saat mendengarkan pengguna."
+    },
+    {
+      "id": "KK-007",
+      "question": "Langkah pertama dalam mendukung pengambilan keputusan pengguna (informed consent) adalah...",
+      "options": {
+        "A": "Menunjukkan pilihan-pilihan yang ada",
+        "B": "Memberikan kesempatan pengguna untuk memilih sendiri",
+        "C": "Menjelaskan poin baik dan buruk dari setiap pilihan"
+      },
+      "correct_answer": "A",
+      "explanation": "Langkah pertama informed consent adalah menunjukkan pilihan-pilihan yang tersedia kepada pengguna."
+    },
+    {
+      "id": "KK-008",
+      "question": "Cara menyapa pengguna dengan gangguan penglihatan yang tepat adalah...",
+      "options": {
+        "A": "Langsung menyentuh tubuh pengguna tanpa berkata apa-apa",
+        "B": "Memanggil nama pengguna terlebih dahulu, baru berbicara",
+        "C": "Menunggu pengguna menyapa terlebih dahulu"
+      },
+      "correct_answer": "B",
+      "explanation": "Memanggil nama pengguna terlebih dahulu sebelum berbicara membantu pengguna dengan gangguan penglihatan menyadari kehadiran staf."
+    },
+    {
+      "id": "KK-009",
+      "question": "Metode posisi jam digunakan untuk membantu komunikasi dengan pengguna yang mengalami...",
+      "options": {
+        "A": "Gangguan pendengaran",
+        "B": "Gangguan penglihatan",
+        "C": "Afasia"
+      },
+      "correct_answer": "B",
+      "explanation": "Metode posisi jam digunakan untuk menjelaskan letak benda kepada pengguna dengan gangguan penglihatan."
+    },
+    {
+      "id": "KK-010",
+      "question": "Cara berkomunikasi yang tepat dengan pengidap afasia adalah...",
+      "options": {
+        "A": "Mengajukan banyak pertanyaan terbuka agar pengguna leluasa menjawab",
+        "B": "Berbicara cepat dengan kalimat panjang agar informasi lengkap tersampaikan",
+        "C": "Mengajukan pertanyaan tertutup yang dapat dijawab dengan \"ya\" atau \"tidak\""
+      },
+      "correct_answer": "C",
+      "explanation": "Pertanyaan tertutup lebih mudah dijawab oleh pengidap afasia dibandingkan pertanyaan terbuka."
+    },
+    {
+      "id": "KK-011",
+      "question": "Sikap yang tepat saat berkomunikasi dengan pengidap demensia adalah...",
+      "options": {
+        "A": "Menyangkal pembicaraan pengguna jika berbeda dari kenyataan",
+        "B": "Menerima dan berempati tanpa menyangkal pembicaraan pengguna",
+        "C": "Berbicara cepat agar pengguna tidak bosan"
+      },
+      "correct_answer": "B",
+      "explanation": "Berkomunikasi dengan pengidap demensia sebaiknya dengan menerima dan berempati, tanpa menyangkal pembicaraannya."
+    },
+    {
+      "id": "KK-012",
+      "question": "Angka tekanan darah dan hasil pemeriksaan termasuk dalam...",
+      "options": {
+        "A": "Fakta subjektif",
+        "B": "Fakta objektif",
+        "C": "Opini staf perawat"
+      },
+      "correct_answer": "B",
+      "explanation": "Angka tekanan darah dan hasil pemeriksaan merupakan fakta objektif karena bersifat terukur."
+    },
+    {
+      "id": "KK-013",
+      "question": "Menuliskan catatan perawatan lansia sebaiknya mencakup unsur berikut, kecuali...",
+      "options": {
+        "A": "Kapan dan di mana kejadian terjadi",
+        "B": "Siapa dan apa yang terjadi",
+        "C": "Pendapat pribadi staf tentang keluarga pengguna"
+      },
+      "correct_answer": "C",
+      "explanation": "Catatan perawatan lansia harus berdasarkan fakta 5W1H, bukan opini pribadi staf tentang keluarga pengguna."
+    },
+    {
+      "id": "KK-014",
+      "question": "Sikap yang tepat bagi pengirim informasi (staf perawat) saat melapor adalah...",
+      "options": {
+        "A": "Menyampaikan secara singkat dan mudah dipahami",
+        "B": "Menyampaikan tanpa membedakan fakta dan penilaian pribadi",
+        "C": "Menunda laporan kecelakaan hingga keesokan harinya"
+      },
+      "correct_answer": "A",
+      "explanation": "Laporan yang baik disampaikan secara singkat dan mudah dipahami oleh penerima informasi."
+    },
+    {
+      "id": "KK-015",
+      "question": "Sikap staf perawat lansia saat mengalami kebingungan dalam bekerja adalah...",
+      "options": {
+        "A": "Menilai dan memutuskan sendiri tanpa melibatkan orang lain",
+        "B": "Berkonsultasi dengan staf lain atau spesialis",
+        "C": "Mengabaikan masalah tersebut agar tidak merepotkan orang lain"
+      },
+      "correct_answer": "B",
+      "explanation": "Saat mengalami kebingungan, staf perawat sebaiknya berkonsultasi dengan staf lain atau spesialis."
+    },
+    {
+      "id": "KK-016",
+      "question": "Dasar sikap staf perawat lansia dalam berkomunikasi adalah...",
+      "options": {
+        "A": "Menghormati perasaan, pemikiran, dan nilai-nilai pengguna",
+        "B": "Menyamakan nilai pengguna dengan nilai staf perawat",
+        "C": "Mengabaikan preferensi pengguna demi efisiensi"
+      },
+      "correct_answer": "A",
+      "explanation": "Dasar komunikasi perawatan lansia adalah menghormati perasaan, pemikiran, dan nilai-nilai pengguna."
+    },
+    {
+      "id": "KK-017",
+      "question": "Menurut buku ini, kecenderungan masyarakat Jepang dalam berkomunikasi adalah...",
+      "options": {
+        "A": "Lebih menyukai jarak dekat dan sentuhan tubuh meski hubungannya tidak dekat",
+        "B": "Lebih memilih menjaga jarak sekalipun hubungannya dekat",
+        "C": "Tidak memiliki kebiasaan khusus terkait jarak komunikasi"
+      },
+      "correct_answer": "B",
+      "explanation": "Menurut buku ini, masyarakat Jepang cenderung lebih memilih menjaga jarak meski hubungannya dekat."
+    },
+    {
+      "id": "KK-018",
+      "question": "Salah satu karakteristik komunikasi dengan pengidap gangguan penglihatan adalah...",
+      "options": {
+        "A": "Penderita tidak mendapatkan informasi visual yang cukup",
+        "B": "Penderita selalu kesulitan mendengar suara",
+        "C": "Penderita tidak dapat memahami bahasa lisan sama sekali"
+      },
+      "correct_answer": "A",
+      "explanation": "Karakteristik utamanya adalah penderita tidak mendapatkan informasi visual yang cukup."
+    },
+    {
+      "id": "KK-019",
+      "question": "Huruf Braille dan papan Braille digunakan sebagai alat komunikasi bagi...",
+      "options": {
+        "A": "Orang yang tidak bisa melihat",
+        "B": "Orang yang tidak bisa mendengar",
+        "C": "Orang yang mengalami afasia"
+      },
+      "correct_answer": "A",
+      "explanation": "Huruf dan papan Braille digunakan sebagai alat komunikasi bagi orang yang tidak bisa melihat."
+    },
+    {
+      "id": "KK-020",
+      "question": "Dampak psikologis yang dapat dialami pengidap gangguan pendengaran menurut buku ini adalah...",
+      "options": {
+        "A": "Merasa sangat percaya diri",
+        "B": "Merasa sangat kesepian dan kehilangan",
+        "C": "Merasa lebih mudah berkomunikasi dibanding orang lain"
+      },
+      "correct_answer": "B",
+      "explanation": "Menurut buku ini, pengidap gangguan pendengaran dapat merasa sangat kesepian dan kehilangan."
+    },
+    {
+      "id": "KK-021",
+      "question": "Tujuan utama berbagi informasi dalam tim perawatan lansia adalah...",
+      "options": {
+        "A": "Memberikan layanan perawatan lansia yang lebih baik kepada pengguna",
+        "B": "Mengurangi jumlah staf yang bertugas",
+        "C": "Membatasi komunikasi antarprofesi"
+      },
+      "correct_answer": "A",
+      "explanation": "Berbagi informasi dalam tim bertujuan agar layanan perawatan lansia yang diberikan kepada pengguna lebih baik."
+    },
+    {
+      "id": "KK-022",
+      "question": "Salah satu cara berbagi informasi dalam tim perawatan lansia adalah...",
+      "options": {
+        "A": "Melalui catatan seperti rencana perawatan lansia dan buku serah-terima tugas",
+        "B": "Hanya melalui percakapan informal di luar jam kerja",
+        "C": "Melalui media sosial pribadi staf"
+      },
+      "correct_answer": "A",
+      "explanation": "Berbagi informasi dilakukan melalui catatan resmi seperti rencana perawatan lansia dan buku serah-terima tugas."
+    },
+    {
+      "id": "KK-023",
+      "question": "Teknologi yang belakangan ini sering digunakan sebagai alat bantu komunikasi bagi pengguna dengan disabilitas adalah...",
+      "options": {
+        "A": "ICT (Information and Communication Technology)",
+        "B": "Mesin cuci otomatis",
+        "C": "Alat pengukur tekanan darah"
+      },
+      "correct_answer": "A",
+      "explanation": "ICT semakin sering digunakan sebagai alat bantu komunikasi bagi pengguna dengan disabilitas."
+    },
+    {
+      "id": "KK-024",
+      "question": "Alat bantu dengar bekerja dengan cara...",
+      "options": {
+        "A": "Mengubah gerakan tangan menjadi tulisan",
+        "B": "Mengumpulkan suara dengan mikrofon, memperbesar, dan meneruskannya ke telinga",
+        "C": "Menerjemahkan bahasa isyarat ke teks"
+      },
+      "correct_answer": "B",
+      "explanation": "Alat bantu dengar bekerja dengan mengumpulkan suara melalui mikrofon, memperbesarnya, lalu meneruskannya ke telinga."
+    },
+    {
+      "id": "KK-025",
+      "question": "Bahasa isyarat menyampaikan makna dengan cara...",
+      "options": {
+        "A": "Memadukan gerakan tangan dan jari dengan gerakan wajah dan leher",
+        "B": "Menuliskan pesan di atas kertas",
+        "C": "Menggunakan huruf Braille"
+      },
+      "correct_answer": "A",
+      "explanation": "Bahasa isyarat menyampaikan makna dengan memadukan gerakan tangan dan jari bersama gerakan wajah dan leher."
+    },
+    {
+      "id": "KK-026",
+      "question": "Jenis informasi pribadi pengguna yang wajib dilindungi kerahasiaannya antara lain...",
+      "options": {
+        "A": "Nama, alamat, nomor telepon, dan foto pengguna",
+        "B": "Jadwal kerja staf perawat lansia",
+        "C": "Denah ruangan fasilitas perawatan lansia"
+      },
+      "correct_answer": "A",
+      "explanation": "Nama, alamat, nomor telepon, dan foto pengguna termasuk informasi pribadi yang wajib dilindungi kerahasiaannya."
+    },
+    {
+      "id": "KK-027",
+      "question": "Sikap yang tepat terkait waktu pelaporan jika terjadi kecelakaan pada pengguna adalah...",
+      "options": {
+        "A": "Segera melaporkannya",
+        "B": "Menunggu hingga akhir shift kerja",
+        "C": "Melaporkannya hanya jika ditanya oleh atasan"
+      },
+      "correct_answer": "A",
+      "explanation": "Kecelakaan pada pengguna harus segera dilaporkan tanpa ditunda."
+    },
+    {
+      "id": "KK-028",
+      "question": "Risiko yang perlu diwaspadai saat mengajukan pertanyaan terbuka yang menanyakan alasan secara terus-menerus adalah...",
+      "options": {
+        "A": "Pengguna merasa diserang",
+        "B": "Pengguna menjadi terlalu banyak bicara",
+        "C": "Percakapan menjadi terlalu singkat"
+      },
+      "correct_answer": "A",
+      "explanation": "Menanyakan alasan secara terus-menerus berisiko membuat pengguna merasa diserang atau diinterogasi."
+    }
+  ],
+
+
+  
+  "keterampilan_dukungan_kehidupan": [
+    {
+      "id": "KDK-001",
+      "question": "Yang termasuk dalam IADL (Instrumental Activities of Daily Living) adalah...",
+      "options": {
+        "A": "Makan dan berpakaian",
+        "B": "Mengelola uang dan berbelanja",
+        "C": "Mandi dan buang air"
+      },
+      "correct_answer": "B",
+      "explanation": "IADL mencakup aktivitas seperti mengelola uang dan berbelanja, berbeda dari ADL dasar."
+    },
+    {
+      "id": "KDK-002",
+      "question": "Posisi setengah duduk yang digunakan agar pengguna lebih nyaman bernapas disebut...",
+      "options": {
+        "A": "Posisi supinasi",
+        "B": "Posisi lateral",
+        "C": "Posisi Fowler (semi-Fowler)"
+      },
+      "correct_answer": "C",
+      "explanation": "Posisi Fowler (semi-Fowler) adalah posisi setengah duduk yang membantu pengguna bernapas lebih nyaman."
+    },
+    {
+      "id": "KDK-003",
+      "question": "Tujuan dari tindakan menjauhkan punggung sementara pada pengguna yang berbaring adalah...",
+      "options": {
+        "A": "Mencegah dekubitus",
+        "B": "Mempercepat proses tidur",
+        "C": "Meningkatkan tekanan darah"
+      },
+      "correct_answer": "A",
+      "explanation": "Menjauhkan punggung sementara membantu mengurangi tekanan pada satu titik sehingga mencegah dekubitus."
+    },
+    {
+      "id": "KDK-004",
+      "question": "Sindrom disuse dapat terjadi akibat...",
+      "options": {
+        "A": "Aktivitas fisik berlebihan",
+        "B": "Beristirahat dalam waktu lama dan penurunan keaktifan",
+        "C": "Konsumsi makanan yang tidak seimbang"
+      },
+      "correct_answer": "B",
+      "explanation": "Sindrom disuse terjadi akibat beristirahat dalam waktu lama disertai penurunan keaktifan tubuh."
+    },
+    {
+      "id": "KDK-005",
+      "question": "Salah satu langkah pencegahan dekubitus adalah...",
+      "options": {
+        "A": "Membiarkan pengguna berbaring tanpa mengubah posisi dalam waktu lama",
+        "B": "Mengubah posisi pengguna secara periodik",
+        "C": "Menggunakan seprai yang kusut agar pengguna merasa hangat"
+      },
+      "correct_answer": "B",
+      "explanation": "Mengubah posisi pengguna secara periodik adalah langkah penting untuk mencegah dekubitus."
+    },
+    {
+      "id": "KDK-006",
+      "question": "Tongkat berbentuk T memiliki kelebihan yaitu...",
+      "options": {
+        "A": "Daya dukung paling luas di antara jenis tongkat lainnya",
+        "B": "Ringan dan mudah dioperasikan",
+        "C": "Hanya digunakan pada saat pijakan tidak stabil"
+      },
+      "correct_answer": "B",
+      "explanation": "Tongkat berbentuk T memiliki kelebihan ringan dan mudah dioperasikan."
+    },
+    {
+      "id": "KDK-007",
+      "question": "Langkah awal yang harus dilakukan dalam setiap praktik perawatan lansia untuk tubuh adalah...",
+      "options": {
+        "A": "Menjelaskan tujuan perawatan lansia",
+        "B": "Memeriksa kondisi fisik pengguna",
+        "C": "Mengatur ketinggian tempat tidur"
+      },
+      "correct_answer": "B",
+      "explanation": "Setiap praktik perawatan lansia harus diawali dengan memeriksa kondisi fisik pengguna terlebih dahulu."
+    },
+    {
+      "id": "KDK-008",
+      "question": "Dalam cara berjalan 3 gerakan menggunakan tongkat, urutan yang tepat adalah...",
+      "options": {
+        "A": "Tongkat, sisi sehat, sisi sakit",
+        "B": "Tongkat, sisi sakit, sisi sehat",
+        "C": "Sisi sehat, tongkat, sisi sakit"
+      },
+      "correct_answer": "B",
+      "explanation": "Urutan cara berjalan 3 gerakan yang tepat adalah tongkat, sisi sakit, lalu sisi sehat."
+    },
+    {
+      "id": "KDK-009",
+      "question": "Urutan menaiki tangga yang tepat bagi pengguna hemiplegia menggunakan tongkat adalah...",
+      "options": {
+        "A": "Tongkat, kaki sehat, kaki sakit",
+        "B": "Tongkat, kaki sakit, kaki sehat",
+        "C": "Kaki sehat, tongkat, kaki sakit"
+      },
+      "correct_answer": "A",
+      "explanation": "Saat menaiki tangga, urutan yang tepat adalah tongkat, kaki sehat, kemudian kaki sakit."
+    },
+    {
+      "id": "KDK-010",
+      "question": "Posisi staf perawat lansia yang tepat saat mendampingi pengguna menuruni tangga adalah...",
+      "options": {
+        "A": "Satu langkah di atas (di belakang) pengguna",
+        "B": "Satu langkah di bawah (di depan) pengguna",
+        "C": "Sejajar di samping pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "Saat menuruni tangga, staf perawat berada satu langkah di bawah (di depan) pengguna untuk mengantisipasi risiko jatuh."
+    },
+    {
+      "id": "KDK-011",
+      "question": "Hal penting yang perlu diperiksa sebelum menggunakan kursi roda adalah...",
+      "options": {
+        "A": "Warna kursi roda",
+        "B": "Tekanan ban dan kondisi rem",
+        "C": "Berat badan pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "Tekanan ban dan kondisi rem harus diperiksa sebelum kursi roda digunakan demi keselamatan."
+    },
+    {
+      "id": "KDK-012",
+      "question": "Saat menuruni lereng curam dengan kursi roda, staf perawat lansia sebaiknya...",
+      "options": {
+        "A": "Menghadap ke depan seperti biasa",
+        "B": "Menghadapkan kursi roda ke belakang agar pengguna tidak merosot jatuh",
+        "C": "Melepaskan rem sepenuhnya agar lebih cepat"
+      },
+      "correct_answer": "B",
+      "explanation": "Menghadapkan kursi roda ke belakang saat menuruni lereng curam mencegah pengguna merosot jatuh ke depan."
+    },
+    {
+      "id": "KDK-013",
+      "question": "Salah satu makna penting dari kegiatan makan bagi pengguna adalah...",
+      "options": {
+        "A": "Hanya untuk memenuhi kebutuhan kalori harian",
+        "B": "Menyampaikan rangsangan ke otak besar dan menciptakan ritme hidup",
+        "C": "Sebagai kewajiban rutin yang harus segera diselesaikan"
+      },
+      "correct_answer": "B",
+      "explanation": "Makan memiliki makna penting sebagai rangsangan bagi otak besar dan bagian dari ritme kehidupan."
+    },
+    {
+      "id": "KDK-014",
+      "question": "Fungsi epiglotis dalam proses menelan adalah untuk...",
+      "options": {
+        "A": "Membuat gumpalan makanan (bolus)",
+        "B": "Menutup agar bolus makanan tidak memasuki trakea",
+        "C": "Mengangkut bolus makanan dari faring ke mulut"
+      },
+      "correct_answer": "B",
+      "explanation": "Epiglotis menutup saluran napas agar bolus makanan tidak memasuki trakea saat menelan."
+    },
+    {
+      "id": "KDK-015",
+      "question": "Postur makan yang benar bagi pengguna adalah...",
+      "options": {
+        "A": "Duduk tegap dan menaikkan dagu",
+        "B": "Duduk di kursi, condong sedikit ke depan, dan menarik dagu",
+        "C": "Berbaring datar sambil makan"
+      },
+      "correct_answer": "B",
+      "explanation": "Postur makan yang benar adalah duduk dengan tubuh condong sedikit ke depan dan dagu ditarik untuk mencegah tersedak."
+    },
+    {
+      "id": "KDK-016",
+      "question": "Makanan yang dikentalkan agar pengguna dengan fungsi menelan menurun tidak tersedak disebut...",
+      "options": {
+        "A": "Makanan cincang",
+        "B": "Makanan pasta",
+        "C": "Makanan kental"
+      },
+      "correct_answer": "C",
+      "explanation": "Makanan kental adalah makanan atau minuman yang dikentalkan agar tidak mudah tersedak."
+    },
+    {
+      "id": "KDK-017",
+      "question": "Metode posisi jam dalam perawatan makan digunakan untuk...",
+      "options": {
+        "A": "Menjelaskan posisi makanan kepada pengguna dengan gangguan penglihatan",
+        "B": "Mengatur jadwal makan pengguna",
+        "C": "Menghitung porsi makanan yang telah dikonsumsi"
+      },
+      "correct_answer": "A",
+      "explanation": "Metode posisi jam digunakan untuk menjelaskan letak makanan di piring kepada pengguna dengan gangguan penglihatan."
+    },
+    {
+      "id": "KDK-018",
+      "question": "Setelah makan, pengguna diminta tetap duduk sekitar 30 menit dengan tujuan untuk...",
+      "options": {
+        "A": "Mempercepat proses pencernaan",
+        "B": "Mencegah pneumonia aspirasi",
+        "C": "Memberi waktu istirahat bagi staf perawat"
+      },
+      "correct_answer": "B",
+      "explanation": "Tetap duduk setelah makan bertujuan mencegah makanan naik kembali dan menyebabkan pneumonia aspirasi."
+    },
+    {
+      "id": "KDK-019",
+      "question": "Keinginan berkemih biasanya timbul ketika urine terkumpul di kandung kemih sekitar...",
+      "options": {
+        "A": "50-100 ml",
+        "B": "200-300 ml",
+        "C": "800-900 ml"
+      },
+      "correct_answer": "B",
+      "explanation": "Keinginan berkemih umumnya timbul saat urine di kandung kemih mencapai sekitar 200-300 ml."
+    },
+    {
+      "id": "KDK-020",
+      "question": "Postur yang memudahkan keluarnya feses saat defekasi adalah...",
+      "options": {
+        "A": "Postur tegap dengan tumit rata di lantai",
+        "B": "Postur condong ke depan dengan tumit sedikit dinaikkan",
+        "C": "Postur berbaring telentang"
+      },
+      "correct_answer": "B",
+      "explanation": "Postur condong ke depan dengan tumit sedikit dinaikkan memudahkan keluarnya feses saat defekasi."
+    },
+    {
+      "id": "KDK-021",
+      "question": "Toilet portable digunakan oleh pengguna yang...",
+      "options": {
+        "A": "Memiliki keinginan berkemih/defekasi tetapi tidak bisa pergi ke toilet",
+        "B": "Tidak menyadari keluarnya urine atau feses sama sekali",
+        "C": "Membutuhkan cuci darah rutin"
+      },
+      "correct_answer": "A",
+      "explanation": "Toilet portable digunakan oleh pengguna yang memiliki keinginan berkemih atau defekasi tetapi tidak bisa pergi ke toilet."
+    },
+    {
+      "id": "KDK-022",
+      "question": "Inkontinensia urine stres terjadi ketika...",
+      "options": {
+        "A": "Mengompol saat ada tekanan di perut seperti batuk atau bersin",
+        "B": "Tidak timbul keinginan berkemih karena cedera medula spinalis",
+        "C": "Saluran urine tertutup akibat pembesaran kelenjar prostat"
+      },
+      "correct_answer": "A",
+      "explanation": "Inkontinensia urine stres terjadi saat ada tekanan di perut, misalnya akibat batuk atau bersin."
+    },
+    {
+      "id": "KDK-023",
+      "question": "Inkontinensia urine fungsional pada pengguna demensia terjadi karena...",
+      "options": {
+        "A": "Kerusakan saraf medula spinalis",
+        "B": "Tidak mengetahui lokasi toilet sehingga tidak keburu ke toilet",
+        "C": "Pembesaran kelenjar prostat"
+      },
+      "correct_answer": "B",
+      "explanation": "Inkontinensia urine fungsional terjadi karena pengguna tidak mengetahui lokasi toilet sehingga tidak sempat sampai ke sana."
+    },
+    {
+      "id": "KDK-024",
+      "question": "Konstipasi organik disebabkan oleh...",
+      "options": {
+        "A": "Penurunan fungsi otot usus akibat penuaan",
+        "B": "Tumor atau peradangan yang menghalangi keluarnya feses",
+        "C": "Kurangnya asupan air putih"
+      },
+      "correct_answer": "B",
+      "explanation": "Konstipasi organik disebabkan oleh adanya tumor atau peradangan yang menghalangi keluarnya feses."
+    },
+    {
+      "id": "KDK-025",
+      "question": "Salah satu poin penting perawatan lansia bagi pengguna yang mengalami diare adalah...",
+      "options": {
+        "A": "Membatasi seluruh asupan cairan",
+        "B": "Mencegah dehidrasi akibat kehilangan cairan tubuh",
+        "C": "Segera memberikan makanan padat dalam jumlah besar"
+      },
+      "correct_answer": "B",
+      "explanation": "Saat pengguna diare, poin penting perawatan adalah mencegah dehidrasi akibat kehilangan cairan tubuh."
+    },
+    {
+      "id": "KDK-026",
+      "question": "Setelah merasakan keinginan berkemih atau defekasi, tahap berikutnya dalam proses aktivitas ekskresi adalah...",
+      "options": {
+        "A": "Membersihkan diri setelah ekskresi",
+        "B": "Berpindah ke toilet",
+        "C": "Menaikkan celana panjang"
+      },
+      "correct_answer": "B",
+      "explanation": "Setelah merasakan keinginan berkemih atau defekasi, tahap berikutnya adalah berpindah menuju toilet."
+    },
+    {
+      "id": "KDK-027",
+      "question": "Saat merekatkan pita perekat popok, ruang yang perlu disisakan pada abdomen dan paha adalah selebar...",
+      "options": {
+        "A": "2-3 jari",
+        "B": "5-6 jari",
+        "C": "Tidak perlu ada ruang, popok harus rapat"
+      },
+      "correct_answer": "A",
+      "explanation": "Saat merekatkan pita perekat popok, disisakan ruang selebar 2-3 jari agar tidak terlalu ketat."
+    },
+    {
+      "id": "KDK-028",
+      "question": "Salah satu efek dari kegiatan merapikan diri bagi pengguna adalah...",
+      "options": {
+        "A": "Menurunkan fungsi mental dan fisik",
+        "B": "Mengatur suhu tubuh dan menjaga kondisi kulit",
+        "C": "Mengurangi interaksi sosial pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "Merapikan diri memberikan efek positif seperti membantu mengatur suhu tubuh dan menjaga kondisi kulit."
+    },
+    {
+      "id": "KDK-029",
+      "question": "Bagi pengguna dengan kelumpuhan, urutan yang tepat saat melepas dan mengenakan pakaian adalah...",
+      "options": {
+        "A": "Melepas dari sisi sehat, mengenakan dari sisi sakit",
+        "B": "Melepas dari sisi sakit, mengenakan dari sisi sehat",
+        "C": "Melepas dan mengenakan dari sisi yang sama"
+      },
+      "correct_answer": "A",
+      "explanation": "Prinsipnya adalah melepas pakaian dari sisi sehat terlebih dahulu, kemudian mengenakan dari sisi sakit."
+    },
+    {
+      "id": "KDK-030",
+      "question": "Waktu yang tepat untuk memotong kuku pengguna adalah...",
+      "options": {
+        "A": "Sebelum makan",
+        "B": "Saat kuku dalam kondisi keras",
+        "C": "Saat kuku melunak setelah mandi"
+      },
+      "correct_answer": "C",
+      "explanation": "Kuku sebaiknya dipotong saat sudah melunak, misalnya setelah mandi, agar lebih mudah dan aman."
+    },
+    {
+      "id": "KDK-031",
+      "question": "Salah satu manfaat perawatan rongga mulut bagi pengguna adalah...",
+      "options": {
+        "A": "Meningkatkan tekanan darah",
+        "B": "Menekan pertumbuhan bakteri dan mencegah pneumonia aspirasi",
+        "C": "Mempercepat pertumbuhan gigi baru"
+      },
+      "correct_answer": "B",
+      "explanation": "Perawatan rongga mulut membantu menekan pertumbuhan bakteri sehingga mencegah pneumonia aspirasi."
+    },
+    {
+      "id": "KDK-032",
+      "question": "Cara menyimpan gigi palsu yang tepat adalah...",
+      "options": {
+        "A": "Disimpan dalam keadaan kering di dalam saku",
+        "B": "Disimpan dalam wadah berisi air atau pembersih gigi palsu",
+        "C": "Dibiarkan tetap terpasang di mulut sepanjang malam"
+      },
+      "correct_answer": "B",
+      "explanation": "Gigi palsu sebaiknya disimpan dalam wadah berisi air atau cairan pembersih khusus gigi palsu."
+    },
+    {
+      "id": "KDK-033",
+      "question": "Salah satu efek mandi dan menjaga kebersihan tubuh adalah...",
+      "options": {
+        "A": "Menurunkan sirkulasi darah",
+        "B": "Mendorong metabolisme dan mengurangi stres",
+        "C": "Memperlambat fungsi gastrointestinal"
+      },
+      "correct_answer": "B",
+      "explanation": "Mandi memberikan efek mendorong metabolisme tubuh dan membantu mengurangi stres."
+    },
+    {
+      "id": "KDK-034",
+      "question": "Kejutan panas (heat shock) terjadi akibat...",
+      "options": {
+        "A": "Perbedaan suhu mendadak yang berdampak buruk terhadap tubuh",
+        "B": "Kekurangan cairan tubuh saat mandi",
+        "C": "Penggunaan sabun yang terlalu banyak"
+      },
+      "correct_answer": "A",
+      "explanation": "Kejutan panas (heat shock) terjadi akibat perbedaan suhu mendadak yang berdampak buruk terhadap tubuh."
+    },
+    {
+      "id": "KDK-035",
+      "question": "Kelenjar keringat yang tersebar di seluruh tubuh dan tidak berbau adalah...",
+      "options": {
+        "A": "Kelenjar apokrin",
+        "B": "Kelenjar ekrin",
+        "C": "Kelenjar sebasea"
+      },
+      "correct_answer": "B",
+      "explanation": "Kelenjar ekrin tersebar di seluruh tubuh dan menghasilkan keringat yang tidak berbau."
+    },
+    {
+      "id": "KDK-036",
+      "question": "Urutan mandi seka seluruh tubuh yang tepat dimulai dari...",
+      "options": {
+        "A": "Kaki, lalu wajah",
+        "B": "Wajah, lalu lengan",
+        "C": "Area genital, lalu punggung"
+      },
+      "correct_answer": "B",
+      "explanation": "Urutan mandi seka yang tepat dimulai dari wajah, kemudian dilanjutkan ke lengan dan bagian tubuh lain."
+    },
+    {
+      "id": "KDK-037",
+      "question": "Arah menyeka area genital wanita yang tepat untuk mencegah infeksi adalah...",
+      "options": {
+        "A": "Dari anus ke arah uretra",
+        "B": "Dari uretra ke arah anus",
+        "C": "Dengan gerakan memutar tanpa arah tertentu"
+      },
+      "correct_answer": "B",
+      "explanation": "Area genital wanita diseka dari arah uretra menuju anus untuk mencegah perpindahan bakteri dan infeksi."
+    },
+    {
+      "id": "KDK-038",
+      "question": "Pekerjaan rumah tangga termasuk dalam kategori...",
+      "options": {
+        "A": "ADL (Activities of Daily Living)",
+        "B": "IADL (Instrumental Activities of Daily Living)",
+        "C": "Tanda vital tubuh"
+      },
+      "correct_answer": "B",
+      "explanation": "Pekerjaan rumah tangga termasuk dalam kategori IADL, yaitu aktivitas kehidupan sehari-hari yang bersifat instrumental."
+    },
+    {
+      "id": "KDK-039",
+      "question": "Pakaian pengguna yang terkena feses atau darah akibat penyakit menular sebaiknya...",
+      "options": {
+        "A": "Dicuci bersama pakaian pengguna lain agar hemat waktu",
+        "B": "Dicuci secara terpisah",
+        "C": "Dibuang tanpa dicuci"
+      },
+      "correct_answer": "B",
+      "explanation": "Pakaian yang terkena feses atau darah akibat penyakit menular harus dicuci secara terpisah untuk mencegah penularan."
+    },
+    {
+      "id": "KDK-040",
+      "question": "Salah satu tujuan menata lingkungan tempat tinggal pengguna adalah...",
+      "options": {
+        "A": "Mengurangi jumlah alat bantu yang digunakan pengguna",
+        "B": "Mencegah kecelakaan dan menjaga privasi serta kenyamanan pengguna",
+        "C": "Membatasi pengguna beraktivitas di luar kamar"
+      },
+      "correct_answer": "B",
+      "explanation": "Menata lingkungan tempat tinggal bertujuan mencegah kecelakaan serta menjaga privasi dan kenyamanan pengguna."
+    },
+    {
+      "id": "KDK-041",
+      "question": "Berpindah pada dasarnya melibatkan kerja sama dari...",
+      "options": {
+        "A": "Berbagai otot dan sendi di dalam tubuh",
+        "B": "Hanya otot kaki",
+        "C": "Hanya sistem pernapasan"
+      },
+      "correct_answer": "A",
+      "explanation": "Berpindah melibatkan kerja sama berbagai otot dan sendi di dalam tubuh, bukan hanya satu bagian saja."
+    },
+    {
+      "id": "KDK-042",
+      "question": "Posisi duduk di mana kedua kaki diluruskan ke depan disebut...",
+      "options": {
+        "A": "Duduk kursi",
+        "B": "Duduk selonjor",
+        "C": "Posisi Fowler"
+      },
+      "correct_answer": "B",
+      "explanation": "Duduk selonjor adalah posisi duduk dengan kedua kaki diluruskan ke depan."
+    },
+    {
+      "id": "KDK-043",
+      "question": "Alat pemindah dalam perawatan lansia digunakan untuk...",
+      "options": {
+        "A": "Mengukur tekanan darah pengguna",
+        "B": "Mengurangi beban perawatan lansia yang dipikul staf perawat",
+        "C": "Menggantikan fungsi tongkat sepenuhnya"
+      },
+      "correct_answer": "B",
+      "explanation": "Alat pemindah digunakan untuk mengurangi beban fisik yang dipikul staf perawat saat memindahkan pengguna."
+    },
+    {
+      "id": "KDK-044",
+      "question": "Lutut tertekuk yang dapat menyebabkan pengguna terjatuh terjadi karena...",
+      "options": {
+        "A": "Lutut menekuk tiba-tiba akibat tidak kokoh saat berdiri atau berjalan",
+        "B": "Pengguna terlalu banyak berolahraga",
+        "C": "Sendi lutut mengalami peradangan kronis"
+      },
+      "correct_answer": "A",
+      "explanation": "Lutut yang tertekuk tiba-tiba akibat tidak kokoh saat berdiri atau berjalan dapat menyebabkan pengguna terjatuh."
+    },
+    {
+      "id": "KDK-045",
+      "question": "Saat mendampingi pengguna dengan gangguan penglihatan berjalan, staf perawat sebaiknya...",
+      "options": {
+        "A": "Berjalan jauh di depan pengguna",
+        "B": "Menyesuaikan kecepatan berjalan dengan kecepatan pengguna dan menjelaskan secara lisan jika situasi berubah",
+        "C": "Membiarkan pengguna berjalan sendiri tanpa panduan"
+      },
+      "correct_answer": "B",
+      "explanation": "Staf perawat perlu menyesuaikan kecepatan berjalan dan menjelaskan secara lisan setiap perubahan situasi kepada pengguna dengan gangguan penglihatan."
+    },
+    {
+      "id": "KDK-046",
+      "question": "Fungsi rem parkir pada kursi roda adalah...",
+      "options": {
+        "A": "Menahan kursi roda tetap diam saat berhenti",
+        "B": "Mengatur ketinggian sandaran punggung",
+        "C": "Menopang kaki pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Rem parkir berfungsi menahan kursi roda agar tetap diam saat sedang berhenti."
+    },
+    {
+      "id": "KDK-047",
+      "question": "Kondisi urine dengan volume 2000-3000 ml/hari disebut...",
+      "options": {
+        "A": "Oliguria",
+        "B": "Poliuria",
+        "C": "Anuria"
+      },
+      "correct_answer": "B",
+      "explanation": "Poliuria adalah kondisi volume urine yang meningkat, sekitar 2000-3000 ml per hari."
+    },
+    {
+      "id": "KDK-048",
+      "question": "Tujuan penggunaan sendok dan garpu yang mudah digenggam bagi pengguna adalah...",
+      "options": {
+        "A": "Membuat pengguna terlihat lebih rapi",
+        "B": "Membantu pengguna dengan keterbatasan fungsi tangan agar tetap bisa makan sendiri",
+        "C": "Mempercepat waktu makan tanpa memperhatikan kenyamanan pengguna"
+      },
+      "correct_answer": "B",
+      "explanation": "Sendok dan garpu yang mudah digenggam membantu pengguna dengan keterbatasan fungsi tangan agar tetap bisa makan secara mandiri."
+    },
+    {
+      "id": "KDK-049",
+      "question": "Kelebihan alat bantu jalan (walker) dibandingkan tongkat adalah...",
+      "options": {
+        "A": "Lebih ringan untuk dibawa bepergian jauh",
+        "B": "Lebih stabil karena area penopangnya lebih luas",
+        "C": "Dapat dilipat menjadi kursi roda"
+      },
+      "correct_answer": "B",
+      "explanation": "Walker lebih stabil dibandingkan tongkat karena memiliki area penopang yang lebih luas."
+    },
+    {
+      "id": "KDK-050",
+      "question": "Tujuan menegakkan lutut dan memperkecil bentuk tubuh pengguna saat membantu membalik diri adalah...",
+      "options": {
+        "A": "Mempersempit landasan penopang agar posisi lateral lebih stabil",
+        "B": "Mempercepat proses tidur pengguna",
+        "C": "Meningkatkan tekanan darah pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Mempersempit landasan penopang tubuh pengguna membuat posisi lateral lebih stabil saat membalik diri."
+    },
+    {
+      "id": "KDK-051",
+      "question": "Saat mengenali warna, bentuk, dan bau makanan, tubuh akan merespons dengan...",
+      "options": {
+        "A": "Peningkatan tekanan darah",
+        "B": "Sekresi saliva",
+        "C": "Penurunan denyut nadi"
+      },
+      "correct_answer": "B",
+      "explanation": "Mengenali warna, bentuk, dan bau makanan merangsang tubuh untuk mengeluarkan sekresi saliva."
+    },
+    {
+      "id": "KDK-052",
+      "question": "Gumpalan makanan yang telah dikunyah dan dicampur saliva disebut...",
+      "options": {
+        "A": "Bolus",
+        "B": "Kimus",
+        "C": "Enzim"
+      },
+      "correct_answer": "A",
+      "explanation": "Bolus adalah gumpalan makanan yang telah dikunyah dan dicampur dengan saliva, siap untuk ditelan."
+    },
+    {
+      "id": "KDK-053",
+      "question": "Popok dan pembalut digunakan oleh pengguna yang...",
+      "options": {
+        "A": "Ingin berolahraga secara mandiri",
+        "B": "Mengalami inkontinensia urine atau fekal, atau sulit menggunakan toilet",
+        "C": "Baru selesai menjalani operasi mata"
+      },
+      "correct_answer": "B",
+      "explanation": "Popok dan pembalut digunakan oleh pengguna yang mengalami inkontinensia atau kesulitan menggunakan toilet."
+    },
+    {
+      "id": "KDK-054",
+      "question": "Bagian tubuh yang disebut ekstremitas atas adalah...",
+      "options": {
+        "A": "Kedua belah lengan",
+        "B": "Kedua belah kaki",
+        "C": "Kepala dan leher"
+      },
+      "correct_answer": "A",
+      "explanation": "Ekstremitas atas merujuk pada kedua belah lengan tubuh manusia."
+    },
+    {
+      "id": "KDK-055",
+      "question": "Salah satu lokasi yang sering mengalami fraktur akibat osteoporosis pada lansia adalah...",
+      "options": {
+        "A": "Leher femur",
+        "B": "Tulang tengkorak",
+        "C": "Tulang rusuk"
+      },
+      "correct_answer": "A",
+      "explanation": "Leher femur (pangkal paha) merupakan salah satu lokasi yang sering mengalami fraktur akibat osteoporosis pada lansia."
+    },
+    {
+      "id": "KDK-056",
+      "question": "Sarung tangan sekali pakai dalam perawatan lansia sebaiknya diganti...",
+      "options": {
+        "A": "Setiap kali sebelum dan sesudah makan saja",
+        "B": "Setiap kali melakukan tindakan perawatan",
+        "C": "Sekali dalam sehari kerja"
+      },
+      "correct_answer": "B",
+      "explanation": "Sarung tangan sekali pakai harus diganti setiap kali melakukan tindakan perawatan untuk mencegah kontaminasi silang."
+    },
+    {
+      "id": "KDK-057",
+      "question": "ADL (Activities of Daily Living) meliputi kegiatan berikut, kecuali...",
+      "options": {
+        "A": "Bergerak, makan, dan berpakaian",
+        "B": "Buang air dan mandi",
+        "C": "Mengelola uang dan berbelanja"
+      },
+      "correct_answer": "C",
+      "explanation": "Mengelola uang dan berbelanja termasuk IADL, bukan ADL dasar."
+    },
+    {
+      "id": "KDK-058",
+      "question": "Posisi berbaring telentang menghadap ke atas disebut...",
+      "options": {
+        "A": "Posisi supinasi",
+        "B": "Posisi lateral",
+        "C": "Posisi Fowler"
+      },
+      "correct_answer": "A",
+      "explanation": "Posisi supinasi adalah posisi berbaring telentang menghadap ke atas."
+    },
+    {
+      "id": "KDK-059",
+      "question": "Posisi berbaring miring ke salah satu sisi tubuh disebut...",
+      "options": {
+        "A": "Posisi supinasi",
+        "B": "Posisi lateral",
+        "C": "Posisi duduk selonjor"
+      },
+      "correct_answer": "B",
+      "explanation": "Posisi lateral adalah posisi berbaring miring ke salah satu sisi tubuh."
+    },
+    {
+      "id": "KDK-060",
+      "question": "Salah satu bagian tubuh yang mudah timbul dekubitus adalah...",
+      "options": {
+        "A": "Bagian sakral (tulang ekor)",
+        "B": "Ujung hidung",
+        "C": "Telapak tangan"
+      },
+      "correct_answer": "A",
+      "explanation": "Bagian sakral (tulang ekor) adalah salah satu titik yang mudah timbul dekubitus karena menahan tekanan tubuh."
+    },
+    {
+      "id": "KDK-061",
+      "question": "Saat memberi makan pada tempat tidur bagi pengguna dengan hemiplegia, posisi berbaring yang tepat adalah...",
+      "options": {
+        "A": "Sisi sehat di bawah",
+        "B": "Sisi sakit di bawah",
+        "C": "Posisi telentang datar tanpa bantal"
+      },
+      "correct_answer": "A",
+      "explanation": "Posisi berbaring dengan sisi sehat di bawah memudahkan pengguna hemiplegia menelan makanan dengan lebih aman."
+    },
+    {
+      "id": "KDK-062",
+      "question": "Piring yang mudah disendok dan alas makan yang tidak licin termasuk contoh dari...",
+      "options": {
+        "A": "Perlengkapan makan yang membantu kemandirian pengguna",
+        "B": "Alat ekskresi",
+        "C": "Alat bantu komunikasi"
+      },
+      "correct_answer": "A",
+      "explanation": "Piring yang mudah disendok dan alas makan anti-licin merupakan perlengkapan makan yang membantu kemandirian pengguna."
+    },
+    {
+      "id": "KDK-063",
+      "question": "Tahap terakhir dalam proses aktivitas ekskresi adalah...",
+      "options": {
+        "A": "Merasakan keinginan berkemih atau defekasi",
+        "B": "Ekskresi",
+        "C": "Keluar dari toilet"
+      },
+      "correct_answer": "C",
+      "explanation": "Keluar dari toilet merupakan tahap terakhir dalam rangkaian proses aktivitas ekskresi."
+    },
+    {
+      "id": "KDK-064",
+      "question": "Saat menyelipkan pispot feses, hal yang perlu dipastikan staf perawat adalah...",
+      "options": {
+        "A": "Anus pengguna berada di tengah pispot dan posisinya stabil",
+        "B": "Pengguna dalam posisi berdiri tegak",
+        "C": "Pispot diletakkan di lantai kamar mandi"
+      },
+      "correct_answer": "A",
+      "explanation": "Saat menyelipkan pispot, staf perawat harus memastikan anus pengguna berada di tengah pispot dan posisinya stabil."
+    },
+    {
+      "id": "KDK-065",
+      "question": "Efek merapikan diri yang berkaitan dengan ekspresi individualitas pengguna adalah...",
+      "options": {
+        "A": "Dapat mengekspresikan jati diri",
+        "B": "Menurunkan ritme kehidupan",
+        "C": "Mengurangi kemampuan mental dan fisik"
+      },
+      "correct_answer": "A",
+      "explanation": "Merapikan diri memungkinkan pengguna mengekspresikan jati dirinya."
+    },
+    {
+      "id": "KDK-066",
+      "question": "Poin penting perawatan lansia saat bercukur adalah...",
+      "options": {
+        "A": "Menyisakan sebagian area yang belum dicukur agar kulit tidak iritasi",
+        "B": "Bercukur dilakukan seraya meregangkan kerutan kulit",
+        "C": "Menggunakan alat cukur listrik pada sudut sejajar dengan kulit"
+      },
+      "correct_answer": "B",
+      "explanation": "Saat bercukur, kerutan kulit perlu diregangkan agar hasil cukur lebih rapi dan aman."
+    },
+    {
+      "id": "KDK-067",
+      "question": "Berdandan bagi pengguna dipahami sebagai...",
+      "options": {
+        "A": "Salah satu ekspresi jati diri",
+        "B": "Kegiatan yang tidak perlu diperhatikan preferensinya",
+        "C": "Tugas yang hanya boleh dilakukan oleh keluarga pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Berdandan dipahami sebagai salah satu bentuk ekspresi jati diri pengguna."
+    },
+    {
+      "id": "KDK-068",
+      "question": "Salah satu fungsi kulit bagi tubuh manusia adalah...",
+      "options": {
+        "A": "Menyerap benturan eksternal dan melindungi organ dalam",
+        "B": "Menghasilkan sel darah merah",
+        "C": "Menyaring darah dari zat buangan"
+      },
+      "correct_answer": "A",
+      "explanation": "Salah satu fungsi kulit adalah menyerap benturan eksternal dan melindungi organ dalam tubuh."
+    },
+    {
+      "id": "KDK-069",
+      "question": "Bagian kulit yang mudah kotor karena sekresi keringat dan sebum adalah...",
+      "options": {
+        "A": "Bagian kulit yang berlipat",
+        "B": "Telapak kaki bagian tumit",
+        "C": "Ujung rambut"
+      },
+      "correct_answer": "A",
+      "explanation": "Bagian kulit yang berlipat mudah kotor karena penumpukan sekresi keringat dan sebum."
+    },
+    {
+      "id": "KDK-070",
+      "question": "Mandi tangan dan mandi kaki termasuk dalam kategori...",
+      "options": {
+        "A": "Mandi seluruh tubuh",
+        "B": "Mandi sebagian",
+        "C": "Mandi seka wajah"
+      },
+      "correct_answer": "B",
+      "explanation": "Mandi tangan dan mandi kaki termasuk dalam kategori mandi sebagian, bukan mandi seluruh tubuh."
+    },
+    {
+      "id": "KDK-071",
+      "question": "Kelenjar keringat yang tersebar di bawah ketiak dan menghasilkan bau disebut...",
+      "options": {
+        "A": "Kelenjar ekrin",
+        "B": "Kelenjar apokrin",
+        "C": "Kelenjar sebasea"
+      },
+      "correct_answer": "B",
+      "explanation": "Kelenjar apokrin tersebar di area seperti ketiak dan menghasilkan keringat yang berbau."
+    },
+    {
+      "id": "KDK-072",
+      "question": "Urutan kegiatan memasak menurut buku ini dimulai dari...",
+      "options": {
+        "A": "Menentukan daftar makanan, menyiapkan bahan, memasak, menata, menyajikan, membereskan",
+        "B": "Membereskan, memasak, menyajikan, menentukan menu",
+        "C": "Menyajikan terlebih dahulu, baru menentukan bahan"
+      },
+      "correct_answer": "A",
+      "explanation": "Urutan memasak dimulai dari menentukan daftar makanan, menyiapkan bahan, memasak, menata, menyajikan, hingga membereskan."
+    },
+    {
+      "id": "KDK-073",
+      "question": "Aktivitas membersihkan rumah bertujuan untuk...",
+      "options": {
+        "A": "Menciptakan lingkungan tempat tinggal menjadi bersih dan aman",
+        "B": "Mengurangi jumlah barang pribadi pengguna tanpa persetujuannya",
+        "C": "Mempercepat proses penuaan pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Membersihkan rumah bertujuan menciptakan lingkungan tempat tinggal yang bersih dan aman bagi pengguna."
+    }
+  ]
+}

@@ -3,154 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard SSW PM</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>SSW Tests</title>
 
-    <style>
-    body {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                    url('backgroundpb.png') no-repeat center center fixed;
-        background-size: cover;
-        min-height: 100vh;
-    }
+    <link rel="icon" type="image/png" href="iconweb.png">
 
-</style>
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 
-    <div class="container">
-        <header class="dash-header">
-            <h1>CBT模擬試験</h1>
-            <p>飲食料品製造業技能測定試験</p>
-        </header>
+<div class="wrapper">
 
-        <section class="stats-section">
-            <div class="stat-card">
-                <h3>Total Exams</h3>
-                <p id="stat-total">0</p>
+    <header class="hero">
+        <div class="hero-badge">Specified Skilled Worker Tests</div>
+        <h1>特定技能1号</h1>
+        <p>Pilih simulasi Specified Skilled Worker (SSW) yang ingin Anda latih.</p>
+    </header>
+
+    <main class="simulation-grid">
+
+        <section class="simulation-card">
+            <div class="card-top">
+            <div class="card-icon" aria-hidden="true">🍱</div>
+                <span class="status available">Available</span>
             </div>
-            <div class="stat-card">
-                <h3>Average</h3>
-                <p id="stat-rata">0</p>
+            <div class="card-body">
+                <h2>Food and Beverage Manufacturing Industry</h2>
+                <div class="jp-title">飲食料品製造業技能測定試験</div>
+                <p>Latihan simulasi mandiri CBT pengolahan makanan terpadu dengan timer presisi dan sistem rekapitulasi nilai instan.</p>
+                <div class="card-info">
+                    <div class="info-box">
+                        <span>Questions</span>
+                        <strong id="pm-total-question">Loading...</strong>
+                    </div>
+                    <div class="info-box">
+                        <span>Time</span>
+                        <strong id="pm-duration">Loading...</strong>
+                    </div>
+                </div>
             </div>
-            <div class="stat-card">
-                <h3>Passing Rate</h3>
-                <p id="stat-lulus">0%</p>
+            <div class="card-action">
+                <button type="button" class="btn-start" onclick="selectExam('pm')">Enter Simulation</button>
             </div>
         </section>
 
-        <section class="action-section">
-            <button id="btn-mulai" class="btn btn-primary btn-block">
-                Start Simulation (40 Questions • 70 Minutes)
-            </button>
-        </section>
-
-        <section class="history-section">
-            <h2>History</h2>
-            <div class="table-responsive">
-                <table id="tabel-riwayat">
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Score</th>
-                            <th>Correct/Wrong</th>
-                            <th>Status</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody id="list-riwayat">
-                        <tr>
-                            <td colspan="5" style="text-align: center; color: #888;">No exam history available.</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <section class="simulation-card">
+            <div class="card-top">
+                <div class="card-icon" aria-hidden="true">⚕️</div>
+                <span class="status available">Available</span>
+            </div>
+            <div class="card-body">
+                <h2>Care Worker</h2>
+                <div class="jp-title">介護技能評価試験</div>
+                <p>Uji kompetensi perawatan lansia Anda menggunakan instrumen soal berbasis standar sertifikasi ketenagakerjaan Jepang.</p>
+                <div class="card-info">
+                    <div class="info-box">
+                        <span>Questions</span>
+                        <strong id="kaigo-total-question">Loading...</strong>
+                    </div>
+                    <div class="info-box">
+                        <span>Time</span>
+                        <strong id="kaigo-duration">Loading...</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card-action">
+                <button type="button" class="btn-start" onclick="selectExam('kaigo')">Enter Simulation</button>
             </div>
         </section>
+
+        <section class="simulation-card disabled">
+    <div class="card-top">
+        <div class="card-icon" aria-hidden="true">🏭</div>
+        <span class="status soon">Coming Soon</span>
     </div>
 
-    <script src="js/storage.js"></script>
-    <script src="js/data.js"></script>
-    <script>
-        // Logika Khusus Halaman Dashboard (index.html)
-        document.addEventListener('DOMContentLoaded', () => {
-            // 1. Tampilkan Statistik Global dari Local Storage
-            const stats = getStatistikGlobal();
-            document.getElementById('stat-total').innerText = stats.totalUjian;
-            document.getElementById('stat-rata').innerText = stats.rataRataNilai;
-            document.getElementById('stat-lulus').innerText = stats.persentaseKelulusan + '%';
+    <div class="card-body">
+        <h2>Industrial Products Manufacturing</h2>
+        <div class="jp-title">工業製品製造業分野</div>
 
-            // 2. Tampilkan Riwayat Ujian
-            const riwayat = getRiwayatUjian();
-            const containerRiwayat = document.getElementById('list-riwayat');
+        <p>
+            Uji kompetensi manufaktur produk industri menggunakan instrumen soal
+            berbasis standar sertifikasi ketenagakerjaan Jepang.
+        </p>
 
-            if (riwayat.length > 0) {
-                containerRiwayat.innerHTML = ''; // Kosongkan placeholder
-                riwayat.forEach(item => {
-                    const row = document.createElement('tr');
-                    
-                    // Beri warna teks status (LULUS hijau, TIDAK LULUS merah)
-                    const statusClass = item.status === 'PASSED' ? 'text-success' : 'text-danger';
+        <div class="card-info">
+            <div class="info-box">
+                <span>Questions</span>
+                <strong>Coming Soon</strong>
+            </div>
 
-                    row.innerHTML = `
-                        <td>${item.tanggal}</td>
-                        <td><strong>${item.skor}</strong></td>
-                        <td><span class="text-success">${item.benar}B</span> / <span class="text-danger">${item.salah}S</span></td>
-                        <td><span class="${statusClass}">${item.status}</span></td>
-                        <td><button class="btn btn-sm" onclick="lihatReview('${item.id}')">Review</button></td>
-                    `;
-                    containerRiwayat.appendChild(row);
-                });
-            }
-
-            // 3. Event Listener Tombol Mulai Ujian
-            // 3. Event Listener Tombol Mulai Ujian
-const btnMulai = document.getElementById('btn-mulai');
-const modalStart = document.getElementById('modalStart');
-const btnConfirmStart = document.getElementById('btn-confirm-start');
-const btnCancelStart = document.getElementById('btn-cancel-start');
-
-// Membuka modal saat tombol utama diklik
-btnMulai.addEventListener('click', () => {
-    modalStart.style.display = 'flex';
-});
-
-// Menutup modal jika dibatalkan
-btnCancelStart.addEventListener('click', () => {
-    modalStart.style.display = 'none';
-});
-
-// Proses Start Now (Ini menggantikan logika lama yang ada di tombol btn-mulai)
-btnConfirmStart.addEventListener('click', async () => {
-    btnConfirmStart.innerText = 'Writing...';
-    btnConfirmStart.disabled = true;
-
-    const sukses = await buatSimulasiUjian();
-    
-    if (sukses) {
-        window.location.href = 'exam.html';
-    } else {
-        alert('Failed to load the question bank.');
-        btnConfirmStart.innerText = 'Start Now';
-        btnConfirmStart.disabled = false;
-    }
-});
-        });
-
-        // Fungsi navigasi ke halaman review jawaban salah
-        function lihatReview(examId) {
-            localStorage.setItem('ssw_review_target_id', examId);
-            window.location.href = 'review.html';
-        }
-    </script>
-    <div id="modalStart" class="modal-overlay">
-        <div class="modal-content">
-            <h2>Fighting Dhepp💗</h2>
-            
-            <div class="modal-actions">
-                <button id="btn-confirm-start" class="btn btn-primary">Start Now</button>
-                <button id="btn-cancel-start" class="btn btn-secondary">Batal</button>
+            <div class="info-box">
+                <span>Time</span>
+                <strong>Coming Soon</strong>
             </div>
         </div>
     </div>
+
+    <div class="card-action">
+        <button type="button" class="btn-disabled" disabled>
+            Unavailable
+        </button>
+    </div>
+</section>
+
+    </main>
+
+    
+</div>
+
+<footer class="footer">
+    <p>CBT Simulation Platform | Version 1.0</p>
+    <small>created by @rkz19</small>
+</footer>
+
+
+<script src="js/config.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", async () => {
+
+    const pm = await loadConfig("pm");
+
+    if(pm){
+
+        document.getElementById("pm-total-question").textContent =
+            `${pm.totalQuestions} Questions`;
+
+        document.getElementById("pm-duration").textContent =
+            `${pm.durationMinutes} Minutes`;
+    }
+
+    const kaigo = await loadConfig("kaigo");
+
+    if(kaigo){
+
+        document.getElementById("kaigo-total-question").textContent =
+            `${kaigo.totalQuestions} Questions`;
+
+        document.getElementById("kaigo-duration").textContent =
+            `${kaigo.durationMinutes} Minutes`;
+    }
+
+});
+
+function selectExam(category){
+
+    localStorage.setItem("examCategory", category);
+
+    window.location.href = "dashboard.html";
+
+}
+</script>
 </body>
 </html>

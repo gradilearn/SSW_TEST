@@ -1,0 +1,40 @@
+{
+    "category": "pm",
+
+    "title": "飲食料品製造業技能測定試験",
+
+    "displayName": "Food and Beverage Manufacturing Industry",
+
+    "dashboardTitle": "飲食料品製造業技能測定試験",
+
+    "examHeader": "Food and Beverage Manufacturing Industry",
+
+    "subtitle": "Food and Beverage<br>Manufacturing Industry",
+
+    "totalQuestions": 40, 
+
+    "durationMinutes": 70,
+
+    "passScore": 65,
+
+    "questionConfig": {
+    "keamanan_pangan_haccp": 18,
+    "sanitasi_umum": 10,
+    "pengendalian_mutu": 5,
+    "k3": 5,
+    "hitungan": 2
+},
+
+    "questionFile": "data/pm/questions.json",
+
+    "theme": {
+        "primary": "#608a2d",
+        "background": "backgroundpm.png"
+    },
+
+    "examInfo": {
+        "language": "Japanese",
+        "level": "SSW",
+        "type": "CBT Simulation"
+    }
+}

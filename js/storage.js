@@ -1,71 +1,184 @@
-// js/storage.js
+// ============================================================
+// storage.js
+// SSW CBT Storage Manager
+// ============================================================
 
-// 1. Ambil riwayat ujian dari Local Storage
-function getRiwayatUjian() {
-    const riwayat = localStorage.getItem('ssw_exam_history');
-    return riwayat ? JSON.parse(riwayat) : [];
-}
+const ACTIVE_EXAM_KEY = "ssw_active_exam_state";
 
-// 2. Simpan hasil ujian baru ke dalam riwayat
-function simpanHasilUjian(skor, totalBenar, totalSalah, analisisKategori) {
-    const riwayat = getRiwayatUjian();
 
-    // Ambil daftarSoal dan jawabanUser dari sesi aktif sebelum dihapus
-    const sesiAktif = JSON.parse(localStorage.getItem('ssw_current_exam') || '{}');
+// =========================
+// ACTIVE EXAM
+// =========================
 
-    // Data hasil ujian saat ini
-    const hasilBaru = {
-        id: 'EXAM-' + Date.now(),
-        tanggal: new Date().toLocaleDateString('id-ID', { 
-            year: 'numeric', month: 'long', day: 'numeric',
-            hour: '2-digit', minute: '2-digit'
-        }),
-        skor: skor,
-        benar: totalBenar,
-        salah: totalSalah,
-        status: skor >= 70 ? 'PASSED' : 'FAILED',
-        analisis: analisisKategori,         // dibaca oleh review.js
-        detailKategori: analisisKategori,   // backward-compat untuk dashboard
-        daftarSoal: sesiAktif.daftarSoal   || [],
-        jawabanUser: sesiAktif.jawabanUser  || {}
+function initiateExamState(category, questions, durationSeconds) {
+
+    const state = {
+        category: category,
+        questions: questions,
+        answers: Array(questions.length).fill(null),
+        currentIndex: 0,
+        remainingTime: durationSeconds
     };
 
-    // Tambahkan ke urutan paling atas (terbaru)
-    riwayat.unshift(hasilBaru);
-    localStorage.setItem('ssw_exam_history', JSON.stringify(riwayat));
+    localStorage.setItem(
+        ACTIVE_EXAM_KEY,
+        JSON.stringify(state)
+    );
 
-    // Perbarui akumulasi statistik global
-    perbaruiStatistikGlobal(riwayat);
+    return state;
 }
 
-// 3. Hitung dan perbarui statistik akumulatif untuk dashboard
-function perbaruiStatistikGlobal(riwayat) {
-    if (riwayat.length === 0) return;
 
-    let totalSkor = 0;
-    let totalLulus = 0;
+function getActiveExamState() {
 
-    riwayat.forEach(item => {
-        totalSkor += item.skor;
-        if (item.status === 'LULUS') totalLulus++;
+    const data = localStorage.getItem(ACTIVE_EXAM_KEY);
+
+    if (!data) return null;
+
+    try {
+
+        return JSON.parse(data);
+
+    } catch (error) {
+
+        console.error("Failed load exam state:", error);
+
+        localStorage.removeItem(ACTIVE_EXAM_KEY);
+
+        return null;
+    }
+}
+
+
+function updateActiveExamState(state) {
+
+    localStorage.setItem(
+        ACTIVE_EXAM_KEY,
+        JSON.stringify(state)
+    );
+
+}
+
+
+function clearActiveExamState() {
+
+    localStorage.removeItem(ACTIVE_EXAM_KEY);
+
+}
+
+
+
+// =========================
+// HISTORY
+// =========================
+
+function getExamHistory(category) {
+
+    const key = `ssw_history_${category}`;
+
+    const data = localStorage.getItem(key);
+
+    if (!data) return [];
+
+    try {
+
+        return JSON.parse(data);
+
+    } catch (error) {
+
+        console.error("Failed load history:", error);
+
+        return [];
+
+    }
+
+}
+
+
+
+function saveResultToHistory(result) {
+
+    const category = result.category;
+
+    if (!category) {
+
+        console.error("Category missing");
+
+        return;
+
+    }
+
+
+    const history = getExamHistory(category);
+
+    history.unshift(result);
+
+
+    localStorage.setItem(
+        `ssw_history_${category}`,
+        JSON.stringify(history.slice(0,50))
+    );
+
+
+    localStorage.setItem(
+        `ssw_result_${result.id}`,
+        JSON.stringify(result)
+    );
+
+}
+
+
+
+function getExamResultById(examId) {
+
+    const data = localStorage.getItem(
+        `ssw_result_${examId}`
+    );
+
+
+    if (!data) return null;
+
+
+    try {
+
+        return JSON.parse(data);
+
+    } catch(error) {
+
+        console.error("Failed load result:", error);
+
+        return null;
+
+    }
+
+}
+
+
+
+// =========================
+// CLEAR DATA
+// =========================
+
+function clearExamHistory(category) {
+
+    localStorage.removeItem(
+        `ssw_history_${category}`
+    );
+
+}
+
+
+
+function clearAllCBTData() {
+
+    Object.keys(localStorage).forEach(key => {
+
+        if (key.startsWith("ssw_")) {
+
+            localStorage.removeItem(key);
+
+        }
+
     });
 
-    const statistikGlobal = {
-        totalUjian: riwayat.length,
-        rataRataNilai: Math.round(totalSkor / riwayat.length),
-        persentaseKelulusan: Math.round((totalLulus / riwayat.length) * 100)
-    };
-
-    localStorage.setItem('ssw_user_stats', JSON.stringify(statistikGlobal));
-}
-
-// 4. Ambil statistik global untuk ditampilkan di dashboard
-function getStatistikGlobal() {
-    const stats = localStorage.getItem('ssw_user_stats');
-    return stats ? JSON.parse(stats) : { totalUjian: 0, rataRataNilai: 0, persentaseKelulusan: 0 };
-}
-
-// 5. Hapus sesi ujian aktif (digunakan setelah selesai ujian atau reset)
-function hapusSesiUjianAktif() {
-    localStorage.removeItem('ssw_current_exam');
 }

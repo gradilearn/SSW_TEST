@@ -1,5 +1,5 @@
 /**
- * js/review.js
+ * js/result.js
  * Logika Pengisian Data Evaluasi Hasil Simulasi CBT SSW
  */
 document.addEventListener("DOMContentLoaded", () => {
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const nav = performance.getEntriesByType("navigation")[0];
 
     if (nav && nav.type === "reload") {
-        window.location.replace("index.html");
+        window.location.replace("dashboard.html");
         return;
     }
 
@@ -19,16 +19,61 @@ let kumpulanSoalReview = [];
 let jawabanUserReview = {};
 
 function muatHasilEvaluasi() {
-    const riwayatUjian = JSON.parse(localStorage.getItem('ssw_exam_history') || '[]');
-    const dataHasil = riwayatUjian[0] || { skor: 0, benar: 0, salah: 0 };
+
+    // ===============================
+    // TAMPILKAN NAMA UJIAN
+    // ===============================
+    const testNameEl = document.getElementById('test-name');
+
+if (testNameEl && typeof loadConfig === 'function') {
+
+    const kategoriAktif = getActiveCategory();
+
+    loadConfig(kategoriAktif)
+        .then(configBidang => {
+
+            testNameEl.innerHTML =
+                configBidang.examHeader ||
+                configBidang.displayName ||
+                '';
+
+        })
+        .catch(error => {
+            console.error("Gagal load config:", error);
+        });
+
+}
+    
+    // 1. Coba ambil hasil spesifik yang baru saja selesai dikerjakan
+    const targetId = localStorage.getItem('ssw_review_target_id');
+    let dataHasil = null;
+
+    if (targetId && typeof getExamResultById === 'function') {
+        dataHasil = getExamResultById(targetId);
+    }
+
+    // 2. Fallback: ambil hasil paling baru dari riwayat kategori terakhir
+    if (!dataHasil) {
+        const kategoriTerakhir = localStorage.getItem('examCategory');
+        if (kategoriTerakhir && typeof getExamHistory === 'function') {
+            const riwayat = getExamHistory(kategoriTerakhir);
+            dataHasil = riwayat[0] || null;
+        }
+    }
+
+    // 3. Fallback terakhir: data kosong
+    if (!dataHasil) {
+        dataHasil = { score: 0, correct: 0, wrong: 0 };
+    }
+
     // kompatibel format lama (detailKategori) dan baru (analisis)
     dataHasil.analisis = dataHasil.analisis || dataHasil.detailKategori || {};
 
     // 1. Ringkasan Skor
-    const skorAkhir = dataHasil.skor;
+    const skorAkhir = dataHasil.score;
     document.getElementById('final-score-val').innerText = skorAkhir;
-    document.getElementById('benar-val').innerText = dataHasil.benar;
-    document.getElementById('salah-val').innerText = dataHasil.salah;
+    document.getElementById('benar-val').innerText = dataHasil.correct;
+    document.getElementById('salah-val').innerText = dataHasil.wrong;
 
     const badgeStatus = document.getElementById('pass-status-badge');
     if (skorAkhir >= 70) {
@@ -74,31 +119,19 @@ function muatHasilEvaluasi() {
         renderTabelUlasan('all');
 
     } else {
-        // Fallback: coba dari ssw_current_exam jika history lama belum menyimpan daftarSoal
-        const sesiSelesai = JSON.parse(localStorage.getItem('ssw_current_exam'));
-        if (sesiSelesai && Array.isArray(sesiSelesai.daftarSoal) && sesiSelesai.daftarSoal.length > 0) {
-            kumpulanSoalReview = sesiSelesai.daftarSoal;
-            jawabanUserReview  = sesiSelesai.jawabanUser || {};
-
-            const totalEl = document.getElementById('total-soal-val');
-            if (totalEl) totalEl.textContent = kumpulanSoalReview.length;
-
-            renderTabelUlasan('all');
-        } else {
-            const tbody = document.getElementById('review-table-body');
-            if (tbody) {
-                tbody.innerHTML = `
-                    <tr>
-                        <td colspan="6" class="text-center" style="color:#64748b;padding:30px;">
-                            Riwayat lembar pengerjaan penuh sudah dibersihkan.
-                            Silakan lakukan simulasi ujian ulang untuk melihat lembar koreksi interaktif.
-                        </td>
-                    </tr>
-                `;
-            }
-            const totalEl = document.getElementById('total-soal-val');
-            if (totalEl) totalEl.textContent = '0';
+        const tbody = document.getElementById('review-table-body');
+        if (tbody) {
+            tbody.innerHTML = `
+                <tr>
+                    <td colspan="6" class="text-center" style="color:#64748b;padding:30px;">
+                        Riwayat lembar pengerjaan penuh sudah dibersihkan.
+                        Silakan lakukan simulasi ujian ulang untuk melihat lembar koreksi interaktif.
+                    </td>
+                </tr>
+            `;
         }
+        const totalEl = document.getElementById('total-soal-val');
+        if (totalEl) totalEl.textContent = '0';
     }
 }
 
@@ -195,10 +228,14 @@ function formatKategoriSingkat(idSoal) {
     return 'Umum';
 }
 
-function Beranda() {
+function goHome() {
     if (confirm("Back to dashboard?")) {
-        window.location.href = 'index.html';
+        window.location.href = 'dashboard.html';
     }
+}
+
+function goDashboard() {
+    window.location.href = 'dashboard.html';
 }
 
 function restartSimulation() {

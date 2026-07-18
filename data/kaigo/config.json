@@ -1,0 +1,39 @@
+{
+    "category": "Care Worker",
+
+    "title": "介護技能評価試験",
+
+    "dashboardTitle": "介護技能評価試験",
+
+    "examHeader": "Care Worker",
+
+    "subtitle": "Care Worker",
+
+    "totalQuestions": 45,
+
+    "durationMinutes": 60,
+
+    "passScore": 65,
+
+    "questionConfig": {
+        "dasar_perawatan_lansia": 7,
+        "mekanisme_mental_dan_tubuh": 10,
+        "keterampilan_komunikasi": 6,
+        "keterampilan_dukungan_kehidupan": 22,
+        "soal_ilustrasi": 0
+        
+    },
+
+    "questionFile": "data/kaigo/questions.json",
+
+    "theme": {
+        "primary": "#005ea2",
+        "background": "backgroundkaigo.png"
+    },
+
+    "examInfo": {
+        "language": "Japanese",
+        "level": "SSW",
+        "type": "CBT Simulation"
+    }
+}

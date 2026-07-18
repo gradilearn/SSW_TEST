@@ -433,8 +433,18 @@ body.prometric-body {
 .btn-secondary       { background-color: #ffffff; color: #475569; }
 .btn-secondary:hover { background-color: #e2e8f0; transform: translateY(-2px); box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
 
-.btn-primary         { background: linear-gradient(135deg, #4e7a22, #6fa832); color: white; border: none; box-shadow: 0 2px 6px rgba(80,130,30,0.3); }
-.btn-primary:hover   { background: linear-gradient(135deg, #436818, #5e9028); transform: translateY(-2px); box-shadow: 0 4px 10px rgba(80,130,30,0.35); }
+.btn-primary { 
+    background: linear-gradient(135deg, #1e293b, #2d3f55); 
+    color: white; 
+    border: none; 
+    box-shadow: 0 2px 6px rgba(30, 41, 59, 0.3); 
+}
+
+.btn-primary:hover { 
+    background: linear-gradient(135deg, #151d2a, #223042); /* Biru sedikit lebih gelap saat di-hover */
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 10px rgba(30, 41, 59, 0.4); 
+}
 
 .btn-submit          { background: linear-gradient(135deg, #4e7a22, #6fa832); color: white; border: none; box-shadow: 0 2px 6px rgba(80,130,30,0.3); }
 .btn-submit:hover    { background: linear-gradient(135deg, #436818, #5e9028); transform: translateY(-2px); }

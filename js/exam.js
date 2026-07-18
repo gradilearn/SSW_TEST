@@ -110,7 +110,6 @@ function applyExamTheme(config, kategoriFolder) {
                 color: #fff !important;
                 border-color: ${color} !important;
             }
-
             .category-badge {
                 background: ${color} !important;
             }

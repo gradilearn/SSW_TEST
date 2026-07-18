@@ -27,7 +27,7 @@
     "questionFile": "data/kaigo/questions.json",
 
     "theme": {
-        "primary": "#005ea2",
+        "primary": "#1e293b",
         "background": "backgroundkaigo.png"
     },
 

@@ -28,7 +28,7 @@
     "questionFile": "data/pm/questions.json",
 
     "theme": {
-        "primary": "#608a2d",
+        "primary": "#1e293b",
         "background": "backgroundpm.png"
     },
 

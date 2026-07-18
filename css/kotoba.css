@@ -424,28 +424,69 @@ ruby rt {
 
 .btn-back {
     position: fixed;
-    top: 106px;
-    left: 100px; /* Menyelaraskan posisi horizontal */
+    top: 107px;
+    left: 100px; /* Menyelaraskan posisi horizontal sesuai koordinat Anda */
 
     width: 112px;
     height: 44px;
 
     border: 1px solid rgba(255, 255, 255, 0.45);
-    border-radius: 15px;
-    background: linear-gradient(135deg, #4e7a22, #6fa832);
+    border-radius: 15px; /* Mempertahankan kebulatan sudut asli Anda */
+    background: linear-gradient(135deg, #4e7a22, #6fa832); /* Menyelaraskan gradasi hijau */
     color: #ffffff;
-    font-size: 20px;
+    font-size: 20px; /* Mempertahankan ukuran font asli Anda */
+    font-weight: 700;
     letter-spacing: 2px;
     cursor: pointer;
 
-    box-shadow: 0 8px 20px rgba(0,0,0,.2);
-    transition: .25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Memberikan celah proporsional antara teks dan panah */
+
+    box-shadow: 0 8px 24px rgba(78, 122, 34, 0.35); /* Menyelaraskan bayangan lembut */
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Efek transisi bouncy */
     z-index: 1000;
 }
 
+/* Membuat ikon panah kiri interaktif */
+.btn-back::before {
+    content: "◀";
+    font-size: 13px; /* Disesuaikan agar proporsional dengan ukuran teks 20px */
+    transition: transform 0.2s ease;
+}
+
+/* Efek hover premium hijau lembut dari tombol pertama */
 .btn-back:hover {
-    background: #880505;
-    color: #fff;
+    background: linear-gradient(135deg, #5c8f28, #7ebd3a);
+    transform: translateY(-3px); /* Naik sedikit saat diarahkan kursor */
+    box-shadow: 0 12px 28px rgba(78, 122, 34, 0.5); /* Glowing shadow hijau */
+}
+
+/* Efek panah bergeser sedikit ke kiri saat tombol di-hover */
+.btn-back:hover::before {
+    transform: translateX(-3px);
+}
+
+/* Efek membal saat tombol ditekan (active) */
+.btn-back:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 12px rgba(78, 122, 34, 0.3);
+}
+
+/* Penyesuaian responsif untuk layar HP/Tablet agar letak tombol tidak merusak tata letak */
+@media(max-width:768px){
+    .btn-back {
+        position: fixed;
+        left: 15px;
+        bottom: 15px;
+        top: auto;
+        width: auto;
+        height: auto;
+        padding: 10px 18px;
+        font-size: 14px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    }
 }
 
 /* Penyesuaian Responsif untuk Layar HP/Tablet */

@@ -229,18 +229,15 @@ body {
 /* Tombol Kotoba Samping */
 .btn-kotoba {
     height: 72px; /* Tinggi tombol 72px */
-
     background: #1e293b;
-
     color: white;
     border: none;
     border-radius: 14px;
-
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font-size: 1.25rem;
+    font-size: 1.55rem;
     font-weight: 700;
     letter-spacing: 1px;
 
@@ -434,7 +431,7 @@ th {
 
 /* Teks Informasi Ujian, Soal, dan Menit (DI-PERBESAR & JELAS) */
 #modal-info {
-    font-size: 1.7rem; /* Diperbesar agar sangat jelas dibaca */
+    font-size: 1.5rem; /* Diperbesar agar sangat jelas dibaca */
     line-height: 1.5; /* Jarak baris yang lapang */
     color: #334155;
     margin: 25px 0;

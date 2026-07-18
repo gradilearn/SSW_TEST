@@ -183,7 +183,7 @@ function renderTabelUlasan(filter) {
         tbody.innerHTML = `
             <tr>
                 <td colspan="6" class="text-center" style="color:#64748b;padding:24px;">
-                    Tidak ada data untuk filter ini.
+                    No data available.
                 </td>
             </tr>
         `;

@@ -15,7 +15,7 @@
 
     "durationMinutes": 60,
 
-    "passScore": 65,
+    "passScore": 70,
 
     "questionConfig": {
         "dasar_perawatan_lansia": 7,
@@ -23,6 +23,14 @@
         "keterampilan_komunikasi": 6,
         "keterampilan_dukungan_kehidupan": 17,
         "soal_ilustrasi": 5
+    },
+
+    "categoryLabels": {
+        "dasar_perawatan_lansia": "Dasar Perawatan Lansia",
+        "mekanisme_mental_dan_tubuh": "Mekanisme Mental & Tubuh",
+        "keterampilan_komunikasi": "Keterampilan Komunikasi",
+        "keterampilan_dukungan_kehidupan": "Keterampilan Dukungan Kehidupan",
+        "soal_ilustrasi": "Soal Ilustrasi"
     },
 
     "questionFile": "data/kaigo/questions.json",

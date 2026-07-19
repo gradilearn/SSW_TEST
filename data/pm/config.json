@@ -15,15 +15,23 @@
 
     "durationMinutes": 70,
 
-    "passScore": 65,
+    "passScore": 70,
 
     "questionConfig": {
-    "keamanan_pangan_haccp": 18,
-    "sanitasi_umum": 10,
-    "pengendalian_mutu": 5,
-    "k3": 5,
-    "hitungan": 2
-},
+        "keamanan_pangan_haccp": 18,
+        "sanitasi_umum": 10,
+        "pengendalian_mutu": 5,
+        "k3": 5,
+        "hitungan": 2
+    },
+
+    "categoryLabels": {
+        "keamanan_pangan_haccp": "Keamanan Pangan & HACCP",
+        "sanitasi_umum": "Sanitasi Umum",
+        "pengendalian_mutu": "Pengendalian Mutu",
+        "k3": "Kesehatan & Keselamatan Kerja (K3)",
+        "hitungan": "Perhitungan"
+    },
 
     "questionFile": "data/pm/questions.json",
 

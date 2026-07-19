@@ -48,8 +48,43 @@ function muatHasilEvaluasi() {
         return;
     }
 
+    // 1. Ambil data hasil terlebih dahulu agar variabel skorAkhir tersedia
+    const targetId = localStorage.getItem('ssw_review_target_id');
+    let dataHasil = null;
+
+    if (targetId && typeof getExamResultById === 'function') {
+        dataHasil = getExamResultById(targetId);
+    }
+
+    // Fallback: ambil hasil paling baru dari riwayat kategori terakhir
+    if (!dataHasil) {
+        const kategoriTerakhir = localStorage.getItem('examCategory');
+        if (kategoriTerakhir && typeof getExamHistory === 'function') {
+            const riwayat = getExamHistory(kategoriTerakhir);
+            dataHasil = riwayat[0] || null;
+        }
+    }
+
+    // Fallback terakhir: data kosong
+    if (!dataHasil) {
+        dataHasil = { score: 0, correct: 0, wrong: 0 };
+    }
+
+    // Kompatibel format lama (detailKategori) dan baru (analisis)
+    dataHasil.analisis = dataHasil.analisis || dataHasil.detailKategori || {};
+
+    // Simpan referensi global agar bisa di-render ulang setelah config bidang aktif siap
+    dataHasilGlobal = dataHasil;
+
+    // Tampilkan ringkasan skor numerik awal
+    const skorAkhir = dataHasil.score;
+    document.getElementById('final-score-val').innerText = skorAkhir;
+    document.getElementById('benar-val').innerText = dataHasil.correct;
+    document.getElementById('salah-val').innerText = dataHasil.wrong;
+
+
     // ===============================
-    // TAMPILKAN NAMA UJIAN & SIMPAN CONFIG BIDANG AKTIF
+    // TAMPILKAN NAMA UJIAN & AMBIL CONFIG BIDANG AKTIF SECARA DINAMIS
     // ===============================
     const testNameEl = document.getElementById('test-name');
 
@@ -67,12 +102,31 @@ function muatHasilEvaluasi() {
                     configBidang.displayName ||
                     '';
 
-                // Terapkan background sesuai bidang aktif — sama seperti dashboard.html,
-                // menggantikan background statis (backgroundpb.png) yang ada di <style> result.html
+                // Ambil nilai kelulusan dinamis dari config (dengan nilai fallback aman 65%) [1]
+                const passScoreLimit = configBidang.passScore || 65;
+
+                // Tuliskan Passing Mark ke UI secara dinamis [1]
+                const passingMarkEl = document.getElementById('passing-mark');
+                if (passingMarkEl) {
+                    passingMarkEl.innerText = passScoreLimit + '%';
+                }
+
+                // Tentukan status kelulusan berdasarkan nilai dinamis dari config [1]
+                const badgeStatus = document.getElementById('pass-status-badge');
+                if (badgeStatus) {
+                    if (skorAkhir >= passScoreLimit) {
+                        badgeStatus.innerText = "合格 (PASSED)";
+                        badgeStatus.className = "status-badge pass";
+                    } else {
+                        badgeStatus.innerText = "不合格 (FAILED)";
+                        badgeStatus.className = "status-badge fail";
+                    }
+                }
+
+                // Terapkan background sesuai bidang aktif
                 applyResultBackground(configBidang, kategoriAktif);
 
-                // Render ulang tabel & grafik kategori setelah config bidang tersedia,
-                // supaya label kategori terjemahan sudah benar (tidak menunggu race condition)
+                // Render ulang tabel & grafik kategori setelah config bidang tersedia
                 if (dataHasilGlobal) {
                     renderGrafikKategori(dataHasilGlobal);
                     renderTabelUlasan('all');
@@ -84,53 +138,7 @@ function muatHasilEvaluasi() {
 
     }
 
-    // 1. Coba ambil hasil spesifik yang baru saja selesai dikerjakan
-    const targetId = localStorage.getItem('ssw_review_target_id');
-    let dataHasil = null;
-
-    if (targetId && typeof getExamResultById === 'function') {
-        dataHasil = getExamResultById(targetId);
-    }
-
-    // 2. Fallback: ambil hasil paling baru dari riwayat kategori terakhir
-    if (!dataHasil) {
-        const kategoriTerakhir = localStorage.getItem('examCategory');
-        if (kategoriTerakhir && typeof getExamHistory === 'function') {
-            const riwayat = getExamHistory(kategoriTerakhir);
-            dataHasil = riwayat[0] || null;
-        }
-    }
-
-    // 3. Fallback terakhir: data kosong
-    if (!dataHasil) {
-        dataHasil = { score: 0, correct: 0, wrong: 0 };
-    }
-
-    // kompatibel format lama (detailKategori) dan baru (analisis)
-    dataHasil.analisis = dataHasil.analisis || dataHasil.detailKategori || {};
-
-    // simpan referensi global agar bisa di-render ulang setelah config bidang aktif siap
-    dataHasilGlobal = dataHasil;
-
-    // 1. Ringkasan Skor
-    const skorAkhir = dataHasil.score;
-    document.getElementById('final-score-val').innerText = skorAkhir;
-    document.getElementById('benar-val').innerText = dataHasil.correct;
-    document.getElementById('salah-val').innerText = dataHasil.wrong;
-
-    const badgeStatus = document.getElementById('pass-status-badge');
-    if (skorAkhir >= 70) {
-        badgeStatus.innerText = "合格 (PASSED)";
-        badgeStatus.className = "status-badge pass";
-    } else {
-        badgeStatus.innerText = "不合格 (FAILED)";
-        badgeStatus.className = "status-badge fail";
-    }
-
-    // 2. Grafik Batang Kategori
-    renderGrafikKategori(dataHasil);
-
-    // 3. Tabel Detail Soal — baca dari history entry (lebih andal dari ssw_current_exam)
+    // 3. Tabel Detail Soal — baca dari history entry
     if (dataHasil.daftarSoal && Array.isArray(dataHasil.daftarSoal) && dataHasil.daftarSoal.length > 0) {
         kumpulanSoalReview = dataHasil.daftarSoal;
         jawabanUserReview  = dataHasil.jawabanUser || {};
@@ -165,6 +173,9 @@ function renderGrafikKategori(dataHasil) {
     if (containerBatang && dataHasil.analisis) {
         containerBatang.innerHTML = '';
 
+        // Gunakan batas nilai dinamis dari config untuk menentukan warna grafik (hijau atau jingga)
+        const passLimit = (configBidangAktifResult && configBidangAktifResult.passScore) || 65;
+
         Object.entries(dataHasil.analisis).forEach(([keyKat, data]) => {
             const persenKat = data.total > 0 ? Math.round((data.benar / data.total) * 100) : 0;
             const namaClean = dapatkanNamaKategoriCantik(keyKat);
@@ -177,7 +188,7 @@ function renderGrafikKategori(dataHasil) {
                     <span>${data.benar}/${data.total} True (${persenKat}%)</span>
                 </div>
                 <div class="bar-track">
-                    <div class="bar-fill" style="width: ${persenKat}%; background: ${persenKat >= 70 ? '#10b981' : '#f59e0b'}"></div>
+                    <div class="bar-fill" style="width: ${persenKat}%; background: ${persenKat >= passLimit ? '#10b981' : '#f59e0b'}"></div>
                 </div>
             `;
             containerBatang.appendChild(barRow);
@@ -260,20 +271,60 @@ function filterReviewTable(tipeFilter) {
 
 /**
  * Terjemahkan key kategori -> label tampilan.
- * Sumber utama: categoryLabels di config.json bidang aktif (generic untuk semua bidang).
- * Fallback: label default jika config bidang belum ter-load atau key tidak dikenal.
+ * Sumber utama: categoryLabels di config.json bidang aktif.
+ * Fallback: Kamus nama default lokal jika konfigurasi belum termuat secara asinkron.
  */
 function dapatkanNamaKategoriCantik(key) {
-    if (configBidangAktifResult && configBidangAktifResult.categoryLabels && configBidangAktifResult.categoryLabels[key]) {
-        return configBidangAktifResult.categoryLabels[key];
+    if (!key) return "Kompetensi Umum";
+
+    const normalizedKey = key.toLowerCase().trim();
+
+    // 1. Coba ambil dari konfigurasi dinamis yang di-load
+    if (configBidangAktifResult && configBidangAktifResult.categoryLabels) {
+        if (configBidangAktifResult.categoryLabels[key]) {
+            return configBidangAktifResult.categoryLabels[key];
+        }
+        if (configBidangAktifResult.categoryLabels[normalizedKey]) {
+            return configBidangAktifResult.categoryLabels[normalizedKey];
+        }
     }
-    return "Kompetensi Umum";
+
+    // 2. Fallback daftar pemetaan lokal yang aman untuk PM & Kaigo
+    const defaultLabels = {
+        // Food Manufacturing (PM)
+        "keamanan_pangan_haccp": "Keamanan Pangan & HACCP",
+        "sanitasi_umum": "Sanitasi Umum",
+        "pengendalian_mutu": "Pengendalian Mutu",
+        "k3": "Kesehatan & Keselamatan Kerja (K3)",
+        "hitungan": "Perhitungan",
+
+        // Caregiver (Kaigo)
+        "dasar_perawatan": "Dasar Perawatan Lansia",
+        "dasar_perawatan_lansia": "Dasar Perawatan Lansia",
+        "mekanisme_mental_tubuh": "Mekanisme Mental & Tubuh",
+        "mekanisme_mental_dan_tubuh": "Mekanisme Mental & Tubuh",
+        "keterampilan_komunikasi": "Keterampilan Komunikasi",
+        "keterampilan_dukungan_kehidupan": "Keterampilan Dukungan Kehidupan",
+        "soal_ilustrasi": "Soal Ilustrasi",
+
+        // Singkatan / Kode Kunci Lainnya
+        "kp": "HACCP & Keamanan",
+        "su": "Sanitasi Umum",
+        "pm": "Pengendalian Mutu",
+        "ht": "Hitungan",
+        "dpl": "Dasar Perawatan Lansia",
+        "mmt": "Mekanisme Mental & Tubuh",
+        "kk": "Keterampilan Komunikasi",
+        "kdk": "Keterampilan Dukungan Kehidupan"
+    };
+
+    return defaultLabels[normalizedKey] || defaultLabels[key] || "Kompetensi Umum";
 }
 
 /**
  * Label kategori singkat untuk kolom tabel review.
- * Prioritas: field soal.kategori (ditandai saat soal dipilih di data.js) -> diterjemahkan via config.
- * Fallback: tebak dari prefix ID soal (untuk data histori lama sebelum field kategori ditambahkan).
+ * Prioritas: field soal.kategori -> diterjemahkan via config.
+ * Fallback: tebak dari prefix ID soal (untuk kompatibilitas data histori lama).
  */
 function formatKategoriSingkat(soal) {
     if (soal && soal.kategori) {
@@ -283,11 +334,11 @@ function formatKategoriSingkat(soal) {
     const idSoal = (soal && soal.id) || '';
 
     // Fallback lama — prefix ID bidang PM
-    if (idSoal.startsWith('KP-')) return 'HACCP & Keamanan';
+    if (idSoal.startsWith('KP-')) return 'Keamanan Pangan & HACCP';
     if (idSoal.startsWith('SU-')) return 'Sanitasi Umum';
     if (idSoal.startsWith('PM-')) return 'Pengendalian Mutu';
-    if (idSoal.startsWith('HT-')) return 'Hitungan';
-    if (idSoal.startsWith('K3-')) return 'K3';
+    if (idSoal.startsWith('HT-')) return 'Perhitungan';
+    if (idSoal.startsWith('K3-')) return 'Kesehatan & Keselamatan Kerja (K3)';
 
     // Fallback lama — prefix ID bidang Kaigo
     if (idSoal.startsWith('DPL-')) return 'Dasar Perawatan Lansia';
@@ -295,7 +346,7 @@ function formatKategoriSingkat(soal) {
     if (idSoal.startsWith('KK-'))  return 'Keterampilan Komunikasi';
     if (idSoal.startsWith('KDK-')) return 'Keterampilan Dukungan Kehidupan';
 
-    return 'Umum';
+    return 'Kompetensi Umum';
 }
 
 function goHome() {

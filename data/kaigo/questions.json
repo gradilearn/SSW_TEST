@@ -421,7 +421,7 @@
   ],
 
 
-
+  
   "mekanisme_mental_dan_tubuh": [
     {
       "id": "MMT-001",
@@ -1509,7 +1509,7 @@
   ],
 
 
-  
+
   "keterampilan_dukungan_kehidupan": [
     {
       "id": "KDK-001",
@@ -2313,6 +2313,551 @@
       },
       "correct_answer": "A",
       "explanation": "Membersihkan rumah bertujuan menciptakan lingkungan tempat tinggal yang bersih dan aman bagi pengguna."
+    }
+  ],
+
+
+
+  "soal_bergambar": [
+    {
+      "id": "SB-001",
+      "question": "Perhatikan gambar di bawah. Langkah yang harus dipastikan staf perawat sebelum memindahkan pengguna dari kursi roda ke tempat tidur adalah...",
+      "image_filename": "gambar/SB-001.png",
+      "options": {
+        "A": "Mengunci rem kursi roda dan menaikkan pijakan kaki",
+        "B": "Langsung memindahkan pengguna tanpa memeriksa rem",
+        "C": "Menjauhkan kursi roda dari tempat tidur agar leluasa bergerak"
+      },
+      "correct_answer": "A",
+      "explanation": "Rem kursi roda harus dikunci dan pijakan kaki dinaikkan terlebih dahulu agar perpindahan aman dan tidak bergeser."
+    },
+    {
+      "id": "SB-002",
+      "question": "Perhatikan gambar di bawah. Posisi staf perawat yang tepat saat mendampingi pengguna berjalan menggunakan tongkat adalah...",
+      "image_filename": "gambar/SB-002.png",
+      "options": {
+        "A": "Di sisi sehat pengguna",
+        "B": "Di sisi sakit/lumpuh pengguna, sedikit di belakang",
+        "C": "Tepat di depan pengguna sehingga menghalangi pandangan"
+      },
+      "correct_answer": "B",
+      "explanation": "Staf perawat perlu berada di sisi sakit pengguna agar dapat segera menopang jika pengguna kehilangan keseimbangan."
+    },
+    {
+      "id": "SB-003",
+      "question": "Perhatikan gambar di bawah. Posisi duduk seperti ini bermanfaat untuk...",
+      "image_filename": "gambar/SB-003.png",
+      "options": {
+        "A": "Mencegah tersedak saat menelan makanan",
+        "B": "Membuat pengguna terlihat lebih rapi",
+        "C": "Mempercepat proses makan"
+      },
+      "correct_answer": "A",
+      "explanation": "Postur condong ke depan dengan dagu ditarik membantu mencegah makanan atau minuman masuk ke saluran napas."
+    },
+    {
+      "id": "SB-004",
+      "question": "Perhatikan gambar di bawah. Sikap yang tepat saat mendampingi pengguna ke toilet adalah...",
+      "image_filename": "gambar/SB-004.png",
+      "options": {
+        "A": "Menutup pintu atau tirai untuk menjaga privasi pengguna",
+        "B": "Membiarkan pintu terbuka lebar agar mudah diawasi orang lain",
+        "C": "Meminta pengguna menahan keinginannya hingga waktu luang staf"
+      },
+      "correct_answer": "A",
+      "explanation": "Privasi pengguna harus tetap dijaga selama proses bantuan eliminasi berlangsung."
+    },
+    {
+      "id": "SB-005",
+      "question": "Perhatikan gambar di bawah. Kondisi kamar tersebut berisiko menyebabkan pengguna...",
+      "image_filename": "gambar/SB-005.png",
+      "options": {
+        "A": "Tersandung dan jatuh",
+        "B": "Mengalami dehidrasi",
+        "C": "Mengalami gangguan pendengaran"
+      },
+      "correct_answer": "A",
+      "explanation": "Karpet longgar dan kabel yang melintang di lantai merupakan risiko tersandung dan jatuh yang harus dihilangkan."
+    },
+    {
+      "id": "SB-006",
+      "question": "Perhatikan gambar di bawah. Sikap komunikasi yang tepat saat menghadapi pengguna yang tampak cemas dan bingung adalah...",
+      "image_filename": "gambar/SB-006.png",
+      "options": {
+        "A": "Berbicara dengan nada tenang dan menunjukkan sikap menenangkan",
+        "B": "Meninggalkan pengguna sendirian hingga tenang dengan sendirinya",
+        "C": "Menjelaskan situasi dengan cepat agar pengguna segera paham"
+      },
+      "correct_answer": "A",
+      "explanation": "Nada bicara yang tenang dan sikap menenangkan membantu meredakan kecemasan pengguna."
+    },
+    {
+      "id": "SB-007",
+      "question": "Perhatikan gambar di bawah. Pendekatan komunikasi yang tepat terhadap pengguna dengan demensia tersebut adalah...",
+      "image_filename": "gambar/SB-007.png",
+      "options": {
+        "A": "Menyangkal ucapan pengguna agar sesuai dengan kenyataan",
+        "B": "Menerima dan menanggapi dengan empati tanpa menyangkal ucapan pengguna",
+        "C": "Mengabaikan ucapan pengguna dan segera mengalihkan topik"
+      },
+      "correct_answer": "B",
+      "explanation": "Berkomunikasi dengan pengidap demensia sebaiknya dilakukan dengan menerima dan berempati, tanpa menyangkal pembicaraannya."
+    },
+    {
+      "id": "SB-008",
+      "question": "Perhatikan gambar di bawah. Kondisi mudah lelah setelah beraktivitas ringan pada lansia berkaitan dengan karakteristik penuaan, yaitu...",
+      "image_filename": "gambar/SB-008.png",
+      "options": {
+        "A": "Penurunan fungsi fisik secara bertahap",
+        "B": "Peningkatan kekuatan otot seiring bertambahnya usia",
+        "C": "Tidak adanya perubahan fungsi tubuh akibat usia"
+      },
+      "correct_answer": "A",
+      "explanation": "Penuaan menyebabkan penurunan fungsi fisik secara bertahap sehingga lansia lebih mudah lelah."
+    },
+    {
+      "id": "SB-009",
+      "question": "Perhatikan gambar di bawah. Sikap yang mencerminkan penghormatan terhadap martabat pengguna saat memberikan bantuan adalah...",
+      "image_filename": "gambar/SB-009.png",
+      "options": {
+        "A": "Menjelaskan tindakan dan meminta persetujuan sebelum membantu",
+        "B": "Melakukan tindakan tanpa penjelasan demi efisiensi waktu",
+        "C": "Memutuskan sendiri tanpa melibatkan pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Menghormati martabat pengguna berarti menjelaskan tindakan yang akan dilakukan dan melibatkan pengguna dalam keputusan."
+    },
+    {
+      "id": "SB-010",
+      "question": "Perhatikan gambar di bawah. Teknik bantuan mengganti pakaian yang tepat bagi pengguna dengan kelumpuhan adalah...",
+      "image_filename": "gambar/SB-010.png",
+      "options": {
+        "A": "Melepas dari sisi sehat, mengenakan dari sisi sakit",
+        "B": "Melepas dari sisi sakit, mengenakan dari sisi sehat",
+        "C": "Sisi mana pun boleh dilepas atau dikenakan terlebih dahulu"
+      },
+      "correct_answer": "A",
+      "explanation": "Prinsipnya adalah melepas pakaian dari sisi sehat terlebih dahulu, kemudian mengenakan dari sisi sakit."
+    },
+    {
+      "id": "SB-011",
+      "question": "Perhatikan gambar di bawah. Langkah awal yang harus dilakukan sebelum membantu pengguna naik ke tempat tidur adalah...",
+      "image_filename": "gambar/SB-011.png",
+      "options": {
+        "A": "Memeriksa kondisi fisik pengguna dan mengatur ketinggian tempat tidur",
+        "B": "Langsung mengangkat pengguna ke tempat tidur",
+        "C": "Melepas alas kaki pengguna tanpa memeriksa kondisinya"
+      },
+      "correct_answer": "A",
+      "explanation": "Setiap tindakan perawatan lansia untuk tubuh harus diawali dengan memeriksa kondisi fisik pengguna."
+    },
+    {
+      "id": "SB-012",
+      "question": "Perhatikan gambar di bawah. Tujuan mengubah posisi tidur pengguna secara berkala adalah...",
+      "image_filename": "gambar/SB-012.png",
+      "options": {
+        "A": "Mencegah dekubitus (luka tekan)",
+        "B": "Mempercepat proses tidur pengguna",
+        "C": "Meningkatkan suhu tubuh pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Mengubah posisi tidur secara periodik membantu mencegah dekubitus akibat tekanan yang berkepanjangan pada satu titik."
+    },
+    {
+      "id": "SB-013",
+      "question": "Perhatikan gambar di bawah. Sebelum membantu pengguna berdiri dari tempat tidur, pengguna perlu didudukkan terlebih dahulu di tepi tempat tidur dengan tujuan untuk...",
+      "image_filename": "gambar/SB-013.png",
+      "options": {
+        "A": "Mencegah pusing akibat perubahan posisi yang mendadak",
+        "B": "Mempercepat proses berpakaian",
+        "C": "Mengurangi rasa kantuk pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Duduk sejenak di tepi tempat tidur memberi waktu tubuh menyesuaikan diri sehingga mencegah pusing akibat perubahan posisi mendadak."
+    },
+    {
+      "id": "SB-014",
+      "question": "Perhatikan gambar di bawah. Hal penting yang perlu diperiksa staf perawat sebelum mendorong kursi roda adalah...",
+      "image_filename": "gambar/SB-014.png",
+      "options": {
+        "A": "Tekanan ban dan kondisi rem kursi roda",
+        "B": "Warna kursi roda",
+        "C": "Berat badan pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Tekanan ban dan kondisi rem harus diperiksa terlebih dahulu demi keselamatan pengguna."
+    },
+    {
+      "id": "SB-015",
+      "question": "Perhatikan gambar di bawah. Alasan kursi roda dihadapkan ke belakang saat menuruni turunan yang curam adalah...",
+      "image_filename": "gambar/SB-015.png",
+      "options": {
+        "A": "Agar pengguna tidak merosot atau jatuh ke depan",
+        "B": "Agar staf perawat lebih cepat berjalan",
+        "C": "Agar kursi roda terlihat lebih rapi"
+      },
+      "correct_answer": "A",
+      "explanation": "Menghadapkan kursi roda ke belakang saat menuruni turunan curam mencegah pengguna merosot jatuh ke depan."
+    },
+    {
+      "id": "SB-016",
+      "question": "Perhatikan gambar di bawah. Posisi staf perawat yang tepat saat mendampingi pengguna menuruni tangga adalah...",
+      "image_filename": "gambar/SB-016.png",
+      "options": {
+        "A": "Satu langkah di bawah (di depan) pengguna",
+        "B": "Satu langkah di atas (di belakang) pengguna",
+        "C": "Sejajar di samping pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Saat menuruni tangga, staf perawat berada satu langkah di bawah pengguna agar dapat segera menopang jika pengguna kehilangan keseimbangan."
+    },
+    {
+      "id": "SB-017",
+      "question": "Perhatikan gambar di bawah. Prinsip dasar membantu pengguna dengan kelumpuhan mengenakan pakaian adalah mendahulukan...",
+      "image_filename": "gambar/SB-017.png",
+      "options": {
+        "A": "Sisi sakit",
+        "B": "Sisi sehat",
+        "C": "Bagian bawah tubuh terlebih dahulu"
+      },
+      "correct_answer": "A",
+      "explanation": "Saat mengenakan pakaian, sisi sakit/lumpuh didahulukan agar lebih mudah dan tidak menyakiti pengguna."
+    },
+    {
+      "id": "SB-018",
+      "question": "Perhatikan gambar di bawah. Prinsip dasar membantu pengguna dengan kelumpuhan melepas pakaian adalah mendahulukan...",
+      "image_filename": "gambar/SB-018.png",
+      "options": {
+        "A": "Sisi sehat",
+        "B": "Sisi sakit",
+        "C": "Kedua sisi secara bersamaan"
+      },
+      "correct_answer": "A",
+      "explanation": "Saat melepas pakaian, sisi sehat didahulukan agar proses lebih mudah dan tidak menimbulkan rasa sakit."
+    },
+    {
+      "id": "SB-019",
+      "question": "Perhatikan gambar di bawah. Hal yang perlu diperhatikan saat membantu pengguna memakai sepatu atau sandal adalah...",
+      "image_filename": "gambar/SB-019.png",
+      "options": {
+        "A": "Memastikan ukurannya pas dan alasnya tidak licin",
+        "B": "Memilih sepatu yang longgar agar mudah dilepas kapan saja",
+        "C": "Mengabaikan kondisi alas kaki karena tidak berpengaruh pada keselamatan"
+      },
+      "correct_answer": "A",
+      "explanation": "Sepatu yang pas dan tidak licin membantu mencegah pengguna tergelincir atau jatuh saat berjalan."
+    },
+    {
+      "id": "SB-020",
+      "question": "Perhatikan gambar di bawah. Dukungan yang tepat saat membantu pengguna mencuci tangan adalah...",
+      "image_filename": "gambar/SB-020.png",
+      "options": {
+        "A": "Membantu sesuai tingkat kemampuan pengguna agar tetap mandiri",
+        "B": "Selalu mencucikan tangan pengguna sepenuhnya tanpa memberi kesempatan mencoba",
+        "C": "Melewatkan aktivitas ini karena dianggap tidak penting"
+      },
+      "correct_answer": "A",
+      "explanation": "Dukungan ADL sebaiknya disesuaikan dengan kemampuan pengguna agar kemandiriannya tetap terjaga."
+    },
+    {
+      "id": "SB-021",
+      "question": "Perhatikan gambar di bawah. Manfaat membantu pengguna menyikat gigi secara rutin adalah...",
+      "image_filename": "gambar/SB-021.png",
+      "options": {
+        "A": "Menekan pertumbuhan bakteri dan mencegah pneumonia aspirasi",
+        "B": "Meningkatkan tekanan darah",
+        "C": "Mempercepat pertumbuhan gigi baru"
+      },
+      "correct_answer": "A",
+      "explanation": "Perawatan rongga mulut membantu menekan pertumbuhan bakteri sehingga mencegah pneumonia aspirasi."
+    },
+    {
+      "id": "SB-022",
+      "question": "Perhatikan gambar di bawah. Salah satu efek mencuci wajah bagi pengguna adalah...",
+      "image_filename": "gambar/SB-022.png",
+      "options": {
+        "A": "Menyegarkan tubuh dan membuat pengguna merasa lebih baik",
+        "B": "Menurunkan kesadaran pengguna",
+        "C": "Meningkatkan risiko infeksi kulit"
+      },
+      "correct_answer": "A",
+      "explanation": "Mencuci wajah memberikan efek menyegarkan dan membantu pengguna merasa lebih baik."
+    },
+    {
+      "id": "SB-023",
+      "question": "Perhatikan gambar di bawah. Tujuan penggunaan kursi mandi bagi pengguna dengan keterbatasan fisik adalah...",
+      "image_filename": "gambar/SB-023.png",
+      "options": {
+        "A": "Menjaga keselamatan dan mencegah jatuh saat mandi",
+        "B": "Mempercepat waktu mandi",
+        "C": "Mengurangi penggunaan air"
+      },
+      "correct_answer": "A",
+      "explanation": "Kursi mandi membantu menjaga keselamatan dan mencegah pengguna terjatuh saat mandi."
+    },
+    {
+      "id": "SB-024",
+      "question": "Perhatikan gambar di bawah. Posisi tubuh yang tepat saat membantu pengguna keramas adalah...",
+      "image_filename": "gambar/SB-024.png",
+      "options": {
+        "A": "Posisi yang nyaman dengan leher dan kepala tersangga dengan baik",
+        "B": "Posisi berdiri tegak tanpa penyangga",
+        "C": "Posisi menunduk penuh tanpa penyangga leher"
+      },
+      "correct_answer": "A",
+      "explanation": "Menyangga leher dan kepala dengan baik membuat pengguna nyaman dan mencegah cedera saat keramas."
+    },
+    {
+      "id": "SB-025",
+      "question": "Perhatikan gambar di bawah. Waktu yang tepat untuk memotong kuku pengguna adalah...",
+      "image_filename": "gambar/SB-025.png",
+      "options": {
+        "A": "Sebelum makan",
+        "B": "Saat kuku dalam kondisi keras",
+        "C": "Saat kuku melunak setelah mandi"
+      },
+      "correct_answer": "C",
+      "explanation": "Kuku sebaiknya dipotong saat sudah melunak, misalnya setelah mandi, agar lebih mudah dan aman."
+    },
+    {
+      "id": "SB-026",
+      "question": "Perhatikan gambar di bawah. Hal yang perlu dipastikan staf perawat saat membantu pengguna duduk di toilet adalah...",
+      "image_filename": "gambar/SB-026.png",
+      "options": {
+        "A": "Posisi pengguna stabil dan aman sebelum dilepaskan",
+        "B": "Segera meninggalkan pengguna tanpa memeriksa posisinya",
+        "C": "Menutup akses bel pemanggil agar tidak terganggu"
+      },
+      "correct_answer": "A",
+      "explanation": "Staf perawat harus memastikan posisi pengguna stabil dan aman sebelum meninggalkannya di toilet."
+    },
+    {
+      "id": "SB-027",
+      "question": "Perhatikan gambar di bawah. Untuk mencegah jatuh saat pengguna berdiri dari toilet, staf perawat sebaiknya...",
+      "image_filename": "gambar/SB-027.png",
+      "options": {
+        "A": "Memberikan pengguna waktu dan pegangan yang stabil sebelum berdiri",
+        "B": "Menarik pengguna berdiri secara tiba-tiba",
+        "C": "Membiarkan pengguna berdiri sendiri tanpa pengawasan"
+      },
+      "correct_answer": "A",
+      "explanation": "Memberikan waktu dan pegangan yang stabil membantu mencegah pengguna kehilangan keseimbangan saat berdiri."
+    },
+    {
+      "id": "SB-028",
+      "question": "Perhatikan gambar di bawah. Sikap yang tepat saat mengganti popok pengguna adalah...",
+      "image_filename": "gambar/SB-028.png",
+      "options": {
+        "A": "Menutup tirai atau pintu untuk menjaga privasi pengguna",
+        "B": "Melakukannya di ruang terbuka agar cepat selesai",
+        "C": "Membiarkan pengguna dalam keadaan terbuka lebih lama dari yang diperlukan"
+      },
+      "correct_answer": "A",
+      "explanation": "Privasi pengguna harus tetap dijaga dengan menutup tirai atau pintu selama proses penggantian popok."
+    },
+    {
+      "id": "SB-029",
+      "question": "Perhatikan gambar di bawah. Tujuan penggunaan sarung tangan sekali pakai saat memberikan perawatan adalah...",
+      "image_filename": "gambar/SB-029.png",
+      "options": {
+        "A": "Mencegah penularan infeksi",
+        "B": "Mempercepat pekerjaan staf",
+        "C": "Menjaga tangan tetap kering"
+      },
+      "correct_answer": "A",
+      "explanation": "Sarung tangan sekali pakai digunakan untuk mencegah penularan infeksi antara staf dan pengguna."
+    },
+    {
+      "id": "SB-030",
+      "question": "Perhatikan gambar di bawah. Cuci tangan sebelum dan sesudah melakukan tindakan perawatan bertujuan untuk...",
+      "image_filename": "gambar/SB-030.png",
+      "options": {
+        "A": "Memutus rantai penularan infeksi",
+        "B": "Menghemat waktu kerja",
+        "C": "Menjaga kulit tangan tetap lembap"
+      },
+      "correct_answer": "A",
+      "explanation": "Mencuci tangan sebelum dan sesudah tindakan membantu memutus rantai penularan infeksi."
+    },
+    {
+      "id": "SB-031",
+      "question": "Perhatikan gambar di bawah. Menyesuaikan bentuk makanan (misalnya dicincang atau dihaluskan) sesuai kondisi pengguna bertujuan untuk...",
+      "image_filename": "gambar/SB-031.png",
+      "options": {
+        "A": "Mencegah tersedak akibat fungsi menelan yang menurun",
+        "B": "Mempercepat proses memasak",
+        "C": "Mengurangi biaya bahan makanan"
+      },
+      "correct_answer": "A",
+      "explanation": "Bentuk makanan disesuaikan agar pengguna dengan fungsi menelan menurun tidak tersedak."
+    },
+    {
+      "id": "SB-032",
+      "question": "Perhatikan gambar di bawah. Penggunaan gelas khusus seperti ini bagi pengguna bertujuan untuk...",
+      "image_filename": "gambar/SB-032.png",
+      "options": {
+        "A": "Memudahkan pengguna minum tanpa harus mendongakkan kepala terlalu jauh",
+        "B": "Membuat minuman terasa lebih segar",
+        "C": "Mempercepat proses minum"
+      },
+      "correct_answer": "A",
+      "explanation": "Gelas khusus dirancang agar pengguna tidak perlu mendongakkan kepala terlalu jauh, sehingga risiko tersedak berkurang."
+    },
+    {
+      "id": "SB-033",
+      "question": "Perhatikan gambar di bawah. Hal yang perlu diamati staf perawat selama pengguna makan adalah...",
+      "image_filename": "gambar/SB-033.png",
+      "options": {
+        "A": "Tanda-tanda tersedak seperti batuk atau perubahan suara",
+        "B": "Warna pakaian yang dikenakan pengguna",
+        "C": "Jumlah staf yang sedang bertugas"
+      },
+      "correct_answer": "A",
+      "explanation": "Mengamati tanda-tanda tersedak selama makan penting untuk deteksi dini masalah menelan."
+    },
+    {
+      "id": "SB-034",
+      "question": "Perhatikan gambar di bawah. Setelah makan, pengguna sebaiknya tetap dalam posisi duduk selama kurang lebih 30 menit untuk...",
+      "image_filename": "gambar/SB-034.png",
+      "options": {
+        "A": "Mencegah pneumonia aspirasi",
+        "B": "Mempercepat proses pencernaan",
+        "C": "Memberi waktu istirahat bagi staf"
+      },
+      "correct_answer": "A",
+      "explanation": "Tetap duduk setelah makan membantu mencegah makanan naik kembali dan menyebabkan pneumonia aspirasi."
+    },
+    {
+      "id": "SB-035",
+      "question": "Perhatikan gambar di bawah. Tujuan penggunaan bantal penyangga saat mengatur posisi berbaring pengguna adalah...",
+      "image_filename": "gambar/SB-035.png",
+      "options": {
+        "A": "Menjaga postur tubuh tetap stabil dan nyaman",
+        "B": "Mempercepat pengguna tertidur",
+        "C": "Meningkatkan suhu tubuh pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Bantal penyangga membantu menjaga postur tubuh pengguna tetap stabil dan nyaman saat berbaring."
+    },
+    {
+      "id": "SB-036",
+      "question": "Perhatikan gambar di bawah. Tujuan latihan rentang gerak sederhana bagi pengguna yang jarang bergerak adalah...",
+      "image_filename": "gambar/SB-036.png",
+      "options": {
+        "A": "Mencegah sindrom disuse akibat kurang aktivitas",
+        "B": "Meningkatkan tekanan darah secara drastis",
+        "C": "Menggantikan kebutuhan tidur pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Latihan rentang gerak membantu mencegah sindrom disuse yang timbul akibat kurangnya aktivitas."
+    },
+    {
+      "id": "SB-037",
+      "question": "Perhatikan gambar di bawah. Prinsip mekanika tubuh yang tepat saat staf perawat mengambil benda di lantai adalah...",
+      "image_filename": "gambar/SB-037.png",
+      "options": {
+        "A": "Menekuk lutut dan menjaga punggung tetap lurus",
+        "B": "Membungkukkan punggung tanpa menekuk lutut",
+        "C": "Memutar tubuh secara tiba-tiba saat mengambil benda"
+      },
+      "correct_answer": "A",
+      "explanation": "Menekuk lutut dan menjaga punggung lurus adalah prinsip mekanika tubuh untuk mencegah cedera pinggang staf perawat."
+    },
+    {
+      "id": "SB-038",
+      "question": "Perhatikan gambar di bawah. Salah satu tujuan menata kamar pengguna seperti ini adalah...",
+      "image_filename": "gambar/SB-038.png",
+      "options": {
+        "A": "Mencegah kecelakaan dan menjaga kenyamanan pengguna",
+        "B": "Mengurangi jumlah barang pribadi tanpa persetujuan pengguna",
+        "C": "Membatasi pengguna beraktivitas di kamar"
+      },
+      "correct_answer": "A",
+      "explanation": "Menata kamar bertujuan mencegah kecelakaan serta menjaga kenyamanan dan privasi pengguna."
+    },
+    {
+      "id": "SB-039",
+      "question": "Perhatikan gambar di bawah. Kabel listrik yang melintang di lantai kamar pengguna sebaiknya...",
+      "image_filename": "gambar/SB-039.png",
+      "options": {
+        "A": "Dirapikan agar tidak menjadi risiko tersandung",
+        "B": "Dibiarkan karena tidak berisiko",
+        "C": "Diletakkan di bawah karpet tanpa dirapikan"
+      },
+      "correct_answer": "A",
+      "explanation": "Kabel yang melintang harus dirapikan untuk mencegah pengguna tersandung dan jatuh."
+    },
+    {
+      "id": "SB-040",
+      "question": "Perhatikan gambar di bawah. Pagar tempat tidur digunakan dengan tepat apabila...",
+      "image_filename": "gambar/SB-040.png",
+      "options": {
+        "A": "Disesuaikan dengan kebutuhan pengguna untuk mencegah jatuh, bukan sebagai bentuk pembatasan fisik",
+        "B": "Selalu dipasang penuh pada semua pengguna tanpa penilaian kebutuhan",
+        "C": "Digunakan untuk mengunci pengguna agar tidak turun dari tempat tidur"
+      },
+      "correct_answer": "A",
+      "explanation": "Pagar tempat tidur digunakan sesuai kebutuhan pengguna untuk mencegah jatuh, bukan sebagai bentuk pembatasan fisik yang merampas kebebasan."
+    },
+    {
+      "id": "SB-041",
+      "question": "Perhatikan gambar di bawah. Sikap active listening yang tepat saat mendengarkan keluhan pengguna adalah...",
+      "image_filename": "gambar/SB-041.png",
+      "options": {
+        "A": "Menyimak sepenuhnya dan menunjukkan perhatian melalui kontak mata dan anggukan",
+        "B": "Sambil melakukan pekerjaan lain agar lebih efisien",
+        "C": "Memotong pembicaraan agar masalah cepat terselesaikan"
+      },
+      "correct_answer": "A",
+      "explanation": "Active listening ditunjukkan dengan menyimak sepenuhnya serta menunjukkan perhatian melalui kontak mata dan anggukan."
+    },
+    {
+      "id": "SB-042",
+      "question": "Perhatikan gambar di bawah. Sebelum melakukan tindakan perawatan, staf perawat sebaiknya...",
+      "image_filename": "gambar/SB-042.png",
+      "options": {
+        "A": "Menjelaskan tindakan yang akan dilakukan dan meminta persetujuan pengguna",
+        "B": "Langsung melakukan tindakan tanpa penjelasan",
+        "C": "Menjelaskan hanya jika pengguna bertanya"
+      },
+      "correct_answer": "A",
+      "explanation": "Menjelaskan tindakan dan meminta persetujuan pengguna adalah bagian dari mendukung pengambilan keputusan (informed consent)."
+    },
+    {
+      "id": "SB-043",
+      "question": "Perhatikan gambar di bawah. Sikap yang tepat saat menyampaikan informasi kondisi pengguna kepada keluarga adalah...",
+      "image_filename": "gambar/SB-043.png",
+      "options": {
+        "A": "Menyampaikan fakta secara akurat dan mudah dipahami",
+        "B": "Menyampaikan opini pribadi staf tanpa dasar fakta",
+        "C": "Menunda informasi penting tanpa alasan yang jelas"
+      },
+      "correct_answer": "A",
+      "explanation": "Informasi kepada keluarga harus disampaikan berdasarkan fakta yang akurat dan mudah dipahami."
+    },
+    {
+      "id": "SB-044",
+      "question": "Perhatikan gambar di bawah. Di antara dua pendekatan tersebut, manakah yang mencerminkan penghormatan terhadap martabat pengguna?",
+      "image_filename": "gambar/SB-044.png",
+      "options": {
+        "A": "Caregiver yang memberi pilihan dan melibatkan pengguna dalam keputusan",
+        "B": "Caregiver yang memutuskan sendiri demi kecepatan kerja",
+        "C": "Caregiver yang mengabaikan preferensi pengguna"
+      },
+      "correct_answer": "A",
+      "explanation": "Melibatkan pengguna dalam pengambilan keputusan mencerminkan penghormatan terhadap martabat dan kemandiriannya."
+    },
+    {
+      "id": "SB-045",
+      "question": "Perhatikan gambar di bawah. Jika pengguna menunjukkan tanda-tanda seperti ini setelah beraktivitas, sikap yang tepat adalah...",
+      "image_filename": "gambar/SB-045.png",
+      "options": {
+        "A": "Menghentikan aktivitas dan memeriksa kondisi pengguna",
+        "B": "Mendorong pengguna melanjutkan aktivitas agar terbiasa",
+        "C": "Mengabaikan tanda tersebut karena dianggap wajar pada lansia"
+      },
+      "correct_answer": "A",
+      "explanation": "Tanda-tanda seperti napas terengah dan wajah pucat harus segera direspons dengan menghentikan aktivitas dan memeriksa kondisi pengguna."
     }
   ]
 }

@@ -21,8 +21,8 @@
         "dasar_perawatan_lansia": 7,
         "mekanisme_mental_dan_tubuh": 10,
         "keterampilan_komunikasi": 6,
-        "keterampilan_dukungan_kehidupan": 22,
-        "soal_ilustrasi": 0
+        "keterampilan_dukungan_kehidupan": 17,
+        "soal_ilustrasi": 5
     },
 
     "questionFile": "data/kaigo/questions.json",

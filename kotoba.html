@@ -13,7 +13,6 @@
 
   <div class="container">
 
-    <!-- PERBAIKAN 1: Menambahkan id="kotobaTitle" agar bisa diubah dinamis oleh JS -->
     <h1 id="kotobaTitle">Belajar Kotoba SSW</h1>
 
     <div class="menu">
@@ -24,15 +23,13 @@
     </div>
 
     <!-- HAFALAN -->
-    <div id="hafalanBox" class="card">
+    <!-- Klik pada div ini untuk memicu fungsi Lihat Arti dan Next -->
+    <div id="hafalanBox" class="card" onclick="flashAction()">
 
       <div class="kotoba" id="kotobaText"></div>
 
       <div class="arti" id="artiText"></div>
       <div class="penjelasan" id="penjelasanText"></div>
-      <button id="flashBtn" onclick="flashAction()">
-       Lihat Arti
-      </button>
 
     </div>
 
@@ -75,7 +72,6 @@
 
   </div>
 
-  <!-- PERBAIKAN 2: Wajib memuat js/config.js sebelum js/kotoba.js -->
   <script src="js/config.js"></script>
   <script src="js/kotoba.js"></script>
 
@@ -83,9 +79,6 @@
   <button id="btn-back" class="btn-back" onclick="goBack()">
       Back
   </button>
-
-</body>
-</html>
 
 </body>
 </html>

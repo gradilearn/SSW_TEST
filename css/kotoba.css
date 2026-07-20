@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif; /* Mengikuti font family dari main.css */
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -25,6 +25,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 /* =========================
@@ -34,8 +35,9 @@ body {
 .container {
   max-width: 900px;
   margin: auto;
-  background: rgba(255, 255, 255, 0.15); /* Transparansi kontainer asli */
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border-radius: 30px;
   padding: 20px;
   border: 1px solid rgba(255, 255, 255, 0.65);
@@ -68,7 +70,7 @@ h1 {
 
 .menu button {
   width: 130px;
-  background: linear-gradient(135deg, #4e7a22, #6fa832); /* Gradasi hijau khas main.css */
+  background: linear-gradient(135deg, #4e7a22, #6fa832);
   color: white;
   border: none;
   padding: 14px 34px;
@@ -90,66 +92,72 @@ h1 {
    CARD (ANTI SHIFT)
 ========================= */
 
-/* =========================
-   CARD (ANTI SHIFT)
-========================= */
-
 .card {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 30px;
-  padding: 20px 20px;
+  padding: 30px 20px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   animation: fadeIn 0.3s ease;
-
   margin-bottom: 40px;
-
   width: 100%;
-  height: 420px;          /* tetap tinggi fix */
+  min-height: 380px; /* Disesuaikan agar proposinya seimbang tanpa tombol di bawah */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* biar isi tidak “loncat” */
-  gap: 10px;              /* jarak antar elemen stabil */
-  
-  position: relative;     /* PERBAIKAN: Menjadi jangkar posisi bagi tombol #flashBtn */
+  justify-content: center; /* Membuat isi teks berada tepat di tengah */
+  gap: 15px;
+  position: relative;
+}
+
+/* Efek interaktif khusus area klik kotak Hafalan */
+#hafalanBox {
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.2s ease;
+}
+
+#hafalanBox:hover {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+#hafalanBox:active {
+  transform: scale(0.98); /* Efek membal saat ditekan */
 }
 
 .kotoba {
   font-size: 70px;
-  margin-top: 15px;
-  color: #1e293b; /* Warna teks gelap dari main.css */
+  color: #1e293b;
   margin-bottom: 10px;
   font-weight: bold;
+  word-break: break-word;
 }
 
 ruby rt {
   font-size: 25px;
   margin-bottom: 5px;
-  color: #5a7a3a; /* Warna hijau lembut untuk furigana */
+  color: #5a7a3a;
 }
 
 /* =========================
-   ARTI + PENJELASAN (FIX STABIL)
+   ARTI + PENJELASAN
 ========================= */
 
 .arti {
   font-size: 38px;
-  color: #4a7a22; /* Warna hijau gelap untuk arti kata */
+  color: #4a7a22;
   font-weight: bold;
   line-height: 1.2;
-  /* Memberikan ruang tetap agar penjelasan tidak naik saat arti pendek */
   min-height: 50px; 
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0px; /* Jarak kecil ke penjelasan */
 }
 
 .penjelasan {
   font-size: 22px;
-  color: var(--text-color); /* Menggunakan variabel warna teks utama */
-  min-height: 100px; 
-  margin-top: 0; /* Menempel tepat di bawah arti */
+  color: var(--text-color);
+  min-height: 80px; 
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -157,57 +165,8 @@ ruby rt {
 }
 
 /* =========================
-   BUTTON FLASH / NEXT
+   KOTOBA LIST
 ========================= */
-
-.flash-buttons {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.flash-buttons button {
-  background: linear-gradient(135deg, #4e7a22, #6fa832);
-  border: none;
-  padding: 14px 22px;
-  color: white;
-  border-radius: 18px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.2s;
-  box-shadow: 0 5px 15px rgba(96, 138, 45, 0.3);
-}
-
-.flash-buttons button:hover {
-  transform: translateY(-2px);
-}
-
-/* tombol utama */
-#flashBtn {
-  position: absolute;
-  bottom: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 200px;
-
-  background: linear-gradient(135deg, #4e7a22, #6fa832);
-  border: none;
-  padding: 14px 22px;
-  color: white;
-  border-radius: 18px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.2s;
-  box-shadow: 0 5px 15px rgba(96, 138, 45, 0.3);
-}
-
-#flashBtn:hover {
-  transform: translateX(-50%) translateY(-2px);
-}
 
 #kotobaListBox {
   background: rgba(255, 255, 255, 0.95);
@@ -220,7 +179,7 @@ ruby rt {
   background: white;
   padding: 15px;
   border-radius: 15px;
-  border-left: 5px solid var(--primary-color); /* Sesuai warna primer hijau */
+  border-left: 5px solid var(--primary-color);
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -240,7 +199,7 @@ ruby rt {
 
 .kotoba-item .item-arti {
   font-size: 18px;
-  color: #4a7a22; /* Mengubah warna biru menjadi hijau */
+  color: #4a7a22;
   font-weight: bold;
 }
 
@@ -251,15 +210,14 @@ ruby rt {
 }
 
 #listContainer {
-  max-height: 500px; /* Membatasi tinggi kotak agar tidak tembus ke bawah */
-  overflow-y: auto;  /* Memunculkan scrollbar jika kata sudah banyak */
+  max-height: 500px;
+  overflow-y: auto;
   padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* Mempercantik tampilan scrollbar */
 #listContainer::-webkit-scrollbar {
   width: 8px;
 }
@@ -275,7 +233,7 @@ ruby rt {
 }
 
 /* =========================
-   INFO
+   LATIHAN
 ========================= */
 
 .info {
@@ -284,38 +242,33 @@ ruby rt {
   color: #666;
 }
 
-/* =========================
-   SOAL
-========================= */
-
 .question {
   font-size: 75px;
   color: #000;
   margin-bottom: 15px;
   font-weight: bold;
+  word-break: break-all;
 }
 
-/* =========================
-   PILIHAN
-========================= */
-
 .option {
-  width: 80%;
-  margin: 5px 0;
-  padding: 12px;
+  width: 100%;
+  max-width: 450px;
+  margin: 8px auto;
+  padding: 14px;
   border: none;
   border-radius: 20px;
-  background: #e2e6ea; /* Menggunakan warna abu-abu netral main.css */
-  font-size: 25px;
+  background: #e2e6ea;
+  font-size: 22px;
   cursor: pointer;
   transition: 0.2s;
   color: var(--text-color);
   font-weight: 500;
+  display: block;
 }
 
 .option:hover {
   transform: scale(1.02);
-  background: #e2f0d5; /* Warna hover hijau pastel muda */
+  background: #e2f0d5;
 }
 
 .correct {
@@ -329,7 +282,7 @@ ruby rt {
 }
 
 /* =========================
-   RESULT
+   RESULT BOX
 ========================= */
 
 #resultBox h2 {
@@ -357,16 +310,12 @@ ruby rt {
 }
 
 /* =========================
-   UTIL
+   UTIL & ANIMATION
 ========================= */
 
 .hidden {
-  display: none;
+  display: none !important;
 }
-
-/* =========================
-   ANIMATION
-========================= */
 
 @keyframes fadeIn {
   from {
@@ -379,45 +328,6 @@ ruby rt {
   }
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
-
-  .kotoba {
-    font-size: 32px;
-  }
-
-  ruby rt {
-    font-size: 18px;
-  }
-
-  .question {
-    font-size: 28px;
-  }
-
-  .arti {
-    font-size: 22px;
-  }
-
-  .option {
-    font-size: 16px;
-    padding: 15px;
-  }
-
-  .kotoba-item ruby {
-    font-size: 18px;
-  }
-
-  .kotoba-item ruby rt {
-    font-size: 11px;
-  }
-}
-
 /* ==========================
    TOMBOL KEMBALI (BACK BUTTON)
 ========================== */
@@ -425,80 +335,118 @@ ruby rt {
 .btn-back {
     position: fixed;
     top: 107px;
-    left: 100px; /* Menyelaraskan posisi horizontal sesuai koordinat Anda */
-
+    left: 100px;
     width: 112px;
     height: 44px;
-
     border: 1px solid rgba(255, 255, 255, 0.45);
-    border-radius: 15px; /* Mempertahankan kebulatan sudut asli Anda */
-    background: linear-gradient(135deg, #4e7a22, #6fa832); /* Menyelaraskan gradasi hijau */
+    border-radius: 15px;
+    background: linear-gradient(135deg, #4e7a22, #6fa832);
     color: #ffffff;
-    font-size: 20px; /* Mempertahankan ukuran font asli Anda */
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px; /* Memberikan celah proporsional antara teks dan panah */
-
-    box-shadow: 0 8px 24px rgba(78, 122, 34, 0.35); /* Menyelaraskan bayangan lembut */
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Efek transisi bouncy */
+    gap: 8px;
+    box-shadow: 0 8px 24px rgba(78, 122, 34, 0.35);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     z-index: 1000;
 }
 
-/* Membuat ikon panah kiri interaktif */
 .btn-back::before {
     content: "◀";
-    font-size: 13px; /* Disesuaikan agar proporsional dengan ukuran teks 20px */
+    font-size: 13px;
     transition: transform 0.2s ease;
 }
 
-/* Efek hover premium hijau lembut dari tombol pertama */
 .btn-back:hover {
     background: linear-gradient(135deg, #5c8f28, #7ebd3a);
-    transform: translateY(-3px); /* Naik sedikit saat diarahkan kursor */
-    box-shadow: 0 12px 28px rgba(78, 122, 34, 0.5); /* Glowing shadow hijau */
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(78, 122, 34, 0.5);
 }
 
-/* Efek panah bergeser sedikit ke kiri saat tombol di-hover */
 .btn-back:hover::before {
     transform: translateX(-3px);
 }
 
-/* Efek membal saat tombol ditekan (active) */
 .btn-back:active {
     transform: translateY(1px);
     box-shadow: 0 4px 12px rgba(78, 122, 34, 0.3);
 }
 
-/* Penyesuaian responsif untuk layar HP/Tablet agar letak tombol tidak merusak tata letak */
-@media(max-width:768px){
-    .btn-back {
-        position: fixed;
-        left: 15px;
-        bottom: 15px;
-        top: auto;
-        width: auto;
-        height: auto;
-        padding: 10px 18px;
-        font-size: 14px;
-        box-shadow: 0 6px 18px rgba(0,0,0,0.3);
-    }
-}
+/* ==========================
+   RESPONSIVE (HP/ANDROID)
+========================== */
 
-/* Penyesuaian Responsif untuk Layar HP/Tablet */
-@media(max-width:768px) {
-    .btn-back {
-        position: fixed;
-        left: 15px;
-        bottom: 15px;
-        top: auto; /* Memindahkan posisi dari atas ke bawah pada layar HP */
-        padding: 10px 16px;
-        font-size: 14px;
-        width: auto;
-        height: auto;
-    }
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .menu button {
+    width: 45%;
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: 12px;
+  }
+
+  .card {
+    min-height: 320px; /* Dipersempit agar nyaman digunakan secara portrait di layar HP */
+    padding: 20px 15px;
+    border-radius: 20px;
+  }
+
+  .kotoba {
+    font-size: 42px;
+    margin-top: 10px;
+  }
+
+  ruby rt {
+    font-size: 18px;
+  }
+
+  .arti {
+    font-size: 24px;
+  }
+
+  .penjelasan {
+    font-size: 16px;
+    padding: 0 10px;
+    min-height: 60px;
+  }
+
+  .question {
+    font-size: 36px;
+  }
+
+  .option {
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 14px;
+  }
+
+  .btn-back {
+      position: fixed;
+      left: 15px;
+      bottom: 15px;
+      top: auto;
+      width: auto;
+      height: auto;
+      padding: 10px 18px;
+      font-size: 14px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+      border-radius: 15px;
+  }
 }

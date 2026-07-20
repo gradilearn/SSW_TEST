@@ -21,7 +21,6 @@
     --danger-red:        #ef4444;
 }
 
-/* ===== BODY ===== */
 body.prometric-body {
     display: flex;
     flex-direction: column;
@@ -177,44 +176,36 @@ body.prometric-body {
 /* Grid Nomor Soal */
 .question-grid {
     display: grid;
-    grid-template-columns: repeat(5, 35px);
-    column-gap: 4px;
-    row-gap: 3px;
+    grid-template-columns: repeat(5, 30px);
+    column-gap: 6px;
+    row-gap: 6px;
     padding: 10px;
     justify-content: center;
     overflow-y: auto;
     flex: 1;
 }
 
-/* ===== GRID NOMOR SOAL ===== */
-
-/* Belum dijawab */
 .grid-item{
     background:#ffffff;
     border:1px solid #cbd5e1;
     color:#475569;
-
     border-radius:6px;
     width:30px;
     height:30px;
-
     display:flex;
     align-items:center;
     justify-content:center;
-
     font-weight:600;
     font-size:.78rem;
     cursor:pointer;
     transition:all .2s ease;
 }
 
-/* Hover */
 .grid-item:hover{
     border-color:#1e293b;
     background:#f8fafc;
 }
 
-/* Sedang dikerjakan (biru sama seperti header) */
 .grid-item.aktif{
     background:#1e293b;
     border:2px solid #1e293b;
@@ -222,7 +213,6 @@ body.prometric-body {
     box-shadow:0 2px 8px rgba(30,41,59,.35);
 }
 
-/* Sudah dijawab (hijau) */
 .grid-item.sudah{
     background:#608a2d;
     border:2px solid #608a2d;
@@ -230,7 +220,6 @@ body.prometric-body {
     box-shadow:0 2px 8px rgba(96,138,45,.35);
 }
 
-/* Ditandai (ragu-ragu) */
 .grid-item.ragu{
     background:#f59e0b;
     border:2px solid #d08600;
@@ -258,7 +247,6 @@ body.prometric-body {
     border-color:#d08600;
 }
 
-/* Legend Status */
 .grid-legend {
     padding: 12px;
     border-top: 1px solid var(--border-color);
@@ -284,7 +272,6 @@ body.prometric-body {
     flex-shrink:0;
 }
 
-
 /* ===== KONTEN SOAL (KANAN) ===== */
 .exam-content {
     flex: 1;
@@ -293,6 +280,7 @@ body.prometric-body {
     display: flex;
     justify-content: center;
     background-color: #f8fafc;
+    -webkit-overflow-scrolling: touch;
 }
 
 .question-container-box {
@@ -339,7 +327,7 @@ body.prometric-body {
 .options-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px; /* Ditingkatkan jaraknya sedikit untuk kemudahan tekan */
 }
 
 .option-row {
@@ -349,7 +337,7 @@ body.prometric-body {
     background-color: #ffffff;
     border: 1.5px solid #d8dee7;
     border-radius: 10px;
-    padding: 14px 20px;
+    padding: 16px 20px; /* Ditingkatkan untuk kenyamanan sentuh jari di Android */
     text-align: left;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -441,9 +429,8 @@ body.prometric-body {
 }
 
 .btn-primary:hover { 
-    background: linear-gradient(135deg, #151d2a, #223042); /* Biru sedikit lebih gelap saat di-hover */
+    background: linear-gradient(135deg, #151d2a, #223042);
     transform: translateY(-2px); 
-    box-shadow: 0 4px 10px rgba(30, 41, 59, 0.4); 
 }
 
 .btn-submit          { background: linear-gradient(135deg, #4e7a22, #6fa832); color: white; border: none; box-shadow: 0 2px 6px rgba(80,130,30,0.3); }
@@ -457,10 +444,6 @@ body.prometric-body {
     border-color: #92400e;
     box-shadow: 0 0 0 3px rgba(217,119,6,0.35), 0 2px 8px rgba(180,83,9,0.4);
     transform: scale(1.03);
-}
-.btn-flag.flagged:hover {
-    background: linear-gradient(135deg, #92400e, #b45309);
-    transform: scale(1.03) translateY(-2px);
 }
 
 /* ===== PAUSE OVERLAY ===== */
@@ -476,6 +459,7 @@ body.prometric-body {
     pointer-events: none;
     transition: opacity 0.3s ease;
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 .pause-overlay.active {
@@ -489,7 +473,6 @@ body.paused .prometric-footer {
     filter: blur(5px);
     pointer-events: none;
     user-select: none;
-    transition: filter 0.3s ease;
 }
 
 .pause-card {
@@ -516,20 +499,42 @@ rb   { letter-spacing: 0.08em; }
 .soal-container,
 .pilihan-container { line-height: 2.5; }
 
-/* ===== RESPONSIVE (HP) ===== */
+/* ===== RESPONSIVE DECENTRALIZATION FOR ANDROID ===== */
 @media (max-width: 768px) {
     body.prometric-body  { overflow-y: auto; height: auto; }
-    .prometric-header    { flex-direction: column; gap: 10px; padding: 12px; text-align: center; }
-    .header-right        { width: 100%; justify-content: center; font-size: 0.85rem; flex-wrap: wrap; }
+    .prometric-header    { flex-direction: column; gap: 8px; padding: 10px; text-align: center; }
+    .header-right        { width: 100%; justify-content: center; font-size: 0.85rem; flex-wrap: wrap; gap: 8px; }
 
     .prometric-main      { flex-direction: column; overflow: visible; }
     .exam-sidebar        { width: 100%; border-right: none; border-bottom: 1px solid var(--border-color); }
-    .question-grid       { grid-template-columns: repeat(8, 1fr); padding: 12px; gap: 6px; }
-    .grid-legend         { flex-direction: row; justify-content: space-around; }
+    
+    .question-grid       { 
+        grid-template-columns: repeat(10, 1fr); /* kisi grid nomor yang lebih lebar di HP portrait */
+        padding: 10px; 
+        gap: 4px; 
+        max-height: 150px; /* Batasi tinggi area nomor agar tidak makan layar */
+    }
+    
+    .grid-item {
+        width: 32px;
+        height: 32px;
+        font-size: 0.8rem;
+    }
+
+    .grid-legend         { flex-direction: row; flex-wrap: wrap; justify-content: space-around; padding: 8px; }
 
     .exam-content        { padding: 16px; overflow-y: visible; }
-    .question-body       { font-size: 1.1rem; margin-bottom: 20px; }
+    .question-body       { font-size: 1.15rem; margin-bottom: 20px; line-height: 1.6; }
+    .option-text         { font-size: 1.1rem; }
+    .option-row          { padding: 12px 16px; }
 
-    .prometric-footer    { position: sticky; bottom: 0; padding: 12px; box-shadow: 0 -4px 12px rgba(0,0,0,0.08); }
-    .btn-nav             { padding: 10px 14px; font-size: 0.85rem; }
+    .prometric-footer    { 
+        position: sticky; 
+        bottom: 0; 
+        padding: 10px; 
+        box-shadow: 0 -4px 12px rgba(0,0,0,0.08); 
+        background-color: #ffffff;
+        z-index: 999;
+    }
+    .btn-nav             { padding: 10px 14px; font-size: 0.8rem; }
 }

@@ -44,9 +44,6 @@
 
 .header-right { display: flex; gap: 8px; flex-shrink: 0; }
 
-/* Override line-height:1.6 dari .review-body — supaya tinggi kotak Test/Candidate
-   (.prometric-subheader, class yang sama dipakai di exam.html) tidak ikut memuai.
-   exam.html tidak punya line-height custom di body, jadi ini menyamakan keduanya. */
 .prometric-subheader,
 .prometric-subheader * {
     line-height: normal;
@@ -69,7 +66,7 @@
 /* ===== MAIN — 2 KOLOM ===== */
 .review-container {
     flex: 1;
-    overflow: hidden;           /* parent tidak scroll */
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     gap: 14px;
@@ -77,7 +74,7 @@
     align-items: flex-start;
 }
 
-/* ===== KOLOM KIRI — Papan Skor (sticky, tidak scroll) ===== */
+/* ===== KOLOM KIRI — Papan Skor ===== */
 .score-summary-card {
     width: 220px;
     flex-shrink: 0;
@@ -99,7 +96,6 @@
     padding: 18px 14px;
 }
 
-/* Lingkaran skor */
 .score-badge-container {
     display: flex;
     flex-direction: column;
@@ -136,7 +132,6 @@
 .status-badge.pass { background: rgba(209,250,229,0.85); color: #065f46; border: 1px solid #a7f3d0; }
 .status-badge.fail { background: rgba(254,226,226,0.85); color: #991b1b; border: 1px solid #fca5a5; }
 
-/* 4 kotak detail — disusun vertikal di kolom kiri */
 .score-details-grid {
     display: flex;
     flex-direction: column;
@@ -176,7 +171,7 @@
 .detail-box.info    { border-left: 3px solid #608a2d; }
 .detail-box.info    .detail-value { color: #608a2d; }
 
-/* ===== KOLOM KANAN — Analisis + Tabel (scrollable) ===== */
+/* ===== KOLOM KANAN — Analisis + Tabel ===== */
 .review-right-col {
     flex: 1;
     overflow-y: auto;
@@ -191,10 +186,6 @@
 .review-right-col::-webkit-scrollbar { width: 5px; }
 .review-right-col::-webkit-scrollbar-track { background: transparent; }
 .review-right-col::-webkit-scrollbar-thumb { background: rgba(96,138,45,0.4); border-radius: 3px; }
-
-/* NOTE: category-analysis-section dan table-review-section harus dibungkus
-   dalam <div class="review-right-col"> di HTML. Tapi karena HTML tidak diubah,
-   kita pakai :not(.score-summary-card) selector trick via sibling. */
 
 .category-analysis-section,
 .table-review-section {
@@ -255,9 +246,11 @@
 
 .table-responsive-wrapper {
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     background: rgba(255,255,255,0.50);
     border-radius: 10px;
     border: 1px solid rgba(220,230,210,0.8);
+    width: 100%;
 }
 
 .styled-review-table {
@@ -335,24 +328,72 @@
     color: #fff;
     box-shadow: 0 4px 12px rgba(80,130,30,0.35);
 }
-.btn-nav.btn-primary:hover { background: linear-gradient(135deg, #4e7020, #638f2a); }
 
 .btn-nav.btn-secondary {
     background: rgba(255,255,255,0.12);
     color: #fff;
     border: 1px solid rgba(255,255,255,0.25);
 }
-.btn-nav.btn-secondary:hover { background: rgba(255,255,255,0.20); }
 
-/* ===== UTILITAS ===== */
 .text-center { text-align: center; }
 .font-bold   { font-weight: 700; }
 
-/* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE REVIEW FOR MOBILE ===== */
 @media (max-width: 768px) {
-    .review-container   { flex-direction: column; overflow-y: auto; }
-    .score-summary-card { width: 100%; position: static; flex-direction: row; flex-wrap: wrap; justify-content: center; }
-    .score-details-grid { flex-direction: row; flex-wrap: wrap; }
-    .detail-box         { flex: 1 1 40%; }
-    .review-right-col   { height: auto; overflow-y: visible; }
+    .review-body {
+        overflow-y: auto;
+        height: auto;
+    }
+
+    .review-container   { 
+        flex-direction: column; 
+        overflow-y: visible; 
+        padding: 12px;
+    }
+
+    .score-summary-card { 
+        width: 100%; 
+        position: static; 
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        padding: 15px;
+    }
+
+    .score-badge-container {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .score-details-grid { 
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        gap: 8px;
+    }
+
+    .detail-box { 
+        flex: 1 1 calc(50% - 4px); /* Tampilan 2 kolom detail di HP */
+    }
+
+    .review-right-col   { 
+        height: auto; 
+        overflow-y: visible; 
+        width: 100%;
+    }
+
+    .table-header-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .filter-legend-flex {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .badge-filter {
+        padding: 6px 10px;
+        font-size: 0.72rem;
+    }
 }

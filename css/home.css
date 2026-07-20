@@ -20,6 +20,7 @@ body{
     min-height:100vh;
     padding:18px;
     color:var(--text);
+    overflow-x: hidden; /* Mencegah scrollbar horizontal pada Android */
 }
 
 .wrapper{
@@ -29,6 +30,7 @@ body{
 
     background:rgba(255,255,255,.05);
     backdrop-filter:blur(14px);
+    -webkit-backdrop-filter: blur(14px);
 
     border-radius:24px;
     padding:24px;
@@ -77,7 +79,7 @@ body{
 .simulation-card{
     background:rgba(255,255,255,.85);
     border-radius:14px;
-    padding:14px;
+    padding:16px;
 
     display:flex;
     flex-direction:column;
@@ -136,7 +138,7 @@ body{
 }
 
 .card-body p{
-    min-height:72px;   /* sesuaikan */
+    min-height:72px;
     line-height:1.6;
     margin-bottom:14px;
 }
@@ -189,11 +191,13 @@ body{
     width:100%;
     display:block;
     text-align:center;
-    padding:10px;
+    padding:12px; /* Ditingkatkan sedikit untuk kenyamanan tap di Android */
     border-radius:10px;
     font-weight:700;
     text-decoration:none;
     font-size:.9rem;
+    border: none;
+    cursor: pointer;
 }
 
 .btn-start{
@@ -208,7 +212,6 @@ body{
 .btn-disabled{
     background:#d8d8d8;
     color:#777;
-    border:none;
     cursor:not-allowed;
 }
 
@@ -218,7 +221,6 @@ body{
     text-align:center;
     color:#fff;
     font-size:.9rem;
-
     text-shadow:0 2px 8px rgba(0,0,0,.45);
 }
 
@@ -229,21 +231,38 @@ body{
     font-size:.8rem;
 }
 
+/* MEDIA QUERY OPTIMIZATION FOR ANDROID/MOBILE */
 @media(max-width:768px){
     body{
-        padding:14px;
+        padding:10px;
+    }
+
+    .wrapper{
+        padding:15px;
+        border-radius:16px;
     }
 
     .hero{
-        padding:18px 20px;
+        padding:18px 14px;
+        border-radius:14px;
+    }
+
+    .hero-badge{
+        font-size:1.4rem;
     }
 
     .hero h1{
-        font-size:1.6rem;
-        letter-spacing:2px;
+        font-size:1.8rem;
+        letter-spacing:4px;
+    }
+
+    .hero p{
+        font-size:1rem;
+        margin-top:10px;
     }
 
     .simulation-grid{
         grid-template-columns:1fr;
+        gap:14px;
     }
 }

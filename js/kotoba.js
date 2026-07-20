@@ -88,7 +88,11 @@ function showFlashcard() {
     });
   }
 
-  document.getElementById("flashBtn").innerText = "Lihat Arti";
+  // Pengaman jika tombol flashBtn dihapus dari HTML
+  const flashBtn = document.getElementById("flashBtn");
+  if (flashBtn) {
+    flashBtn.innerText = "Lihat Arti";
+  }
 }
 
 function showArti() {
@@ -102,7 +106,11 @@ function showArti() {
     });
   }
 
-  document.getElementById("flashBtn").innerText = "Next";
+  // Pengaman jika tombol flashBtn dihapus dari HTML
+  const flashBtn = document.getElementById("flashBtn");
+  if (flashBtn) {
+    flashBtn.innerText = "Next";
+  }
 }
 
 function flashAction() {
